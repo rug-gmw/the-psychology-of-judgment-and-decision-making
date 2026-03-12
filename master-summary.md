@@ -8,18 +8,20 @@
 
 ### 1. Dual-Process Models of Thinking
 
-**Core idea:** Judgments and decisions are carried out via two distinct kinds of mental processing, arguably the most popular organizing framework for the field.
+**Core idea:** Judgments and decisions are carried out via two distinct kinds of mental processing — arguably the most popular organizing framework for the field.
 
 - **System 1 / Type 1 (intuitive):** Fast, effortless, parallel, automatic, emotion-driven, linked to heuristics and biases, does not require working memory. Includes automatic and habitual processing. Not always consciously accessible.
 - **System 2 / Type 2 (reflective):** Slow, effortful, serial, deliberate, reason-driven, consciously accessible, necessarily engages working memory. Can be carried out in detachment from reality (abstract, hypothetical, future-oriented thought). Open to introspection.
-- The distinction is convenient but imperfect — many forms of thinking have aspects of both systems.
-- **Associative system** (Sloman, 1996): Reasoning based on similarity and statistical regularities (e.g., classifying a bird as a robin because it looks like previously seen robins).
-- **Rule-based system** (Sloman, 1996): Reasoning based on logical rules, social/natural rules, or computational algorithms (e.g., classifying a bird based on defining criteria).
+- **Bounded rationality** (Simon, 1956/1972): Classic models assumed people are fully rational and perfectly informed. In reality, human reasoning is constrained by incomplete knowledge, limited cognitive capacity, and the complexity of the decision at hand. System 2 is often too slow, effortful, or even impossible (because not all information is available) to guide our decisions. This is *why* we rely so heavily on System 1 — not out of laziness, but out of necessity.
+- The distinction between System 1 and 2 is convenient but imperfect — many forms of thinking have aspects of both systems.
+- **Sloman's (1996) characterization** offers a useful way to understand *what* each system does. His **associative system** (≈ System 1) reasons through similarity and statistical regularities — e.g., recognizing something as a bird because it *looks like* birds you've seen before. Many of the heuristics and biases in this course reflect this associative processing. His **rule-based system** (≈ System 2) reasons through explicit logical, social, or definitional rules — e.g., classifying something as a bird because it meets specific biological criteria. These are not separate theories but complementary descriptions of the same dual-process distinction.
+- **Gigerenzer's ecological rationality** offers a contrasting perspective on what System 1 processing achieves. Where Kahneman and Tversky emphasize that heuristics are biased shortcuts in need of System 2 correction, Gigerenzer argues that many heuristics are *ecologically rational* — well-adapted to the structure of real-world environments. Simple rules like **Take the Best** (decide based on the single most valid cue) or the **recognition heuristic** (if you recognize one option but not the other, choose the recognized one) can match or outperform complex deliberation when information is scarce and time is limited. This sets up a central tension in the course: are biases genuine errors, or adaptive strategies judged against an unrealistic normative standard?
+- **Categorization as a bridge concept:** The associative vs. rule-based distinction is especially clear in **categorization** — one of the most fundamental cognitive operations. We constantly sort objects, people, and situations into categories to guide our judgments and decisions. System 1 categorizes implicitly by *resemblance*: we match new instances to stored prototypes or previously encountered exemplars (prototype and exemplar models of categorization). System 2 categorizes explicitly by *criteria*: we check whether defining features are present (classical/rule-based categorization). This matters throughout the course: the representativeness heuristic (§9) is essentially categorization-by-resemblance gone awry, base-rate neglect arises when we categorize by similarity while ignoring how common each category is, and stereotyping reflects the application of category-level expectations to individuals.
 - **Cognitive Reflection Test (CRT)** (Frederick, 2005): Measures individual differences in the tendency to override System 1 with System 2. Higher CRT scores predict less acceptance of paranormal beliefs and better reasoning.
 
-**🎯 Bayesian lens:** System 1 relies on rough heuristic priors and pattern-matching — fast but prone to ignoring base rates and evidence quality. System 2 enables more deliberate, calibrated belief updating — closer to Bayesian inference. Many biases in this course can be understood as failures to engage System 2 when Bayesian updating is needed.
+**🎯 Bayesian lens:** System 1 relies on rough heuristic priors and pattern-matching — fast but prone to ignoring base rates and evidence quality. System 2 enables more deliberate, calibrated belief updating — closer to Bayesian inference. Categorization itself is inherently Bayesian: given observed features (evidence), what is the probability that this instance belongs to category A vs. B (posterior)? Gigerenzer's insight adds a nuance: full Bayesian computation is often impossible given our cognitive constraints (bounded rationality), so heuristics can be understood as *resource-rational approximations* of Bayesian inference (Lieder & Griffiths, 2020). Many biases in this course can be understood as failures to engage System 2 when careful Bayesian updating is needed — but some may also reflect adaptive shortcuts that work well in the environments we evolved in.
 
-**Key references:** Stanovich & West (2000); Evans (2008); Evans & Stanovich (2013); Kahneman (2011); Sloman (1996); Frederick (2005)
+**Key references:** Stanovich & West (2000); Evans (2008); Evans & Stanovich (2013); Kahneman (2011); Sloman (1996); Frederick (2005); Simon (1956; 1972); Gigerenzer, Todd, & the ABC Research Group (1999); Lieder & Griffiths (2020)
 
 ---
 
@@ -27,31 +29,21 @@
 
 **Core idea:** Rational judgment and decision-making can be understood as combining prior beliefs with new evidence to arrive at updated beliefs (posteriors). Bayes' theorem provides the normative standard; the many biases covered in this course represent specific, identifiable departures from this ideal.
 
-**The Bayesian framework:**
-- **Prior belief (prior):** What you believe before encountering new evidence, expressed as a probability. Shaped by base rates, past experience, cultural knowledge, and schemas.
-- **Evidence (likelihood):** New information — how probable this evidence would be if the hypothesis were true versus false.
-- **Updated belief (posterior):** The revised belief after integrating evidence with the prior. This posterior then becomes the prior for the next piece of evidence.
+- **The Bayesian framework:**
+  - **Prior belief (prior):** What you believe before encountering new evidence, expressed as a probability. Shaped by base rates, past experience, cultural knowledge, and schemas.
+  - **Evidence (likelihood):** New information — how probable this evidence would be if the hypothesis were true versus false.
+  - **Updated belief (posterior):** The revised belief after integrating evidence with the prior. This posterior then becomes the prior for the next piece of evidence.
 
-**Bayes' theorem (formal):**
-
-P(H|E) = [P(E|H) × P(H)] / P(E)
-
-Where P(H|E) is the posterior probability of hypothesis H given evidence E, P(E|H) is the likelihood of the evidence given the hypothesis, P(H) is the prior probability, and P(E) is the total probability of the evidence.
-
-**The mammogram problem — a classic illustration** (Eddy, 1982): A woman has a positive mammogram. The test's sensitivity is 80% (P(positive|cancer) = 0.80) and the false-positive rate is 10% (P(positive|no cancer) = 0.10). The base rate of breast cancer is 1% (P(cancer) = 0.01). What is the probability she has cancer?
+- **Bayes' theorem (formal):** `P(H|E) = [P(E|H) × P(H)] / P(E)`. Where P(H|E) is the posterior probability of hypothesis H given evidence E, P(E|H) is the likelihood of the evidence given the hypothesis, P(H) is the prior probability, and P(E) is the total probability of the evidence.
+- **The mammogram problem — a classic illustration** (Eddy, 1982): A woman has a positive mammogram. The test's sensitivity is 80% (P(positive|cancer) = 0.80) and the false-positive rate is 10% (P(positive|no cancer) = 0.10). The base rate of breast cancer is 1% (P(cancer) = 0.01). What is the probability she has cancer?
 - 95 out of 100 physicians estimated 70–80%. The correct answer is ~7.5%.
 - People confuse P(positive|cancer) with P(cancer|positive) — ignoring the prior (base rate).
-
-**Natural frequencies — making Bayesian reasoning intuitive:** Expressing information as concrete counts rather than conditional probabilities dramatically improves accuracy. Out of 1,000 women: 10 have cancer; of those 10, 8 test positive. Of the 990 without cancer, 99 test positive. So of 107 positive results, only 8 (~7.5%) actually have cancer.
+- **Natural frequencies — making Bayesian reasoning intuitive:** Expressing information as concrete counts rather than conditional probabilities dramatically improves accuracy. Out of 1,000 women: 10 have cancer; of those 10, 8 test positive. Of the 990 without cancer, 99 test positive. So of 107 positive results, only 8 (~7.5%) actually have cancer.
 - Teaching physicians natural frequencies is more effective than teaching Bayes' theorem, and improvement persists ≥5 weeks (Sedlmeier, 1997). Despite this, few physicians are trained this way.
-
-**Ideal observer models:** In perception research, ideal observer models specify how a perfectly rational agent would combine prior expectations with noisy sensory evidence. Human perception often approximates this — we perceive what is most probable given our expectations and the sensory data. Perceptual illusions arise when priors (expectations) dominate over ambiguous evidence, just as cognitive biases arise when judgment priors dominate.
-
-**Signal detection theory (SDT):** A framework for decisions under uncertainty with two key parameters: *sensitivity* (ability to distinguish signal from noise — the quality of evidence) and *criterion/bias* (the threshold for saying "yes" — reflecting the prior and the costs of different errors). A Bayesian agent sets the optimal criterion based on base rates and payoff structure. People often set non-optimal criteria, producing patterns of misses and false alarms.
-
-**Calibration:** A well-calibrated person's confidence matches their accuracy — events they judge as 70% likely occur ~70% of the time. Perfect calibration is the hallmark of good Bayesian reasoning. Most people are *overconfident* (see §12), meaning their posteriors are too extreme relative to the evidence.
-
-**Why this matters for the course:** Nearly every bias and heuristic covered in subsequent sections can be understood as a specific departure from Bayesian rationality:
+- **Ideal observer models:** In perception research, ideal observer models specify how a perfectly rational agent would combine prior expectations with noisy sensory evidence. Human perception often approximates this — we perceive what is most probable given our expectations and the sensory data. Perceptual illusions arise when priors (expectations) dominate over ambiguous evidence, just as cognitive biases arise when judgment priors dominate. An example of a perceptual illusion is when someone is on our mind (e.g. a love interest), and then we often mistakenly think that we see this person out on the street. In this case, we have a strong prior expectation (implicit in the fact the we are thinking of this person), and weak evidence (because you only catch glimpses of people), resulting in a perceptual illusion.
+- **Signal detection theory (SDT):** A framework for decisions under uncertainty with two key parameters: *sensitivity* (ability to distinguish signal from noise — the quality of evidence) and *criterion/bias* (the threshold for saying "yes" — reflecting the prior and the costs of different errors). A Bayesian agent sets the optimal criterion based on base rates and payoff structure. People often set non-optimal criteria, producing patterns of misses and false alarms.
+- **Calibration:** A well-calibrated person's confidence matches their accuracy — events they judge as 70% likely occur ~70% of the time. Perfect calibration is the hallmark of good Bayesian reasoning. Most people are *overconfident* (see §12), meaning their posteriors are too extreme relative to the evidence.
+- **Why this matters for the course:** Nearly every bias and heuristic covered in subsequent sections can be understood as a specific departure from Bayesian rationality:
 
 | Phenomenon | Bayesian Departure |
 |---|---|
@@ -71,8 +63,8 @@ Where P(H|E) is the posterior probability of hypothesis H given evidence E, P(E|
 
 ### 3. Heuristics and Biases (General Definitions)
 
-- **Heuristic:** A quick-and-easy rule of thumb used under conditions of uncertainty. Classified as Type 1 processing. The world is too complex for full rational analysis, so thinking is often heuristic-based. Sometimes overridden by Type 2 reasoning. Under the revised definition (Kahneman & Frederick, 2002), a heuristic involves *attribute substitution* — answering a hard question by substituting an easier one.
-- **Bias:** A systematic error in thinking in a specific direction, often resulting from reliance on heuristics. In daily life, "bias" is sometimes used to mean socially undesirable thinking, but this conflates errors in thinking with social desirability.
+- **Heuristic:** Answering a hard question by substituting an easier one (Kahneman & Frederick, 2002). Or: a quick-and-easy rule of thumb used under conditions of uncertainty. Classified as Type 1 processing. The world is too complex for full rational analysis, so thinking is often heuristic-based.
+- **Bias:** A systematic error in thinking in a specific direction, often resulting from reliance on heuristics. In daily life, "bias" is sometimes used to mean socially undesirable thinking (including stereotypes, such as that professors are male), but this conflates errors in thinking with social desirability.
 - **Cognitive illusions:** Systematic errors in subjective judgment, analogous to visual perceptual illusions — they reveal how judgments and decisions are normally made.
 - **Affect:** Experienced emotion; people may rely on positive or negative affect as a simple cue when judging and deciding (the *affect heuristic*).
 
@@ -84,11 +76,10 @@ Where P(H|E) is the posterior probability of hypothesis H given evidence E, P(E|
 
 ### 4. Models of Decision-Making
 
-- **Descriptive models:** Describe how people *actually* judge and decide, without evaluating quality (e.g., dual-process models, prospect theory). The vast majority of models in the field are descriptive.
-- **Normative models:** Reflect *optimal* or ideal decision-making — logical, consistent, using all relevant data, getting the person closest to their goals over the long run.
-- **Prescriptive models:** Recommend how people *ought* to judge and decide; often a practical compromise between normative ideals and descriptive realities (e.g., installing hand sanitizer instead of requiring full handwashing).
-- **Uncertainty:** Present when numerical probability-based prediction cannot really be made because events are relatively unique.
-- **Risk:** Judging the likelihood of events for which past relevant numerical data *are* available, allowing probability estimation.
+- **Descriptive models** describe how people *actually* judge and decide, without evaluating quality. The vast majority of models in the field are descriptive (e.g., prospect theory describes how people weigh gains and losses; dual-process models describe the interplay of intuitive and deliberate thinking).
+- **Normative models** reflect *optimal* or ideal decision-making — logical, consistent, using all relevant data, getting the person closest to their goals over the long run (e.g., expected utility theory; Bayes' theorem for belief updating).
+- **Prescriptive models** recommend how people *ought* to judge and decide in practice; often a practical compromise between normative ideals and descriptive realities (e.g., installing hand sanitizer instead of requiring full handwashing; presenting medical statistics as natural frequencies to improve understanding).
+- **Risk vs. uncertainty:** Decision-making under *risk* means you have enough data to estimate probabilities (e.g., the chance of rolling a six). Decision-making under *uncertainty* means you lack the data to assign meaningful probabilities and are essentially guessing (e.g., whether a new technology will succeed). Most real-world decisions fall somewhere on this spectrum.
 
 **🎯 Bayesian lens:** Bayesian updating is the normative standard for how beliefs should change in light of evidence. Descriptive models document how people systematically deviate from this standard. Prescriptive models often aim to nudge people closer to Bayesian rationality (e.g., presenting information as natural frequencies).
 
@@ -96,34 +87,20 @@ Where P(H|E) is the posterior probability of hypothesis H given evidence E, P(E|
 
 ---
 
-### 5. Bounded Rationality
-
-- Classic models assumed people are completely rational, fully informed, and infinitely sensitive to differences between options — assumptions that behavioral research has shown to be unrealistic.
-- **Bounded rationality** (Simon, 1956/1972): Human reasoning is constrained by incomplete knowledge, limited cognitive capacity (computational capacity), and the complexity of the decision at hand.
-- **Maximizing:** Striving for the best possible option; exhaustively evaluating every option. As a personality trait, associated with regret, depression, perfectionism, and neuroticism — but importantly, maximizing is *not* the same as having high standards.
-- **Satisficing:** Selecting an option that is "good enough" rather than the very best.
-- **Fast-and-frugal approach** (Gigerenzer et al., 1999): Emphasizes how mental shortcuts are *adaptive* — achieving the best balance between minimizing cognitive/time costs and maximizing decision accuracy.
-
-**🎯 Bayesian lens:** Full Bayesian inference is computationally expensive — it requires specifying priors, integrating all evidence, and normalizing across hypotheses. Bounded rationality explains *why* people use heuristics instead: the brain approximates Bayesian inference within its computational constraints. From this view, heuristics are not irrational but resource-rational (Lieder & Griffiths, 2020).
-
-**Key references:** Simon (1956; 1972); Schwartz et al. (2002); Vargová et al. (2020); Gigerenzer, Todd, & the ABC Research Group (1999)
-
----
-
 ### 6. Intelligence and Individual Differences
 
-- **g-factor (General intelligence)** (Spearman): A single general factor underlying performance across cognitive tasks. People who score high on one cognitive task tend to score high on others.
-- **Fluid intelligence:** Capacity to flexibly manipulate information in working memory to solve novel problems. Corresponds closely to the g-factor. Declines with age.
+- **g-factor (General intelligence)** (Spearman): Imagine we organize a mega-Olympics where a hundred random people from the street compete in every event. We'd quickly notice that some people do well across the board — faster runners, better swimmers, higher jumpers — while others consistently struggle. There's a general underlying factor we might call *physical fitness* that largely determines performance across diverse athletic events. Spearman's insight was that intelligence works the same way. There is a general underlying factor — the **g-factor** (for *general intelligence*) — that partly determines how well people perform across all kinds of cognitive tasks. People with a high g-factor tend to have better spatial reasoning, larger vocabularies, higher working-memory capacity, and stronger problem-solving skills. This explains why the specific tasks in an IQ test matter less than you'd think: most cognitive tasks tap into the g-factor to some degree. In applied and organizational psychology, the g-factor is often referred to as **general mental ability (GMA)** — same construct, different label.
+- **s-factors (Specific abilities):** Just as a steady hand matters for archery but not for sprinting, some cognitive abilities are task-specific. Language skill matters for vocabulary tests but not for visual puzzles. Spearman called these **s-factors** (for *specific intelligence*). Some abilities are almost purely g-loaded — matrix puzzles are the best example, requiring working memory, flexible recombination of information, and active problem-solving. Others, like musicality, depend mostly on specific factors.
+- **Fluid intelligence:** The capacity to flexibly manipulate information in working memory to solve novel problems. Corresponds closely to the g-factor (matrix puzzles are a near-pure measure). Declines with age.
 - **Crystallized intelligence:** Accumulated knowledge, skills, and facts in long-term memory (e.g., vocabulary). Increases with age. With experience, tasks that once required fluid intelligence can be solved through crystallized intelligence.
+- **Intelligence predicts real-life outcomes:** GMA is one of the strongest single predictors of both academic achievement and job performance across virtually all occupations. Schmidt and Hunter (2004) showed that GMA predicts job performance better than any other single selection method, including work experience, interviews, and personality measures. The predictive power increases with job complexity — for complex jobs (management, engineering), GMA is an even stronger predictor than for simpler jobs. This doesn't mean intelligence is the *only* thing that matters, but it does mean that the g-factor has substantial real-world consequences beyond the lab.
 - **Genetic and environmental basis:** Twin studies show roughly half of individual differences are attributable to genetics. The rest is shaped by parental stimulation, socioeconomic status, neighborhood, and cultural background.
 - **IQ testing:** Modern tests (e.g., WAIS) define IQ relative to population norms (100 = average; 130 = top ~2%).
-- **Delayed gratification:** The ability to resist immediate rewards for larger future ones (Mischel's marshmallow test). Correlated with g-factor and predicts later success, though replication studies found weaker effects. Connects to temporal discounting (§18).
-- **Cognitive Reflection Test (CRT)** (Frederick, 2005): Measures the tendency to override intuitive (System 1) responses with reflective (System 2) ones. Predicts less susceptibility to biases, less acceptance of paranormal beliefs, and better probabilistic reasoning.
-- **Implicit theories of intelligence** (Dweck): Entity theorists view intelligence as fixed; incremental theorists see it as flexible. These schemas drive divergent learning goals, effort valuation, and responses to failure. Entity theorists prioritized looking smart and gave up after failure; incremental theorists prioritized learning and worked harder (Blackwell et al., 2007).
+- **The Flynn effect and its reversal:** Throughout the 20th century, average IQ scores rose by roughly 3 points per decade — the **Flynn effect**. This is too fast for genetic change, suggesting environmental causes: better nutrition, more education, greater exposure to abstract reasoning. However, recent evidence suggests the Flynn effect has plateaued or even reversed in some countries. Bratsberg and Rogeberg (2018) analyzed Norwegian military conscription data and found IQ scores *declining* among cohorts born after the mid-1970s. The cause of this reversal is debated — possible explanations include changes in education, media consumption, or lifestyle — but it challenges the assumption that each generation is cognitively sharper than the last.
 
-**🎯 Bayesian lens:** Higher fluid intelligence and CRT scores predict better calibration and more Bayesian reasoning — e.g., greater sensitivity to base rates, less anchoring, less susceptibility to framing effects. Individual differences in "Bayesian competence" are real and consequential. Dweck's implicit theories can be seen as priors about one's own learning capacity: entity theorists hold a rigid prior that does not update from experience; incremental theorists hold a flexible prior that incorporates new evidence about their abilities.
+**🎯 Bayesian lens:** Higher fluid intelligence and CRT scores predict better calibration and more Bayesian reasoning — e.g., greater sensitivity to base rates, less anchoring, less susceptibility to framing effects. Individual differences in "Bayesian competence" are real and consequential. The strong predictive power of GMA can itself be understood through a Bayesian lens: people with higher g-factors form more accurate priors, update more appropriately from evidence, and maintain better-calibrated confidence — advantages that compound across academic and professional domains.
 
-**Key references:** Spearman; Wechsler (WAIS); Mischel; Frederick (2005); Dweck, Chiu, & Hong (1995); Blackwell et al. (2007); Toplak et al. (2011)
+**Key references:** Spearman; Wechsler (WAIS); Frederick (2005); Toplak et al. (2011); Schmidt & Hunter (2004); Bratsberg & Rogeberg (2018)
 
 ---
 
@@ -137,14 +114,20 @@ Where P(H|E) is the posterior probability of hypothesis H given evidence E, P(E|
 - **Intentional stance:** Explaining by presuming beliefs and desires.
 - The best stance is the one that makes the most sense of the situation. The adopted stance influences the causal narrative one constructs, which in turn shapes moral judgment.
 
-**Schema:** A set of general knowledge about what to expect in a particular situation or thing. Activated by incoming information to guide comprehension, memory, learning, and performance.
-- *Bransford & Johnson (1972)*: Students who learned a topic before reading disjointed sentences had better comprehension and recall.
-- Not everyone has the same schema content, and the nature of that content profoundly affects behavior.
+**Schemas and scripts operate within stances.** The stance you adopt determines which schemas are activated and what kind of reasoning follows:
+
+- **Schema:** A set of general knowledge about what to expect in a particular situation or thing. Activated by incoming information to guide comprehension, memory, learning, and performance.
+  - *Bransford & Johnson (1972)*: Students who learned a topic before reading disjointed sentences had better comprehension and recall.
+  - Not everyone has the same schema content, and the nature of that content profoundly affects behavior.
 - **Scripts** (Schank & Abelson, 1977): Schemas for highly routine events (e.g., restaurant visits). Well known within a culture, with agreed-upon temporal sequences. Culture-specific. Violations of scripts are noticed and remembered — especially when they bring the script to a standstill.
 
-**Artifacts vs. natural kinds:** Even young children distinguish artifacts (human-made items) from natural kinds (e.g., animals) and apply different identity rules. Animals retain identity despite appearance changes; artifacts can change identity (Keil, 1989).
+**Artifacts vs. natural kinds as a case study in stance activation:**
+Even young children distinguish artifacts (human-made items) from natural kinds (e.g., animals, plants) and reason about them differently (Keil, 1989). This reflects that different types of things trigger different default stances:
+- **Artifacts → design stance:** We understand artifacts in terms of function and purpose. A broken chair is still a chair because it was *designed* to be sat on.
+- **Living things → intentional stance:** We understand animals and people in terms of beliefs, desires, and goals. A dog chases a ball because it *wants* to catch it. This tendency is so strong that children spontaneously attribute intentions even to simple animals and animated shapes.
+The key insight is that the type of thing we encounter triggers a default stance, which then activates stance-appropriate schemas. This distinction emerges early in development, suggesting it reflects a deep organizing principle of human cognition.
 
-**🎯 Bayesian lens:** Schemas and framework theories function as structured priors — they encode expectations about what is likely to happen in a given context. New information is interpreted against these priors: schema-consistent information is easily integrated (confirming evidence); schema-inconsistent information is surprising and may be rejected, reinterpreted, or trigger updating. Scripts represent strong temporal priors, and script violations are prediction errors.
+**🎯 Bayesian lens:** Stances set the broadest level of prior beliefs — which *kind* of explanation is appropriate. Within a stance, schemas encode more specific expectations about what is likely. Scripts represent strong temporal priors within schemas, and script violations are prediction errors. New information is interpreted against these layered priors: stance-inconsistent information may be ignored entirely, while schema-inconsistent information within the right stance is surprising and may trigger updating.
 
 **Key references:** Wellman & Gelman (1992); Keil (1989); Dennett (1987); Bransford & Johnson (1972); Schank & Abelson (1977)
 
@@ -162,48 +145,48 @@ Where P(H|E) is the posterior probability of hypothesis H given evidence E, P(E|
 - *Famous names* (Tversky & Kahneman, 1973): Lists with very famous women and somewhat famous men led participants to overestimate the number of women — because famous names were more easily recalled.
 - *First vs. third letter position* (Tversky & Kahneman, 1973): 69% judged consonants (K, L, N, R, V) as more frequent in the first position of words, but all five actually appear more often in the third position — because it is easier to search by first letter.
 
-**Availability vs. accessibility:** *Availability* = memory traces existing in mind; *accessibility* = ease of retrieving those traces. Some researchers argue the heuristic is driven by accessibility.
+**What makes something "available"?** Availability can manifest in different ways: faster recall (a few vivid examples come to mind quickly), more recalled exemplars (many instances are retrieved, even if slowly), or stronger associations (certain pairings are more deeply encoded). These are not competing hypotheses — they are all routes through which the same principle operates. Some researchers use the term *accessibility* (ease of retrieval) to emphasize the speed component, but availability as a concept encompasses all of these manifestations.
 
-**Competing hypotheses for the letter-position effect:**
-- *Availability-by-number:* More recalled examples → higher frequency estimates.
-- *Availability-by-speed:* Faster recall → higher estimates.
-- *Regressed-frequencies hypothesis:* People implicitly track actual frequencies but memory regresses toward the mean. Sedlmeier et al. (1998) found this fit ~80% of the time.
-
-**In health-related decisions:** Blumenthal-Barby & Kreiger (2015) found 100% of studies observing actual medical decisions confirmed the availability heuristic. Mamede et al. (2010): Second-year residents misdiagnosed cases with symptoms overlapping recently seen cases (availability bias increased with expertise).
-
-**Over the lifespan:** Davies & White (1994) adapted the famous-names paradigm for 7- and 10-year-olds using cartoon characters, finding availability effects as early as age 7.
+**Over the lifespan:** Davies & White (1994) adapted the famous-names paradigm for 7- and 10-year-olds using cartoon characters, finding availability effects as early as age 7 — suggesting this is a fundamental feature of human cognition.
 
 **Negativity bias interaction:** People seek out, attend to, and are more strongly influenced by negative content. Robertson et al. (2023): Click-through rates increased with negative words in headlines and decreased with positive words. This makes negative events disproportionately available, making the world seem grimmer than it is.
 
-**Social media interaction:** Chou & Edge (2012): Facebook usage increases accessibility of positive events about others, leading users to judge others' lives as happier than their own.
+**Applied contexts:** The availability heuristic plays a major role in medical decision-making (§31), where recent cases bias diagnosis, and in social media environments (§33), where algorithmic curation makes certain types of information disproportionately available.
 
 **🎯 Bayesian lens:** The availability heuristic biases the *evidence sampling* step of Bayesian reasoning. Instead of drawing a representative sample from memory (which would give accurate base rates), people draw a biased sample — weighted toward recent, vivid, emotional, or easily retrieved instances. The likelihood term is distorted because the evidence itself is not representative. A Bayesian reasoner with unbiased memory access would not show this effect.
 
-**Key references:** Tversky & Kahneman (1973, 1974); MacLeod & Campbell (1992); Sedlmeier, Hertwig, & Gigerenzer (1998); Mamede et al. (2010); Robertson et al. (2023)
+**Key references:** Tversky & Kahneman (1973, 1974); MacLeod & Campbell (1992); Davies & White (1994); Robertson et al. (2023)
 
 ---
 
 ### 9. Representativeness Heuristic
 
-**Definition:** The tendency to judge event A as more probable than event B whenever A appears more representative of its class. Representativeness involves (1) similarity to a mental prototype/stereotype, and (2) assumptions about what randomness looks like.
+**Definition:** The tendency to judge the probability of an event or category membership based on how similar it is to a prototype or stereotype, rather than on actual statistical information.
 
-**Base-rate neglect:** People ignore the relative frequency of a category in a population when individuating information is available.
-- *Tom W. problem* (Kahneman & Tversky, 1973): Likelihood judgments of Tom's graduate field correlated almost perfectly with representativeness ratings but *negatively* with base rates.
-- *Taxicab problem* (Bar-Hillel, 1980): A witness (80% accurate) identifies a hit-and-run cab as Green in a city with 85% Blue cabs. Most people estimate ~80% Green, ignoring base rates. Using natural frequencies: only 12/29 (~41%) are truly Green.
+**Core mechanism — Base-rate neglect:** The representativeness heuristic is fundamentally driven by base-rate neglect: people attend to how well evidence matches a category (likelihood) while ignoring how common that category actually is (prior/base rate).
+- *Tom W. problem* (Kahneman & Tversky, 1973): Likelihood judgments of Tom's graduate field correlated almost perfectly with representativeness ratings but *negatively* with actual base rates of enrollment.
+- *Taxicab problem* (Bar-Hillel, 1980): A witness (80% accurate) identifies a hit-and-run cab as Green in a city with 85% Blue cabs. Most people estimate ~80% Green, ignoring base rates. Using natural frequencies: only 12 out of 29 positive identifications (~41%) are truly Green.
 
-**Law of small numbers vs. law of large numbers:** People mistakenly expect small samples to be representative of the population (law of small numbers), when only very large samples can reliably approximate population parameters (law of large numbers).
+**Consequence 1 — Conjunction fallacy:** Because representativeness is driven by similarity rather than probability logic, people judge the conjunction of two events (A and B) as more probable than one event alone (A), violating the conjunction rule P(A∩B) ≤ P(A).
+- *Linda problem* (Tversky & Kahneman, 1983): 82% judged "bank teller and feminist" as more probable than "bank teller" alone, because the conjunction better matches Linda's description.
+- *Averaging heuristic:* One explanation is that people intuitively average the probabilities of component events rather than multiplying them. "Feminist" has high probability given Linda's description; "bank teller" has low probability; the average feels higher than "bank teller" alone — but proper probability requires multiplication, which would make the conjunction *less* likely.
+- *Alternative view* (Hertwig & Gigerenzer, 1999): Participants may interpret "probable" non-mathematically (e.g., as "plausible"), making responses reasonable conversational inferences rather than logical fallacies.
 
-**Conjunction fallacy:** Judging the conjunction of two events (A and B) as more probable than one event alone (A), violating the conjunction rule (P(A∩B) ≤ P(A)).
-- *Linda problem* (Tversky & Kahneman, 1983): 82% judged "bank teller and feminist" as more probable than "bank teller" alone.
-- *Alternative view* (Hertwig & Gigerenzer, 1999): Participants may interpret "probable" non-mathematically (e.g., as "plausible"), making responses reasonable rather than fallacious.
+**Consequence 2 — Stereotyping:** Representativeness drives stereotyping: when a person resembles the prototype of a social category, they are judged as more likely to belong to that category regardless of base rates.
+- Bodenhausen & Wyer (1985): Predicted future criminal behavior was stereotype-congruent (forgery for "Ashley Chamberlaine," assault for "Carlos Ramirez"), even when alternative explanations were provided.
+- This has serious implications for legal decision-making (see §32) and medical diagnosis (see §31).
 
-**Stereotypes and representativeness:** Bodenhausen & Wyer (1985): Predicted future criminal behavior was stereotype-congruent (forgery for "Ashley Chamberlaine," assault for "Carlos Ramirez"), even when alternative explanations were provided.
+**Consequence 3 — Distorted perception of randomness:** People have a stereotype of what "random" looks like — roughly alternating, without long runs. Sequences that don't match this stereotype are judged as non-random.
+- *Gambler's fallacy:* After a run of five heads, people judge tails as "due" because HHHHHH doesn't look representative of randomness, even though each flip is independent.
+- *Hot hand belief:* Streaks in sports performance are perceived as meaningful ("he's on fire!") when they often fall within the range expected by chance.
 
-**WEIRD problem:** Most psychology research uses Western, Educated, Industrialized, Rich, Democratic participants, who may be unrepresentative globally. Well-known illusions (e.g., Müller-Lyer) are not found in all populations; views on fair economic deals differ radically across cultures (Henrich, Heine, & Norenzayan, 2010).
+**🎯 Bayesian lens:** The representativeness heuristic is the most direct violation of Bayesian reasoning, and the hierarchy makes this clear:
+- **Core mechanism (base-rate neglect):** People ignore the prior P(H) and base judgments almost entirely on the likelihood P(E|H) — how representative the evidence is of the hypothesis.
+- **Conjunction fallacy:** Overweighting likelihood leads to violations of basic probability axioms — the posterior for the conjunction exceeds the posterior for the single event because the conjunction is more representative.
+- **Stereotyping:** Stored representativeness judgments (stereotypes) function as inflated likelihood estimates that override low base rates for the stereotyped category.
+- **Randomness perception:** People's stereotype of randomness acts as a prior about what random sequences should look like, leading them to reject actually random sequences that don't match this prototype.
 
-**🎯 Bayesian lens:** Base-rate neglect is the most direct violation of Bayesian reasoning: people ignore the prior P(H) and base judgments almost entirely on the likelihood P(E|H) — how representative the evidence is of the hypothesis. In Bayesian terms, representativeness ≈ likelihood. The taxicab problem is a textbook case: the correct posterior requires combining the witness's accuracy (likelihood) with the base rate (prior), but people attend only to the likelihood.
-
-**Key references:** Kahneman & Tversky (1972, 1973); Tversky & Kahneman (1971, 1983); Bar-Hillel (1980); Hertwig & Gigerenzer (1999); Henrich et al. (2010)
+**Key references:** Kahneman & Tversky (1972, 1973); Tversky & Kahneman (1971, 1983); Bar-Hillel (1980); Bodenhausen & Wyer (1985); Hertwig & Gigerenzer (1999)
 
 ---
 
@@ -559,6 +542,23 @@ Where P(H|E) is the posterior probability of hypothesis H given evidence E, P(E|
 **🎯 Bayesian lens:** Prospect theory describes systematic distortions in how people weight probabilities — the decision weight function w(P) is a biased transformation of true probabilities. A Bayesian agent would use P directly; prospect-theory agents overweight small P and underweight large P. Framing effects show that the *same evidence* produces different posteriors depending on how it is presented — a direct violation of Bayesian invariance. The reference point functions as a prior: what counts as a "gain" or "loss" depends entirely on where one starts.
 
 **Key references:** Kahneman & Tversky (1979); Tversky & Kahneman (1981, 1992); Barberis (2013); Heath & Tversky (1991)
+
+---
+
+### NEW. Satisficing vs. Maximizing
+
+**Core idea:** When faced with a set of options, people differ in how they search — and when they stop. This has important consequences for decision quality, effort, and well-being.
+
+- **Satisficing** (Simon, 1956): Selecting an option that is "good enough" — one that meets a minimum threshold of acceptability. The decision-maker stops searching as soon as a satisfactory option is found.
+- **Maximizing:** Striving for the best possible option by exhaustively comparing all available alternatives. This sounds rational in theory, but in practice it is costly: it requires evaluating more options, making more comparisons, and often leads to greater regret (because the decision-maker is more aware of what they might have missed).
+- **The maximizing paradox** (Schwartz, 2004): Maximizers tend to achieve objectively *better* outcomes than satisficers, but feel *worse* about them — experiencing more regret, less satisfaction, and more counterfactual thinking ("what if I had chosen differently?"). More choice can make maximizers worse off.
+- As a personality trait, maximizing is associated with regret, depression, perfectionism, and neuroticism. Importantly, maximizing is *not* the same as having high standards — a person can have high standards while still satisficing (they simply set a high threshold for "good enough").
+- Satisficing is a direct consequence of bounded rationality: because we lack the time, information, and cognitive capacity to evaluate all options, "good enough" is often the best we can do — and often leads to better subjective outcomes than relentless optimization.
+- Connects to choice architecture (§23): the number and presentation of options interacts with a person's tendency to satisfice vs. maximize. Choice overload is particularly harmful for maximizers.
+
+**🎯 Bayesian lens:** Maximizing assumes you can compute the expected value of every option and select the highest — essentially a full Bayesian decision analysis. Satisficing acknowledges that this computation is often infeasible and replaces it with a simpler threshold rule: is the posterior probability that this option is "good enough" sufficiently high? This is a resource-rational strategy — trading a small expected loss in quality for a large saving in cognitive effort.
+
+**Key references:** Simon (1956); Schwartz (2004); Schwartz et al. (2002); Vargová et al. (2020)
 
 ---
 
