@@ -63,7 +63,7 @@
 
 ### 3. Heuristics and Biases (General Definitions)
 
-- **Heuristic:** Answering a hard question by substituting an easier one (Kahneman & Frederick, 2002). Or: a quick-and-easy rule of thumb used under conditions of uncertainty. Classified as Type 1 processing. The world is too complex for full rational analysis, so thinking is often heuristic-based.
+- **Heuristic:** Answering a hard question by substituting an easier one (Kahneman & Frederick, 2002). Or: a quick-and-easy rule of thumb used under conditions of uncertainty. The term heuristic appears to have been popularized by George Pólya in his 1945 book "How to Solve It", although he used it mainly in the context of mathematical problem solving. Classified as Type 1 processing. The world is too complex for full rational analysis, so thinking is often heuristic-based (i.e. bounded rationality).
 - **Bias:** A systematic error in thinking in a specific direction, often resulting from reliance on heuristics. In daily life, "bias" is sometimes used to mean socially undesirable thinking (including stereotypes, such as that professors are male), but this conflates errors in thinking with social desirability.
 - **Cognitive illusions:** Systematic errors in subjective judgment, analogous to visual perceptual illusions — they reveal how judgments and decisions are normally made.
 - **Affect:** Experienced emotion; people may rely on positive or negative affect as a simple cue when judging and deciding (the *affect heuristic*).
@@ -190,74 +190,67 @@ The key insight is that the type of thing we encounter triggers a default stance
 
 ---
 
-### 10. Anchoring and Adjustment
+### 10. Anchoring, Adjustment, and Primacy Effects
 
-**Definition:** The tendency to make estimates by starting from an initial value (the anchor) and adjusting insufficiently. The anchor may be externally provided or self-generated, and it influences judgments even when clearly irrelevant.
+**Definition:** The tendency to make judgments by starting from an initial value or first impression and adjusting insufficiently. The anchor is highly *available* (see §8), making anchor-consistent information more accessible in memory and biasing the estimate — even when the anchor is clearly irrelevant.
 
 **Classic studies:**
 - *Wheel of fortune* (Tversky & Kahneman, 1974): Random numbers (10 vs. 65) influenced estimates of African UN membership (25% vs. 45%).
 - *Multiplication sequences* (Tversky & Kahneman, 1973): 1×2×...×8 → median estimate 512; 8×7×...×1 → median estimate 2,250 (correct: 40,320).
 
-**Mechanisms:**
-- **Selective Accessibility Model** (Strack & Mussweiler, 1997): The anchor makes consistent information more accessible in memory, biasing the estimate — without explicit adjustment.
-- **Numeric priming theory** (Reitsma-van Rooijen & Daamen, 2006): The anchor acts as a prime; under time pressure, its influence is stronger.
-- **Self-generated vs. experimenter-provided anchors** (Epley & Gilovich, 2001): Self-generated anchors trigger deliberate adjustment (94%); experimenter-provided anchors less often do (22%).
+**Mechanism:**
+- The anchor makes anchor-consistent information more accessible in memory, biasing the estimate without the person being aware of it. This is essentially the availability heuristic (§8) applied to numerical estimation: the anchor is the most available number, and information consistent with it comes to mind most easily. Adjustment away from the anchor is typically insufficient.
 
 **Boundary conditions:**
 - *Extreme/implausible anchors:* Even wildly implausible anchors (Gandhi age 9 or 140) influence estimates (Strack & Mussweiler, 1997), though extreme anchors have attenuated effects.
-- *Subliminal anchors:* Anchors presented subliminally (15 ms, masked) influence estimates — but only under time pressure (Mussweiler & Englich, 2005).
-- *Cross-modal anchoring:* Anchors in one domain (line length) influence estimates in another (temperature), suggesting a general magnitude priming effect (Oppenheimer et al., 2008).
+- *Cross-modal anchoring:* Anchors in one domain (e.g., line length) influence estimates in another (e.g., temperature) (Oppenheimer et al., 2008). This may reflect the brain's shared representation of magnitude: numbers, space, time, brightness, and weight are all represented in partly overlapping ways, so that anchoring in one dimension can spill over into another.
+
+**From numbers to impressions — primacy effects:**
+- Anchoring is primarily about *numerical* estimation, but the same principle applies to *qualitative* judgments. When forming impressions of people, situations, or ideas, the first information we encounter functions as an anchor, shaping how we interpret everything that follows.
+- *Asch (1946)*: Personality traits in opposite orders (*intelligent…envious* vs. *envious…intelligent*) produced markedly different impressions. Positive-first groups inferred additional positive traits (74% "good-looking" vs. 35%).
 
 **Applied contexts:**
-- *Medical diagnosis:* Anchoring influences initial probability estimates, test interpretation, and referral letter processing. Physicians distort neutral cues to support a favored diagnosis (Kostopoulou et al., 2012).
 - *Real estate:* Listing prices anchor both laypeople's and experts' home value estimates. Agents show comparable anchoring effects but are less likely to report using the listing price (Northcraft & Neale, 1987).
+- *Advertising:* Price anchoring ("was €99, now €49") exploits the original price as an anchor, making the discounted price seem like a better deal.
+- *Medical diagnosis:* See §31 (Medical & Clinical Decision-Making).
 
 **Countering anchoring:** Very difficult. Informing people about anchoring does not attenuate it (Chapman & Johnson, 2002). One promising avenue: *positive affect* — physicians who received a small bag of candies showed less anchoring in diagnostic reasoning (Estrada et al., 1997).
 
-**🎯 Bayesian lens:** Anchoring represents the opposite problem from base-rate neglect: here, the prior (anchor) exerts *too much* influence and updating from evidence is *insufficient*. A Bayesian agent would adjust fully to the posterior implied by the evidence; anchored judgments are pulled toward the prior. Self-generated anchors function as genuine (if imperfect) priors; externally provided anchors contaminate the updating process with irrelevant starting points.
+**🎯 Bayesian lens:** Anchoring and primacy both represent *over-weighting of the prior*. In ideal Bayesian updating, the order of evidence should not matter — the final posterior is the same regardless of presentation order. In reality, the first piece of information (whether a number or a personality trait) forms a strong prior that is insufficiently revised by later evidence. This is the opposite problem from base-rate neglect: here the prior exerts *too much* influence.
 
-**Key references:** Tversky & Kahneman (1973, 1974); Strack & Mussweiler (1997); Epley & Gilovich (2001); Chapman & Johnson (2002); Estrada et al. (1997)
-
----
-
-### 11. Primacy Effects in Judgment
-
-**Definition:** The disproportionately strong influence of information presented first on overall judgments. Early information sets the context against which later information is interpreted. First impressions are important and difficult to override.
-
-- *Asch (1946)*: Personality traits in opposite orders (*intelligent…envious* vs. *envious…intelligent*) produced markedly different impressions. Positive-first groups inferred additional positive traits (74% "good-looking" vs. 35%).
-- *Anderson (1965)*: Clean linear primacy effect; proposed a weighted-average model.
-- *Stewart (1965)*: Primacy was reliable with a single final judgment; eliminated or reversed to recency with repeated judgments after each trait.
-- Primacy effects are related to **anchoring and adjustment**: first information serves as an anchor, and subsequent information is used for insufficient adjustment.
-
-**Belief-adjustment model** (Hogarth & Einhorn, 1992): Three subprocesses — encoding (interpreting evidence relative to the anchor), processing (piece-by-piece or all at once), and adjustment (degree of contrast between anchor and evidence determines impact).
-
-**🎯 Bayesian lens:** Early information functions as a strong prior. In ideal Bayesian updating, the order of evidence should not matter — the final posterior is the same regardless of presentation order. Primacy effects reveal that people *do not* update symmetrically: early evidence is weighted more heavily, forming a prior that is insufficiently revised by later evidence. This is formally equivalent to anchoring with insufficient adjustment.
-
-**Key references:** Asch (1946); Anderson (1965); Hogarth & Einhorn (1992)
+**Key references:** Tversky & Kahneman (1973, 1974); Asch (1946); Anderson (1965); Strack & Mussweiler (1997); Hogarth & Einhorn (1992); Chapman & Johnson (2002); Oppenheimer et al. (2008); Northcraft & Neale (1987); Estrada et al. (1997)
 
 ---
 
 ### 12. Overconfidence
 
-**Definition:** A family of biases in which people's confidence systematically exceeds their accuracy. One of the most robust and consequential findings in JDM research. Manifests in three distinct forms.
+**Definition:** Overconfidence manifests in two fundamentally different ways, corresponding to two different distortions of belief. Understanding these two dimensions clarifies an otherwise confusing family of biases.
 
-**Overestimation:** Overestimating one's actual performance, knowledge, or control. Related to the *illusion of control* (Langer, 1975): expecting greater personal success than evidence supports, even for chance-determined outcomes. People who chose their own lottery ticket demanded over $8 to sell; randomly assigned tickets were sold for ~$2.
+**Self-favorable bias:** A systematic tendency to hold beliefs about oneself that are more favorable than warranted. This manifests in several overlapping ways:
+- *Overestimation:* Overestimating one's actual performance, knowledge, or control. Related to the *illusion of control* (Langer, 1975): people who chose their own lottery ticket demanded over $8 to sell; randomly assigned tickets were sold for ~$2.
+- *Overplacement (better-than-average effect):* Judging oneself as better than the average person. Weinstein (1980): Students rated themselves as less likely to contract diseases and more likely to experience positive events than average.
+- *Positivity bias / unrealistic optimism:* Selectively updating beliefs in a self-favorable direction. 
+- These are all expressions of the same underlying tendency: the posterior is *shifted* in a self-favorable direction.
 
-**Overplacement (better-than-average effect):** Judging oneself as better than the average person. Weinstein (1980): Students rated themselves as less likely to contract diseases and more likely to experience positive events than average. Overlaps with *unrealistic optimism* and the *positivity bias*. Korn et al. (2014): Healthy controls showed a positivity bias in updating; patients with major depression did not — suggesting unrealistic optimism is, paradoxically, a sign of good mental health.
+**Overprecision (narrowed posterior):** Underestimating the uncertainty in one's own judgments. When asked for 90% confidence intervals, people typically capture the true answer only 40–60% of the time. The most pervasive and least understood form of overconfidence. Here, the posterior is not shifted but *too narrow* — the agent assigns too little probability mass to alternative outcomes.
 
-**Overprecision (miscalibration):** Confidence intervals are too narrow; people are too certain about their estimates. When asked for 90% confidence intervals, people typically capture the true answer only 40–60% of the time. The most pervasive and least understood form of overconfidence.
+**Overconfidence and mental health:** A self-favorable bias appears to be a marker of mental health.
+- Korn et al. (2014) found that healthy controls showed a positivity bias in belief updating, while patients with major depression did not.
+- This connects to Seligman & Maier's (1967) work on learned helplessness: dogs exposed to inescapable shocks initially kept trying to escape — an "unrealistically optimistic" response, but also a healthy one. After repeated failure, they stopped trying, even when escape became possible. This learned helplessness parallels depression.
+- Similarly, Alloy & Abramson (1979) found that depressed individuals are actually *more accurate* in judging their control over outcomes ("depressive realism").
+- The paradox: a degree of overconfidence — a shifted posterior — appears to be psychologically adaptive, while a more realistic (unshifted) posterior is associated with depression and helplessness.
 
-**The planning fallacy** (Kahneman & Tversky, 1979): The tendency to underestimate the time, cost, and risk of future actions while overestimating benefits. People focus on the specific plan (inside view) rather than base rates of similar past projects (outside view).
+**The planning fallacy** (Kahneman & Tversky, 1979): The tendency to underestimate the time, cost, and risk of future actions while overestimating benefits. Both distortions operate simultaneously: the estimate is too optimistic (shifted posterior) *and* fails to account for the full range of things that could go wrong (narrowed posterior). People focus on the specific plan (inside view) rather than base rates of similar past projects (outside view).
 - Buehler et al. (1994): Students predicted finishing assignments far earlier than they did — even when explicitly asked to consider past experience.
 - Large infrastructure projects routinely overrun budgets and timelines (Flyvbjerg, 2006).
 
-**Dunning-Kruger effect** (Kruger & Dunning, 1999): The least competent individuals show the greatest overconfidence, because the skills needed to perform well are the same skills needed to recognize poor performance. Highly competent individuals slightly underestimate their ability. Debated: some argue the effect is partly a statistical artifact (regression to the mean), but the core finding — that poor performers are poorly calibrated — is well-replicated.
+**Dunning-Kruger effect** (Kruger & Dunning, 1999): The least competent individuals show the greatest overconfidence, because the skills needed to perform well are the same skills needed to recognize poor performance. This combines both distortions: a large self-favorable shift (they think they're doing well) and poor calibration (they have no awareness of their uncertainty). Highly competent individuals slightly underestimate their ability. Debated: some argue the effect is partly a statistical artifact (regression to the mean), but the core finding — that poor performers are poorly calibrated — is well-replicated.
 
-**Expertise and overconfidence:** Domain expertise improves calibration only when accompanied by clear, frequent feedback (e.g., weather forecasters are well-calibrated; clinical psychologists are not). Without feedback loops, experience increases confidence without increasing accuracy (Einhorn & Hogarth, 1978).
+**Expertise and overconfidence:** Domain expertise improves calibration only when accompanied by clear, frequent feedback (e.g., weather forecasters are well-calibrated; clinical psychologists are not). Without feedback loops, experience increases confidence without increasing accuracy (Einhorn & Hogarth, 1978). This is one reason people tend to prefer clinical intuition over statistical models, even when models outperform (see §17, Clinical vs. Statistical Prediction).
 
-**🎯 Bayesian lens:** Overconfidence means that posterior distributions are too narrow — the agent is more certain than the evidence warrants. A well-calibrated Bayesian would have posteriors that accurately reflect residual uncertainty. The planning fallacy is a failure to use the base rate (outside view) as the prior, instead constructing the estimate from a specific scenario (ignoring the prior). Overprecision represents insufficient probability mass assigned to alternative hypotheses.
+**🎯 Bayesian lens:** Two distinct Bayesian failures: (1) *Shifted posterior* — the self-favorable bias pushes beliefs in a direction that flatters the self, as if applying a biased prior that says "I am exceptional." (2) *Narrowed posterior* — overprecision assigns too little probability mass to alternative outcomes, as if discounting evidence that would widen the distribution. The planning fallacy illustrates both: the estimate is shifted toward optimism *and* the uncertainty band is too narrow. A well-calibrated Bayesian would maintain posteriors that are both unbiased and appropriately wide.
 
-**Key references:** Lichtenstein, Fischhoff, & Phillips (1982); Moore & Healy (2008); Langer (1975); Weinstein (1980); Kruger & Dunning (1999); Buehler et al. (1994); Korn et al. (2014)
+**Key references:** Lichtenstein, Fischhoff, & Phillips (1982); Moore & Healy (2008); Langer (1975); Weinstein (1980); Kruger & Dunning (1999); Buehler et al. (1994); Korn et al. (2014); Flyvbjerg (2006); Einhorn & Hogarth (1978)
 
 ---
 
@@ -265,41 +258,15 @@ The key insight is that the type of thing we encounter triggers a default stance
 
 ---
 
-### 13. Covariation and Attribution
+### 13. Cues to Causality
 
-**Covariation:** Two things tending to happen together (e.g., petting a cat → purring). Much of the evidence people use for figuring out causes consists of covariation information. People often interpret correlations as causal relationships.
-
-**Covariation principle** (Kelley, 1973): "An effect is attributed to the one of its possible causes with which, over time, it covaries." People search for stable properties of a person or situation that can be expected to cause certain effects (Heider, 1958/2015).
-
-**Personal vs. impersonal causality** (Heider): Personal causality = a person's intention was the force behind an action. Impersonal causality = action occurred without intention. Personal causality is perceived as having strong, pinpointable causal force.
-
-**Kelley's covariation model of attribution:** When inferring causes of others' behavior, people consider:
-- **Consensus:** Do other people respond the same way to the same stimulus?
-- **Distinctiveness:** Does this person respond this way only to this specific stimulus?
-- **Consistency:** Does this person respond similarly over time?
-- Different patterns yield different attributions: Low consensus + low distinctiveness + high consistency → person attribution. High consensus + high distinctiveness + high consistency → stimulus attribution.
-
-**Probabilistic contrast model** (Cheng & Novick, 1990): Extends Kelley's model to include interactions (e.g., a specific person's reaction to a specific movie).
-
-**Correspondence bias / Fundamental attribution error** (Gilbert & Malone, 1995; Jones & Davis, 1965): The tendency to make person attributions for behaviors that could be explained by the situation alone — even when told essay writers were assigned positions, people judged they really believed what they wrote. A key mechanism is lack of awareness of how situations powerfully influence behavior.
-
-**🎯 Bayesian lens:** Causal attribution is belief updating about the source of behavior. The prior is one's default assumption about the person or situation; evidence from consensus, distinctiveness, and consistency updates this belief. The fundamental attribution error reflects an overly strong prior toward person-causes (dispositional attribution) that insufficiently updates in light of situational evidence.
-
-**Key references:** Heider (1958/2015); Kelley (1973); Cheng & Novick (1990); Gilbert & Malone (1995)
-
----
-
-### 14. Cues to Causality
-
-**Cues-to-causality** (Einhorn & Hogarth, 1986): Situational features leading people to judge that a causal relationship is present — covariation, temporal order, contiguity in time and space, causal mechanism, similarity of cause and effect, and counterfactual reasoning.
+**Cues-to-causality** (Einhorn & Hogarth, 1986): Situational features leading people to judge that a causal relationship is present. These are the basic toolkit people use to infer causation in everyday life.
 
 **Causal field** (Mackie, 1965/1974): The background of existing conditions against which potential causes are evaluated. A **difference-in-a-background** — an event that stands out against the causal field — is inferred to be the cause.
 
 **Temporal order:** When one event regularly precedes another, people infer causation. People use temporal order even when they shouldn't (e.g., judging P(child has blue eyes | parent has blue eyes) as higher than the reverse, though mathematically equal). In legal settings, evidence in temporal order makes jurors more convinced (Pennington & Hastie, 1988).
 
-**Contiguity in time and space:** People are more likely to judge causation when the effect occurs soon after and physically close to the potential cause. Michotte (1946/1963): Two-ball "launching" displays identified precise conditions for perceived causation.
-
-**Temporal binding** (Buehner, 2012): When people believe events are causally related, they infer those events happened closer together in time than they actually did.
+**Contiguity and covariation:** People are more likely to infer causation when events co-occur — both at the level of single instances (contiguity: the cause and effect happen close together in time and space) and across repeated instances (covariation: the cause and effect tend to happen together). Michotte (1946/1963): Two-ball "launching" displays demonstrate contiguity-based causation — precise spatiotemporal proximity triggers an immediate causal percept. Covariation extends this to the aggregate: when petting a cat reliably co-occurs with purring, we infer causation across instances. People often interpret correlations as causal relationships.
 
 **Causal mechanism:** An explanation filling the gap between cause and effect. People explain events in terms of mechanisms 83% of the time, rather than covariation (Ahn et al., 1995).
 
@@ -307,43 +274,62 @@ The key insight is that the type of thing we encounter triggers a default stance
 
 **Simulation heuristic and counterfactual reasoning** (Kahneman & Tversky, 1982): People mentally simulate what might have happened differently. A factor is a **but-for cause** if the event would not have occurred without it.
 
-**Prediction error:** The brain signals deviations from expected events. Schultz et al. (1997): Dopamine neurons respond to unexpected rewards and show negative responses when expected rewards are omitted. After conditioning, the dopamine response shifts from the reward to the predictor.
+**🎯 Bayesian lens:** Cues to causality function as features that strengthen or weaken the likelihood of a causal hypothesis. Each cue updates the probability of causality: temporal order, contiguity/covariation, and mechanism all increase P(E|causal link), while their absence decreases it.
 
-**Conditioning:** Learning associations through covariation.
-- *Classical conditioning:* When two things tend to happen together, we learn to associate them.
-- *Operant conditioning:* Learning that actions cause rewards or punishments.
+**Key references:** Einhorn & Hogarth (1986); Mackie (1965, 1974); Michotte (1946/1963); Ahn et al. (1995); Kahneman & Tversky (1982)
 
-**🎯 Bayesian lens:** Cues to causality function as features that strengthen or weaken the likelihood of a causal hypothesis. Each cue updates the probability of causality: temporal order, contiguity, and mechanism all increase P(E|causal link), while their absence decreases it. Prediction error is fundamentally Bayesian — it is the discrepancy between expected (prior) and observed (evidence) outcomes, which drives learning (updating).
+---
 
-**Key references:** Einhorn & Hogarth (1986); Mackie (1965, 1974); Michotte (1946/1963); Ahn et al. (1995); Buehner (2012); Schultz et al. (1997)
+### 14. Personal Causality
+
+**From cues to people:** The cues to causality from §13 apply to all causal reasoning. But when the potential cause is a *person*, a special set of attributional processes kicks in. This connects directly to the distinction between stances (§7): when we reason about people, we adopt the **intentional stance** — attributing behavior to beliefs, desires, and goals. When we reason about impersonal causes, we use the **mechanical or design stance**.
+
+**Personal vs. impersonal causality** (Heider, 1958/2015): Personal causality = a person's intention was the force behind an action. Impersonal causality = action occurred without intention. Personal causality is perceived as having strong, pinpointable causal force. This maps directly onto the intentional stance (personal) vs. the mechanical stance (impersonal) from §7.
+
+**Covariation principle** (Kelley, 1973): "An effect is attributed to the one of its possible causes with which, over time, it covaries." Applied to person perception, covariation (introduced in §13) is broken down into three specific dimensions:
+- **Consensus:** Do other people respond the same way to the same stimulus?
+- **Distinctiveness:** Does this person respond this way only to this specific stimulus?
+- **Consistency:** Does this person respond similarly over time?
+- Different patterns yield different attributions: Low consensus + low distinctiveness + high consistency → person attribution. High consensus + high distinctiveness + high consistency → stimulus attribution.
+
+**Correspondence bias / Fundamental attribution error** (Gilbert & Malone, 1995; Jones & Davis, 1965): The tendency to make person attributions for behaviors that could be explained by the situation alone — even when told essay writers were assigned positions, people judged they really believed what they wrote. In terms of stances: this is an over-application of the intentional stance when the mechanical stance (situational forces) would be more appropriate.
+
+**🎯 Bayesian lens:** Causal attribution is belief updating about the source of behavior. The prior is one's default assumption about the person or situation; evidence from consensus, distinctiveness, and consistency updates this belief. The fundamental attribution error reflects an overly strong prior toward the intentional stance — defaulting to person-causes (dispositional attribution) and insufficiently updating in light of situational evidence.
+
+**Key references:** Heider (1958/2015); Kelley (1973); Cheng & Novick (1990); Gilbert & Malone (1995)
 
 ---
 
 ### 15. Causal Learning, Illusory Correlation, and Plausibility
 
-**2 × 2 contingency table:** Summarizes co-occurrence of two factors (cells A, B, C, D). People give cell A (both present) the most weight, followed by B, then C, and D the least. When simplifying, people sometimes attend only to cell A — a purely confirmatory approach.
+**2 × 2 contingency table:** Summarizes co-occurrence of two factors (cells A, B, C, D). A Bayesian agent would use all four cells to compute the contingency. But people give cell A (both present) the most weight, followed by B, then C, and D the least. When simplifying, people sometimes attend only to cell A — a purely confirmatory approach.
 
-**Blocking** (Rescorla & Wagner, 1972): When a first cue perfectly predicts an outcome, pairing it with a second cue does not lead to learning about the second cue. The first cue "blocks" learning about the second.
+**Conditioning as the basis of causal learning:** We learn causal relationships through association. In *classical conditioning*, two events that tend to co-occur become linked (the bell predicts food). In *operant conditioning*, we learn that actions lead to outcomes (pressing a lever causes a reward). Both are forms of learning about the causal structure of the world.
 
-**Predictive vs. diagnostic learning** (Waldmann & Holyoak, 1992):
+**Prediction error as the driving mechanism:** What makes conditioning work is *prediction error* — the brain signals deviations from what was expected. Schultz et al. (1997): dopamine neurons respond to unexpected rewards and go silent when expected rewards are omitted. After conditioning, the dopamine response shifts from the reward itself to the cue that predicts it. Learning occurs when outcomes are surprising; once a cue fully predicts an outcome, learning stops.
+
+**Blocking** (Rescorla & Wagner, 1972): This is prediction error in action. When a first cue already perfectly predicts an outcome, pairing it with a second cue produces no prediction error — so nothing is learned about the second cue. The first cue "blocks" the second. This is actually Bayesian: once a cue fully explains the outcome, a redundant cue provides no additional evidence and should receive no credit.
+
+**Predictive vs. diagnostic learning** (Waldmann & Holyoak, 1992): Blocking depends on causal direction.
 - *Predictive task:* Cause presented first → learner determines the effect. Cues compete; blocking occurs.
 - *Diagnostic task:* Effect presented first → learner determines the cause. Blocking does *not* occur.
-- Same data produced different learning outcomes depending on causal structure, demonstrating that causal learning depends on more than associations.
+- Same data, different learning outcomes — demonstrating that causal learning depends on more than simple associations.
 
-**Illusory correlations:** Perceiving correlations that do not actually exist (e.g., perceived link between political parties and economic performance).
+**Illusory correlations:** Perceiving correlations that do not actually exist (e.g., perceived link between political parties and economic performance). This is a downstream consequence of the cell A bias: selectively attending to confirming co-occurrences while ignoring disconfirming cases.
 
 **Illusory causation / Quackery:** Interpreting real but non-causal correlations as causal. When many cases appear in cell A (treatment present, recovery present), people perceive a causal link even when recovery rates are identical regardless of treatment.
 - Matute et al. (2011): 80% of patients recovered regardless of treatment, yet participants judged the medicine effective — especially when many patients took it (64 vs. 16 in cell A).
+- This is a failure to account for the base rate of recovery (cell A + C), i.e., P(recovery) regardless of treatment.
 
 **Regression toward the mean:** An initial extreme value is followed by a value closer to the mean. People create spurious causal explanations for this statistical phenomenon rather than recognizing natural variability.
 
-**Role of plausibility:** Pre-existing beliefs about which causal relationships are plausible strongly influence processing of covariation data. Plausible causes receive more weight from covariation evidence (Fugelsang & Thompson, 2003). People seek out cause-present information more when the cause is plausible (Goedert et al., 2014).
+**Plausibility:** Pre-existing beliefs about which causal relationships are plausible strongly influence processing of covariation data. Plausible causes receive more weight from covariation evidence (Fugelsang & Thompson, 2003). People seek out cause-present information more when the cause is plausible (Goedert et al., 2014). In Bayesian terms, plausibility functions as a prior that modulates how evidence is weighted — a form of prior-driven evidence evaluation.
 
 **Experimental designs:** Only experimental manipulation (controlling an independent variable while holding everything else constant) allows causal conclusions — as opposed to the correlational evidence that drives illusory causation.
 
-**🎯 Bayesian lens:** Cell A bias means people overweight confirming evidence (hypothesis present, outcome present) and underweight the other cells — especially cell D (both absent). A Bayesian agent would use all four cells to compute the contingency. Blocking is Bayesian: once a cue fully explains the outcome, a second redundant cue provides no additional evidence and should receive no credit. Plausibility effects show that prior beliefs about causal structure modulate how evidence is weighted — a form of prior-driven evidence evaluation. Illusory causation is a failure to properly account for the base rate of recovery (cell A + C), i.e., P(recovery) regardless of treatment.
+**🎯 Bayesian lens:** Each failure of causal reasoning maps onto a specific departure from Bayesian updating. Cell A bias = overweighting confirming evidence. Illusory causation = neglecting base rates. Regression misinterpretation = failing to account for noise. Yet some aspects of causal learning *are* Bayesian: prediction error drives learning exactly when outcomes are surprising (high likelihood ratio), blocking correctly assigns zero weight to redundant predictors, and plausibility shows that priors (appropriately) shape learning.
 
-**Key references:** Lipe (1990); Rescorla & Wagner (1972); Waldmann & Holyoak (1992); Matute et al. (2011); Fugelsang & Thompson (2003)
+**Key references:** Lipe (1990); Schultz et al. (1997); Rescorla & Wagner (1972); Waldmann & Holyoak (1992); Matute et al. (2011); Fugelsang & Thompson (2003); Goedert et al. (2014)
 
 ---
 
@@ -353,125 +339,125 @@ The key insight is that the type of thing we encounter triggers a default stance
 
 ### 16. Hindsight Bias
 
-**Definition:** The erroneous judgment that one "knew all along" that a particular outcome would occur. Three components (Fischhoff, 1975): (1) retroactive probability judgments shift toward the actual outcome, (2) the outcome is judged as relatively inevitable (**creeping determinism**), (3) people are unaware their judgments have changed.
+**Definition:** The tendency to believe, after learning an outcome, that one "knew it all along" (Fischhoff, 1975). People's recalled predictions shift toward the actual outcome, the outcome feels inevitable in retrospect (**creeping determinism**), and people are unaware their judgments have changed.
+
+**Example — visual hindsight bias:** People who know what a degraded image depicts believe a naïve observer would recognize it at a much earlier (more degraded) stage — the "I saw it all along" effect (Bernstein et al., 2004). This illustrates how knowing the answer makes it feel obvious.
 
 **Paradigms:**
 - *Memory paradigm:* People make predictions, then recall them after learning the outcome. Recalled judgments shift toward the actual outcome (Fischhoff & Beyth, 1975).
-- *Hypothetical paradigm:* Foresight group (no outcome knowledge) vs. hindsight group (knows outcome, judges "as if" they don't). Hindsight judgments are closer to the actual outcome (Fischhoff, 1975).
+- *Hypothetical paradigm:* A foresight group (no outcome knowledge) is compared to a hindsight group (knows the outcome, but is asked to judge "as if" they don't). Hindsight judgments are closer to the actual outcome (Fischhoff, 1975).
 
-**Cognitive models:**
-- **SARA model** (Pohl et al., 2003): Correct answer activates outcome-consistent information; reconstruction is disproportionately influenced by this information.
-- **RAFT model** (Hoffrage et al., 2000): After learning the correct answer, cue values are updated to match the outcome; reconstruction using updated cues produces hindsight bias. Treats the bias as a side effect of adaptive learning.
-- **Causal model theory** (Wasserman et al., 1991): Learning the outcome makes people highlight causally relevant antecedents. If no plausible antecedents are available, hindsight bias does not occur (Yopchick & Kim, 2012).
+**Contributing factors:**
+- **Availability (§8):** What actually happened comes to mind easily and vividly; what *could have* happened does not. The actual outcome dominates recall.
+- **Causal narrative construction:** People construct a coherent causal story explaining why the outcome occurred. Once built, this narrative is difficult to disregard — it makes the outcome feel logical and inevitable (cf. §13, cues to causality).
+- **Curse of knowledge:** Learning changes you, and it is difficult to put yourself back in the mindset of your previous, less-informed self. This is closely related to **theory of mind** — the ability to represent others' (or your past self's) mental states as different from your current state. Epistemic egocentrism: people underestimate how likely another person is to hold a false belief (Birch & Bloom, 2007).
+- **Self-serving bias:** People take credit for positive outcomes ("I knew it would work") more than negative ones, further inflating hindsight.
 
-**Additional contributing factors:** Availability heuristic (what happened comes to mind easily); curse of knowledge (new information is automatically incorporated); causal narratives (coherent stories for actual outcomes); self-serving bias (taking credit for positive outcomes); desire to look smart.
+**Outcome bias:** A related phenomenon: judging the *quality of a decision* by its outcome, even when the outcome was unforeseeable. Baron & Hershey (1988): a physician's decision was rated as poorer when the patient died, despite identical reasoning. This conflates outcome quality with decision quality.
 
-**Motivational influences:** Mark & Mellor (1991): Laid-off workers showed the *least* hindsight bias (self-serving bias counteracted it).
+**When hindsight bias is weak or reversed:**
+- **No plausible causal antecedents:** When people cannot construct a causal narrative for the outcome, hindsight bias does not occur (Yopchick & Kim, 2012). This confirms that causal narrative construction is a key driver.
+- **Self-serving motivation counteracts it:** Mark & Mellor (1991): laid-off workers showed the *least* hindsight bias — admitting "I knew I'd be fired" would threaten self-esteem.
+- **Reverse hindsight bias:** Under extreme surprise, people believe they "never would have seen it coming." Ofir & Mazursky (1997): hindsight participants rated a fatal heart bypass as *more likely to succeed* than foresight participants. The surprise blocks causal narrative construction and triggers an opposite effect.
 
-**Reverse hindsight bias:** Under extreme surprise, people believe they "never would have seen it coming." Ofir & Mazursky (1997): Hindsight participants rated a fatal heart bypass as *more likely to succeed* than foresight participants.
+**🎯 Bayesian lens:** Hindsight bias is retroactive revision of the prior to match the posterior. After learning the outcome, the prior is "overwritten" — people can no longer access what they believed before the evidence arrived. A true Bayesian retains awareness of prior vs. posterior; the hindsight-biased thinker confuses them. The curse of knowledge is the core mechanism: legitimate Bayesian updating changes your beliefs, but you lose access to the pre-update state.
 
-**Outcome bias:** Judging decision quality by the outcome, even when the outcome is irrelevant to the reasoning process. Baron & Hershey (1988): A physician's decision was rated poorer when the patient died, despite identical reasoning.
-
-**Epistemic egocentrism / Curse of knowledge effect:** Underestimating how likely another person is to hold a false belief. Related to theory of mind and hindsight bias (Birch & Bloom, 2007).
-
-**Visual hindsight bias:** People who know an image's identity believe a naïve peer would recognize it at a more degraded stage — the "I saw it all along" effect (Bernstein et al., 2004).
-
-**Lifespan:** U-shaped pattern — strongest in young children (3–4), decreases through young adulthood, increases again in older adults.
-
-**Cross-cultural:** Nearly universal, but collectivist cultures may show stronger bias for surprising outcomes (Choi & Nisbett, 2000).
-
-**🎯 Bayesian lens:** Hindsight bias is retroactive revision of the prior to match the posterior. After learning the outcome, the prior is "overwritten" — people can no longer access what they believed before the evidence arrived. The RAFT model is explicitly Bayesian: learning the outcome updates cue-outcome associations (legitimate updating), but the inability to recall the pre-update prior produces the illusion of having "always known." A true Bayesian retains awareness of prior vs. posterior; the hindsight-biased thinker confuses them.
-
-**Key references:** Fischhoff (1975); Fischhoff & Beyth (1975); Pohl et al. (2003); Hoffrage et al. (2000); Baron & Hershey (1988); Bernstein et al. (2011)
+**Key references:** Fischhoff (1975); Fischhoff & Beyth (1975); Baron & Hershey (1988); Birch & Bloom (2007); Bernstein et al. (2004); Yopchick & Kim (2012)
 
 ---
 
-### 17. Prediction: Clinical Intuition vs. Statistical Methods
+### 17. Intituition versus statistics
 
 **Clinical intuition:** Domain experts consider available information and make intuitive predictions, drawing on experience and holistic assessment. People tend to overestimate its value.
 
 **Statistical prediction:** Predictions based solely on empirical evidence and statistical comparison. A meta-analysis of 136 studies (Grove et al., 2000): 46% favored statistical prediction, 48% showed no difference, *only 6%* favored clinical intuition. Publication date, training, experience, and domain had no effect.
 
 **Why clinical intuition is overvalued:**
-- *Cognitive fluency:* With experience, assessment *feels* easy and confident — even when accuracy hasn't improved.
+- *Cognitive fluency:* With experience, assessment *feels* easy and confident — even when accuracy hasn't improved (→ see overconfidence, §12).
 - Especially problematic in areas with little concrete feedback (clinical psychology, law, university admissions).
 - Corrective feedback is critical for learning; weather forecasters exemplify accurate expert prediction because they receive frequent, consistent feedback.
 
-**Tools for statistical prediction:**
-- **MMPI/MMPI-2:** Large standardized questionnaire (567 true/false) for clinical diagnosis. Items included via **blind empiricism** — based on statistical predictive power regardless of **face validity**.
-- **Decision support systems:** Computer-based tools comparing patient characteristics against databases. Most effective when computerized, built into workflow, and providing diagnoses *and* recommendations (Kawamoto et al., 2005).
-- **Sabermetrics** (Lewis, 2004): Statistical analysis of baseball data to predict player performance, replacing scouts' intuitive impressions.
+**Case study 1 — Selecting judges in the Netherlands (De Hoog, De Correspondent, 2024):**
+Researchers evaluated the multi-round selection procedure for the Dutch judiciary training program. Key findings:
+- The procedure was lengthy (five rounds) yet violated basic best practices at nearly every stage: unclear criteria, inconsistent questions across candidates, and no predefined decision rules for pass/fail.
+- Decisions were largely intuition-based — a scoring rubric existed but was rarely used; "fit" and "gut feeling" drove choices, especially in local interviews.
+- A simple intelligence test (round two) predicted training performance *better* than an elaborate expert-led assessment involving psychologist interviews and actor role-plays.
+- The best-rated part of the procedure (final interviews) used structured questions, predefined scoring anchors for good/bad answers, and independent numerical ratings — precisely the features statistical prediction advocates.
+- Even in this strong final round, post-interview deliberation among evaluators introduced bias. Simply summing independent scores would have produced equally good — and more consistent — selections.
+- Illustrates a core tension: professionals value intuition ("my gut should have a voice") and resist structured methods, even when evidence shows structure improves outcomes. One evaluator compared intuition to a physician's "gut instinct" — yet in medicine too, intuitive diagnosis rarely improves on structured checklists.
+- Broader lesson: *less information, applied consistently, beats more information applied intuitively.* The researchers' advice: "Do as little as necessary — and do it well."
+
+**Case study 2 — Data-driven football recruitment at Heart of Midlothian (De Hoog, De Correspondent, 2025):**
+Heart of Midlothian, a Scottish football club co-owned by entrepreneur and poker player Tony Bloom, illustrates what happens when statistical prediction *leads* rather than merely supports decisions.
+- Traditional football scouting is clinical intuition: scouts travel to matches, watch players, and form holistic impressions. Most clubs treat data as "supporting, never leading."
+- Bloom's approach inverts this. His fortune was built on a statistical insight, and he also applies this logic to play recruitment: a team's quality is better predicted by chances created than by goals scored — because creating chances reflects skill, while scoring reflects luck.
+- Hearts uses data models to evaluate what individual players contribute to the chances their team creates. This allows the club to screen players across *all* leagues simultaneously — including obscure ones where talent is undervalued and therefore cheap.
+- The club has no traditional scouts. Recent signings came from Kazakhstan, North Macedonia, Norway's second division, and the Dutch Keuken Kampioen Divisie. Video review serves only to verify what the data already suggest.
+- Players know the system: "You play well if the data say you play well." If your data decline, a replacement with better data will be found.
+- Results: at the time of writing, Hearts sit above both Celtic and Rangers — clubs with vastly larger budgets — atop the Scottish Premiership. Players who were unknown and unwanted elsewhere have become stars.
+- The football world has known about data-driven methods since at least FC Midtjylland's success in 2015. Yet most clubs still rely on traditional scouting. The resistance mirrors the judiciary case: professionals prefer intuition even when statistical methods demonstrably outperform it.
+
+**Two cases, one lesson:** The judiciary case shows what goes wrong when clinical intuition dominates — inconsistent decisions, wasted information, poor prediction. The Hearts case shows what goes right when statistical methods lead — hidden talent is found, resources are used efficiently, and results exceed expectations. In both domains, the same pattern holds: structured, data-driven prediction outperforms expert intuition.
 
 **🎯 Bayesian lens:** Clinical intuition represents informal, heuristic Bayesian reasoning — integrating evidence with experience-based priors, but doing so imprecisely and inconsistently. Statistical methods are formal Bayesian (or frequentist) inference — applying the same evidence-weighting rules uniformly across cases. The superiority of statistical methods shows that human intuitive "Bayesian" processing is noisy and biased, especially without calibrating feedback. Expertise without feedback increases confidence (strengthens the prior) without improving the quality of evidence integration.
 
-**Key references:** Meehl (1954/1996); Grove et al. (2000); Dawes, Faust, & Meehl (1989); Garb (1998); Einhorn & Hogarth (1978)
+**Key references:** Meehl (1954/1996); Grove et al. (2000); Dawes, Faust, & Meehl (1989); Garb (1998); Einhorn & Hogarth (1978); Neumann, Meijer, & Niessen (2024, via De Hoog, De Correspondent); De Hoog (De Correspondent, 2025)
 
 ---
 
-### 18. Affective Forecasting
+### 18. Predicting future feelings
 
-**Definition:** Predictions about how future events would make you feel. People are generally good at predicting *valence* (positive vs. negative) but poor at predicting *intensity* and *duration*.
+**Definition:** Predictions about how future events would make you feel (affective forecasting). People are generally good at predicting *valence* (positive vs. negative) but poor at predicting *intensity* and *duration*.
 
-**Impact bias:** Overestimating how intensely and how long a future event will affect feelings. Can lead to disproportionate effort to facilitate positive or prevent negative events.
+**Impact bias (intensity):** Overestimating how intensely and how long a future event will affect feelings. Can lead to disproportionate effort to facilitate positive or prevent negative events.
 - Eastwick et al. (2008): Students predicted higher distress from a romantic breakup than they actually experienced.
-- Kahneman & Snell (1992): Predicted increasing dislike of yogurt over 8 days, but actual liking dropped on day 2 then steadily rose.
 
-**Emotional evanescence:** Emotions fade more quickly than anticipated.
+**Emotional evanescence (duration):** Emotions fade more quickly than anticipated.
 
 **Focalism:** A major cause of impact bias — overestimating how much a specific event would affect feelings and underestimating the influence of other concurrent events.
 
-**Disability paradox:** Healthy people predict they would prefer death over severe disability, but when actually sick, people often feel differently. This raises ethical dilemmas for end-of-life decisions.
-
-**Projection bias** (Loewenstein, 2005): Projecting current mental/emotional state into the future. Slevin et al. (1990): Only 10% of healthy participants but 42% of cancer patients would accept chemotherapy for 3 extra months.
+**Projection bias** (Loewenstein, 2005): Projecting current mental/emotional state into the future. This is related to theory of mind, already touched upon when discussing hindsight bias: it is difficult to understand your own future state of mind, just as it is difficult to understand someone else's state of mind.
 
 **Hot-cold empathy gap** (Loewenstein, 2005): A specific form of projection bias — people in a "cold" (calm, rational) state cannot accurately predict how they would feel or act in a "hot" (emotional, visceral) state, and vice versa. Leads to underestimating the influence of hunger, pain, craving, or sexual arousal on future decisions. Implications for addiction, dieting, and advance decision-making.
 
-**Peak-end rule:** Evaluating past episodes based on the average of peak intensity and end-point, rather than total duration. Kahneman et al. (1993): Participants preferred a longer pain episode that tapered off over a shorter one with the same peak.
+**Disability paradox and living wills:** Healthy people predict they would prefer death over severe disability, but when actually sick, people often feel differently. Slevin et al. (1990): Only 10% of healthy participants but 42% of cancer patients would accept chemotherapy for 3 extra months. This is projection bias in action — the healthy person's "cold" state cannot access the adaptive coping that emerges during actual illness. Living wills (advance directives) are a practical consequence of this problem: they increase concordance with patient wishes and reduce unwanted interventions (Brinkman-Stoppelenburg et al., 2014), but they are inherently limited by the affective forecasting errors of the healthy person who writes them.
 
-**Living wills / advance directives:** Legal documents expressing end-of-life care preferences. Increase concordance with patient wishes and reduce unwanted interventions (Brinkman-Stoppelenburg et al., 2014). Complicated by affective forecasting errors and the hot-cold empathy gap.
-
-**Intertemporal choice and temporal discounting:** Choosing between immediate and future outcomes. People place less value on future gains the farther away they are. Temporal discounting decreases with age and can be reduced by feeling connected to one's future self — Hershfield et al. (2011): Viewing digitally aged avatars increased retirement savings allocation.
+**Peak-end rule:** Past experiences are evaluated based on the average of peak intensity and end-point, rather than total duration. Kahneman et al. (1993): Participants preferred a longer pain episode that tapered off over a shorter one with the same peak. This matters for affective forecasting because people don't know in advance how they will *remember* an experience — they predict based on imagined total experience, but evaluate based on peak and end. This mismatch between anticipated and remembered experience is one reason forecasts go wrong.
 
 **🎯 Bayesian lens:** Affective forecasting is a prediction task: using current emotional priors and imagined evidence to estimate future emotional posteriors. The impact bias reflects poorly calibrated posteriors — too extreme relative to what the evidence (actual future experience) will support. Projection bias means using the wrong prior (current emotional state) instead of the appropriate one (the likely future state). The hot-cold empathy gap is a failure to update one's model of oneself across different states.
 
-**Key references:** Wilson & Gilbert (2005); Kahneman & Snell (1992); Eastwick et al. (2008); Kahneman et al. (1993); Loewenstein (2005); Hershfield et al. (2011)
+**Key references:** Wilson & Gilbert (2005); Kahneman & Snell (1992); Eastwick et al. (2008); Kahneman et al. (1993); Loewenstein (2005); Brinkman-Stoppelenburg et al. (2014)
 
 ---
 
 ### 19. Risk Perception and Communication
 
-**Risk perception:** How people judge risks — often misaligned with evidence due to heuristic processing.
+**Definition:** How people judge risks — often misaligned with evidence due to heuristic processing.
 
-**Risk-benefit analyses:** Weighing harms against benefits. Key findings (Starr, 1969; Fischhoff et al., 1978):
-- People accept ~1,000 times more risk for *voluntary* vs. *involuntary* activities.
-- Experts are influenced more purely by mortality rates; laypeople are swayed by dread and perceived lack of knowledge.
+**Voluntary vs. involuntary risk** (Starr, 1969; Fischhoff et al., 1978): People accept roughly 1,000 times more risk for *voluntary* activities (e.g., skiing) than for *involuntary* ones (e.g., living near a chemical plant). This asymmetry reveals that risk perception is not about probabilities — it is about *how the risk feels*.
 
-**Unknown risks vs. known risks** (Slovic, 1987): Unknown = new, poorly understood, unobservable. Known = older, well-researched, observable.
+**Neglect of rare risks:** Extremely low probabilities are typically treated as zero — people simply ignore them. This means that many small but real risks (e.g., food contamination, household accidents) receive far less attention than their actual probability warrants.
 
-**Dread risks:** Catastrophic potential, uncontrollable, unfair distribution. The higher the dread, the more risky people perceive an activity and the more they want strict regulation.
-- *Post-9/11 driving fatalities* (Gigerenzer, 2004): Americans avoided flying (dread risk) and drove instead → ~350 additional road deaths. Driving the same distance as the average U.S. flight is 65 times more dangerous even including 9/11.
-- *Madrid train bombings* (López-Rousseau, 2005): Reduced train *and* car travel → fewer car fatalities (cultural difference).
+**Dread risk as the exception:** The neglect of rare risks breaks down when a risk triggers *dread* — the feeling that a hazard is catastrophic, uncontrollable, and unfairly distributed (Slovic, 1987). Dread flips a rare risk from invisible to massively overweighted. Characteristics that increase dread: newness, poor understanding, unobservability, involuntariness, catastrophic potential.
+- Experts judge risk primarily by mortality rates; laypeople are driven by dread and perceived lack of knowledge. The higher the dread, the more risky people perceive an activity and the more they demand strict regulation.
+- *Post-9/11 driving fatalities* (Gigerenzer, 2004): A plane crash is objectively rare, but because it is a dread risk, the 9/11 attacks made flying feel impossibly dangerous. Americans avoided planes and drove instead → approximately 350 additional road deaths in the following months. Driving the same distance as the average U.S. flight is 65 times more dangerous, even including 9/11.
+- *Madrid train bombings* (López-Rousseau, 2005): After the 2004 attacks, Spaniards reduced train *and* car travel → fewer car fatalities. A cultural contrast with the American response: dread led to avoidance of all travel rather than substitution to a more dangerous mode.
 
-**Neglect of low-probability risks:** Extremely low (or high) probabilities are often treated as impossibilities (or certainties).
+**Scope insensitivity** (Kahneman, 1986): People's valuations are insensitive to the magnitude of a problem. Willingness to pay is nearly identical for saving 2,000 vs. 20,000 vs. 200,000 migratory birds. Driven by the affect heuristic — an emotional response is generated for the *category* (endangered birds) rather than scaled to the *quantity*. This has enormous implications for charitable giving and public policy: the difference between a small disaster and a massive one barely registers emotionally.
 
-**Scope insensitivity / scope neglect** (Kahneman, 1986): People's valuations are insensitive to the magnitude of the problem. Willingness to pay is nearly identical for saving 2,000 vs. 20,000 vs. 200,000 migratory birds. Driven by the affect heuristic — an emotional response is generated for the *category* (endangered birds) rather than scaled to the *quantity*. Has enormous implications for charitable giving and public policy.
+**Identifiable victim effect** (Small & Loewenstein, 2003): A single identified victim (with a name, face, story) generates more empathy and charitable giving than statistical information about thousands of victims. Combining statistical information with an identified victim can actually *reduce* giving — statistics trigger analytical thinking that dampens the emotional response (Small, Loewenstein, & Slovic, 2007). This is scope insensitivity in action: one vivid case outweighs thousands of faceless cases.
 
-**Identifiable victim effect** (Small & Loewenstein, 2003): A single identified victim (with a name, face, story) generates more empathy and charitable giving than statistical information about thousands of victims. Combining statistical information with an identified victim can actually *reduce* giving — statistics trigger analytical thinking that dampens emotional response (Small, Loewenstein, & Slovic, 2007).
-
-**Relative risk vs. absolute risk:**
-- *Relative risk* (ratio/percentage change) sounds alarming: "twofold increase in blood clots."
+**Risk communication — relative vs. absolute risk:**
+- *Relative risk* (ratio or percentage change) sounds alarming: "twofold increase in blood clots."
 - *Absolute risk* gives actual probabilities: "2 in 7,000 vs. 1 in 7,000."
-- *Contraceptive pill scare* (mid-1990s UK): "Twofold increase" in clots led to discontinued use and ~13,000 additional abortions — though pregnancy carries higher clot risk than the pill.
+- *Contraceptive pill scare* (mid-1990s UK): A "twofold increase" in blood clots led to widespread discontinuation of the pill and approximately 13,000 additional abortions — even though pregnancy carries a higher clot risk than the pill itself.
+- Communicating risk as natural frequencies makes the underlying probabilities transparent and reduces misunderstanding (see §2).
 
-**Ambiguity aversion** (Ellsberg, 1961): People prefer known risks over unknown risks, even when the unknown option may be objectively equivalent or better. In the Ellsberg paradox, people prefer drawing from a bag with a known 50/50 red/black split over one with an unknown ratio — despite identical expected value. Connects to the distinction between risk (known probabilities) and uncertainty (unknown probabilities) (§4).
+**Climate change and affect** (Weber, 2006): Abstract statistics about global warming influence Type 2 reasoning but fail to trigger the Type 1 emotional response needed to motivate action. Akerlof et al. (2013): People who believed they had *personally experienced* global warming showed elevated risk estimates — direct experience generates the affect that statistics cannot.
 
-**High-stakes decisions** (Kunreuther et al., 2002): Six deviations from normative reasoning: treating rare events as impossible, shortsightedness, affect heuristic, stress effects, reliance on social cues, and status quo bias.
+**🎯 Bayesian lens:** Risk perception errors involve distortions in either the prior (ignoring base rates of rare risks) or the evidence-weighting function (overweighting vivid/dread evidence, underweighting statistical evidence). Dread acts as an inflated likelihood ratio — a single catastrophic event updates the posterior far more than its base rate warrants. Scope insensitivity means the posterior does not scale with the magnitude of evidence. The identifiable victim effect shows that narrative evidence (a single case) updates beliefs more powerfully than statistical evidence (base rates) — the opposite of what Bayesian weighting would prescribe.
 
-**Climate change and affect:** Weber (2006): Abstract statistics about global warming influence Type 2 reasoning but fail to trigger the Type 1 emotional reasoning needed to motivate action. Akerlof et al. (2013): People who believed they personally experienced global warming had elevated risk estimates.
-
-**🎯 Bayesian lens:** Risk perception errors often involve distortions in either the prior (ignoring base rates of risk) or the evidence-weighting function (overweighting vivid/dread evidence, underweighting statistical evidence). Scope insensitivity means the posterior does not scale with the magnitude of evidence. Ambiguity aversion reflects discomfort with vague priors — people prefer well-specified priors even when the evidence is identical. The identifiable victim effect shows that narrative evidence (a single case) updates beliefs more powerfully than statistical evidence (base rates) — the exact opposite of what Bayesian weighting would prescribe. Communicating risk as natural frequencies helps because it makes the Bayesian computation transparent (see §2).
-
-**Key references:** Slovic (1987); Gigerenzer (2004); Eddy (1982); Kunreuther et al. (2002); Weber (2006); Kahneman (1986); Ellsberg (1961); Small & Loewenstein (2003)
+**Key references:** Slovic (1987); Gigerenzer (2004); López-Rousseau (2005); Kahneman (1986); Small & Loewenstein (2003); Small, Loewenstein, & Slovic (2007); Weber (2006); Akerlof et al. (2013); Starr (1969); Fischhoff et al. (1978)
 
 ---
 
@@ -584,6 +570,10 @@ The key insight is that the type of thing we encounter triggers a default stance
 **🎯 Bayesian lens:** Mental accounting violates Bayesian principles because evidence (money) is not treated as fungible — the same dollar is weighted differently depending on its "account." The sunk cost fallacy means that past evidence (already spent resources) inappropriately biases the posterior about whether to continue, when only future costs and benefits should matter. A Bayesian agent would update beliefs about a project's value based on current evidence, not past investments.
 
 **Key references:** Thaler (1980, 1999); Shefrin & Thaler (1988); Arkes & Blumer (1985); Soman (2001)
+
+MERGE FROM OTHER CHAPTER:
+
+**Intertemporal choice and temporal discounting:** Choosing between immediate and future outcomes. People place less value on future gains the farther away they are. Temporal discounting decreases with age and can be reduced by feeling connected to one's future self — Hershfield et al. (2011): Viewing digitally aged avatars increased retirement savings allocation.
 
 ---
 
