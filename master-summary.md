@@ -67,10 +67,12 @@
 - **Bias:** A systematic error in thinking in a specific direction, often resulting from reliance on heuristics. In daily life, "bias" is sometimes used to mean socially undesirable thinking (including stereotypes, such as that professors are male), but this conflates errors in thinking with social desirability.
 - **Cognitive illusions:** Systematic errors in subjective judgment, analogous to visual perceptual illusions — they reveal how judgments and decisions are normally made.
 - **Affect:** Experienced emotion; people may rely on positive or negative affect as a simple cue when judging and deciding (the *affect heuristic*).
+- **Bias blind spot** (Pronin et al., 2002): People readily recognize biases in others but believe themselves to be largely immune. This is itself a bias — and a particularly stubborn one, because it persists even after people learn about biases. The implication: studying heuristics and biases is not just about understanding *other people's* errors. Every bias discussed in this book applies to the reader too.
+- **Debiasing:** If biases are so pervasive, can they be corrected? Sometimes — but it is difficult. The most promising approaches shift thinking from Type 1 to Type 2: explicitly generating alternative viewpoints, delaying decisions, and using structured procedures (see §23, Choice Architecture). However, debiasing is limited by the bias blind spot (people who don't believe they are biased see no reason to correct), by the effortful nature of Type 2 processing, and by deeply entrenched beliefs. Awareness of biases is necessary but rarely sufficient.
 
 **🎯 Bayesian lens:** Heuristics can be understood as computationally cheap approximations to Bayesian inference. They often work well (when priors and evidence are typical) but produce systematic errors when the shortcut diverges from proper integration of prior and likelihood — i.e., biases are predictable failures of approximate Bayesian computation.
 
-**Key references:** Tversky & Kahneman (1974); Kahneman & Frederick (2002); Pohl (2004); Slovic et al. (2007)
+**Key references:** Tversky & Kahneman (1974); Kahneman & Frederick (2002); Pohl (2004); Slovic et al. (2007); Pronin et al. (2002)
 
 ---
 
@@ -405,9 +407,11 @@ Heart of Midlothian, a Scottish football club co-owned by entrepreneur and poker
 
 ---
 
-### 18. Predicting future feelings
+### 18. The future self
 
-**Definition:** Predictions about how future events would make you feel (affective forecasting). People are generally good at predicting *valence* (positive vs. negative) but poor at predicting *intensity* and *duration*.
+**Core theme:** People struggle to relate to their future selves. This manifests in two distinct but related ways: mispredicting how future events will make you feel (*affective forecasting*), and undervaluing outcomes that happen to your future self (*temporal discounting*). Both stem from a common root: psychological distance from the future self, who is experienced almost as a stranger. This connects to theory of mind and the curse of knowledge (§16): it is hard to inhabit another mind, whether that mind belongs to another person, your past self, or your future self.
+
+**Affective forecasting:** Predictions about how future events would make you feel. People are generally good at predicting *valence* (positive vs. negative) but poor at predicting *intensity* and *duration*. This is a cognitive failure: you try to simulate your future self's feelings but get it wrong.
 
 **Impact bias (intensity):** Overestimating how intensely and how long a future event will affect feelings. Can lead to disproportionate effort to facilitate positive or prevent negative events.
 - Eastwick et al. (2008): Students predicted higher distress from a romantic breakup than they actually experienced.
@@ -416,7 +420,7 @@ Heart of Midlothian, a Scottish football club co-owned by entrepreneur and poker
 
 **Focalism:** A major cause of impact bias — overestimating how much a specific event would affect feelings and underestimating the influence of other concurrent events.
 
-**Projection bias** (Loewenstein, 2005): Projecting current mental/emotional state into the future. This is related to theory of mind, already touched upon when discussing hindsight bias: it is difficult to understand your own future state of mind, just as it is difficult to understand someone else's state of mind.
+**Projection bias** (Loewenstein, 2005): Projecting current mental/emotional state into the future. You use present-you as a model for future-you, but present-you is a poor model.
 
 **Hot-cold empathy gap** (Loewenstein, 2005): A specific form of projection bias — people in a "cold" (calm, rational) state cannot accurately predict how they would feel or act in a "hot" (emotional, visceral) state, and vice versa. Leads to underestimating the influence of hunger, pain, craving, or sexual arousal on future decisions. Implications for addiction, dieting, and advance decision-making.
 
@@ -424,9 +428,13 @@ Heart of Midlothian, a Scottish football club co-owned by entrepreneur and poker
 
 **Peak-end rule:** Past experiences are evaluated based on the average of peak intensity and end-point, rather than total duration. Kahneman et al. (1993): Participants preferred a longer pain episode that tapered off over a shorter one with the same peak. This matters for affective forecasting because people don't know in advance how they will *remember* an experience — they predict based on imagined total experience, but evaluate based on peak and end. This mismatch between anticipated and remembered experience is one reason forecasts go wrong.
 
-**🎯 Bayesian lens:** Affective forecasting is a prediction task: using current emotional priors and imagined evidence to estimate future emotional posteriors. The impact bias reflects poorly calibrated posteriors — too extreme relative to what the evidence (actual future experience) will support. Projection bias means using the wrong prior (current emotional state) instead of the appropriate one (the likely future state). The hot-cold empathy gap is a failure to update one's model of oneself across different states.
+**Temporal discounting:** While affective forecasting is about mispredicting future feelings (a cognitive failure), temporal discounting is about undervaluing future outcomes (a motivational failure). People place less value on future gains the farther away they are — choosing smaller-sooner rewards over larger-later ones. This is not about getting the prediction wrong, but about not caring enough about the person who will receive the outcome: your future self.
 
-**Key references:** Wilson & Gilbert (2005); Kahneman & Snell (1992); Eastwick et al. (2008); Kahneman et al. (1993); Loewenstein (2005); Brinkman-Stoppelenburg et al. (2014)
+**The future self as a stranger:** Hershfield et al. (2011) demonstrated the link directly: participants who viewed digitally aged avatars of themselves — making their future self feel less like a stranger — allocated significantly more to retirement savings. Temporal discounting decreases with age, possibly because the gap between present and future self narrows. This suggests that both forecasting errors and discounting errors share a common root: the psychological distance between you and the person you will become.
+
+**🎯 Bayesian lens:** Both affective forecasting and temporal discounting are failures of prediction about the future self. The impact bias reflects poorly calibrated posteriors — too extreme relative to what the evidence (actual future experience) will support. Projection bias means using the wrong prior (current emotional state) instead of the appropriate one (the likely future state). Temporal discounting can be understood as implicitly assigning low prior probability to the future self's preferences mattering — a prior that Hershfield's intervention corrects by making the future self more vivid and real.
+
+**Key references:** Wilson & Gilbert (2005); Kahneman & Snell (1992); Eastwick et al. (2008); Kahneman et al. (1993); Loewenstein (2005); Brinkman-Stoppelenburg et al. (2014); Hershfield et al. (2011)
 
 ---
 
@@ -465,33 +473,10 @@ Heart of Midlothian, a Scottish football club co-owned by entrepreneur and poker
 
 ---
 
-### 20. Models of Rational Choice
+### 20. Prospect Theory
 
-**Expected value theory:** Normative model — the most rational option maximizes monetary value over the long run. EV = Σ(value × probability). Limitations: assumes known probabilities, repeated play, and does not capture risk.
-
-**Utility:** Subjective desirability of an outcome (can be non-monetary). Utilities from one person cannot be compared with another's.
-
-**Expected utility theory (EU):** Extends EV by replacing objective values with subjective utilities. Three features (Kahneman & Tversky, 1979): (1) expectation principle (EU = Σ(utility × probability)), (2) accept when EU exceeds current holdings, (3) fundamental risk aversion. Generally normative, not descriptive.
-- *Amniocentesis example* (Fan & Levine, 2007): Normative choice depends on how the parent rates possible outcomes.
-
-**Fair gamble:** EV = 0. Risk aversion is demonstrated by refusal to play fair gambles.
-
-**Allais Paradox** (Allais, 1953): People prefer a sure €1,000 over a higher-EV gamble (certainty effect), but when the same utilities appear at lower probabilities (removing certainty), they reverse preferences — logically inconsistent under EU theory, but predicted by prospect theory.
-
-**Multi-attribute utility theory (MAUT) / MCDM:** For decisions with multiple attributes. List attributes → assign importance weights → rate options → calculate weighted sums. Poor as a description but useful as a decision-support tool.
-- *Real-life decisions* (Galotti, 2007): People consider 3–9 attributes, 2–5 options; decisions correlate moderately-to-strongly with MAUT predictions.
-
-**One-reason decision-making and Take the Best** (Gigerenzer, 2007): Rank-order attributes by importance; choose the first option that is superior on the most important discriminating attribute. Surprisingly accurate under uncertainty, sometimes outperforming multi-attribute formulas.
-
-**Robust satisficing** (Schwartz, Ben-Haim, & Dacso, 2010): Maximize confidence that the chosen option will be "good enough" across the widest range of scenarios.
-
-**🎯 Bayesian lens:** EU theory is Bayesian-adjacent: it weights outcomes by their probabilities, just as Bayesian inference weights hypotheses by their evidence. MAUT extends this to multi-dimensional updating. Take the Best is a fast-and-frugal approximation that works well when one cue is highly diagnostic — analogous to Bayesian inference dominated by a single strong piece of evidence. Rational choice theory assumes accurate probability estimation; the biases in this course show why this assumption often fails.
-
-**Key references:** Edwards (1954); von Neumann & Morgenstern (1944/2007); Kahneman & Tversky (1979); Allais (1953); Gigerenzer (2007); Galotti (2007)
-
----
-
-### 21. Prospect Theory
+**From rational choice to prospect theory:** Expected value theory (EV = Σ(value × probability)) is the normative baseline for risky decisions. Expected utility theory (EU) extends this by replacing objective values with subjective utilities, and captures **risk aversion** — the tendency to prefer a sure outcome over a gamble with equal or higher expected value (demonstrated by refusal to play fair gambles where EV = 0). EU is generally normative, not descriptive.
+- **The Allais Paradox** (Allais, 1953) exposes EU's descriptive failure: People prefer a sure €1,000 over a higher-EV gamble (the **certainty effect**), but when the same utilities appear at lower probabilities — removing certainty — they reverse preferences. This is logically inconsistent under EU, but predicted by prospect theory.
 
 **Definition:** An influential descriptive model of risky choice (Kahneman & Tversky, 1979) accounting for systematic departures from expected utility theory. Kahneman won the 2002 Nobel Prize in Economics for this work.
 
@@ -515,104 +500,67 @@ Heart of Midlothian, a Scottish football club co-owned by entrepreneur and poker
 - **Framing effects:** Gain frames → risk aversion; loss frames → risk seeking. Tversky & Kahneman (1981): "Save 200 of 600" → 72% chose sure option; "400 will die" → 78% chose gamble.
 - **Procedure invariance:** Preferences change depending on whether asked to choose or reject. Shafir (1993): A parent with extreme traits was both *chosen* (64%) and *rejected* (55%) for custody.
 
-**Health messaging:** Rothman & Salovey (1997): Gain framing more effective for *prevention* behaviors; loss framing more effective for *detection* behaviors.
-
-**Certainty effect:** Disproportionate preference for certain outcomes over merely probable ones, even when the probable option has higher EV.
-
 **Endowment effect:** People value items they own more than they would value acquiring the same items. Kahneman et al. (1990): Sellers' median price > 2× buyers' price. Explained by loss aversion.
-
-**Source dependence** (Heath & Tversky, 1991): People prefer to bet on outcomes in domains where they feel competent, even when they judge probabilities as equal.
-
-**Risk seeking and politics:** When people feel secure (gain frame) → risk aversion → moderate views. When afraid for their future (loss frame) → risk seeking → extreme views. Populist politicians exploit this with fear-based discourse.
 
 **🎯 Bayesian lens:** Prospect theory describes systematic distortions in how people weight probabilities — the decision weight function w(P) is a biased transformation of true probabilities. A Bayesian agent would use P directly; prospect-theory agents overweight small P and underweight large P. Framing effects show that the *same evidence* produces different posteriors depending on how it is presented — a direct violation of Bayesian invariance. The reference point functions as a prior: what counts as a "gain" or "loss" depends entirely on where one starts.
 
-**Key references:** Kahneman & Tversky (1979); Tversky & Kahneman (1981, 1992); Barberis (2013); Heath & Tversky (1991)
+**Key references:** Edwards (1954); von Neumann & Morgenstern (1944/2007); Kahneman & Tversky (1979); Tversky & Kahneman (1981, 1992); Allais (1953); Barberis (2013)
 
 ---
 
-### NEW. Satisficing vs. Maximizing
+### 21. Satisficing vs. Maximizing
 
-**Core idea:** When faced with a set of options, people differ in how they search — and when they stop. This has important consequences for decision quality, effort, and well-being.
+**Core idea:** When faced with a set of options, people differ in how extensively they consider each option. This has important consequences for decision quality, effort, and well-being.
 
 - **Satisficing** (Simon, 1956): Selecting an option that is "good enough" — one that meets a minimum threshold of acceptability. The decision-maker stops searching as soon as a satisfactory option is found.
 - **Maximizing:** Striving for the best possible option by exhaustively comparing all available alternatives. This sounds rational in theory, but in practice it is costly: it requires evaluating more options, making more comparisons, and often leads to greater regret (because the decision-maker is more aware of what they might have missed).
 - **The maximizing paradox** (Schwartz, 2004): Maximizers tend to achieve objectively *better* outcomes than satisficers, but feel *worse* about them — experiencing more regret, less satisfaction, and more counterfactual thinking ("what if I had chosen differently?"). More choice can make maximizers worse off.
-- As a personality trait, maximizing is associated with regret, depression, perfectionism, and neuroticism. Importantly, maximizing is *not* the same as having high standards — a person can have high standards while still satisficing (they simply set a high threshold for "good enough").
-- Satisficing is a direct consequence of bounded rationality: because we lack the time, information, and cognitive capacity to evaluate all options, "good enough" is often the best we can do — and often leads to better subjective outcomes than relentless optimization.
-- Connects to choice architecture (§23): the number and presentation of options interacts with a person's tendency to satisfice vs. maximize. Choice overload is particularly harmful for maximizers.
+- **Choice overload** (Iyengar & Lepper, 2000): The maximizing paradox plays out dramatically when the number of options increases. In a famous demonstration, shoppers who encountered 24 jam samples were far less likely to buy (3%) than those who saw only 6 (30%). More choice should help maximizers find the best option, but instead it paralyzes them — the cost of exhaustive comparison becomes overwhelming. Satisficers, who stop at "good enough," are relatively immune.
+- **Maximization Scale** (Schwartz et al., 2002): Individual differences in the tendency to maximize can be measured. Higher scores correlate with regret, depression, perfectionism, and neuroticism; lower scores with happiness, satisfaction, and optimism. Importantly, maximizing is *not* the same as having high standards — a person can have high standards while still satisficing (they simply set a high threshold for "good enough").
+- Satisficing is a direct consequence of bounded rationality (→ §5): because we lack the time, information, and cognitive capacity to evaluate all options, "good enough" is often the best we can do — and often leads to better subjective outcomes than relentless optimization.
 
 **🎯 Bayesian lens:** Maximizing assumes you can compute the expected value of every option and select the highest — essentially a full Bayesian decision analysis. Satisficing acknowledges that this computation is often infeasible and replaces it with a simpler threshold rule: is the posterior probability that this option is "good enough" sufficiently high? This is a resource-rational strategy — trading a small expected loss in quality for a large saving in cognitive effort.
 
-**Key references:** Simon (1956); Schwartz (2004); Schwartz et al. (2002); Vargová et al. (2020)
+**Key references:** Simon (1956); Schwartz (2004); Schwartz et al. (2002); Iyengar & Lepper (2000); Vargová et al. (2020)
 
 ---
 
-### 22. Mental Accounting, Sunk Costs, and Spending Behavior
+### 23. Steering other people's choices
 
-**Mental accounting** (Thaler, 1999): Informal rules by which people track and categorize resources, treating categories differently despite objective equivalence — violating the **principle of fungibility** (one dollar is equivalent to any other dollar).
+**The tension — libertarian paternalism:** Every choice environment is designed by someone. No arrangement of options is truly neutral — the order, the default, the framing all influence what people choose. This creates a tension: people should be free to choose, but the environment inevitably steers them. **Libertarian paternalism** (Thaler & Sunstein, 2008) embraces this tension: institutions can and should design choice environments that steer people toward beneficial outcomes, while preserving the freedom to opt out. The question is not *whether* to influence, but *how*.
 
-**Behavioral life-cycle (BLC) hypothesis** (Shefrin & Thaler, 1988): People divide wealth into three mental accounts:
-- *Current income* (paychecks, small bonuses) — readily spent.
-- *Current assets* (non-retirement savings, windfalls) — reluctantly spent.
-- *Future wealth* (retirement, future income) — largely disregarded.
-- **Self-control** and **commitment devices** (e.g., automatic deductions) reduce the need for effortful restraint.
-- **Elderly spending puzzle:** Normatively, elderly people should spend down assets, but they resist.
+**Defaults and the status quo bias:** The most powerful nudge is simply pre-selecting the desired option. People tend to stick with whatever is already chosen — the **status quo bias** (preference for inaction over action). Johnson & Goldstein (2004): Austria's opt-out organ donation system → ~100% consent vs. Germany's opt-in system → 12%. Same choice, radically different outcome, driven entirely by the default.
 
-**Sunk cost effect:** Continuing to invest in a losing course because of what has already been spent, even though sunk costs should be irrelevant.
-- Arkes & Blumer (1985): 54% chose a more expensive but less enjoyable ski trip; 85% continued funding a near-complete project vs. 17% when no prior investment existed.
-- Develops with age and socialization (the "don't waste" heuristic) (Arkes & Ayton, 1999).
+**Other nudge types** (Thaler & Sunstein, 2008; Sunstein, 2014):
+- **Increasing ease and visibility** of the desired choice (e.g., placing healthy food at eye level in cafeterias).
+- **Social pressure:** Making behavior visible or communicating social norms (e.g., "most of your neighbors have already paid their taxes").
+- **Educational nudges:** Providing vivid information to shift preferences (e.g., graphic health warnings on tobacco packaging; meta-analyses suggest they increase willingness to quit, though effectiveness can wear off over time) (Pang et al., 2021).
 
-**Time vs. money:** Time-based sunk costs do *not* produce the same sunk cost effect. Soman (2001): 95% chose the more enjoyable event when tickets were earned through time, but only 38% when money was at stake.
+**Framing spending categories — mental accounting as a tool:** People do not treat all money as equivalent. They mentally categorize resources into separate accounts — salary, bonuses, savings, windfalls — and spend from each category differently, violating the **principle of fungibility** (Thaler, 1999). A bonus feels like "free money" and gets spent more freely than the same amount received as salary. Choice architects can exploit this:
+- **Earmarked subsidies and vouchers** are spent on their intended purpose precisely because people respect the category label.
+- **Commitment devices** steer future behavior by moving resources into harder-to-access accounts (e.g., automatic pension deductions), exploiting the reluctance to spend savings (Shefrin & Thaler, 1988).
 
-**Price primacy vs. product primacy:** Seeing the product first activates reward areas (nucleus accumbens); seeing the price first may trigger analytical evaluation (Knutson et al., 2007; Karmarkar et al., 2015).
+**Mandates, bans, and economic incentives:** At the other end of the spectrum, interventions can remove options entirely (bans) or attach monetary consequences to choices (taxes, subsidies). These are effective but sacrifice the "libertarian" part of libertarian paternalism — they constrain rather than steer.
 
-**🎯 Bayesian lens:** Mental accounting violates Bayesian principles because evidence (money) is not treated as fungible — the same dollar is weighted differently depending on its "account." The sunk cost fallacy means that past evidence (already spent resources) inappropriately biases the posterior about whether to continue, when only future costs and benefits should matter. A Bayesian agent would update beliefs about a project's value based on current evidence, not past investments.
+**🎯 Bayesian lens:** Choice architecture manipulates the prior. Defaults set a strong prior that most people never override — equivalent to starting with a heavily weighted anchor. The status quo bias reflects an asymmetry in updating: maintaining the current state requires no evidence, while switching requires overcoming an evidentiary threshold. Nudges work precisely because people are not fully Bayesian — a rational agent would choose identically regardless of default framing. Mental accounting violates Bayesian rationality because the *label* on a resource should carry no informational value, yet it shifts spending behavior as if it were new evidence.
 
-**Key references:** Thaler (1980, 1999); Shefrin & Thaler (1988); Arkes & Blumer (1985); Soman (2001)
-
-MERGE FROM OTHER CHAPTER:
-
-**Intertemporal choice and temporal discounting:** Choosing between immediate and future outcomes. People place less value on future gains the farther away they are. Temporal discounting decreases with age and can be reduced by feeling connected to one's future self — Hershfield et al. (2011): Viewing digitally aged avatars increased retirement savings allocation.
+**Key references:** Thaler & Sunstein (2008); Sunstein (2014); Johnson & Goldstein (2004); Thaler (1999); Shefrin & Thaler (1988); Pang et al. (2021)
 
 ---
 
-### 23. Choice Architecture: Nudges, Defaults, and Libertarian Paternalism
-
-**Mandates and bans:** The most restrictive interventions — removing options entirely. **Economic incentives/disincentives:** Linking monetary gains/losses to specific choices.
-
-**Nudges** (Thaler & Sunstein, 2008): Liberty-preserving interventions steering people toward particular choices while allowing opting out. Types include:
-- **Default rules:** Pre-selecting the desired option, exploiting the **status quo bias** (preference for inaction). Johnson & Goldstein (2004): Austria's opt-out organ donation → ~100% consent vs. Germany's opt-in → 12%.
-- **Increasing ease/visibility** of desired choices.
-- **Social pressure:** Making behavior visible.
-- **Educational nudges** (e.g., graphic health warnings on tobacco; meta-analyses suggest they increase willingness to quit, but effectiveness wears off) (Pang et al., 2021).
-
-**Libertarian paternalism:** The philosophy that institutions can influence behavior for people's benefit while preserving liberty. Because no choice environment is truly neutral, nudges are unavoidable and should be designed for beneficial outcomes.
-
-**Choice overload effect:** More options can lead to worse outcomes — lower purchase likelihood, lower quality decisions.
-- Iyengar & Lepper (2000): 24 jam samples → 3% bought; 6 samples → 30% bought.
-
-**Maximization Scale** (Schwartz et al., 2002): Higher scores correlate with regret, depression, perfectionism; lower scores with happiness, satisfaction, optimism.
-
-**🎯 Bayesian lens:** Choice architecture manipulates the prior. Defaults set a strong prior that most people do not override — equivalent to starting with a highly weighted anchor. The status quo bias reflects an asymmetry in updating: maintaining the current state requires no evidence, while switching requires overcoming an evidentiary threshold. Nudges work precisely because people are not fully Bayesian — a rational agent would choose identically regardless of default framing.
-
-**Key references:** Thaler & Sunstein (2008); Sunstein (2014); Johnson & Goldstein (2004); Iyengar & Lepper (2000); Schwartz et al. (2002)
-
----
-
-### 24. Group Decision-Making
+### 24. Making decisions as a group
 
 **Core idea:** Many consequential decisions are made by groups (committees, juries, teams, boards). Group processes can improve or degrade decision quality compared to individuals.
 
-**Wisdom of crowds** (Galton, 1907; Surowiecki, 2004): Aggregating many independent judgments often produces remarkably accurate estimates — sometimes outperforming individual experts. Conditions for success: diversity of opinion, independence (not influenced by others), decentralization, and a mechanism for aggregation. Breaks down when judgments are not independent (e.g., social influence, shared information).
+**Wisdom of crowds** (Galton, 1907; Surowiecki, 2004): Aggregating many independent judgments often produces remarkably accurate estimates — sometimes outperforming individual experts. The mechanism is essentially the law of large numbers: each individual judgment can be thought of as a true value plus measurement noise; when many such judgments are averaged, the noise cancels out and the aggregate converges on the true value. Students familiar with statistics will recognize this: individual judgments are like individual observations in a sample, and the group average is like the sample mean. Key conditions for this to work: diversity of opinion, independence (judgments not influenced by each other), and a mechanism for aggregation. The wisdom of crowds breaks down when independence is violated — just as in statistics, correlated observations do not reduce noise. Social influence, shared information sources, or groupthink can all destroy independence.
 
-**Group polarization** (Moscovici & Zavalloni, 1969): Group discussion tends to shift members toward a more extreme version of their initial inclinations. Risky individuals become riskier; cautious individuals become more cautious. Mechanisms: persuasive arguments (exposure to novel arguments supporting the dominant view) and social comparison (competing to be more extreme than the group norm).
+**Group polarization** (Moscovici & Zavalloni, 1969): After group discussion, individual members tend to hold more extreme positions than they held before the discussion — and they do so privately, not just publicly. This is not merely about the group reaching an extreme collective decision; each person individually shifts. If most members initially lean toward risk, each member becomes personally more risk-seeking after discussion; if most initially lean toward caution, each becomes more cautious. Two mechanisms drive this: persuasive arguments (during discussion, members encounter novel arguments supporting the dominant view, which genuinely change their minds) and social comparison (members compete to embody the group's valued position, pushing each other further).
 
-**Groupthink** (Janis, 1972): Highly cohesive groups with strong leaders may prioritize consensus over critical evaluation, leading to poor decisions. Symptoms: illusion of invulnerability, collective rationalization, stereotyping of outgroups, self-censorship, illusion of unanimity. Classic cases: Bay of Pigs, Challenger disaster. Preventive measures: assign a devil's advocate, encourage dissent, consult external experts.
+**Groupthink** (Janis, 1972): Highly cohesive groups with strong leaders may prioritize consensus over critical evaluation, leading to poor decisions. Where group polarization changes members' minds through persuasion, groupthink silences dissent through conformity pressure. Members may privately have doubts, but suppress them to maintain harmony. Symptoms include: illusion of invulnerability, collective rationalization, stereotyping of outgroups, self-censorship, and illusion of unanimity. Classic cases: Bay of Pigs, Challenger disaster. The relationship between polarization and groupthink is important: both can produce a uniform, extreme group position, but through different mechanisms — polarization *convinces* you, groupthink *silences* you. In practice, they often co-occur: polarization pushes the group in one direction, and groupthink prevents anyone from pushing back. Preventive measures: assign a devil's advocate, encourage dissent, consult external experts.
 
-**Shared information bias** (Stasser & Titus, 1985): Groups spend disproportionate time discussing information already known to all members and neglect unique information held by individual members — even when the unique information would change the decision. Structured information-sharing protocols can mitigate this.
+**Shared information bias** (Stasser & Titus, 1985): Groups spend disproportionate time discussing information already known to all members and neglect unique information held by individual members — even when the unique information would change the decision. This is a failure of information pooling: the group functions as if it has one shared mind rather than multiple independent perspectives. Structured information-sharing protocols can mitigate this.
 
-**🎯 Bayesian lens:** The wisdom of crowds works because aggregation approximates Bayesian integration — each person's independent estimate is a noisy signal, and averaging reduces noise, converging on the true posterior. Groupthink and group polarization represent failures of independent evidence sampling: when group members share the same prior and the same biased evidence, the group's "posterior" becomes more extreme without more evidence — a form of collective overconfidence. Shared information bias means the group updates from redundant evidence (shared information) while ignoring unique diagnostic evidence.
+**🎯 Bayesian lens:** The wisdom of crowds works because aggregation approximates Bayesian integration — each person's independent estimate is a noisy signal, and averaging reduces noise, converging on the true posterior. Groupthink and group polarization represent failures of independent evidence sampling: when group members share the same prior and the same biased evidence, the group's "posterior" becomes more extreme without genuinely new evidence — a form of collective overconfidence. Shared information bias means the group updates from redundant evidence (shared information) while ignoring unique diagnostic evidence — like a Bayesian agent who counts the same datum multiple times.
 
 **Key references:** Galton (1907); Surowiecki (2004); Janis (1972); Moscovici & Zavalloni (1969); Stasser & Titus (1985)
 
@@ -624,70 +572,57 @@ MERGE FROM OTHER CHAPTER:
 
 ### 25. Confirmation Bias
 
-**Definition:** A pervasive tendency to seek, interpret, and favor information that confirms existing beliefs or hypotheses, manifesting in both selective search and reinterpretation of evidence. Proposed as the single cognitive bias most relevant to ideological extremism.
+**Definition:** A pervasive tendency to seek, interpret, and favor information that confirms existing beliefs or hypotheses. Proposed as the single cognitive bias most relevant to ideological extremism.
 
-**Logical foundation — confirmatory vs. disconfirmatory evidence:**
-- *Confirmatory evidence:* Consistent with a hypothesis but cannot definitively prove it.
-- *Disconfirmatory evidence:* Refutes a hypothesis. Uniquely powerful — a single piece can topple a hypothesis.
-- **Falsifiability** (Popper, 1959/1968): Science should center on attempting to disconfirm hypotheses. In practice, people treat abundant confirmatory evidence as proof.
+**Confirmatory evidence and the positive test strategy:** Confirmatory evidence is consistent with a hypothesis but cannot definitively prove it. Yet people naturally gravitate toward it — the *positive test strategy* involves examining instances where the hypothesized property is expected to occur. This is confirmation bias at work: we default to looking for evidence that fits. *Example:* A manager believes that older employees resist new technology. She notices every time a senior colleague struggles with a software update — each case *confirms* her hypothesis. But she never checks whether younger employees struggle just as often (which would be disconfirmatory). The confirmatory evidence accumulates, and the hypothesis feels increasingly certain — even though it was never properly tested.
 
-**Positive test strategy:** Examining instances where the hypothesized property is expected to occur. Not always ineffective — when the hypothesis is more *general* than the true rule, positive testing can elicit useful disconfirmatory feedback.
+**Disconfirmatory evidence and the negative test strategy:** Disconfirmatory evidence refutes a hypothesis. A single piece can topple a hypothesis — making it uniquely powerful. The *negative test strategy* involves deliberately seeking cases that *disconfirm* the hypothesis. This goes against our natural confirmation tendency and requires effortful, System 2 thinking. It connects to **falsifiability** (Popper, 1959/1968): science should center on attempting to disconfirm hypotheses. In practice, people rarely do this spontaneously. *Example:* The manager above could actively look for older employees who *do* adopt new technology easily, or younger employees who *don't*. Finding even a few such cases would seriously weaken her hypothesis — far more informative than adding another confirmatory case to the pile.
 
-**Negative test strategy:** Trying to find cases that *disconfirm* the hypothesis. Most valuable when the hypothesis is more *specific* than the true rule.
+**2-4-6 task** (Wason, 1960): Demonstrates both strategies. Participants are told that the sequence 2-4-6 fits a rule, and must discover the rule by proposing new sequences. The actual rule is simply *any three ascending numbers* — but most participants hypothesize a more specific rule, such as "even numbers ascending by 2." They then test confirming sequences (e.g., 8-10-12, 20-22-24) — all of which fit the true rule, reinforcing the wrong hypothesis. Only 21% found the actual rule. Those who succeeded employed the negative test strategy: testing sequences that *violated* their hypothesis, such as 1-3-5 (odd numbers — still ascending, so "yes") or 1-2-3 (ascending by 1 — still "yes") or 6-4-2 (descending — finally "no"). By discovering what *doesn't* work, they narrowed down the real rule.
 
-**2-4-6 task** (Wason, 1960): Only 21% found the rule — most used positive test strategies, testing only confirming sequences.
+**Consistency fallacy** (Mole & Klein, 2010): Confirmation bias is not only about favoring beliefs we are personally invested in — it reflects a more general cognitive pull toward confirmatory patterns. Data that merely *confirm* a hypothesis are misinterpreted as proving it, even for neutral hypotheses. A striking example: people are more convinced by psychological explanations accompanied by neuroscience descriptions, even irrelevant ones (Weisberg et al., 2008). The colorful fMRI brain scan *looks* like confirmatory evidence, making the explanation feel more scientific — even though it adds no actual support.
 
-**Consistency fallacy** (Mole & Klein, 2010): Data that merely *confirm* a hypothesis are misinterpreted as proving it. People are more convinced by psychological explanations accompanied by neuroscience descriptions, even irrelevant ones (Weisberg et al., 2008).
+**🎯 Bayesian lens:** A Bayesian agent should weight evidence symmetrically — updating equally from confirming and disconfirming evidence (proportional to their diagnosticity). Confirmation bias produces *asymmetric updating*: confirming evidence strengthens beliefs while disconfirming evidence is discounted or ignored. This creates a self-reinforcing cycle where the posterior drifts ever further from what balanced evidence would warrant. A single disconfirming observation can be enormously informative (high likelihood ratio), yet people treat it as if it has low diagnosticity.
 
-**Forensic confirmation bias:** Prior expectations influence evidence collection and interpretation in criminal cases.
-- *Madrid bombings fingerprint* (OIG, 2006): Three FBI experts matched a print to an innocent man; they began "finding" additional features suggested by the suspect's prints.
-- Dror & Charlton (2006): Practicing fingerprint experts' identifications were influenced by background case information.
-- Advocated solution: **linear processing** — analyze each piece of evidence fully before comparing to suspect information.
-
-**Confirmation bias in medical diagnosis:** Mendel et al. (2011): Both psychiatrists (13%) and students (25%) using confirmatory strategies were much more likely to make wrong diagnoses. However, a confirmatory strategy is efficient when the initial hypothesis is correct.
-
-**Bias blind spot** (Pronin et al., 2002): People believe *others* are more prone to biases than they themselves are. Persists across diverse populations. Makes debiasing especially challenging.
-
-**Debiasing:** Most promising approaches shift people from Type 1 to Type 2 thinking: generating alternative viewpoints, delaying decisions. Challenges: bias blind spot, deeply entrenched beliefs.
-
-**🎯 Bayesian lens:** Confirmation bias is a fundamental violation of Bayesian updating. A Bayesian agent should weight evidence symmetrically — updating equally from confirming and disconfirming evidence (proportional to their diagnosticity). Confirmation bias produces *asymmetric updating*: confirming evidence strengthens beliefs while disconfirming evidence is discounted or ignored. This creates a self-reinforcing cycle where the posterior drifts ever further from what balanced evidence would warrant. In Bayesian terms, people treat the likelihood ratio as if disconfirming evidence has low diagnosticity, when in fact a single disconfirming observation can be enormously informative.
-
-**Key references:** Klayman & Ha (1987); Nickerson (1998); Wason (1960); Kassin, Dror, & Kukucka (2013); Pronin et al. (2002)
+**Key references:** Klayman & Ha (1987); Nickerson (1998); Wason (1960); Mole & Klein (2010); Weisberg et al. (2008)
 
 ---
 
 ### 26. Belief Formation, Perseverance, and Irrational Beliefs
 
+**How beliefs form and persist** All points in this section flow from the foundational insight of automatic acceptance.
+
 **Spinozan belief (automatic acceptance)** (Gilbert, 1991): Following Spinoza, people automatically accept information in the process of understanding it. Rejecting false information requires a subsequent deliberate evaluation. When this process is disrupted (interruption, time pressure, cognitive load), people fail to reject falsehoods.
 - Gilbert et al. (1990): Interruption during true/false identification had no effect on recognizing true statements, but severely impaired identifying false statements — strong tendency to say "true."
 
-**Executive control and belief:** Higher CRT scores predict less acceptance of paranormal and irrational beliefs. Consistent with the Spinozan hypothesis: people are natural believers who can become skeptics with effort.
+**Executive control as override:** Higher CRT scores predict less acceptance of paranormal and irrational beliefs. Consistent with the Spinozan hypothesis: people are natural believers who can become skeptics with effort. Paranormal beliefs (astrology, telekinesis, superstitions) are incredibly common among ordinary adults — a testament to how rarely System 2 overrides the default acceptance.
 
-**Belief perseverance:** Once accepted, beliefs are incredibly resistant to contradictory evidence. People who show belief perseverance also tend to presume intentionality and prefer simple causal explanations.
+**Belief perseverance:** Once automatically accepted, beliefs are incredibly resistant to contradictory evidence — the belief is *explicitly maintained* in the face of counterevidence. People who show belief perseverance also tend to presume intentionality and prefer simple causal explanations.
 
-**Continued influence effect:** Erroneous ideas continue to influence judgments even after retraction and even when the correction is understood and accepted. Retraction never fully erases misinformation influence.
+**Continued influence effect:** Distinct from perseverance: the erroneous belief is *explicitly abandoned* and the correction is understood and accepted — yet the original misinformation still exerts influence on subsequent judgments. Retraction never fully erases misinformation influence.
 - *Warehouse fire studies:* Even with retraction, judgments continued to reflect misinformation. Adding "clarifying" negated statements can produce a **rebound effect**, making misinformation *more* influential.
 
-**Myth-versus-fact backfire:** Repeated exposure to a statement (even retracted) increases familiarity.
+**Myth-versus-fact effect:** A specific case of continued influence driven by familiarity. Repeated exposure to a statement — even in a context that labels it false — increases its perceived truth.
 - Schwarz et al. (2007): 30 minutes after reading a myth-vs-fact handout, people were *more likely* to misidentify myths as facts and *less likely* to intend vaccination.
 
-**Reactance** (Brehm & Brehm, 1981): Strong physiological response when freedom to think/act is threatened, intensifying intent to do the opposite. When judges ask jurors to disregard evidence, jurors cling more strongly to it.
+**When beliefs are challenged** the following phenomena come into play:
 
-**Backfire effect:** Instructions to disregard information cause people to rely on it *more heavily*. Cox & Tanford (1989): Jurors told to disregard damaging evidence recommended *harsher* punishments.
+**Reactance** (Brehm & Brehm, 1981): A strong physiological response when freedom to think or act is threatened, intensifying the intent to do the opposite of what is asked. This is a gut-feeling response — not a deliberate choice to resist.
+- When judges instruct jurors to disregard evidence, jurors cling more strongly to it. Cox & Tanford (1989): Jurors told to disregard damaging evidence recommended *harsher* punishments.
 
-**Cognitive dissonance:** Mental discomfort from internal conflict (e.g., beliefs vs. new evidence). To reduce it, people either update beliefs or reject/question the evidence.
+**Cognitive dissonance:** Distinct from reactance. Mental discomfort from internal conflict (e.g., existing beliefs vs. new evidence). To reduce the discomfort, people either update their beliefs or reject/question the threatening evidence. The latter path leads to belief perseverance; the former is genuine learning.
+
+**Mechanisms that protect beliefs** are the following:
 
 **Biases and heuristics that protect beliefs (System 1 mechanisms):** Mere exposure (familiar = true), availability heuristic (easy-to-recall = true), confirmation bias (seek confirming information), source amnesia (forget where we learned something). Together, these make it hard to be aware of something without believing it.
 
-**Paranormal beliefs and superstitions:** Scientifically unaccepted beliefs (astrology, telekinesis, magical contamination). Incredibly common among ordinary adults. Driven by illusory causality, hindsight bias, confirmation bias, and domain overextension.
-- **Law of contagion** (Rozin et al., 1989): An undesirable person contacting an object transmits undesirable properties that persist even after cleaning.
-- **Law of similarity** (Rozin et al., 1986): An object perceptually similar to a disgusting object is felt to acquire its undesirable properties.
-- **Core knowledge confusions** (Lindeman & Aarnio, 2007): Magical thinking emerges when domain-specific core knowledge is inappropriately overextended (e.g., biological contamination logic applied to social judgments). The confusions scale predicts paranormal beliefs and remains undiminished across undergraduate education.
-- **Evolutionary account** (Bering, 2006): Predisposition to believe in the supernatural may carry evolutionary advantage — refraining from dishonest behavior (fear of being observed by non-physical beings) increases survival.
+**Sunk cost as behavioral perseverance:** Continuing to invest in a losing course because of what has already been spent, even though sunk costs should be irrelevant. This is perseverance extended to behavior: the prior commitment, rather than a prior belief, resists updating.
+- Arkes & Blumer (1985): 54% chose a more expensive but less enjoyable ski trip; 85% continued funding a near-complete project vs. 17% when no prior investment existed.
+- Develops with age and socialization (the "don't waste" heuristic) (Arkes & Ayton, 1999).
 
-**🎯 Bayesian lens:** Belief perseverance represents a failure to update the prior from disconfirming evidence — the prior is treated as virtually certain (P ≈ 1), making any single piece of counter-evidence insufficient to shift the posterior. Spinozan acceptance means that all incoming information is initially treated as having a high prior (P(true) is the default), requiring effortful System 2 processing to revise downward. The continued influence effect shows that even after a "retraction update," the original information retains residual influence on the posterior — the update is incomplete. Irrational beliefs like superstitions reflect over-application of priors from one domain (biological contamination) to another where they do not apply.
+**🎯 Bayesian lens:** Spinozan acceptance means all incoming information is initially assigned a high prior (P(true) is the default), requiring effortful System 2 processing to revise downward. Belief perseverance represents a failure to update — the prior is treated as virtually certain (P ≈ 1), making any single piece of counter-evidence insufficient to shift the posterior. The continued influence effect shows that even after a "retraction update," the original information retains residual influence on the posterior — the update is incomplete. Reactance and cognitive dissonance are emotional responses that block the update process altogether.
 
-**Key references:** Gilbert (1991); Lewandowsky et al. (2012); Schwarz et al. (2007); Brehm & Brehm (1981); Rozin et al. (1986, 1989); Lindeman & Aarnio (2007); Bering (2006)
+**Key references:** Gilbert (1991); Lewandowsky et al. (2012); Schwarz et al. (2007); Brehm & Brehm (1981); Arkes & Blumer (1985); Arkes & Ayton (1999)
 
 ---
 
@@ -695,18 +630,20 @@ MERGE FROM OTHER CHAPTER:
 
 **Conspiracy theories:** Explanations invoking secret plots by powerful people. Can be false, partially true, or completely true. A key characteristic: contradictory evidence is absorbed into the theory by claiming it is part of the cover-up. People may endorse mutually contradictory conspiracies simultaneously (Wood et al., 2012: believing both that Diana faked her death *and* was murdered).
 
-**Cognitive and personality factors** that positively correlate with conspiracy thinking: seeing patterns in randomness, paranormal beliefs, attributing agency where it doesn't exist, preferring simple explanations, narcissism, and being male. Negatively correlated with intelligence and analytical thinking.
+**Cognitive and personality factors** that positively correlate with conspiracy thinking: seeing patterns in randomness (apophenia), paranormal beliefs, attributing agency where it doesn't exist, preferring simple explanations, narcissism, and being male. Negatively correlated with intelligence and analytical thinking (Swami et al., 2014). Apophenia and agency detection suggest that conspiracy thinking is partly a byproduct of pattern-recognition systems that are tuned for sensitivity over accuracy — the same System 1 mechanisms that produce superstitious and paranormal beliefs (see §26). [ref needed for personality factors; Douglas et al. (2017) reviews many of these]
 
 **Existential factors:** Conspiracy theories may help deal with existential threats by regaining a sense of control through explaining the unexplainable.
 
 **Social factors:** Often have ingroup–outgroup structure ("we" the noble oppressed vs. "they" the conspiring elite). Related to populism. More common in disadvantaged groups.
+
+**Echo chambers and groupthink:** Conspiracy beliefs are rarely formed in isolation. They thrive in communities where group polarization (§24) pushes members toward increasingly extreme positions, groupthink (§24) suppresses dissent (questioning the conspiracy risks being labeled a shill or part of the cover-up), and shared information bias (§24) ensures only confirming evidence is discussed. Social media algorithms (§33) function as modern echo chambers, creating filter bubbles that accelerate this process. The self-sealing nature of conspiracy theories makes these groups particularly resistant to correction from outside.
 
 **Rejection of science:** A form of conspiracy thinking, built on beliefs that scientists have hidden agendas.
 - Lewandowsky et al. (2013): Free-market ideology strongly predicted rejecting climate science and the smoking–cancer link but not HIV–AIDS. Conspiracy thinking predicted rejection of all science findings.
 
 **🎯 Bayesian lens:** Conspiracy theories are self-sealing belief systems: the prior P(conspiracy) is set so high that *all evidence* — supporting or contradicting — is reinterpreted to increase the posterior. Disconfirming evidence is recoded as confirming ("that's exactly what they'd want you to think"). This makes the belief unfalsifiable and immune to Bayesian updating. Endorsing mutually contradictory conspiracies reveals that the updating is not about specific evidence at all, but about a meta-prior: "powerful people are conspiring." Rejection of science involves discounting the credibility of evidence sources, effectively setting the likelihood of scientific evidence to near zero.
 
-**Key references:** Douglas & Sutton (2008); Wood et al. (2012); Lewandowsky et al. (2013); Douglas et al. (2019)
+**Key references:** Douglas & Sutton (2008); Wood et al. (2012); Lewandowsky et al. (2013); Douglas et al. (2017); Douglas et al. (2019); Swami et al. (2014)
 
 ---
 
@@ -714,163 +651,163 @@ MERGE FROM OTHER CHAPTER:
 
 ---
 
-### 28. Models of Moral Judgment
+### 28. Moral Judgment and Emotion
 
-**Morality and personal identity:** People consider morality an essential component of identity — more so than memories, personality, mental abilities, or preferences. Strohminger & Nichols (2014): Brain transplant recipients who lost morality were rated as having retained identity *less* than those who lost all long-term memories.
+**Moral judgment as belief formation:** Moral judgments are beliefs about whether something is right or wrong. They follow many of the same principles as other beliefs — formed quickly, resistant to updating, shaped by System 1 and System 2 — but carry special weight: people consider morality an essential component of identity, more so than memories, personality, or mental abilities (Strohminger & Nichols, 2014). The central theoretical question is whether moral judgments arise primarily from rational deliberation (System 2) or gut feeling (System 1).
 
-**Emotion as self-perception** (William James, 1884): Emotion derives *first* from a bodily response (arousal), which is then shaped by cognitive appraisal. Bodily states (e.g., hunger) can affect emotional responses to neutral stimuli (MacCormack & Lindquist, 2018).
+**Rationalist models (System 2):** These models hold that people first consciously reason through a moral problem, then arrive at a judgment.
+- **Kohlberg's stages of moral development** (1971): Children develop moral reasoning over six stages in three levels: pre-conventional (seeking rewards, avoiding punishment), conventional (upholding social conventions and rules), post-conventional (universal moral principles; may protest unjust laws). Responses classified by *reasons given*, not the answer itself. Gilligan (1982) critiqued male-only samples; meta-analysis (Jaffee & Hyde, 2000) found weak gender effects.
+- **Social interactionist model** (Turiel, 2002): Classified as rationalist because it assumes children arrive at moral judgments through *deliberate reasoning* about consequences — evaluating whether an action causes harm, violates fairness, or merely breaks a social convention. Proposes three domains: personal, moral (inherently harmful), and social (violating local rules). Children as young as 5–6 distinguish social conventions from moral principles. Haidt et al. (1993): High-SES people classified offensive-but-harmless actions as social conventions; low-SES classified them as moral — suggesting the boundary between domains is culturally shaped.
 
-**Rationalist view:** People first consciously reason through a moral problem, then arrive at a judgment.
-
-**Kohlberg's stages of moral development** (1971): Children develop moral reasoning over six stages in three levels:
-- *Pre-conventional (Stages 1–2):* Seeking rewards, avoiding punishment.
-- *Conventional (Stages 3–4):* Upholding social conventions. Stage 3: interpersonal concerns (caring). Stage 4: following rules and laws.
-- *Post-conventional (Stages 5–6):* Universal moral principles. May protest unjust laws.
-- Responses classified by *reasons given*, not the answer itself. Gilligan (1982) critiqued male-only samples; meta-analysis (Jaffee & Hyde, 2000) found weak gender effects.
-
-**Social interactionist model** (Turiel, 2002): Rationalist model proposing three domains — personal, moral (inherently harmful), social (violating local rules). Children as young as 5–6 distinguish social conventions from moral principles. Haidt et al. (1993): High-SES people classified offensive-but-harmless actions as social conventions; low-SES classified them as moral.
-
-**Social intuitionist model** (Haidt, 2001, 2012): Moral judgments are primarily driven by intuitive gut feelings (System 1). Reasoning comes *after* as post-hoc justification.
-- *Moral dumbfounding:* People have definite moral opinions but cannot produce clear reasons.
+**Intuitionist models (System 1):** These models hold that moral judgments are primarily driven by gut feelings, with reasoning coming *after* as post-hoc justification.
+- **Social intuitionist model** (Haidt, 2001, 2012): Moral judgments arise from fast, automatic intuitions. Reasoning serves to justify rather than generate them.
+- *Moral dumbfounding:* People hold definite moral opinions but cannot produce clear reasons — suggesting the judgment came first, the reasoning second.
 - **Wag-the-dog illusion:** The mistaken belief that our moral judgment is driven by our reasoning.
 - **Wag-the-other-dog's-tail illusion:** The mistaken belief that rebutting someone's reasoning will change their moral position. Instead, change their emotional response.
+- **Moral Foundations Theory** (Graham, Haidt, & Nosek, 2009): Describes the *content* of moral intuitions across five dimensions: Harm, Fairness, Ingroup, Authority, Purity. US liberals emphasize harm and fairness; US conservatives place relatively more weight on ingroup, authority, and purity.
 
-**Moral Foundations Theory** (Graham, Haidt, & Nosek, 2009): Five dimensions of moral intuition: Harm, Fairness, Ingroup, Authority, Purity. US liberals emphasize harm and fairness; US conservatives place relatively more weight on ingroup, authority, and purity.
+**Emotion as self-perception and evolutionary roots:** If moral judgments are driven by bodily gut feelings, where do those feelings come from? William James (1884) proposed that emotion derives *first* from a bodily response, which is then shaped by cognitive appraisal. Bodily states such as hunger can intensify emotional responses to neutral stimuli (MacCormack & Lindquist, 2018). From an evolutionary perspective, these bodily moral responses are adaptive: Darwin argued that any sufficiently social and intelligent animal would develop a moral sense. Many species show empathy, retribution, and fairness — capuchin monkeys become visibly upset when a partner receives a better reward for the same task (De Waal, 2003). Morality, understood as cooperation, exists at all levels of biological organization.
 
-**Evolutionary roots of morality:** Darwin argued any sufficiently social and intelligent animal would develop a moral sense. Many species show empathy, retribution, and fairness. Capuchin monkeys visibly upset when a partner receives a better reward for the same task (De Waal, 2003). Morality can be understood as cooperation, existing at all levels of biological organization.
+**Affect as information and somatic markers:** These two frameworks describe the same core insight — that feelings serve as informational input to judgment — but from different perspectives.
+- **Affect-as-information heuristic** (Schwarz & Clore, 1983): The psychological principle. People consult their current feeling state as a cue for judgment: "How do I feel about this?" If the feeling is positive, the judgment is favorable. This is a general heuristic that applies broadly (including moral judgments), and it explains why incidental mood (e.g., sunny weather) can influence unrelated evaluations.
+- **Somatic marker hypothesis** (Bechara, Damasio, & Damasio, 2000): The neurobiological implementation. The affective signals used as information are specifically *bodily* states — gut feelings, skin conductance, heart rate changes — that mark options as good or bad. Without these somatic markers (due to ventromedial prefrontal cortex damage), people cannot learn from emotional feedback: on the Iowa Gambling Task, they continue choosing from disadvantageous decks despite repeated losses, even while their reasoning remains intact. This demonstrates that rational analysis alone is insufficient — the emotional body plays a necessary role.
+- **Trolley vs. footbridge — somatic markers in action:** The trolley dilemma (flip a switch to divert a trolley from five people to one) and the footbridge dilemma (push a stranger off a bridge to stop the trolley) have identical utilitarian structure but trigger very different judgments. Most people flip the switch but refuse to push. The difference is somatic: pushing someone activates a visceral bodily response that flipping a switch does not. Brain imaging confirms heightened emotional-area activation in personal dilemmas (Greene et al., 2001). Crucially, manipulating bodily states directly changes moral judgment — positive mood increases willingness to push (Valdesolo & DeSteno, 2006), while induced disgust (fart spray: Schnall et al., 2008) and bitter tastes (Eskine et al., 2011) decrease moral leniency.
+- **Omission bias:** The tendency to judge harmful *actions* as worse than equally harmful *omissions*. Doing nothing *feels* less bad than actively causing harm — the somatic signal from acting is stronger, even when outcomes are identical or worse. Relevant to vaccination (perceived risk of acting > not acting) and end-of-life decisions (withdrawing treatment vs. not starting it). Connects to status quo bias (§23).
 
-**Somatic marker hypothesis** (Bechara, Damasio, & Damasio, 2000): Emotional bodily experience strongly influences decisions. Without emotional gut feelings (due to brain damage), decision-making is severely impaired.
-- *Phineas Gage* (1848): Ventromedial prefrontal cortex damage → profound personality and decision-making changes, intact reasoning.
+**🎯 Bayesian lens:** Moral intuitions function as strong priors: formed early, felt with certainty, and resistant to updating. The social intuitionist model implies that moral reasoning is not Bayesian belief-updating from evidence but post-hoc rationalization of a pre-set prior. Changing moral positions requires changing the prior (emotional intuition), not presenting disconfirming evidence (rational argument). Moral Foundations Theory describes the *content* of these priors, which vary systematically across individuals and cultures. The somatic marker hypothesis suggests these priors are literally embodied — encoded in bodily sensations, not just cognitive representations. In trolley vs. footbridge, the emotional prior (do not harm directly) overwhelms utilitarian calculation in personal dilemmas but not impersonal ones. Omission bias reflects a prior that inaction is morally neutral — evidence about equivalent outcomes is insufficient to overcome it.
 
-**🎯 Bayesian lens:** Moral intuitions function as strong priors: they are formed early, feel certain, and resist updating from evidence or argument. The social intuitionist model implies that moral reasoning is not Bayesian belief-updating from evidence but rather post-hoc rationalization of a pre-set prior. Changing moral positions requires changing the prior (emotional intuition), not presenting disconfirming evidence to the posterior (rational argument). Moral Foundations Theory describes the *content* of moral priors, which vary systematically across individuals and cultures. The somatic marker hypothesis suggests that these priors are literally embodied — encoded in bodily sensations, not just cognitive representations.
+**Key references:** James (1884); Kohlberg (1971); Haidt (2001, 2012); Graham et al. (2009); Turiel (2002); Schwarz & Clore (1983); Bechara et al. (2000); Greene et al. (2001); Valdesolo & DeSteno (2006); Strohminger & Nichols (2014); De Waal (2003); MacCormack & Lindquist (2018)
+---
 
-**Key references:** Kohlberg (1971); Haidt (2001, 2012); Graham et al. (2009); Turiel (2002); Bechara et al. (2000); Strohminger & Nichols (2014); De Waal (2003)
+### 30. Cooperation
+
+Decisions to cooperate (or not) pit personal interest against the greater good. These decisions draw on moral judgments (§28), framing (§20), System 1 intuitions vs. System 2 calculation (§1), and social norms. Game theory provides the formal framework for studying how these factors interact.
+
+**The core tension:** In many social situations, individual rationality leads to collective irrationality. Each person maximizing their own payoff produces outcomes that are worse for everyone — a theme that unites all paradigms below.
+
+**Tragedy of the commons** (Hardin, 1968): Multiple individuals sharing a common resource each try to increase personal wealth, leading to destruction of the resource for everyone. Real-world examples: overfishing, climate change. The tragedy arises because the personal benefit of exploiting the resource is immediate and concrete (System 1), while the collective cost is distant and abstract (requires System 2 reasoning to appreciate).
+
+**Prisoner's dilemma** (Flood, 1958; Tucker, 1983): Two players choose to cooperate or defect. The **Nash equilibrium** predicts mutual defection (the rational choice for each individual), yet behavioral studies show substantial cooperation (~55% among German prisoners; Khadjavi & Lange, 2013). This gap between prediction and behavior suggests that moral intuitions — fairness, reciprocity — override pure self-interest.
+
+**Ultimatum game** (Güth et al., 1982): A proposer offers a split of money; the responder can accept or reject (both get nothing if rejected). Rational prediction: the proposer offers the minimum, the responder accepts anything > 0. Reality: offers below ~30% are typically rejected. Responders *pay* to punish unfairness — sacrificing personal gain to enforce a moral norm. This connects directly to somatic markers (§28): unfairness triggers a visceral "that's not right" response that overrides rational calculation.
+
+**Dictator game:** Like the ultimatum game, but the responder has no power to reject — the proposer simply decides. Even here, proposers typically give away ~20–30%. With no strategic incentive to be fair, this suggests genuine moral motivation (altruism or internalized norms), not just fear of punishment.
+
+**Trust game** (Berg et al., 1995): Player 1 sends money to Player 2 (the amount is tripled), and Player 2 decides how much to return. Tests trust (Player 1's willingness to be vulnerable) and reciprocity (Player 2's willingness to return fairly). Cooperation requires a leap of faith — a prior belief that others will reciprocate — which connects to Bayesian updating about others' intentions.
+
+**Public goods game:** Players contribute (or not) to a shared pool that is multiplied and redistributed. Classic rationality predicts free riding (benefiting without contributing), yet cooperation rates start around 40–60%. Key twist: **altruistic punishment** (Fehr & Gächter, 2002) — when players can pay to punish free riders, cooperation increases dramatically. People sacrifice personal resources to enforce norms, which is irrational from a self-interest perspective but essential for maintaining group cooperation. Like the ultimatum game, this suggests a moral enforcement mechanism rooted in affect.
+
+**Framing effects on cooperation** (Liberman et al., 2004): The same prisoner's dilemma game was presented as either the "Wall Street Game" or the "Community Game." Cooperation roughly doubled under the community frame. The strategic structure was identical — only the label changed. This demonstrates that cooperative decisions are shaped by the same framing effects that influence other judgments throughout this book (§20, §23), activating different moral identities and social norms.
+
+**Intuitive cooperation** (Rand et al., 2012): When forced to decide quickly (under time pressure), people cooperate *more*. When given time to deliberate, they cooperate *less*. This suggests that cooperation is a System 1 default — an automatic, intuitive response — while defection requires System 2 deliberation to override the cooperative impulse. This finding bridges game theory back to the dual-process framework (§1) and the intuitionist model of moral judgment (§28).
+
+**🎯 Bayesian lens:** Strategic interaction requires maintaining and updating beliefs about others' likely behavior. Each round provides evidence about the other's type (cooperative vs. selfish). The trust game makes this explicit: Player 1's decision to send money reflects their prior about reciprocity, which is updated based on experience. At the group level, the tragedy of the commons illustrates that locally rational Bayesian agents — each optimizing their own expected payoff — can collectively produce irrational outcomes.
+
+**Key references:** Hardin (1968); Nash (1950); Güth, Schmittberger, & Schwarze (1982); Berg, Dickhaut, & McCabe (1995); Fehr & Gächter (2002); Liberman, Samuels, & Ross (2004); Rand, Greene, & Nowak (2012); Parks, Joireman, & Van Lange (2013)
 
 ---
 
-### 29. Moral Dilemmas and Neuroscience
-
-**Trolley dilemma:** Flip a switch to divert a trolley from five people to one. Most choose the utilitarian option (save five). Brain areas associated with working memory more active during such impersonal dilemmas (Greene et al., 2001).
-
-**Footbridge dilemma:** Push a large stranger off a bridge to stop a trolley from killing five. Despite identical utilitarian structure, people generally refuse. Pushing is more personal → stronger affective response. Emotional brain areas showed heightened activity (Greene et al., 2001), supporting a dual-process account.
-- Valdesolo & DeSteno (2006): Positive mood significantly increased willingness to push.
-- Schnall et al. (2008): Induced disgust ("fart spray") made people less morally lenient.
-- Eskine et al. (2011): Bitter-tasting liquid reduced moral leniency, especially for political conservatives.
-
-**Omission bias:** The tendency to judge harmful *actions* as worse than equally harmful *omissions* (inaction). In trolley dilemmas, actively pushing someone feels worse than passively allowing deaths — even when the outcome is identical or worse. Connects to status quo bias (§23): doing nothing is the default. Relevant to vaccination (perceived risk of acting > perceived risk of not acting) and end-of-life decisions (withdrawing treatment vs. not starting it).
-
-**Transfer effects** (Wiegmann et al., 2012): Responses to one dilemma influence the next, but asymmetrically — footbridge before trolley reduces utilitarian responses in trolley, but not vice versa.
-
-**Causal model theory of transfer effects** (Wiegmann & Waldmann, 2014): Transfer is based on analogy to causal structure, not emotional carry-over. Intuitions about unambiguous scenarios transfer to ambiguous ones, not vice versa.
-
-**🎯 Bayesian lens:** Moral dilemmas pit two inference systems against each other: an emotional prior (do not harm directly) and a deliberative likelihood calculation (five lives > one life). In impersonal dilemmas, the emotional prior is weak, so deliberative updating drives the decision. In personal dilemmas, the emotional prior is so strong that utilitarian evidence barely shifts the posterior. Mood and disgust manipulations alter the strength of the emotional prior. Omission bias reflects a prior that inaction is morally neutral — updating from evidence about equivalent outcomes is insufficient to overcome it.
-
-**Key references:** Greene et al. (2001); Valdesolo & DeSteno (2006); Wiegmann & Waldmann (2014); Ritov & Baron (1990)
-
----
-
-### 30. Game Theory and Cooperation
-
-**Zero-sum game:** Gains and losses among players sum to zero.
-
-**Tragedy of the commons** (Hardin, 1968): Multiple individuals sharing a common resource each try to increase personal wealth, leading to destruction of the resource for everyone.
-
-**Game theory:** Studies how people's choices interact to affect outcomes. Key contribution: people must consider not only their own preferences but expectations about others' preferences.
-
-**Prisoner's dilemma** (Flood, 1958; Tucker, 1983): Two players choose to cooperate or defect. Despite the **Nash equilibrium** predicting mutual defection, behavioral studies show substantial cooperation (~55% among German prisoners; Khadjavi & Lange, 2013).
-
-**Tit for Tat** (Axelrod, 1984): Won two successive iterated prisoner's dilemma competitions. Always cooperates first, then copies opponent's previous move. Key properties: never defects first; retaliates immediately; forgives immediately.
-
-**Public goods:** Benefits available to everyone through collective contributions. Classic rationality predicts they should never exist (everyone would free ride), yet they emerge in virtually every society.
-- **Free riding:** Benefiting without contributing. Cooperation increases when: goals seem achievable, systems encourage cooperation and punish non-cooperation, and people identify with the group.
-
-**🎯 Bayesian lens:** Strategic decision-making requires maintaining and updating beliefs about others' likely behavior. Each round of interaction provides evidence that updates the prior about the opponent's type (cooperative vs. selfish). Tit for Tat is implicitly Bayesian: it starts with a cooperative prior and updates immediately from the opponent's last action. The tragedy of the commons represents a situation where individually rational Bayesian agents (each updating on their own payoffs) collectively produce an irrational outcome — illustrating that local Bayesian optimality does not guarantee global optimality.
-
-**Key references:** Hardin (1968); Nash (1950); Axelrod (1984); Parks, Joireman, & Van Lange (2013)
-
----
-
-## PART VIII: APPLIED CONTEXTS
+## PART VIII: DECISION-MAKING IN REAL LIFE
 
 ---
 
 ### 31. Medical and Clinical Decision-Making
 
-**Schemas in clinical judgment:** Clinicians hold causal models of mental disorders that function as schemas. They show significant agreement on causal structure, weight causally central symptoms more (even though DSM gives equal weight), and their treatment recommendations can be predicted from their causal models.
+**Doctors are human too:** All the heuristics, biases, and decision-making patterns covered throughout this book apply to medical professionals. Doctors deal with imperfect information under time pressure — conditions that favor System 1 reasoning and its associated biases (see §1). Understanding these biases is critical because medical decisions have life-or-death consequences.
+
+The following **Heuristics and biases** play a role in medical decision-making:
+- **Availability in diagnosis:** Recently seen cases influence diagnosis of new cases (see §8). A doctor who has just treated several patients with a rare disease is more likely to diagnose it in the next ambiguous case. Counterintuitively, this effect may *increase* with expertise, because experienced clinicians have richer memories to draw on.
+- **Anchoring in diagnosis:** Clinicians anchor on initial hypotheses and distort subsequent cues to fit (see §10). This is related to availability: the first hypothesis that comes to mind — often the most *available* one — becomes the anchor. Experience reduces but does not eliminate susceptibility.
+- **Confirmation bias in diagnosis:** Once an initial hypothesis is anchored, clinicians tend to seek confirmatory evidence (see §25). Mendel et al. (2011) found that both psychiatrists (13%) and students (25%) using confirmatory strategies were much more likely to make wrong diagnoses. However, a confirmatory strategy is efficient *when the initial hypothesis is correct* — the problem arises specifically when anchored on the wrong diagnosis.
+
+These biases can be reduced in two main ways:
+- **Decision support systems:** Structured tools can counteract heuristic-driven errors. They are most effective when computerized, built into clinical workflow, and providing both diagnoses and treatment recommendations — essentially replacing intuitive judgment with systematic evidence evaluation.
+- **Natural frequencies and Bayes' theorem:** Physicians reason far more accurately about diagnostic probabilities when given natural frequencies rather than conditional probabilities (see §2, §19). For example, understanding that "10 out of 1,000 patients have this disease, and 8 of those 10 will test positive" is far easier than processing sensitivity and specificity as percentages. Training clinicians to think in natural frequencies is a simple but powerful debiasing intervention.
+
+**Causal reasoning** is also important in clinical judgment: Clinicians hold causal models of mental disorders that function as schemas (see §7, §13–15). They show significant agreement on causal structure, weight causally central symptoms more heavily — even though the DSM gives equal weight to all symptoms — and their treatment recommendations can be predicted from their causal models.
 - Kim & Ahn (2002a, 2002b): Clinicians agreed on causal models and diagnosed based on causal centrality.
 - Flores et al. (2014): Causally inconsistent temporal order of symptoms slowed reading and reduced diagnostic agreement.
 - De Los Reyes & Marsh (2011): Non-symptom contextual information strongly influenced conduct disorder judgments.
 
-**Anchoring in diagnosis:** Clinicians may anchor on initial hypotheses and distort cues to fit (see §10). Experience reduces but does not eliminate susceptibility.
-
-**Availability in diagnosis:** Recently seen cases influence diagnosis of new cases (see §8). Effect may increase with expertise.
-
-**Confirmation bias in diagnosis:** Confirmatory search is harmful when paired with anchoring; efficient when the initial hypothesis is correct (see §25).
-
-**Decision support systems:** Most effective when computerized, built into workflow, and providing diagnoses plus recommendations.
-
-**Natural frequencies and Bayes' Theorem:** Physicians reason far more accurately when given natural frequencies rather than conditional probabilities (see §2, §19).
-
-**🎯 Bayesian lens:** Medical diagnosis is Bayesian updating in action: the physician starts with a prior (base rate of the disease, patient demographics), gathers evidence (symptoms, tests), and arrives at a posterior (diagnostic probability). Every bias in clinical reasoning maps onto a specific Bayesian failure: anchoring = sticky prior, availability = biased evidence sampling, confirmation bias = asymmetric updating. Decision support systems improve decisions precisely because they formalize the Bayesian computation that clinicians perform intuitively and imperfectly.
+**🎯 Bayesian lens:** Medical diagnosis is Bayesian updating in action: the physician starts with a prior (base rate of the disease, patient demographics), gathers evidence (symptoms, tests), and arrives at a posterior (diagnostic probability). Every bias in clinical reasoning maps onto a specific Bayesian failure: anchoring = sticky prior, availability = biased evidence sampling, confirmation bias = asymmetric updating. Decision support systems and natural-frequency training improve decisions precisely because they formalize the Bayesian computation that clinicians perform intuitively and imperfectly.
 
 **Key references:** Kim & Ahn (2002); Flores et al. (2014); Mendel et al. (2011); Eddy (1982); Hoffrage & Gigerenzer (1998)
 
 ---
 
-### 32. Legal Decision-Making
+### 32. Legal and Forensic Decision-Making
 
-**Information integration theory** (Kaplan & Kemmerick, 1974): Each piece of evidence has a guilt/innocence value, weighted by importance, and combined with the juror's prior.
+**Opening framing:** Police officers, forensic experts, and judges are human decision-makers subject to the same cognitive biases discussed throughout this book. Legal contexts are particularly high-stakes — errors can mean wrongful convictions or guilty parties going free.
 
-**Story model** (Pennington & Hastie, 1986, 1988, 1992): Jurors reason in three steps:
-1. Construct a coherent, temporally ordered story using an **episode schema**.
-2. Learn verdict categories and qualifications.
-3. Seek a match between story and verdicts.
-- ~45% of story elements are inferences about mental states/goals rather than direct testimony. Equal numbers of jurors watching the same trial chose different verdicts based on different stories.
+**Heuristics and biases in legal contexts:**
 
-**Forensic confirmation bias:** Prior expectations influence evidence collection and interpretation (see §25). Advocated solution: linear (non-circular) processing.
+- **Availability heuristic** (→ §8): Recent or vivid cases influence legal decision-making. A judge who has recently handled a violent crime may perceive subsequent defendants as more dangerous, shifting sentencing upward — not because the evidence warrants it, but because similar cases come to mind easily.
+- **Forensic confirmation bias** (→ §25): Prior expectations influence evidence collection and interpretation in criminal cases. Once an investigator or expert forms a hypothesis about a suspect, they tend to seek and interpret evidence in line with that hypothesis.
+  - *Madrid bombings fingerprint* (OIG, 2006): Three FBI experts matched a print to an innocent man; they began "finding" additional features suggested by the suspect's prints.
+  - Dror & Charlton (2006): Practicing fingerprint experts' identifications were influenced by background case information.
+- **Anchoring in sentencing** (→ §10): Sentencing decisions are influenced by the prosecution's demand, even when it is arbitrary. Englich & Mussweiler (2001) [ref to verify]: Even randomly generated numbers influenced sentencing recommendations by experienced judges.
+- **Representativeness and racial bias** (→ §9): Defendants who more closely match the stereotypical prototype of a "criminal" receive harsher sentences. Blair, Judd, & Chapleau (2004): More Afrocentric facial features predicted longer sentences, *even controlling for the defendant's race*. This is the representativeness heuristic applied to people — judgment driven by similarity to a category prototype rather than by case-specific evidence.
+- **Bodily states and sentencing** (→ §28 somatic markers / affect-as-information): Judges' bodily states influence their decisions. Danziger, Levav, & Avnaim-Pesso (2011): Israeli parole board judges were far more likely to grant parole right after food breaks, with approval rates dropping to nearly zero just before breaks — suggesting that hunger and fatigue shift decision-making toward harsher defaults. [Note: this finding has been contested due to possible scheduling confounds; present with caveat.]
 
-**Temporal order in trials:** Evidence presented in temporal order makes jurors more convinced (see §14). Pennington & Hastie (1988): Guilty verdicts most likely when prosecution's evidence was temporal and defense's was scrambled.
+**Counteracting biases — and how this can backfire:**
 
-**Reactance/backfire in jury instructions:** Instructions to disregard evidence can backfire (see §26).
+- **Linear processing** as a debiasing strategy: Analyze each piece of evidence fully before comparing to suspect information, preventing prior expectations from contaminating evidence evaluation (→ §3 debiasing).
+- **But instructions to disregard can backfire** (→ §26 reactance): Telling legal decision-makers to disregard inadmissible evidence can paradoxically increase its influence, because the instruction draws attention to the evidence and triggers reactance.
 
-**🎯 Bayesian lens:** The legal process is formally structured as sequential Bayesian updating: jurors start with a prior (presumption of innocence), receive evidence piece by piece, and arrive at a posterior (guilt beyond reasonable doubt). The story model shows that jurors do not update incrementally but construct holistic narratives — prior-driven interpretation of evidence rather than evidence-driven updating of the prior. Information integration theory is explicitly Bayesian in structure (weighted combination of prior and evidence). Forensic confirmation bias shows that practitioners' strong priors contaminate evidence evaluation.
+**Causal reasoning and narrative construction:**
 
-**Key references:** Pennington & Hastie (1986, 1988, 1992); Kassin et al. (2013); Dror (2009)
+- **Story model** (Pennington & Hastie, 1986, 1988, 1992): Legal decision-makers do not weigh evidence piece by piece. Instead, they construct a coherent, temporally ordered narrative using an **episode schema** (→ §7), then seek a match between their story and verdict categories. ~45% of story elements are inferences about mental states and goals rather than direct testimony. Decision-makers watching the same trial can reach opposite verdicts because they constructed different stories.
+- **Temporal order** (→ §14): Evidence presented in temporal (causal) order is more persuasive. Pennington & Hastie (1988): Guilty verdicts were most likely when the prosecution's evidence followed temporal order and the defense's was scrambled. This connects back to cues to causality — temporal order creates a sense of causal coherence that strengthens the narrative.
+- **Information integration theory** (Kaplan & Kemmerick, 1974): An alternative, more normative model. Each piece of evidence has a guilt/innocence value, weighted by importance, and combined with the decision-maker's prior — essentially a weighted averaging process. In practice, the story model better describes how people actually reason, while information integration theory describes how they *should*.
+
+**🎯 Bayesian lens:** The legal process is formally structured as sequential Bayesian updating: decision-makers start with a prior (presumption of innocence), receive evidence sequentially, and arrive at a posterior (guilt beyond reasonable doubt). Information integration theory captures this structure explicitly. But the story model reveals the descriptive reality: decision-makers construct holistic narratives rather than updating incrementally — their prior shapes how they *interpret* evidence, rather than evidence updating their prior. Forensic confirmation bias is this Bayesian failure in its most consequential form.
+
+**Key references:** Pennington & Hastie (1986, 1988, 1992); Kassin et al. (2013); Dror (2009); Dror & Charlton (2006); Englich & Mussweiler (2001) [ref to verify]; Blair, Judd, & Chapleau (2004); Danziger, Levav, & Avnaim-Pesso (2011) [contested]; Kaplan & Kemmerick (1974)
 
 ---
 
 ### 33. Social Media, Populism, and Misinformation
 
-**Populism:** A political approach appealing to "ordinary people" who don't consider themselves part of the ruling class. Features: mistrust of ruling class, nationalism, moral outrage, strong leader, promise of change, traditional values. Exists across the political spectrum. Existed long before social media.
+**A new and powerful force:** Social media is a relatively new phenomenon that has become immensely important in shaping society. Digital platforms for user-generated content now reach ~5 billion users worldwide (~2.5 hours/day). The effects of social media on individuals and societies are not fully understood yet. However, there is strong reason to believe that social media, populism, and misinformation form self-reinforcing loops: social media amplifies populist messages → populist leaders exploit social media → misinformation fuels both → algorithms accelerate everything. Understanding these loops draws on many concepts from throughout this book.
 
-**Social media:** Digital platforms for user-generated content (~5 billion users worldwide, ~2.5 hours/day). Believed to negatively affect mental health and societal functioning, though much remains unclear.
+**Populism:** A political approach appealing to "ordinary people" who don't consider themselves part of the ruling class. Features: mistrust of the ruling class, nationalism, moral outrage, strong leader, promise of change, traditional values. Exists across the political spectrum. Populism existed long before social media — but social media has given it a powerful new vehicle.
 
-**Social media as a catalyst for populism:** Not the root cause, but an amplifier. Guriev et al. (2020): 3G mobile internet rollout predicted decreased government approval and more populist votes worldwide. Lorenz-Spreen et al. (2023): Digital media increased political participation but also hate, polarization, and populism.
+**Loss framing and populist rhetoric:** Populist messages are often framed in terms of loss — "we're losing our country," "they're taking your jobs," "our traditions are disappearing." As prospect theory predicts (§21), loss framing triggers risk-seeking behavior: when people feel they are losing, they become receptive to extreme political options they would normally reject. This is a deviation from the usual tendency toward risk aversion, and populist leaders exploit it systematically.
 
-**Moral outrage on social media:** Strongly attracts attention (consistent with negativity bias). Very few create morally outraged content (associated with dark-triad traits), but it is widely shared.
-- Rathje et al. (2021): Out-group language substantially increased engagement.
-- Humprecht et al. (2024): Populist politicians' posts generated disproportionately more "angry" reactions.
+**Social media as a catalyst:** Social media is not the root cause of populism, but it amplifies populist messages disproportionately. Guriev et al. (2020): 3G mobile internet rollout predicted decreased government approval and more populist votes worldwide. Lorenz-Spreen et al. (2023): Digital media increased political participation but also hate, polarization, and populism.
 
-**Misinformation:** Lies and half-truths spread organically. Schaffner & Luks (2018): Highly educated Trump voters incorrectly chose Trump's inauguration photo as more attended — possibly as participatory propaganda rather than genuine belief.
+**Moral outrage as engagement fuel:** Morally outraged content strongly attracts attention — consistent with the negativity bias and the affect-as-information heuristic (§28): content that triggers strong bodily responses (anger, disgust) captures attention and feels important. Very few users create morally outraged content (associated with dark-triad personality traits), but it is widely shared. Rathje et al. (2021): Out-group language substantially increased engagement. Humprecht et al. (2024): Populist politicians' posts generated disproportionately more "angry" reactions.
 
-**Social media as a decoy:** Populist leaders may strategically tweet to divert attention from damaging coverage. Lewandowsky et al. (2020): Trump systematically tweeted about immigration/economy in response to damaging articles.
+**Algorithms and echo chambers:** Algorithms boost popular content, creating a semi-random winner-takes-all process. Typical winners: extreme views and moral outrage. This creates echo chambers at scale — connecting back to group polarization and groupthink (§24): within these algorithmically curated groups, members polarize toward more extreme views while dissent is suppressed. Larooij & Törnberg (2025): Six algorithmic changes produced only modest effects — attention inequality and polarization appear partly inherent to user-generated content platforms. See also §27 (conspiracy theories thrive in these same echo chambers).
 
-**Social-media dynamics and algorithms:** Algorithms boost popular content, creating a semi-random winner-takes-all process. Typical winners: extreme views and moral outrage. Larooij & Törnberg (2025): Six algorithmic changes produced modest effects — attention inequality and polarization appear inherent to user-generated content platforms.
+**Misinformation and Spinozan acceptance:** Lies and half-truths spread organically on social media. The sheer volume and speed of information overwhelms System 2's capacity to evaluate (§26): Spinozan acceptance means information is believed by default, and correction requires effortful processing that the endless scroll of social media actively undermines. Schaffner & Luks (2018): Highly educated Trump voters incorrectly chose Trump's inauguration photo as more attended — possibly participatory propaganda rather than genuine belief, suggesting the relationship between misinformation and belief is complex.
 
-**🎯 Bayesian lens:** Social media systematically distorts the evidence available for belief updating. Algorithms create biased evidence samples (echo chambers) — users receive a non-representative stream of information that confirms their existing priors. Negativity bias in engagement means negative and outrage-inducing content is overrepresented in the evidence stream, distorting posteriors about the state of the world. Misinformation exploits Spinozan acceptance (§26): information is believed by default, and the volume/speed of social media overwhelms the System 2 processing needed for correction. The result is polarization — two groups updating from entirely different evidence samples arrive at radically different posteriors about the same world.
+**Social media as a strategic tool:** Populist leaders may strategically use social media to divert attention from damaging coverage — exploiting the availability heuristic (§8) by flooding the information environment with alternative narratives. Lewandowsky et al. (2020): Trump systematically tweeted about immigration/economy in response to damaging articles.
 
-**Key references:** Guriev et al. (2020); Lorenz-Spreen et al. (2023); Rathje et al. (2021); Lewandowsky et al. (2020); Larooij & Törnberg (2025)
+**🎯 Bayesian lens:** Social media systematically distorts the evidence available for belief updating. Algorithms create biased evidence samples (echo chambers) — users receive a non-representative stream of information that confirms existing priors. Negativity bias in engagement means outrage-inducing content is overrepresented, distorting posteriors about the state of the world. Loss framing (§21) shifts risk preferences, making extreme options appear acceptable. Spinozan acceptance (§26) means the volume of misinformation overwhelms correction. The result is polarization — two groups updating from entirely different evidence samples arrive at radically different posteriors about the same world.
 
+**Key references:** Guriev et al. (2020); Lorenz-Spreen et al. (2023); Rathje et al. (2021); Humprecht et al. (2024); Lewandowsky et al. (2020); Larooij & Törnberg (2025); Schaffner & Luks (2018)
 ---
 
-### 34. AI and Decision-Making
+### 34. Artificial Intelligence
 
 **Core idea:** Artificial intelligence — particularly large language models (LLMs) — provides a revealing mirror for human judgment and decision-making. Many of the biases, heuristics, and dual-process phenomena studied in human cognition have direct parallels in AI systems, and understanding these parallels deepens insight into both.
 
+**The Turing test and shifting goalposts:**
+- Turing (1950) proposed the gold standard for machine intelligence: if an interrogator cannot distinguish a machine from a human in text-based conversation, the machine exhibits intelligent behavior. For decades, this was considered the definitive test.
+- Modern LLMs now pass the Turing test convincingly — yet many people remain unconvinced that this constitutes "real" intelligence. The goalposts keep shifting: first it was conversation, then reasoning, then understanding, then consciousness.
+- This reveals something about our intuitions about intelligence: we keep redefining it to exclude whatever machines can currently do. This connects to the bias blind spot (§3) — a reluctance to accept that our own cognition might not be as special as we believe.
+
 **System 1 / System 2 and LLMs:**
 - Standard LLM output resembles System 1: fast, pattern-based, associative, drawing on statistical regularities in training data. The model generates plausible-sounding responses without explicit step-by-step reasoning.
-- **Chain-of-thought (CoT) prompting** and **reasoning models** (e.g., OpenAI's o-series) resemble System 2: the model is prompted or trained to produce intermediate reasoning steps before arriving at an answer. This improves performance on logical, mathematical, and multi-step problems — paralleling how System 2 overrides System 1 errors in humans.
+- **Chain-of-thought (CoT) prompting** and **reasoning models** resemble System 2: the model is prompted or trained to produce intermediate reasoning steps before arriving at an answer. This improves performance on logical, mathematical, and multi-step problems — paralleling how System 2 overrides System 1 errors in humans.
 - The analogy is imperfect but pedagogically powerful: CoT reasoning, like human System 2, is slower and more resource-intensive, but reduces errors on problems that require deliberation.
+
+**Crystallized vs. fluid intelligence in LLMs:**
+- LLMs are essentially *massive crystallized intelligence* (§6): vast knowledge retrieval from training data — facts, definitions, procedures, cultural associations. This is what they excel at.
+- They struggle more with *fluid intelligence*: novel reasoning, abstract pattern detection in unfamiliar domains, problems that cannot be solved by retrieving or recombining prior knowledge.
+- Chain-of-thought and reasoning models can be understood as attempts to add fluid intelligence on top of a crystallized knowledge base — mirroring the human relationship where crystallized intelligence depends on fluid intelligence having operated first (§6).
+- Both humans and LLMs use both forms of intelligence, but the emphasis differs: humans lead with fluid intelligence and accumulate crystallized knowledge over time; LLMs begin with crystallized knowledge and are gradually acquiring fluid capabilities.
 
 **Where do AI biases come from?**
 - LLMs are trained on vast corpora of human-generated text that embed human biases — stereotypes, framing effects, cultural assumptions. AI biases are, to a significant degree, inherited human biases.
@@ -879,24 +816,13 @@ MERGE FROM OTHER CHAPTER:
 
 **AI hallucination and human confabulation:**
 - LLMs sometimes generate confident, plausible-sounding but factually incorrect outputs ("hallucinations"). This parallels human confabulation (§7): both involve pattern completion without verification — producing what *fits* the context rather than what is *true*.
-- In both cases, the system generates the most probable completion given the context (a kind of "maximum likelihood" response), without checking against ground truth. Humans confabulate when schemas dominate verification (System 1 without System 2 correction); LLMs hallucinate because they lack a ground-truth verification mechanism entirely.
+- In both cases, the system generates the most probable completion given the context, without checking against ground truth. Humans confabulate when schemas dominate verification (System 1 without System 2 correction); LLMs hallucinate because they lack a ground-truth verification mechanism entirely.
+- Crucially, both humans and LLMs are *more convincing when wrong*: confident, fluent, and detailed — because the same pattern-completion mechanism that produces good answers also produces compelling-sounding bad ones. There is no reliable internal "uncertainty signal" in either case.
 
 **Calibration in AI:**
 - LLMs are often poorly calibrated — expressing high confidence in incorrect answers, mirroring human overconfidence (§12). When asked to estimate their own certainty, models' stated confidence frequently does not match their actual accuracy.
 - Improving AI calibration is an active research area, just as improving human calibration is a goal of debiasing interventions.
 
-**AI as decision support:**
-- AI systems are increasingly used as clinical decision support (§31), legal risk assessment, and financial forecasting tools.
-- The evidence on human decision support systems (§17) applies: AI-assisted decisions are most effective when recommendations are specific, integrated into workflow, and when the human retains the ability to override.
-- Risk: automation bias — over-relying on AI recommendations, analogous to anchoring on an initial hypothesis. Users may accept AI suggestions uncritically, especially when the AI expresses high confidence.
-
-**Algorithmic bias in high-stakes contexts:**
-- AI systems used in criminal sentencing (e.g., COMPAS), hiring, and medical triage can encode and amplify societal biases present in training data.
-- This connects to the base-rate and representativeness problems (§9): if historical data reflects discriminatory patterns, a model trained on this data will reproduce those patterns as "base rates" — making biased predictions appear statistically justified.
-- Fairness in AI requires deliberate choices about which base rates to use and which to correct for — a prescriptive challenge (§4).
-
-**The Turing test revisited** (Turing, 1950): A machine exhibits human-like intelligence if an interrogator cannot distinguish it from a human in text-based conversation. Modern LLMs pass convincingly, but debate continues about whether this reflects genuine understanding or sophisticated pattern completion. The debate parallels the distinction between System 1 mimicry (producing human-like outputs) and System 2 reasoning (genuinely understanding the problem).
-
 **🎯 Bayesian lens:** LLMs can be understood as approximate Bayesian reasoners: training data constitutes the prior, the prompt is the evidence, and the output is the posterior (most likely completion given prior + evidence). Biases in LLMs arise from biased priors (training data), just as human biases arise from biased experiential priors. Chain-of-thought reasoning improves performance by making the evidence-integration process more explicit — analogous to how deliberate Bayesian computation outperforms intuitive shortcuts. AI hallucination occurs when the prior (training patterns) dominates over evidence (factual constraints) — the same mechanism behind human confirmation bias and belief perseverance. Calibration failures in AI mirror the human overconfidence that arises from insufficiently wide posterior distributions.
 
-**Key references:** Turing (1950); Wei et al. (2022); Bommasani et al. (2021); Weidinger et al. (2021); Angwin et al. (2016)
+**Key references:** Turing (1950); Wei et al. (2022); Bommasani et al. (2021); Weidinger et al. (2021)
