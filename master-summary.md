@@ -342,7 +342,7 @@ The key insight is that the type of thing we encounter triggers a default stance
 **Example — visual hindsight bias:** People who know what a degraded image depicts believe a naïve observer would recognize it at a much earlier (more degraded) stage — the "I saw it all along" effect [@bernstein_etal2004]. This illustrates how knowing the answer makes it feel obvious.
 
 **Paradigms:**
-- *Memory paradigm:* People make predictions, then recall them after learning the outcome. Recalled judgments shift toward the actual outcome [@fischhoff_beyth1975].
+- *Memory paradigm:* People make predictions, then recall them after learning the outcome. Recalled judgments shift toward the actual outcome.
 - *Hypothetical paradigm:* A foresight group (no outcome knowledge) is compared to a hindsight group (knows the outcome, but is asked to judge "as if" they don't). Hindsight judgments are closer to the actual outcome [@fischhoff1975].
 
 **Contributing factors:**
@@ -360,7 +360,7 @@ The key insight is that the type of thing we encounter triggers a default stance
 
 **🎯 Bayesian lens:** Hindsight bias is retroactive revision of the prior to match the posterior. After learning the outcome, the prior is "overwritten" — people can no longer access what they believed before the evidence arrived. A true Bayesian retains awareness of prior vs. posterior; the hindsight-biased thinker confuses them. The curse of knowledge is the core mechanism: legitimate Bayesian updating changes your beliefs, but you lose access to the pre-update state.
 
-**Key references:** @fischhoff1975; @fischhoff_beyth1975; @baron_hershey1988; @birch_bloom2007; @bernstein_etal2004; @yopchick_kim2012
+**Key references:** @fischhoff1975; @baron_hershey1988; @birch_bloom2007; @bernstein_etal2004; @yopchick_kim2012
 
 ---
 
@@ -375,7 +375,7 @@ The key insight is that the type of thing we encounter triggers a default stance
 - Especially problematic in areas with little concrete feedback (clinical psychology, law, university admissions).
 - Corrective feedback is critical for learning; weather forecasters exemplify accurate expert prediction because they receive frequent, consistent feedback.
 
-**Case study 1 — Selecting judges in the Netherlands [@dehoog2024]:**
+**Case study 1 — Selecting judges in the Netherlands [@dehoog2026a]:**
 Researchers evaluated the multi-round selection procedure for the Dutch judiciary training program [@neumann_etal2024]. Key findings:
 - The procedure was lengthy (five rounds) yet violated basic best practices at nearly every stage: unclear criteria, inconsistent questions across candidates, and no predefined decision rules for pass/fail.
 - Decisions were largely intuition-based — a scoring rubric existed but was rarely used; "fit" and "gut feeling" drove choices, especially in local interviews.
@@ -385,7 +385,7 @@ Researchers evaluated the multi-round selection procedure for the Dutch judiciar
 - Illustrates a core tension: professionals value intuition ("my gut should have a voice") and resist structured methods, even when evidence shows structure improves outcomes. One evaluator compared intuition to a physician's "gut instinct" — yet in medicine too, intuitive diagnosis rarely improves on structured checklists.
 - Broader lesson: *less information, applied consistently, beats more information applied intuitively.* The researchers' advice: "Do as little as necessary — and do it well."
 
-**Case study 2 — Data-driven football recruitment at Heart of Midlothian [@dehoog2025]:**
+**Case study 2 — Data-driven football recruitment at Heart of Midlothian [@dehoog2026b]:**
 Heart of Midlothian, a Scottish football club co-owned by entrepreneur and poker player Tony Bloom, illustrates what happens when statistical prediction *leads* rather than merely supports decisions.
 - Traditional football scouting is clinical intuition: scouts travel to matches, watch players, and form holistic impressions. Most clubs treat data as "supporting, never leading."
 - Bloom's approach inverts this. His fortune was built on a statistical insight, and he also applies this logic to player recruitment: a team's quality is better predicted by chances created than by goals scored — because creating chances reflects skill, while scoring reflects luck.
@@ -447,7 +447,7 @@ Heart of Midlothian, a Scottish football club co-owned by entrepreneur and poker
 - *Post-9/11 driving fatalities* [@gigerenzer2004]: A plane crash is objectively rare, but because it is a dread risk, the 9/11 attacks made flying feel impossibly dangerous. Americans avoided planes and drove instead → approximately 350 additional road deaths in the following months. Driving the same distance as the average U.S. flight is 65 times more dangerous, even including 9/11.
 - *Madrid train bombings* [@lopezrousseau2005]: After the 2004 attacks, Spaniards reduced train *and* car travel → fewer car fatalities. A cultural contrast with the American response: dread led to avoidance of all travel rather than substitution to a more dangerous mode.
 
-**Scope insensitivity** [@kahneman1986]: People's valuations are insensitive to the magnitude of a problem. Willingness to pay is nearly identical for saving 2,000 vs. 20,000 vs. 200,000 migratory birds. Driven by the affect heuristic — an emotional response is generated for the *category* (endangered birds) rather than scaled to the *quantity*. This has enormous implications for charitable giving and public policy: the difference between a small disaster and a massive one barely registers emotionally.
+**Scope insensitivity** [@hsee_rottenstreich2004]: People's valuations are insensitive to the magnitude of a problem. Willingness to pay is nearly identical for saving 2,000 vs. 20,000 vs. 200,000 migratory birds. Driven by the affect heuristic — an emotional response is generated for the *category* (endangered birds) rather than scaled to the *quantity*. This has enormous implications for charitable giving and public policy: the difference between a small disaster and a massive one barely registers emotionally.
 
 **Identifiable victim effect** [@small_loewenstein2003]: A single identified victim (with a name, face, story) generates more empathy and charitable giving than statistical information about thousands of victims. Combining statistical information with an identified victim can actually *reduce* giving — statistics trigger analytical thinking that dampens the emotional response [@small_etal2007]. This is scope insensitivity in action: one vivid case outweighs thousands of faceless cases.
 
@@ -461,7 +461,7 @@ Heart of Midlothian, a Scottish football club co-owned by entrepreneur and poker
 
 **🎯 Bayesian lens:** Risk perception errors involve distortions in either the prior (ignoring base rates of rare risks) or the evidence-weighting function (overweighting vivid/dread evidence, underweighting statistical evidence). Dread acts as an inflated likelihood ratio — a single catastrophic event updates the posterior far more than its base rate warrants. Scope insensitivity means the posterior does not scale with the magnitude of evidence. The identifiable victim effect shows that narrative evidence (a single case) updates beliefs more powerfully than statistical evidence (base rates) — the opposite of what Bayesian weighting would prescribe.
 
-**Key references:** @slovic1987; @gigerenzer2004; @lopezrousseau2005; @kahneman1986; @small_loewenstein2003; @small_etal2007; @weber2006; @akerlof_etal2013; @starr1969; @fischhoff_etal1978
+**Key references:** @slovic1987; @gigerenzer2004; @lopezrousseau2005; @hsee_rottenstreich2004; @small_loewenstein2003; @small_etal2007; @weber2006; @akerlof_etal2013; @starr1969; @fischhoff_etal1978
 
 ---
 
