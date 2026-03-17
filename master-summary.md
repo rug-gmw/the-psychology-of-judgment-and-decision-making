@@ -1,12 +1,8 @@
-# Master Summary: Human Judgment and Decision-Making
+# Foundations
 
 ---
 
-## PART I: FOUNDATIONS OF COGNITION AND DECISION-MAKING
-
----
-
-### 1. Dual-Process Models of Thinking
+## Reason and Intuition
 
 **Core idea:** Judgments and decisions are carried out via two distinct kinds of mental processing — arguably the most popular organizing framework for the field.
 
@@ -25,7 +21,7 @@
 
 ---
 
-### 2. Bayesian Updating: The Normative Ideal for Belief Revision
+## Bayesian Reasoning
 
 **Core idea:** Rational judgment and decision-making can be understood as combining prior beliefs with new evidence to arrive at updated beliefs (posteriors). Bayes' theorem provides the normative standard; the many biases covered in this course represent specific, identifiable departures from this ideal.
 
@@ -61,7 +57,7 @@
 
 ---
 
-### 3. Heuristics and Biases (General Definitions)
+## Heuristics and Biases
 
 - **Heuristic:** Answering a hard question by substituting an easier one (Kahneman & Frederick, 2002). Or: a quick-and-easy rule of thumb used under conditions of uncertainty. The term heuristic appears to have been popularized by George Pólya in his 1945 book "How to Solve It", although he used it mainly in the context of mathematical problem solving. Classified as Type 1 processing. The world is too complex for full rational analysis, so thinking is often heuristic-based (i.e. bounded rationality).
 - **Bias:** A systematic error in thinking in a specific direction, often resulting from reliance on heuristics. In daily life, "bias" is sometimes used to mean socially undesirable thinking (including stereotypes, such as that professors are male), but this conflates errors in thinking with social desirability.
@@ -76,12 +72,11 @@
 
 ---
 
-### 4. Models of Decision-Making
+## How It Is vs. How It Should Be
 
 - **Descriptive models** describe how people *actually* judge and decide, without evaluating quality. The vast majority of models in the field are descriptive (e.g., prospect theory describes how people weigh gains and losses; dual-process models describe the interplay of intuitive and deliberate thinking).
 - **Normative models** reflect *optimal* or ideal decision-making — logical, consistent, using all relevant data, getting the person closest to their goals over the long run (e.g., expected utility theory; Bayes' theorem for belief updating).
 - **Prescriptive models** recommend how people *ought* to judge and decide in practice; often a practical compromise between normative ideals and descriptive realities (e.g., installing hand sanitizer instead of requiring full handwashing; presenting medical statistics as natural frequencies to improve understanding).
-- **Risk vs. uncertainty:** Decision-making under *risk* means you have enough data to estimate probabilities (e.g., the chance of rolling a six). Decision-making under *uncertainty* means you lack the data to assign meaningful probabilities and are essentially guessing (e.g., whether a new technology will succeed). Most real-world decisions fall somewhere on this spectrum.
 
 **🎯 Bayesian lens:** Bayesian updating is the normative standard for how beliefs should change in light of evidence. Descriptive models document how people systematically deviate from this standard. Prescriptive models often aim to nudge people closer to Bayesian rationality (e.g., presenting information as natural frequencies).
 
@@ -89,7 +84,7 @@
 
 ---
 
-### 6. Intelligence and Individual Differences
+## Intelligence
 
 - **g-factor (General intelligence)** (Spearman): Imagine we organize a mega-Olympics where a hundred random people from the street compete in every event. We'd quickly notice that some people do well across the board — faster runners, better swimmers, higher jumpers — while others consistently struggle. There's a general underlying factor we might call *physical fitness* that largely determines performance across diverse athletic events. Spearman's insight was that intelligence works the same way. There is a general underlying factor — the **g-factor** (for *general intelligence*) — that partly determines how well people perform across all kinds of cognitive tasks. People with a high g-factor tend to have better spatial reasoning, larger vocabularies, higher working-memory capacity, and stronger problem-solving skills. This explains why the specific tasks in an IQ test matter less than you'd think: most cognitive tasks tap into the g-factor to some degree. In applied and organizational psychology, the g-factor is often referred to as **general mental ability (GMA)** — same construct, different label.
 - **s-factors (Specific abilities):** Just as a steady hand matters for archery but not for sprinting, some cognitive abilities are task-specific. Language skill matters for vocabulary tests but not for visual puzzles. Spearman called these **s-factors** (for *specific intelligence*). Some abilities are almost purely g-loaded — matrix puzzles are the best example, requiring working memory, flexible recombination of information, and active problem-solving. Others, like musicality, depend mostly on specific factors.
@@ -106,7 +101,7 @@
 
 ---
 
-### 7. Knowledge Structures: Schemas, Stances, and Framework Theories
+## Mental Models
 
 **Framework theories:** Distinct sets of commonsense background knowledge in biology, physics, and psychology that develop very early in life and organize understanding of new information. When knowledge from one domain is inappropriately applied to another, errors and superstitions may result.
 
@@ -135,11 +130,11 @@ The key insight is that the type of thing we encounter triggers a default stance
 
 ---
 
-## PART II: JUDGMENT UNDER UNCERTAINTY — CORE HEURISTICS
+# Uncertainty
 
 ---
 
-### 8. Availability Heuristic
+## Availability
 
 **Definition:** The tendency to estimate frequency or probability based on how easily instances or associations come to mind. The easier recall is, the more likely the event is judged to be. Classified as Type 1 reasoning.
 
@@ -161,7 +156,7 @@ The key insight is that the type of thing we encounter triggers a default stance
 
 ---
 
-### 9. Representativeness Heuristic
+## Representativeness
 
 **Definition:** The tendency to judge the probability of an event or category membership based on how similar it is to a prototype or stereotype, rather than on actual statistical information.
 
@@ -192,7 +187,7 @@ The key insight is that the type of thing we encounter triggers a default stance
 
 ---
 
-### 10. Anchoring, Adjustment, and Primacy Effects
+## Anchoring and Primacy
 
 **Definition:** The tendency to make judgments by starting from an initial value or first impression and adjusting insufficiently. The anchor is highly *available* (see §8), making anchor-consistent information more accessible in memory and biasing the estimate — even when the anchor is clearly irrelevant.
 
@@ -224,7 +219,7 @@ The key insight is that the type of thing we encounter triggers a default stance
 
 ---
 
-### 12. Overconfidence
+## Overconfidence
 
 **Definition:** Overconfidence manifests in two fundamentally different ways, corresponding to two different distortions of belief. Understanding these two dimensions clarifies an otherwise confusing family of biases.
 
@@ -256,11 +251,11 @@ The key insight is that the type of thing we encounter triggers a default stance
 
 ---
 
-## PART III: CAUSAL REASONING
+# Causality
 
 ---
 
-### 13. Cues to Causality
+## Cues to Causality
 
 **Cues-to-causality** (Einhorn & Hogarth, 1986): Situational features leading people to judge that a causal relationship is present. These are the basic toolkit people use to infer causation in everyday life.
 
@@ -282,27 +277,29 @@ The key insight is that the type of thing we encounter triggers a default stance
 
 ---
 
-### 14. Personal Causality
+## Blame, Praise, and Responsibility
 
-**From cues to people:** The cues to causality from §13 apply to all causal reasoning. But when the potential cause is a *person*, a special set of attributional processes kicks in. This connects directly to the distinction between stances (§7): when we reason about people, we adopt the **intentional stance** — attributing behavior to beliefs, desires, and goals. When we reason about impersonal causes, we use the **mechanical or design stance**.
+**From cues to people:** The cues to causality from §14 apply to all causal reasoning. But when the potential cause is a *person*, a special set of attributional processes kicks in. This connects directly to the distinction between stances (§7): when we reason about people, we adopt the **intentional stance** — attributing behavior to beliefs, desires, and goals. When we reason about impersonal causes, we use the **mechanical or design stance**. Attributing causality to people is closely tied to moral judgment (§28): deciding who caused an outcome is often the first step toward deciding who deserves blame or praise.
 
-**Personal vs. impersonal causality** (Heider, 1958/2015): Personal causality = a person's intention was the force behind an action. Impersonal causality = action occurred without intention. Personal causality is perceived as having strong, pinpointable causal force. This maps directly onto the intentional stance (personal) vs. the mechanical stance (impersonal) from §7.
+**Personal vs. impersonal causality** (Heider, 1958/2015):
+- Personal causality = a person's intention was the force behind an action. We assign **blame or praise** only when we perceive personal causality — someone *meant* to do it. A doctor who prescribes the wrong medication *on purpose* deserves blame; one who does so because of a confusing label does not — even though the outcome is identical.
+- Impersonal causality = the action occurred without intention. There is **no one to blame** — the outcome is attributed to circumstances, chance, or mechanical forces. This maps directly onto the intentional stance (personal) vs. the mechanical stance (impersonal) from §7.
 
-**Covariation principle** (Kelley, 1973): "An effect is attributed to the one of its possible causes with which, over time, it covaries." Applied to person perception, covariation (introduced in §13) is broken down into three specific dimensions:
+**Covariation principle** (Kelley, 1973): "An effect is attributed to the one of its possible causes with which, over time, it covaries." Applied to person perception, covariation (introduced in §14) is broken down into three specific dimensions:
 - **Consensus:** Do other people respond the same way to the same stimulus?
 - **Distinctiveness:** Does this person respond this way only to this specific stimulus?
 - **Consistency:** Does this person respond similarly over time?
-- Different patterns yield different attributions: Low consensus + low distinctiveness + high consistency → person attribution. High consensus + high distinctiveness + high consistency → stimulus attribution.
+- Different patterns yield different attributions: Low consensus + low distinctiveness + high consistency → person attribution ("it's something about *them*" → blame or praise the person). High consensus + high distinctiveness + high consistency → stimulus attribution ("it's something about the *situation*" → no personal blame or praise).
 
-**Correspondence bias / Fundamental attribution error** (Gilbert & Malone, 1995; Jones & Davis, 1965): The tendency to make person attributions for behaviors that could be explained by the situation alone — even when told essay writers were assigned positions, people judged they really believed what they wrote. In terms of stances: this is an over-application of the intentional stance when the mechanical stance (situational forces) would be more appropriate.
+**Correspondence bias / Fundamental attribution error** (Gilbert & Malone, 1995; Jones & Davis, 1965): We systematically **over-blame people and under-blame situations**. Even when told essay writers were assigned their position, people judged they really believed what they wrote. In everyday terms: a student fails an exam? "They're lazy" (blame the person), not "the exam was unfair" (blame the situation). This is an over-application of the intentional stance when the mechanical stance (situational forces) would be more appropriate.
 
-**🎯 Bayesian lens:** Causal attribution is belief updating about the source of behavior. The prior is one's default assumption about the person or situation; evidence from consensus, distinctiveness, and consistency updates this belief. The fundamental attribution error reflects an overly strong prior toward the intentional stance — defaulting to person-causes (dispositional attribution) and insufficiently updating in light of situational evidence.
+**🎯 Bayesian lens:** Causal attribution is belief updating about the source of behavior. The prior is one's default assumption about the person or situation; evidence from consensus, distinctiveness, and consistency updates this belief. The fundamental attribution error reflects an overly strong prior toward the intentional stance — defaulting to "who is to blame?" and insufficiently updating in light of situational evidence that no one deserves blame (or praise) at all.
 
 **Key references:** Heider (1958/2015); Kelley (1973); Cheng & Novick (1990); Gilbert & Malone (1995)
 
 ---
 
-### 15. Causal Learning, Illusory Correlation, and Plausibility
+## Learning Causality
 
 **2 × 2 contingency table:** Summarizes co-occurrence of two factors (cells A, B, C, D). A Bayesian agent would use all four cells to compute the contingency. But people give cell A (both present) the most weight, followed by B, then C, and D the least. When simplifying, people sometimes attend only to cell A — a purely confirmatory approach.
 
@@ -335,11 +332,11 @@ The key insight is that the type of thing we encounter triggers a default stance
 
 ---
 
-## PART IV: JUDGING THE PAST AND FUTURE
+# Past and future
 
 ---
 
-### 16. Hindsight Bias
+## Hindsight
 
 **Definition:** The tendency to believe, after learning an outcome, that one "knew it all along" (Fischhoff, 1975). People's recalled predictions shift toward the actual outcome, the outcome feels inevitable in retrospect (**creeping determinism**), and people are unaware their judgments have changed.
 
@@ -368,7 +365,7 @@ The key insight is that the type of thing we encounter triggers a default stance
 
 ---
 
-### 17. Intituition versus statistics
+## Statistical vs. Intuitive Prediction
 
 **Clinical intuition:** Domain experts consider available information and make intuitive predictions, drawing on experience and holistic assessment. People tend to overestimate its value.
 
@@ -407,7 +404,7 @@ Heart of Midlothian, a Scottish football club co-owned by entrepreneur and poker
 
 ---
 
-### 18. The future self
+## The Future Self
 
 **Core theme:** People struggle to relate to their future selves. This manifests in two distinct but related ways: mispredicting how future events will make you feel (*affective forecasting*), and undervaluing outcomes that happen to your future self (*temporal discounting*). Both stem from a common root: psychological distance from the future self, who is experienced almost as a stranger. This connects to theory of mind and the curse of knowledge (§16): it is hard to inhabit another mind, whether that mind belongs to another person, your past self, or your future self.
 
@@ -438,7 +435,7 @@ Heart of Midlothian, a Scottish football club co-owned by entrepreneur and poker
 
 ---
 
-### 19. Risk Perception and Communication
+## Risk Perception
 
 **Definition:** How people judge risks — often misaligned with evidence due to heuristic processing.
 
@@ -469,11 +466,11 @@ Heart of Midlothian, a Scottish football club co-owned by entrepreneur and poker
 
 ---
 
-## PART V: CHOICE AND DECISION-MAKING
+# Choice
 
 ---
 
-### 20. Prospect Theory
+## Gains and Losses
 
 **From rational choice to prospect theory:** Expected value theory (EV = Σ(value × probability)) is the normative baseline for risky decisions. Expected utility theory (EU) extends this by replacing objective values with subjective utilities, and captures **risk aversion** — the tendency to prefer a sure outcome over a gamble with equal or higher expected value (demonstrated by refusal to play fair gambles where EV = 0). EU is generally normative, not descriptive.
 - **The Allais Paradox** (Allais, 1953) exposes EU's descriptive failure: People prefer a sure €1,000 over a higher-EV gamble (the **certainty effect**), but when the same utilities appear at lower probabilities — removing certainty — they reverse preferences. This is logically inconsistent under EU, but predicted by prospect theory.
@@ -508,7 +505,7 @@ Heart of Midlothian, a Scottish football club co-owned by entrepreneur and poker
 
 ---
 
-### 21. Satisficing vs. Maximizing
+## Satisficing vs. Maximizing
 
 **Core idea:** When faced with a set of options, people differ in how extensively they consider each option. This has important consequences for decision quality, effort, and well-being.
 
@@ -525,7 +522,7 @@ Heart of Midlothian, a Scottish football club co-owned by entrepreneur and poker
 
 ---
 
-### 23. Steering other people's choices
+## Steering Other People's Choices
 
 **The tension — libertarian paternalism:** Every choice environment is designed by someone. No arrangement of options is truly neutral — the order, the default, the framing all influence what people choose. This creates a tension: people should be free to choose, but the environment inevitably steers them. **Libertarian paternalism** (Thaler & Sunstein, 2008) embraces this tension: institutions can and should design choice environments that steer people toward beneficial outcomes, while preserving the freedom to opt out. The question is not *whether* to influence, but *how*.
 
@@ -548,7 +545,7 @@ Heart of Midlothian, a Scottish football club co-owned by entrepreneur and poker
 
 ---
 
-### 24. Making decisions as a group
+## Group Decisions
 
 **Core idea:** Many consequential decisions are made by groups (committees, juries, teams, boards). Group processes can improve or degrade decision quality compared to individuals.
 
@@ -566,11 +563,11 @@ Heart of Midlothian, a Scottish football club co-owned by entrepreneur and poker
 
 ---
 
-## PART VI: CONFIRMATION, BELIEF, AND RESISTANCE TO CHANGE
+# Belief
 
 ---
 
-### 25. Confirmation Bias
+## Confirmation
 
 **Definition:** A pervasive tendency to seek, interpret, and favor information that confirms existing beliefs or hypotheses. Proposed as the single cognitive bias most relevant to ideological extremism.
 
@@ -588,7 +585,7 @@ Heart of Midlothian, a Scottish football club co-owned by entrepreneur and poker
 
 ---
 
-### 26. Belief Formation, Perseverance, and Irrational Beliefs
+## Belief Formation and Perseverance
 
 **How beliefs form and persist** All points in this section flow from the foundational insight of automatic acceptance.
 
@@ -626,7 +623,7 @@ Heart of Midlothian, a Scottish football club co-owned by entrepreneur and poker
 
 ---
 
-### 27. Conspiracy Theories and Rejection of Science
+## Conspiracy Theories
 
 **Conspiracy theories:** Explanations invoking secret plots by powerful people. Can be false, partially true, or completely true. A key characteristic: contradictory evidence is absorbed into the theory by claiming it is part of the cover-up. People may endorse mutually contradictory conspiracies simultaneously (Wood et al., 2012: believing both that Diana faked her death *and* was murdered).
 
@@ -647,11 +644,11 @@ Heart of Midlothian, a Scottish football club co-owned by entrepreneur and poker
 
 ---
 
-## PART VII: MORAL JUDGMENT AND COOPERATION
+# Morality and Cooperation
 
 ---
 
-### 28. Moral Judgment and Emotion
+## Morality
 
 **Moral judgment as belief formation:** Moral judgments are beliefs about whether something is right or wrong. They follow many of the same principles as other beliefs — formed quickly, resistant to updating, shaped by System 1 and System 2 — but carry special weight: people consider morality an essential component of identity, more so than memories, personality, or mental abilities (Strohminger & Nichols, 2014). The central theoretical question is whether moral judgments arise primarily from rational deliberation (System 2) or gut feeling (System 1).
 
@@ -679,7 +676,7 @@ Heart of Midlothian, a Scottish football club co-owned by entrepreneur and poker
 **Key references:** James (1884); Kohlberg (1971); Haidt (2001, 2012); Graham et al. (2009); Turiel (2002); Schwarz & Clore (1983); Bechara et al. (2000); Greene et al. (2001); Valdesolo & DeSteno (2006); Strohminger & Nichols (2014); De Waal (2003); MacCormack & Lindquist (2018)
 ---
 
-### 30. Cooperation
+## Cooperation
 
 Decisions to cooperate (or not) pit personal interest against the greater good. These decisions draw on moral judgments (§28), framing (§20), System 1 intuitions vs. System 2 calculation (§1), and social norms. Game theory provides the formal framework for studying how these factors interact.
 
@@ -707,11 +704,11 @@ Decisions to cooperate (or not) pit personal interest against the greater good. 
 
 ---
 
-## PART VIII: DECISION-MAKING IN REAL LIFE
+# Real Life
 
 ---
 
-### 31. Medical and Clinical Decision-Making
+## Medical Decision-Making
 
 **Doctors are human too:** All the heuristics, biases, and decision-making patterns covered throughout this book apply to medical professionals. Doctors deal with imperfect information under time pressure — conditions that favor System 1 reasoning and its associated biases (see §1). Understanding these biases is critical because medical decisions have life-or-death consequences.
 
@@ -735,7 +732,7 @@ These biases can be reduced in two main ways:
 
 ---
 
-### 32. Legal and Forensic Decision-Making
+## Legal Decision-Making
 
 **Opening framing:** Police officers, forensic experts, and judges are human decision-makers subject to the same cognitive biases discussed throughout this book. Legal contexts are particularly high-stakes — errors can mean wrongful convictions or guilty parties going free.
 
@@ -766,7 +763,7 @@ These biases can be reduced in two main ways:
 
 ---
 
-### 33. Social Media, Populism, and Misinformation
+## Populism and Social Media
 
 **A new and powerful force:** Social media is a relatively new phenomenon that has become immensely important in shaping society. Digital platforms for user-generated content now reach ~5 billion users worldwide (~2.5 hours/day). The effects of social media on individuals and societies are not fully understood yet. However, there is strong reason to believe that social media, populism, and misinformation form self-reinforcing loops: social media amplifies populist messages → populist leaders exploit social media → misinformation fuels both → algorithms accelerate everything. Understanding these loops draws on many concepts from throughout this book.
 
@@ -789,7 +786,7 @@ These biases can be reduced in two main ways:
 **Key references:** Guriev et al. (2020); Lorenz-Spreen et al. (2023); Rathje et al. (2021); Humprecht et al. (2024); Lewandowsky et al. (2020); Larooij & Törnberg (2025); Schaffner & Luks (2018)
 ---
 
-### 34. Artificial Intelligence
+## Artificial Intelligence
 
 **Core idea:** Artificial intelligence — particularly large language models (LLMs) — provides a revealing mirror for human judgment and decision-making. Many of the biases, heuristics, and dual-process phenomena studied in human cognition have direct parallels in AI systems, and understanding these parallels deepens insight into both.
 
