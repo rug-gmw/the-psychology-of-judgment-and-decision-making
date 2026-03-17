@@ -11,13 +11,13 @@
 - **Bounded rationality** [@simon1956; @simon1972]: Classic models assumed people are fully rational and perfectly informed. In reality, human reasoning is constrained by incomplete knowledge, limited cognitive capacity, and the complexity of the decision at hand. System 2 is often too slow, effortful, or even impossible (because not all information is available) to guide our decisions. This is *why* we rely so heavily on System 1 — not out of laziness, but out of necessity.
 - The distinction between System 1 and 2 is convenient but imperfect — many forms of thinking have aspects of both systems.
 - **@sloman1996's characterization** offers a useful way to understand *what* each system does. His **associative system** (≈ System 1) reasons through similarity and statistical regularities — e.g., recognizing something as a bird because it *looks like* birds you've seen before. Many of the heuristics and biases in this course reflect this associative processing. His **rule-based system** (≈ System 2) reasons through explicit logical, social, or definitional rules — e.g., classifying something as a bird because it meets specific biological criteria. These are not separate theories but complementary descriptions of the same dual-process distinction.
-- **Gigerenzer's ecological rationality** offers a contrasting perspective on what System 1 processing achieves. Where Kahneman and Tversky emphasize that heuristics are biased shortcuts in need of System 2 correction, Gigerenzer argues that many heuristics are *ecologically rational* — well-adapted to the structure of real-world environments [@gigerenzer_etal1999]. Simple rules like **Take the Best** (decide based on the single most valid cue) or the **recognition heuristic** (if you recognize one option but not the other, choose the recognized one) can match or outperform complex deliberation when information is scarce and time is limited. This sets up a central tension in the course: are biases genuine errors, or adaptive strategies judged against an unrealistic normative standard?
+- **Gigerenzer's ecological rationality** offers a contrasting perspective on what System 1 processing achieves. Where Kahneman and Tversky emphasize that heuristics are biased shortcuts in need of System 2 correction, Gigerenzer argues that many heuristics are *ecologically rational* — well-adapted to the structure of real-world environments [@gigerenzer_todd1999]. Simple rules like **Take the Best** (decide based on the single most valid cue) or the **recognition heuristic** (if you recognize one option but not the other, choose the recognized one) can match or outperform complex deliberation when information is scarce and time is limited. This sets up a central tension in the course: are biases genuine errors, or adaptive strategies judged against an unrealistic normative standard?
 - **Categorization as a bridge concept:** The associative vs. rule-based distinction is especially clear in **categorization** — one of the most fundamental cognitive operations. We constantly sort objects, people, and situations into categories to guide our judgments and decisions. System 1 categorizes implicitly by *resemblance*: we match new instances to stored prototypes or previously encountered exemplars (prototype and exemplar models of categorization). System 2 categorizes explicitly by *criteria*: we check whether defining features are present (classical/rule-based categorization). This matters throughout the course: the representativeness heuristic (see [Representativeness](#representativeness)) is essentially categorization-by-resemblance gone awry, base-rate neglect arises when we categorize by similarity while ignoring how common each category is, and stereotyping reflects the application of category-level expectations to individuals.
 - **Cognitive Reflection Test (CRT)** [@frederick2005]: Measures individual differences in the tendency to override System 1 with System 2. Higher CRT scores predict less acceptance of paranormal beliefs and better reasoning.
 
 **🎯 Bayesian lens:** System 1 relies on rough heuristic priors and pattern-matching — fast but prone to ignoring base rates and evidence quality. System 2 enables more deliberate, calibrated belief updating — closer to Bayesian inference. Categorization itself is inherently Bayesian: given observed features (evidence), what is the probability that this instance belongs to category A vs. B (posterior)? Gigerenzer's insight adds a nuance: full Bayesian computation is often impossible given our cognitive constraints (bounded rationality), so heuristics can be understood as *resource-rational approximations* of Bayesian inference [@lieder_griffiths2020]. Many biases in this course can be understood as failures to engage System 2 when careful Bayesian updating is needed — but some may also reflect adaptive shortcuts that work well in the environments we evolved in.
 
-**Key references:** @stanovich_west2000; @evans2008; @evans_stanovich2013; @kahneman2011; @sloman1996; @frederick2005; @simon1956; @simon1972; @gigerenzer_etal1999; @lieder_griffiths2020
+**Key references:** @stanovich_west2000; @evans2008; @evans_stanovich2013; @kahneman2011; @sloman1996; @frederick2005; @simon1956; @simon1972; @gigerenzer_todd1999; @lieder_griffiths2020
 
 ---
 
@@ -31,7 +31,7 @@
   - **Updated belief (posterior):** The revised belief after integrating evidence with the prior. This posterior then becomes the prior for the next piece of evidence.
 
 - **Bayes' theorem (formal):** `P(H|E) = [P(E|H) × P(H)] / P(E)`. Where P(H|E) is the posterior probability of hypothesis H given evidence E, P(E|H) is the likelihood of the evidence given the hypothesis, P(H) is the prior probability, and P(E) is the total probability of the evidence.
-- **The mammogram problem — a classic illustration** [@eddy1982]: A woman has a positive mammogram. The test's sensitivity is 80% (P(positive|cancer) = 0.80) and the false-positive rate is 10% (P(positive|no cancer) = 0.10). The base rate of breast cancer is 1% (P(cancer) = 0.01). What is the probability she has cancer?
+- **The mammogram problem — a classic illustration**: A woman has a positive mammogram. The test's sensitivity is 80% (P(positive|cancer) = 0.80) and the false-positive rate is 10% (P(positive|no cancer) = 0.10). The base rate of breast cancer is 1% (P(cancer) = 0.01). What is the probability she has cancer?
 - 95 out of 100 physicians estimated 70–80%. The correct answer is ~7.5%.
 - People confuse P(positive|cancer) with P(cancer|positive) — ignoring the prior (base rate).
 - **Natural frequencies — making Bayesian reasoning intuitive:** Expressing information as concrete counts rather than conditional probabilities dramatically improves accuracy. Out of 1,000 women: 10 have cancer; of those 10, 8 test positive. Of the 990 without cancer, 99 test positive. So of 107 positive results, only 8 (~7.5%) actually have cancer.
@@ -53,7 +53,7 @@
 | Belief perseverance ([Belief Formation and Perseverance](#belief-formation-and-perseverance)) | Failure to update from disconfirming evidence |
 | Clinical vs. statistical ([Statistical vs. Intuitive Prediction](#statistical-vs-intuitive-prediction)) | Informal vs. formal evidence integration |
 
-**Key references:** @bayes1763; @eddy1982; @hoffrage_gigerenzer1998; @sedlmeier1997; @green_swets1966; @griffiths_etal2008
+**Key references:** @bayes1763; @swarna2017; @hoffrage_gigerenzer1998; @sedlmeier1997;  @griffiths_etal2008
 
 ---
 
@@ -80,7 +80,7 @@
 
 **🎯 Bayesian lens:** Bayesian updating is the normative standard for how beliefs should change in light of evidence. Descriptive models document how people systematically deviate from this standard. Prescriptive models often aim to nudge people closer to Bayesian rationality (e.g., presenting information as natural frequencies).
 
-**Key references:** @bell_etal1988; @knight1921; @simon1955
+**Key references:** @knight1921; @simon1955
 
 ---
 
@@ -143,15 +143,13 @@ The key insight is that the type of thing we encounter triggers a default stance
 
 **What makes something "available"?** Availability can manifest in different ways: faster recall (a few vivid examples come to mind quickly), more recalled exemplars (many instances are retrieved, even if slowly), or stronger associations (certain pairings are more deeply encoded). These are not competing hypotheses — they are all routes through which the same principle operates. Some researchers use the term *accessibility* (ease of retrieval) to emphasize the speed component, but availability as a concept encompasses all of these manifestations.
 
-**Over the lifespan:** @davies_white1994 adapted the famous-names paradigm for 7- and 10-year-olds using cartoon characters, finding availability effects as early as age 7 — suggesting this is a fundamental feature of human cognition.
-
 **Negativity bias interaction:** People seek out, attend to, and are more strongly influenced by negative content. @robertson_etal2023: Click-through rates increased with negative words in headlines and decreased with positive words. This makes negative events disproportionately available, making the world seem grimmer than it is.
 
 **Applied contexts:** The availability heuristic plays a major role in [Medical Decision-Making](#medical-decision-making), where recent cases bias diagnosis, and in social media environments (see [Populism and Social Media](#populism-and-social-media)), where algorithmic curation makes certain types of information disproportionately available.
 
 **🎯 Bayesian lens:** The availability heuristic biases the *evidence sampling* step of Bayesian reasoning. Instead of drawing a representative sample from memory (which would give accurate base rates), people draw a biased sample — weighted toward recent, vivid, emotional, or easily retrieved instances. The likelihood term is distorted because the evidence itself is not representative. A Bayesian reasoner with unbiased memory access would not show this effect.
 
-**Key references:** @tversky_kahneman1973; @tversky_kahneman1974; @macleod_campbell1992; @davies_white1994; @robertson_etal2023
+**Key references:** @tversky_kahneman1973; @tversky_kahneman1974; @macleod_campbell1992; @robertson_etal2023
 
 ---
 
@@ -280,8 +278,8 @@ The key insight is that the type of thing we encounter triggers a default stance
 
 **From cues to people:** The cues to causality from [Cues to Causality](#cues-to-causality) apply to all causal reasoning. But when the potential cause is a *person*, a special set of attributional processes kicks in. This connects directly to the distinction between stances in [Mental Models](#mental-models): when we reason about people, we adopt the **intentional stance** — attributing behavior to beliefs, desires, and goals. When we reason about impersonal causes, we use the **mechanical or design stance**. Attributing causality to people is closely tied to moral judgment (see [Morality](#morality)): deciding who caused an outcome is often the first step toward deciding who deserves blame or praise.
 
-**Personal vs. impersonal causality** [@heider1958]:
-- Personal causality = a person's intention was the force behind an action. We assign **blame or praise** only when we perceive personal causality — someone *meant* to do it. A doctor who prescribes the wrong medication *on purpose* deserves blame; one who does so because of a confusing label does not — even though the outcome is identical.
+**Personal vs. impersonal causality**:
+- Personal causality = a person's intention was the force behind an action. We assign **blame or praise** only when we perceive personal causality — someone *meant* to do it [@young1995]. A doctor who prescribes the wrong medication *on purpose* deserves blame; one who does so because of a confusing label does not — even though the outcome is identical.
 - Impersonal causality = the action occurred without intention. There is **no one to blame** — the outcome is attributed to circumstances, chance, or mechanical forces. This maps directly onto the intentional stance (personal) vs. the mechanical stance (impersonal) from [Mental Models](#mental-models).
 
 **Covariation principle** [@kelley1973]: "An effect is attributed to the one of its possible causes with which, over time, it covaries." Applied to person perception, covariation (introduced in [Cues to Causality](#cues-to-causality)) is broken down into three specific dimensions:
@@ -290,11 +288,11 @@ The key insight is that the type of thing we encounter triggers a default stance
 - **Consistency:** Does this person respond similarly over time?
 - Different patterns yield different attributions: Low consensus + low distinctiveness + high consistency → person attribution ("it's something about *them*" → blame or praise the person). High consensus + high distinctiveness + high consistency → stimulus attribution ("it's something about the *situation*" → no personal blame or praise).
 
-**Correspondence bias / Fundamental attribution error** [@gilbert_malone1995; @jones_davis1965]: We systematically **over-blame people and under-blame situations**. Even when told essay writers were assigned their position, people judged they really believed what they wrote. In everyday terms: a student fails an exam? "They're lazy" (blame the person), not "the exam was unfair" (blame the situation). This is an over-application of the intentional stance when the mechanical stance (situational forces) would be more appropriate.
+**Correspondence bias / Fundamental attribution error** [@gilbert_malone1995]: We systematically **over-blame people and under-blame situations**. Even when told essay writers were assigned their position, people judged they really believed what they wrote. In everyday terms: a student fails an exam? "They're lazy" (blame the person), not "the exam was unfair" (blame the situation). This is an over-application of the intentional stance when the mechanical stance (situational forces) would be more appropriate.
 
 **🎯 Bayesian lens:** Causal attribution is belief updating about the source of behavior. The prior is one's default assumption about the person or situation; evidence from consensus, distinctiveness, and consistency updates this belief. The fundamental attribution error reflects an overly strong prior toward the intentional stance — defaulting to "who is to blame?" and insufficiently updating in light of situational evidence that no one deserves blame (or praise) at all.
 
-**Key references:** @heider1958; @kelley1973; @cheng_novick1990; @gilbert_malone1995; @jones_davis1965
+**Key references:** @kelley1973; @cheng_novick1990; @gilbert_malone1995; @young1995;
 
 ---
 
@@ -399,7 +397,7 @@ Heart of Midlothian, a Scottish football club co-owned by entrepreneur and poker
 
 **🎯 Bayesian lens:** Clinical intuition represents informal, heuristic Bayesian reasoning — integrating evidence with experience-based priors, but doing so imprecisely and inconsistently. Statistical methods are formal Bayesian (or frequentist) inference — applying the same evidence-weighting rules uniformly across cases. The superiority of statistical methods shows that human intuitive "Bayesian" processing is noisy and biased, especially without calibrating feedback. Expertise without feedback increases confidence (strengthens the prior) without improving the quality of evidence integration.
 
-**Key references:** @meehl1954; @grove_etal2000; @dawes_etal1989; @garb1998; @einhorn_hogarth1978; @neumann_etal2024; @dehoog2024; @dehoog2025
+**Key references:** @meehl1954; @grove_etal2000; @dawes_etal1989; @garb2005; @einhorn_hogarth1978; @neumann_etal2024; @dehoog2024; @dehoog2025
 
 ---
 
@@ -552,7 +550,7 @@ Heart of Midlothian, a Scottish football club co-owned by entrepreneur and poker
 
 **Group polarization** [@moscovici_zavalloni1969]: After group discussion, individual members tend to hold more extreme positions than they held before the discussion — and they do so privately, not just publicly. This is not merely about the group reaching an extreme collective decision; each person individually shifts. If most members initially lean toward risk, each member becomes personally more risk-seeking after discussion; if most initially lean toward caution, each becomes more cautious. Two mechanisms drive this: persuasive arguments (during discussion, members encounter novel arguments supporting the dominant view, which genuinely change their minds) and social comparison (members compete to embody the group's valued position, pushing each other further).
 
-**Groupthink** [@janis1972]: Highly cohesive groups with strong leaders may prioritize consensus over critical evaluation, leading to poor decisions. Where group polarization changes members' minds through persuasion, groupthink silences dissent through conformity pressure. Members may privately have doubts, but suppress them to maintain harmony. Symptoms include: illusion of invulnerability, collective rationalization, stereotyping of outgroups, self-censorship, and illusion of unanimity. Classic cases: Bay of Pigs, Challenger disaster. The relationship between polarization and groupthink is important: both can produce a uniform, extreme group position, but through different mechanisms — polarization *convinces* you, groupthink *silences* you. In practice, they often co-occur: polarization pushes the group in one direction, and groupthink prevents anyone from pushing back. Preventive measures: assign a devil's advocate, encourage dissent, consult external experts.
+**Groupthink**: Highly cohesive groups with strong leaders may prioritize consensus over critical evaluation, leading to poor decisions. Where group polarization changes members' minds through persuasion, groupthink silences dissent through conformity pressure. Members may privately have doubts, but suppress them to maintain harmony. Symptoms include: illusion of invulnerability, collective rationalization, stereotyping of outgroups, self-censorship, and illusion of unanimity. Classic cases: Bay of Pigs, Challenger disaster. The relationship between polarization and groupthink is important: both can produce a uniform, extreme group position, but through different mechanisms — polarization *convinces* you, groupthink *silences* you. In practice, they often co-occur: polarization pushes the group in one direction, and groupthink prevents anyone from pushing back. Preventive measures: assign a devil's advocate, encourage dissent, consult external experts. Janis's book "Victims of Groupthink" (discussed in @hart1991) was highly influential in putting these phenomena on the map.
 
 **Shared information bias** [@stasser_titus1985]: Groups spend disproportionate time discussing information already known to all members and neglect unique information held by individual members — even when the unique information would change the decision. This is a failure of information pooling: the group functions as if it has one shared mind rather than multiple independent perspectives. Structured information-sharing protocols can mitigate this.
 
@@ -602,8 +600,7 @@ Heart of Midlothian, a Scottish football club co-owned by entrepreneur and poker
 
 **When beliefs are challenged** the following phenomena come into play:
 
-**Reactance** [@brehm_brehm1981]: A strong physiological response when freedom to think or act is threatened, intensifying the intent to do the opposite of what is asked. This is a gut-feeling response — not a deliberate choice to resist.
-- When judges instruct jurors to disregard evidence, jurors cling more strongly to it. @cox_tanford1989: Jurors told to disregard damaging evidence recommended *harsher* punishments.
+**Reactance** [@rosenberg_siegel2018]: A strong physiological response when freedom to think or act is threatened, intensifying the intent to do the opposite of what is asked. This is a gut-feeling response — not a deliberate choice to resist. Reactance theory was first introduced by Jack Brehm.
 
 **Cognitive dissonance:** Distinct from reactance. Mental discomfort from internal conflict (e.g., existing beliefs vs. new evidence). To reduce the discomfort, people either update their beliefs or reject/question the threatening evidence. The latter path leads to belief perseverance; the former is genuine learning.
 
@@ -617,7 +614,7 @@ Heart of Midlothian, a Scottish football club co-owned by entrepreneur and poker
 
 **🎯 Bayesian lens:** Spinozan acceptance means all incoming information is initially assigned a high prior (P(true) is the default), requiring effortful System 2 processing to revise downward. Belief perseverance represents a failure to update — the prior is treated as virtually certain (P ≈ 1), making any single piece of counter-evidence insufficient to shift the posterior. The continued influence effect shows that even after a "retraction update," the original information retains residual influence on the posterior — the update is incomplete. Reactance and cognitive dissonance are emotional responses that block the update process altogether.
 
-**Key references:** @gilbert1991; @lewandowsky_etal2012; @schwarz_etal2007; @brehm_brehm1981; @arkes_blumer1985; @arkes_ayton1999
+**Key references:** @gilbert1991; @lewandowsky_etal2012; @schwarz_etal2007; @rosenberg_siegel2018; @arkes_blumer1985; @arkes_ayton1999
 
 ---
 
@@ -650,11 +647,11 @@ Heart of Midlothian, a Scottish football club co-owned by entrepreneur and poker
 **Moral judgment as belief formation:** Moral judgments are beliefs about whether something is right or wrong. They follow many of the same principles as other beliefs — formed quickly, resistant to updating, shaped by System 1 and System 2 — but carry special weight: people consider morality an essential component of identity, more so than memories, personality, or mental abilities [@strohminger_nichols2014]. The central theoretical question is whether moral judgments arise primarily from rational deliberation (System 2) or gut feeling (System 1).
 
 **Rationalist models (System 2):** These models hold that people first consciously reason through a moral problem, then arrive at a judgment.
-- **Kohlberg's stages of moral development** [@kohlberg1971]: Children develop moral reasoning over six stages in three levels: pre-conventional (seeking rewards, avoiding punishment), conventional (upholding social conventions and rules), post-conventional (universal moral principles; may protest unjust laws). Responses classified by *reasons given*, not the answer itself. @gilligan1982 critiqued male-only samples; meta-analysis [@jaffee_hyde2000] found weak gender effects.
+- **Kohlberg's stages of moral development** [@kohlberg1971]: Children develop moral reasoning over six stages in three levels: pre-conventional (seeking rewards, avoiding punishment), conventional (upholding social conventions and rules), post-conventional (universal moral principles; may protest unjust laws). Responses classified by *reasons given*, not the answer itself.
 - **Social interactionist model** [@turiel2002]: Classified as rationalist because it assumes children arrive at moral judgments through *deliberate reasoning* about consequences — evaluating whether an action causes harm, violates fairness, or merely breaks a social convention. Proposes three domains: personal, moral (inherently harmful), and social (violating local rules). Children as young as 5–6 distinguish social conventions from moral principles. @haidt_etal1993: High-SES people classified offensive-but-harmless actions as social conventions; low-SES classified them as moral — suggesting the boundary between domains is culturally shaped.
 
 **Intuitionist models (System 1):** These models hold that moral judgments are primarily driven by gut feelings, with reasoning coming *after* as post-hoc justification.
-- **Social intuitionist model** [@haidt2001; @haidt2012]: Moral judgments arise from fast, automatic intuitions. Reasoning serves to justify rather than generate them.
+- **Social intuitionist model** [@haidt2001]: Moral judgments arise from fast, automatic intuitions. Reasoning serves to justify rather than generate them.
 - *Moral dumbfounding:* People hold definite moral opinions but cannot produce clear reasons — suggesting the judgment came first, the reasoning second.
 - **Wag-the-dog illusion:** The mistaken belief that our moral judgment is driven by our reasoning.
 - **Wag-the-other-dog's-tail illusion:** The mistaken belief that rebutting someone's reasoning will change their moral position. Instead, change their emotional response.
@@ -670,7 +667,7 @@ Heart of Midlothian, a Scottish football club co-owned by entrepreneur and poker
 
 **🎯 Bayesian lens:** Moral intuitions function as strong priors: formed early, felt with certainty, and resistant to updating. The social intuitionist model implies that moral reasoning is not Bayesian belief-updating from evidence but post-hoc rationalization of a pre-set prior. Changing moral positions requires changing the prior (emotional intuition), not presenting disconfirming evidence (rational argument). Moral Foundations Theory describes the *content* of these priors, which vary systematically across individuals and cultures. The somatic marker hypothesis suggests these priors are literally embodied — encoded in bodily sensations, not just cognitive representations. In trolley vs. footbridge, the emotional prior (do not harm directly) overwhelms utilitarian calculation in personal dilemmas but not impersonal ones. Omission bias reflects a prior that inaction is morally neutral — evidence about equivalent outcomes is insufficient to overcome it.
 
-**Key references:** @james1884; @kohlberg1971; @haidt2001; @haidt2012; @graham_etal2009; @turiel2002; @schwarz_clore1983; @bechara_etal2000; @greene_etal2001; @valdesolo_desteno2006; @strohminger_nichols2014; @dewaal2003; @maccormack_lindquist2018
+**Key references:** @james1884; @kohlberg1971; @haidt2001; @graham_etal2009; @turiel2002; @schwarz_clore1983; @bechara_etal2000; @greene_etal2001; @valdesolo_desteno2006; @strohminger_nichols2014; @dewaal2003; @maccormack_lindquist2018
 ---
 
 ## Cooperation
@@ -755,7 +752,7 @@ These biases can be reduced in two main ways:
 
 **🎯 Bayesian lens:** The legal process is formally structured as sequential Bayesian updating: decision-makers start with a prior (presumption of innocence), receive evidence sequentially, and arrive at a posterior (guilt beyond reasonable doubt). Information integration theory captures this structure explicitly. But the story model reveals the descriptive reality: decision-makers construct holistic narratives rather than updating incrementally — their prior shapes how they *interpret* evidence, rather than evidence updating their prior. Forensic confirmation bias is this Bayesian failure in its most consequential form.
 
-**Key references:** @pennington_hastie1986; @pennington_hastie1988; @pennington_hastie1992; @kassin_etal2013; @dror2009; @dror_charlton2006; @englich_mussweiler2001 [ref to verify]; @blair_etal2004; @danziger_etal2011 [contested]; @kaplan_kemmerick1974; @oig2006
+**Key references:** @pennington_hastie1986; @pennington_hastie1988; @pennington_hastie1992; @kassin_etal2013; @dror_charlton2006; @englich_mussweiler2001 [ref to verify]; @blair_etal2004; @danziger_etal2011 [contested]; @kaplan_kemmerick1974; @oig2006
 
 ---
 
@@ -779,7 +776,7 @@ These biases can be reduced in two main ways:
 
 **🎯 Bayesian lens:** Social media systematically distorts the evidence available for belief updating. Algorithms create biased evidence samples (echo chambers) — users receive a non-representative stream of information that confirms existing priors. Negativity bias in engagement means outrage-inducing content is overrepresented, distorting posteriors about the state of the world. Loss framing (see [Gains and Losses](#gains-and-losses)) shifts risk preferences, making extreme options appear acceptable. Spinozan acceptance (see [Belief Formation and Perseverance](#belief-formation-and-perseverance)) means the volume of misinformation overwhelms correction. The result is polarization — two groups updating from entirely different evidence samples arrive at radically different posteriors about the same world.
 
-**Key references:** @guriev_etal2020; @lorenzspreen_etal2023; @rathje_etal2021; @humprecht_etal2024; @lewandowsky_etal2020; @larooij_tornberg2025; @schaffner_luks2018
+**Key references:** @guriev_etal2020; @guriev_papaioannou2020; @lorenzspreen_etal2023; @rathje_etal2021; @humprecht_etal2024; @lewandowsky_etal2020; @larooij_tornberg2025; @schaffner_luks2018
 
 ---
 
