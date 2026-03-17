@@ -1,0 +1,220 @@
+# References
+
+- @ahn_etal1995: Ahn, W., Kalish, C. W., Medin, D. L., & Gelman, S. A. (1995). The role of covariation versus mechanism information in causal attribution. *Cognition, 54*(3), 299–352.
+- @akerlof_etal2013: Akerlof, G. A., et al. (2013). Personal experience and belief in global warming. *Nature Climate Change*. [ref details to verify]
+- @allais1953: Allais, M. (1953). Le comportement de l'homme rationnel devant le risque: Critique des postulats et axiomes de l'école Américaine. *Econometrica, 21*(4), 503–546.
+- @alloy_abramson1979: Alloy, L. B., & Abramson, L. Y. (1979). Judgment of contingency in depressed and nondepressed students. *Journal of Experimental Psychology: General, 108*(4), 441–485.
+- @anderson1965: Anderson, N. H. (1965). Primacy effects in personality impression formation using a generalized order effect paradigm. *Journal of Personality and Social Psychology, 2*(1), 1–9.
+- @arkes_ayton1999: Arkes, H. R., & Ayton, P. (1999). The sunk cost and Concorde effects: Are humans less rational than lower animals? *Psychological Bulletin, 125*(5), 591–600.
+- @arkes_blumer1985: Arkes, H. R., & Blumer, C. (1985). The psychology of sunk cost. *Organizational Behavior and Human Decision Processes, 35*(1), 124–140.
+- @asch1946: Asch, S. E. (1946). Forming impressions of personality. *Journal of Abnormal and Social Psychology, 41*(3), 258–290.
+- @barberis2013: Barberis, N. (2013). Thirty years of prospect theory in economics: A review and assessment. *Journal of Economic Perspectives, 27*(1), 173–196.
+- @barhillel1980: Bar-Hillel, M. (1980). The base-rate fallacy in probability judgments. *Acta Psychologica, 44*(3), 211–233.
+- @baron_hershey1988: Baron, J., & Hershey, J. C. (1988). Outcome bias in decision evaluation. *Journal of Personality and Social Psychology, 54*(4), 569–579.
+- @bayes1763: Bayes, T. (1763). An essay towards solving a problem in the doctrine of chances. *Philosophical Transactions of the Royal Society of London, 53*, 370–418.
+- @bechara_etal2000: Bechara, A., Damasio, H., & Damasio, A. R. (2000). Emotion, decision making and the orbitofrontal cortex. *Cerebral Cortex, 10*(3), 295–307.
+- @bell_etal1988: Bell, D. E., Raiffa, H., & Tversky, A. (1988). *Decision making: Descriptive, normative, and prescriptive interactions*. Cambridge University Press.
+- @berg_etal1995: Berg, J., Dickhaut, J., & McCabe, K. (1995). Trust, reciprocity, and social history. *Games and Economic Behavior, 10*(1), 122–142.
+- @bernstein_etal2004: Bernstein, D. M., et al. (2004). The hindsight bias from 3 to 95 years of age. *Journal of Experimental Psychology: Learning, Memory, and Cognition, 30*(5), 1045–1056. [ref details to verify]
+- @birch_bloom2007: Birch, S. A. J., & Bloom, P. (2007). The curse of knowledge in reasoning about false beliefs. *Psychological Science, 18*(5), 382–386.
+- @blair_etal2004: Blair, I. V., Judd, C. M., & Chapleau, K. M. (2004). The influence of Afrocentric facial features in criminal sentencing. *Psychological Science, 15*(10), 674–679.
+- @bodenhausen_wyer1985: Bodenhausen, G. V., & Wyer, R. S. (1985). Effects of stereotypes on decision making and information-processing strategies. *Journal of Personality and Social Psychology, 48*(2), 267–282.
+- @bommasani_etal2021: Bommasani, R., et al. (2021). On the opportunities and risks of foundation models. *arXiv preprint arXiv:2108.07258*.
+- @bransford_johnson1972: Bransford, J. D., & Johnson, M. K. (1972). Contextual prerequisites for understanding. *Journal of Verbal Learning and Verbal Behavior, 11*(6), 717–726.
+- @bratsberg_rogeberg2018: Bratsberg, B., & Rogeberg, O. (2018). Flynn effect and its reversal are both environmentally caused. *Proceedings of the National Academy of Sciences, 115*(26), 6674–6678.
+- @brehm_brehm1981: Brehm, S. S., & Brehm, J. W. (1981). *Psychological reactance: A theory of freedom and control*. Academic Press.
+- @brinkmanstoppelenburg_etal2014: Brinkman-Stoppelenburg, A., et al. (2014). The effects of advance care planning on end-of-life care. *Palliative Medicine, 28*(8), 1000–1025.
+- @buehler_etal1994: Buehler, R., Griffin, D., & Ross, M. (1994). Exploring the "planning fallacy." *Journal of Personality and Social Psychology, 67*(3), 366–381.
+- @chapman_johnson2002: Chapman, G. B., & Johnson, E. J. (2002). Incorporating the irrelevant: Anchors in judgments of belief and value. In T. Gilovich, D. Griffin, & D. Kahneman (Eds.), *Heuristics and biases* (pp. 120–138). Cambridge University Press.
+- @cheng_novick1990: Cheng, P. W., & Novick, L. R. (1990). A probabilistic contrast model of causal induction. *Journal of Personality and Social Psychology, 58*(4), 545–567.
+- @cox_tanford1989: Cox, M., & Tanford, S. (1989). Effects of evidence and instructions in civil trials: An experimental investigation of rules of admissibility. *Social Behaviour, 4*(1), 31–55. [ref details to verify]
+- @danziger_etal2011: Danziger, S., Levav, J., & Avnaim-Pesso, L. (2011). Extraneous factors in judicial decisions. *Proceedings of the National Academy of Sciences, 108*(17), 6889–6892. [contested]
+- @davies_white1994: Davies, M. F., & White, P. A. (1994). Use of the availability heuristic by children. *British Journal of Developmental Psychology, 12*(4), 503–505. [ref details to verify]
+- @dawes_etal1989: Dawes, R. M., Faust, D., & Meehl, P. E. (1989). Clinical versus actuarial judgment. *Science, 243*(4899), 1668–1674.
+- @dehoog2024: De Hoog, J. (2024). Selecting judges in the Netherlands. *De Correspondent*. [journalistic source]
+- @dehoog2025: De Hoog, J. (2025). Data-driven football recruitment at Heart of Midlothian. *De Correspondent*. [journalistic source]
+- @delosreyes_marsh2011: De Los Reyes, A., & Marsh, J. K. (2011). Patients' contexts and their effects on clinicians' impressions of conduct disorder. *Journal of Clinical Child & Adolescent Psychology, 40*(3), 479–485. [ref details to verify]
+- @dennett1987: Dennett, D. C. (1987). *The intentional stance*. MIT Press.
+- @dewaal2003: De Waal, F. B. M. (2003). Morality and the social instincts: Continuity with the other primates. *The Tanner Lectures on Human Values, 25*, 1–40. [ref details to verify]
+- @douglas_etal2017: Douglas, K. M., Sutton, R. M., & Cichocka, A. (2017). The psychology of conspiracy theories. *Current Directions in Psychological Science, 26*(6), 538–542.
+- @douglas_etal2019: Douglas, K. M., Uscinski, J. E., Sutton, R. M., Cichocka, A., Nefes, T., Ang, C. S., & Deravi, F. (2019). Understanding conspiracy theories. *Political Psychology, 40*(S1), 3–35.
+- @douglas_sutton2008: Douglas, K. M., & Sutton, R. M. (2008). The hidden impact of conspiracy theories: Perceived and actual influence of theories surrounding the death of Princess Diana. *Journal of Social Psychology, 148*(2), 210–222.
+- @dror2009: Dror, I. E. (2009). How can Francis Bacon help forensic science? The four idols of human biases. *Jurimetrics, 50*, 93–110. [ref details to verify]
+- @dror_charlton2006: Dror, I. E., & Charlton, D. (2006). Why experts make errors. *Journal of Forensic Identification, 56*(4), 600–616.
+- @eastwick_etal2008: Eastwick, P. W., et al. (2008). Mispredicting distress following romantic breakup. *Journal of Experimental Social Psychology, 44*(4), 1194–1200.
+- @eddy1982: Eddy, D. M. (1982). Probabilistic reasoning in clinical medicine. In D. Kahneman, P. Slovic, & A. Tversky (Eds.), *Judgment under uncertainty: Heuristics and biases* (pp. 249–267). Cambridge University Press.
+- @edwards1954: Edwards, W. (1954). The theory of decision making. *Psychological Bulletin, 51*(4), 380–417.
+- @einhorn_hogarth1978: Einhorn, H. J., & Hogarth, R. M. (1978). Confidence in judgment: Persistence of the illusion of validity. *Psychological Review, 85*(5), 395–416.
+- @einhorn_hogarth1986: Einhorn, H. J., & Hogarth, R. M. (1986). Judging probable cause. *Psychological Bulletin, 99*(1), 3–19.
+- @englich_mussweiler2001: Englich, B., & Mussweiler, T. (2001). Sentencing under uncertainty: Anchoring effects in the courtroom. *Journal of Applied Social Psychology, 31*(7), 1535–1551. [ref to verify]
+- @eskine_etal2011: Eskine, K. J., Kacinik, N. A., & Prinz, J. J. (2011). A bad taste in the mouth: Gustatory disgust influences moral judgment. *Psychological Science, 22*(3), 295–299.
+- @estrada_etal1997: Estrada, C. A., Isen, A. M., & Young, M. J. (1997). Positive affect facilitates integration of information and decreases anchoring in reasoning among physicians. *Organizational Behavior and Human Decision Processes, 72*(1), 117–135.
+- @evans2008: Evans, J. St. B. T. (2008). Dual-processing accounts of reasoning, judgment, and social cognition. *Annual Review of Psychology, 59*, 255–278.
+- @evans_stanovich2013: Evans, J. St. B. T., & Stanovich, K. E. (2013). Dual-process theories of higher cognition: Advancing the debate. *Perspectives on Psychological Science, 8*(3), 223–241.
+- @fehr_gachter2002: Fehr, E., & Gächter, S. (2002). Altruistic punishment in humans. *Nature, 415*(6868), 137–140.
+- @fischhoff1975: Fischhoff, B. (1975). Hindsight ≠ foresight: The effect of outcome knowledge on judgment under uncertainty. *Journal of Experimental Psychology: Human Perception and Performance, 1*(3), 288–299.
+- @fischhoff_beyth1975: Fischhoff, B., & Beyth, R. (1975). "I knew it would happen": Remembered probabilities of once-future things. *Organizational Behavior and Human Performance, 13*(1), 1–16.
+- @fischhoff_etal1978: Fischhoff, B., Slovic, P., Lichtenstein, S., Read, S., & Combs, B. (1978). How safe is safe enough? *Policy Sciences, 9*(2), 127–152.
+- @flood1958: Flood, M. M. (1958). Some experimental games. *Management Science, 5*(1), 5–26.
+- @flores_etal2014: Flores, A., et al. (2014). Causal reasoning and symptom presentation in clinical judgment. [ref details to verify]
+- @flyvbjerg2006: Flyvbjerg, B. (2006). From Nobel Prize to project management: Getting risks right. *Project Management Journal, 37*(3), 5–15.
+- @frederick2005: Frederick, S. (2005). Cognitive reflection and decision making. *Journal of Economic Perspectives, 19*(4), 25–42.
+- @fugelsang_thompson2003: Fugelsang, J. A., & Thompson, V. A. (2003). A dual-process model of belief and evidence interactions in causal reasoning. *Memory & Cognition, 31*(5), 800–815.
+- @galton1907: Galton, F. (1907). Vox populi. *Nature, 75*, 450–451.
+- @garb1998: Garb, H. N. (1998). *Studying the clinician: Judgment research and psychological assessment*. American Psychological Association.
+- @gigerenzer2004: Gigerenzer, G. (2004). Dread risk, September 11, and fatal traffic accidents. *Psychological Science, 15*(4), 286–287.
+- @gigerenzer_etal1999: Gigerenzer, G., Todd, P. M., & the ABC Research Group. (1999). *Simple heuristics that make us smart*. Oxford University Press.
+- @gilbert1991: Gilbert, D. T. (1991). How mental systems believe. *American Psychologist, 46*(2), 107–119.
+- @gilbert_etal1990: Gilbert, D. T., Krull, D. S., & Malone, P. S. (1990). Unbelieving the unbelievable: Some problems in the rejection of false information. *Journal of Personality and Social Psychology, 59*(4), 601–613.
+- @gilbert_malone1995: Gilbert, D. T., & Malone, P. S. (1995). The correspondence bias. *Psychological Bulletin, 117*(1), 21–38.
+- @gilligan1982: Gilligan, C. (1982). *In a different voice: Psychological theory and women's development*. Harvard University Press.
+- @goedert_etal2014: Goedert, K. M., et al. (2014). Plausibility and information search in causal reasoning. [ref details to verify]
+- @graham_etal2009: Graham, J., Haidt, J., & Nosek, B. A. (2009). Liberals and conservatives rely on different sets of moral foundations. *Journal of Personality and Social Psychology, 96*(5), 1029–1046.
+- @green_swets1966: Green, D. M., & Swets, J. A. (1966). *Signal detection theory and psychophysics*. Wiley.
+- @greene_etal2001: Greene, J. D., Sommerville, R. B., Nystrom, L. E., Darley, J. M., & Cohen, J. D. (2001). An fMRI investigation of emotional engagement in moral judgment. *Science, 293*(5537), 2105–2108.
+- @griffiths_etal2008: Griffiths, T. L., Kemp, C., & Tenenbaum, J. B. (2008). Bayesian models of cognition. In R. Sun (Ed.), *Cambridge handbook of computational psychology*. Cambridge University Press.
+- @grove_etal2000: Grove, W. M., et al. (2000). Clinical versus mechanical prediction: A meta-analysis. *Psychological Assessment, 12*(1), 19–30.
+- @guriev_etal2020: Guriev, S., Papaioannou, E., & Passari, E. (2020). The political economy of populism. [ref details to verify]
+- @guth_etal1982: Güth, W., Schmittberger, R., & Schwarze, B. (1982). An experimental analysis of ultimatum bargaining. *Journal of Economic Behavior & Organization, 3*(4), 367–388.
+- @haidt2001: Haidt, J. (2001). The emotional dog and its rational tail: A social intuitionist approach to moral judgment. *Psychological Review, 108*(4), 814–834.
+- @haidt2012: Haidt, J. (2012). *The righteous mind: Why good people are divided by politics and religion*. Vintage Books.
+- @haidt_etal1993: Haidt, J., Koller, S. H., & Dias, M. G. (1993). Affect, culture, and morality, or is it wrong to eat your dog? *Journal of Personality and Social Psychology, 65*(4), 613–628.
+- @hardin1968: Hardin, G. (1968). The tragedy of the commons. *Science, 162*(3859), 1243–1248.
+- @heider1958: Heider, F. (1958). *The psychology of interpersonal relations*. Wiley.
+- @hershfield_etal2011: Hershfield, H. E., et al. (2011). Increasing saving behavior through age-progressed renderings of the future self. *Journal of Marketing Research, 48*(SPL), S23–S37.
+- @hertwig_gigerenzer1999: Hertwig, R., & Gigerenzer, G. (1999). The "conjunction fallacy" revisited. *Journal of Behavioral Decision Making, 12*(4), 275–305.
+- @hoffrage_gigerenzer1998: Hoffrage, U., & Gigerenzer, G. (1998). Using natural frequencies to improve diagnostic inferences. *Academic Medicine, 73*(5), 538–540.
+- @hogarth_einhorn1992: Hogarth, R. M., & Einhorn, H. J. (1992). Order effects in belief updating. *Cognitive Psychology, 24*(1), 1–55.
+- @humprecht_etal2024: Humprecht, E., et al. (2024). Populist politicians and angry reactions on social media. [ref details to verify]
+- @iyengar_lepper2000: Iyengar, S. S., & Lepper, M. R. (2000). When choice is demotivating. *Journal of Personality and Social Psychology, 79*(6), 995–1006.
+- @jaffee_hyde2000: Jaffee, S., & Hyde, J. S. (2000). Gender differences in moral orientation: A meta-analysis. *Psychological Bulletin, 126*(5), 703–726.
+- @james1884: James, W. (1884). What is an emotion? *Mind, 9*(34), 188–205.
+- @janis1972: Janis, I. L. (1972). *Victims of groupthink*. Houghton Mifflin.
+- @johnson_goldstein2004: Johnson, E. J., & Goldstein, D. G. (2004). Defaults and donation decisions. *Transplantation, 78*(12), 1713–1716.
+- @jones_davis1965: Jones, E. E., & Davis, K. E. (1965). From acts to dispositions: The attribution process in person perception. *Advances in Experimental Social Psychology, 2*, 219–266.
+- @kahneman1986: Kahneman, D. (1986). [Scope insensitivity / valuation study]. [ref details to verify]
+- @kahneman2011: Kahneman, D. (2011). *Thinking, fast and slow*. Farrar, Straus and Giroux.
+- @kahneman_etal1990: Kahneman, D., Knetsch, J. L., & Thaler, R. H. (1990). Experimental tests of the endowment effect and the Coase theorem. *Journal of Political Economy, 98*(6), 1325–1348.
+- @kahneman_etal1993: Kahneman, D., Fredrickson, B. L., Schreiber, C. A., & Redelmeier, D. A. (1993). When more pain is preferred to less. *Psychological Science, 4*(6), 401–405.
+- @kahneman_frederick2002: Kahneman, D., & Frederick, S. (2002). Representativeness revisited: Attribute substitution in intuitive judgment. In T. Gilovich, D. Griffin, & D. Kahneman (Eds.), *Heuristics and biases: The psychology of intuitive judgment* (pp. 49–81). Cambridge University Press.
+- @kahneman_snell1992: Kahneman, D., & Snell, J. (1992). Predicting a changing taste. *Journal of Behavioral Decision Making, 5*(3), 187–200.
+- @kahneman_tversky1972: Kahneman, D., & Tversky, A. (1972). Subjective probability: A judgment of representativeness. *Cognitive Psychology, 3*(3), 430–454.
+- @kahneman_tversky1973: Kahneman, D., & Tversky, A. (1973). On the psychology of prediction. *Psychological Review, 80*(4), 237–251.
+- @kahneman_tversky1979: Kahneman, D., & Tversky, A. (1979). Prospect theory: An analysis of decision under risk. *Econometrica, 47*(2), 263–291.
+- @kahneman_tversky1982: Kahneman, D., & Tversky, A. (1982). The simulation heuristic. In D. Kahneman, P. Slovic, & A. Tversky (Eds.), *Judgment under uncertainty: Heuristics and biases* (pp. 201–208). Cambridge University Press.
+- @kaplan_kemmerick1974: Kaplan, M. F., & Kemmerick, G. D. (1974). Juror judgment as information integration: Combining evidential and nonevidential information. *Journal of Personality and Social Psychology, 30*(4), 493–499.
+- @kassin_etal2013: Kassin, S. M., et al. (2013). Forensic confirmation bias. [ref details to verify]
+- @keil1989: Keil, F. C. (1989). *Concepts, kinds, and cognitive development*. MIT Press.
+- @keil1995: Keil, F. C. (1995). The growth of causal understandings of natural kinds. In D. Sperber, D. Premack, & A. J. Premack (Eds.), *Causal cognition* (pp. 234–267). Oxford University Press.
+- @keil2006: Keil, F. C. (2006). Explanation and understanding. *Annual Review of Psychology, 57*, 227–254.
+- @kelley1973: Kelley, H. H. (1973). The processes of causal attribution. *American Psychologist, 28*(2), 107–128.
+- @khadjavi_lange2013: Khadjavi, M., & Lange, A. (2013). Prisoners and their dilemma. *Journal of Economic Behavior & Organization, 92*, 163–175.
+- @kim_ahn2002a: Kim, N. S., & Ahn, W. (2002a). Clinical psychologists' theory-based representations of mental disorders predict their diagnostic reasoning and memory. *Journal of Experimental Psychology: General, 131*(4), 451–476.
+- @kim_ahn2002b: Kim, N. S., & Ahn, W. (2002b). The influence of naive causal theories on lay concepts of mental illness. *American Journal of Psychology, 115*(1), 33–65. [ref details to verify]
+- @klayman_ha1987: Klayman, J., & Ha, Y.-W. (1987). Confirmation, disconfirmation, and information in hypothesis testing. *Psychological Review, 94*(2), 211–228.
+- @knight1921: Knight, F. H. (1921). *Risk, uncertainty, and profit*. Houghton Mifflin.
+- @kohlberg1971: Kohlberg, L. (1971). Stages of moral development as a basis for moral education. In C. M. Beck, B. S. Crittenden, & E. V. Sullivan (Eds.), *Moral education: Interdisciplinary approaches* (pp. 23–92). University of Toronto Press.
+- @korn_etal2014: Korn, C. W., et al. (2014). Depression is related to an absence of optimistically biased belief updating about future life events. *Psychological Medicine, 44*(3), 579–592.
+- @kruger_dunning1999: Kruger, J., & Dunning, D. (1999). Unskilled and unaware of it. *Journal of Personality and Social Psychology, 77*(6), 1121–1134.
+- @langer1975: Langer, E. J. (1975). The illusion of control. *Journal of Personality and Social Psychology, 32*(2), 311–328.
+- @larooij_tornberg2025: Larooij, L., & Törnberg, P. (2025). Algorithmic changes and attention inequality on social media platforms. [ref details to verify]
+- @lewandowsky_etal2012: Lewandowsky, S., Ecker, U. K. H., Seifert, C. M., Schwarz, N., & Cook, J. (2012). Misinformation and its correction: Continued influence and successful debiasing. *Psychological Science in the Public Interest, 13*(3), 106–131.
+- @lewandowsky_etal2013: Lewandowsky, S., Oberauer, K., & Gignac, G. E. (2013). NASA faked the moon landing—therefore, (climate) science is a hoax. *Psychological Science, 24*(5), 622–633.
+- @lewandowsky_etal2020: Lewandowsky, S., et al. (2020). Trump's use of social media as a distraction strategy. [ref details to verify]
+- @liberman_etal2004: Liberman, V., Samuels, S. M., & Ross, L. (2004). The name of the game: Predictive power of reputations versus situational labels in determining prisoner's dilemma game moves. *Personality and Social Psychology Bulletin, 30*(9), 1175–1185.
+- @lichtenstein_etal1982: Lichtenstein, S., Fischhoff, B., & Phillips, L. D. (1982). Calibration of probabilities. In D. Kahneman, P. Slovic, & A. Tversky (Eds.), *Judgment under uncertainty* (pp. 306–334). Cambridge University Press.
+- @lieder_griffiths2020: Lieder, F., & Griffiths, T. L. (2020). Resource-rational analysis: Understanding human cognition as the optimal use of limited computational resources. *Behavioral and Brain Sciences, 43*, e1.
+- @lipe1990: Lipe, M. G. (1990). A lens-model analysis of covariation research. *Journal of Behavioral Decision Making, 3*(1), 47–59.
+- @loewenstein2005: Loewenstein, G. (2005). Projection bias in medical decision making. *Medical Decision Making, 25*(1), 96–105.
+- @lopezrousseau2005: López-Rousseau, A. (2005). Avoiding the death risk of avoiding a dread risk. *Psychological Science, 16*(6), 426–428.
+- @lorenzspreen_etal2023: Lorenz-Spreen, P., et al. (2023). A systematic review and meta-analysis of the effects of digital media on political participation, hate, polarization, and populism. *Nature Human Behaviour, 7*, 74–91. [ref details to verify]
+- @maccormack_lindquist2018: MacCormack, J. K., & Lindquist, K. A. (2018). Feeling hangry? When hunger is conceptualized as emotion. *Emotion, 19*(2), 301–319. [ref details to verify]
+- @mackie1965: Mackie, J. L. (1965). Causes and conditions. *American Philosophical Quarterly, 2*(4), 245–264.
+- @mackie1974: Mackie, J. L. (1974). *The cement of the universe: A study of causation*. Oxford University Press.
+- @macleod_campbell1992: MacLeod, C., & Campbell, L. (1992). Memory accessibility and probability judgments. *Journal of Personality and Social Psychology, 63*(6), 890–902. [ref details to verify]
+- @mark_mellor1991: Mark, M. M., & Mellor, S. (1991). Effect of self-relevance of an event on hindsight bias. *Journal of Applied Psychology, 76*(4), 569–577.
+- @matute_etal2011: Matute, H., Yarritu, I., & Vadillo, M. A. (2011). Illusions of causality at the heart of pseudoscience. *British Journal of Psychology, 102*(3), 392–405.
+- @medvec_etal1995: Medvec, V. H., Madey, S. F., & Gilovich, T. (1995). When less is more: Counterfactual thinking and satisfaction among Olympic medalists. *Journal of Personality and Social Psychology, 69*(4), 603–610.
+- @meehl1954: Meehl, P. E. (1954). *Clinical versus statistical prediction*. University of Minnesota Press.
+- @mendel_etal2011: Mendel, R., et al. (2011). Confirmation bias in clinical decision-making. *Medical Decision Making, 31*(5), 727–735. [ref details to verify]
+- @michotte1963: Michotte, A. (1963). *The perception of causality* (T. R. Miles & E. Miles, Trans.). Basic Books. (Original work published 1946)
+- @mole_klein2010: Mole, C., & Klein, C. (2010). Confirmation, refutation, and the evidence of fMRI. In S. J. Hanson & M. Bunzl (Eds.), *Foundational issues in human brain mapping* (pp. 99–111). MIT Press. [ref details to verify]
+- @moore_healy2008: Moore, D. A., & Healy, P. J. (2008). The trouble with overconfidence. *Psychological Review, 115*(2), 502–517.
+- @moscovici_zavalloni1969: Moscovici, S., & Zavalloni, M. (1969). The group as a polarizer of attitudes. *Journal of Personality and Social Psychology, 12*(2), 125–135.
+- @nash1950: Nash, J. F. (1950). Equilibrium points in n-person games. *Proceedings of the National Academy of Sciences, 36*(1), 48–49.
+- @neumann_etal2024: Neumann, M., Meijer, R. R., & Niessen, A. S. M. (2024). [Evaluation of Dutch judiciary selection]. [ref details to verify]
+- @nickerson1998: Nickerson, R. S. (1998). Confirmation bias: A ubiquitous phenomenon in many guises. *Review of General Psychology, 2*(2), 175–220.
+- @northcraft_neale1987: Northcraft, G. B., & Neale, M. A. (1987). Experts, amateurs, and real estate. *Organizational Behavior and Human Decision Processes, 39*(1), 84–97.
+- @ofir_mazursky1997: Ofir, C., & Mazursky, D. (1997). Does a surprising outcome reinforce or reverse the hindsight bias? *Organizational Behavior and Human Decision Processes, 69*(1), 51–57.
+- @oig2006: Office of the Inspector General (OIG). (2006). A review of the FBI's handling of the Brandon Mayfield case. U.S. Department of Justice.
+- @oppenheimer_etal2008: Oppenheimer, D. M., LeBoeuf, R. A., & Brewer, N. T. (2008). Anchors aweigh: A demonstration of cross-modality anchoring and magnitude priming. *Cognition, 106*(1), 13–26.
+- @pang_etal2021: Pang, B., et al. (2021). Effects of graphic health warnings on cigarette packs: A meta-analysis. *Tobacco Control, 30*(3), 352–361. [ref details to verify]
+- @parks_etal2013: Parks, C. D., Joireman, J., & Van Lange, P. A. M. (2013). Cooperation, trust, and antagonism: How public goods are promoted. *Psychological Science in the Public Interest, 14*(3), 119–165.
+- @pennington_hastie1986: Pennington, N., & Hastie, R. (1986). Evidence evaluation in complex decision making. *Journal of Personality and Social Psychology, 51*(2), 242–258.
+- @pennington_hastie1988: Pennington, N., & Hastie, R. (1988). Explanation-based decision making: Effects of memory structure on judgment. *Journal of Experimental Psychology: Learning, Memory, and Cognition, 14*(3), 521–533.
+- @pennington_hastie1992: Pennington, N., & Hastie, R. (1992). Explaining the evidence: Tests of the story model for juror decision making. *Journal of Personality and Social Psychology, 62*(2), 189–206.
+- @pohl2004: Pohl, R. F. (Ed.). (2004). *Cognitive illusions: A handbook on fallacies and biases in thinking, judgement and memory*. Psychology Press.
+- @polya1945: Pólya, G. (1945). *How to solve it*. Princeton University Press.
+- @popper1959: Popper, K. R. (1959). *The logic of scientific discovery*. Hutchinson. (Original work published 1934)
+- @pronin_etal2002: Pronin, E., Lin, D. Y., & Ross, L. (2002). The bias blind spot: Perceptions of bias in self versus others. *Personality and Social Psychology Bulletin, 28*(3), 369–381.
+- @rand_etal2012: Rand, D. G., Greene, J. D., & Nowak, M. A. (2012). Spontaneous giving and calculated greed. *Nature, 489*(7416), 427–430.
+- @rathje_etal2021: Rathje, S., Van Bavel, J. J., & van der Linden, S. (2021). Out-group animosity drives engagement on social media. *Proceedings of the National Academy of Sciences, 118*(26), e2024292118.
+- @rescorla_wagner1972: Rescorla, R. A., & Wagner, A. R. (1972). A theory of Pavlovian conditioning: Variations in the effectiveness of reinforcement and nonreinforcement. In A. H. Black & W. F. Prokasy (Eds.), *Classical conditioning II* (pp. 64–99). Appleton-Century-Crofts.
+- @robertson_etal2023: Robertson, C. E., et al. (2023). Negativity drives online news consumption. *Nature Human Behaviour, 7*, 812–822.
+- @schaffner_luks2018: Schaffner, B. F., & Luks, S. (2018). Misinformation or expressive responding? What an inauguration crowd can tell us about the source of political misinformation in surveys. *Public Opinion Quarterly, 82*(1), 135–147.
+- @schank_abelson1977: Schank, R. C., & Abelson, R. P. (1977). *Scripts, plans, goals, and understanding*. Lawrence Erlbaum.
+- @schmidt_hunter2004: Schmidt, F. L., & Hunter, J. (2004). General mental ability in the world of work. *Journal of Personality and Social Psychology, 86*(1), 162–173.
+- @schnall_etal2008: Schnall, S., Haidt, J., Clore, G. L., & Jordan, A. H. (2008). Disgust as embodied moral judgment. *Personality and Social Psychology Bulletin, 34*(8), 1096–1109.
+- @schultz_etal1997: Schultz, W., Dayan, P., & Montague, P. R. (1997). A neural substrate of prediction and reward. *Science, 275*(5306), 1593–1599.
+- @schwartz2004: Schwartz, B. (2004). *The paradox of choice: Why more is less*. Ecco.
+- @schwartz_etal2002: Schwartz, B., Ward, A., Monterosso, J., Lyubomirsky, S., White, K., & Lehman, D. R. (2002). Maximizing versus satisficing. *Journal of Personality and Social Psychology, 83*(5), 1178–1197.
+- @schwarz_clore1983: Schwarz, N., & Clore, G. L. (1983). Mood, misattribution, and judgments of well-being: Informative and directive functions of affective states. *Journal of Personality and Social Psychology, 45*(3), 513–523.
+- @schwarz_etal2007: Schwarz, N., Sanna, L. J., Skurnik, I., & Yoon, C. (2007). Metacognitive experiences and the intricacies of setting people straight. *Advances in Experimental Social Psychology, 39*, 127–161.
+- @sedlmeier1997: Sedlmeier, P. (1997). BasicBayes: A tutor system for simple Bayesian inference. *Behavior Research Methods, Instruments, & Computers, 29*(3), 328–336.
+- @seligman_maier1967: Seligman, M. E. P., & Maier, S. F. (1967). Failure to escape traumatic shock. *Journal of Experimental Psychology, 74*(1), 1–9.
+- @shafir1993: Shafir, E. (1993). Choosing versus rejecting: Why some options are both better and worse than others. *Memory & Cognition, 21*(4), 546–556.
+- @shefrin_thaler1988: Shefrin, H. M., & Thaler, R. H. (1988). The behavioral life-cycle hypothesis. *Economic Inquiry, 26*(4), 609–643.
+- @simon1955: Simon, H. A. (1955). A behavioral model of rational choice. *Quarterly Journal of Economics, 69*(1), 99–118.
+- @simon1956: Simon, H. A. (1956). Rational choice and the structure of the environment. *Psychological Review, 63*(2), 129–138.
+- @simon1972: Simon, H. A. (1972). Theories of bounded rationality. In C. B. McGuire & R. Radner (Eds.), *Decision and organization* (pp. 161–176). North-Holland.
+- @slevin_etal1990: Slevin, M. L., et al. (1990). Attitudes to chemotherapy. *British Medical Journal, 300*(6737), 1458–1460.
+- @sloman1996: Sloman, S. A. (1996). The empirical case for two systems of reasoning. *Psychological Bulletin, 119*(1), 3–22.
+- @slovic1987: Slovic, P. (1987). Perception of risk. *Science, 236*(4799), 280–285.
+- @slovic_etal2007: Slovic, P., Finucane, M. L., Peters, E., & MacGregor, D. G. (2007). The affect heuristic. *European Journal of Operational Research, 177*(3), 1333–1352.
+- @small_etal2007: Small, D. A., Loewenstein, G., & Slovic, P. (2007). Sympathy and callousness: The impact of deliberative thought on donations to identifiable and statistical victims. *Organizational Behavior and Human Decision Processes, 102*(2), 143–153.
+- @small_loewenstein2003: Small, D. A., & Loewenstein, G. (2003). Helping a victim or helping the victim: Altruism and identifiability. *Journal of Risk and Uncertainty, 26*(1), 5–16.
+- @spearman1904: Spearman, C. (1904). "General intelligence," objectively determined and measured. *American Journal of Psychology, 15*(2), 201–292.
+- @stanovich_west2000: Stanovich, K. E., & West, R. F. (2000). Individual differences in reasoning: Implications for the rationality debate? *Behavioral and Brain Sciences, 23*(5), 645–665.
+- @starr1969: Starr, C. (1969). Social benefit versus technological risk. *Science, 165*(3899), 1232–1238.
+- @stasser_titus1985: Stasser, G., & Titus, W. (1985). Pooling of unshared information in group decision making. *Journal of Personality and Social Psychology, 48*(6), 1467–1478.
+- @strack_mussweiler1997: Strack, F., & Mussweiler, T. (1997). Explaining the enigmatic anchoring effect: Mechanisms of selective accessibility. *Journal of Personality and Social Psychology, 73*(3), 437–446.
+- @strohminger_nichols2014: Strohminger, N., & Nichols, S. (2014). The essential moral self. *Cognition, 131*(1), 159–171.
+- @sunstein2014: Sunstein, C. R. (2014). *Why nudge? The politics of libertarian paternalism*. Yale University Press.
+- @surowiecki2004: Surowiecki, J. (2004). *The wisdom of crowds*. Doubleday.
+- @swami_etal2014: Swami, V., Voracek, M., Stieger, S., Tran, U. S., & Furnham, A. (2014). Analytic thinking reduces belief in conspiracy theories. *Cognition, 133*(3), 572–585.
+- @thaler1999: Thaler, R. H. (1999). Mental accounting matters. *Journal of Behavioral Decision Making, 12*(3), 183–206.
+- @thaler_sunstein2008: Thaler, R. H., & Sunstein, C. R. (2008). *Nudge: Improving decisions about health, wealth, and happiness*. Yale University Press.
+- @toplak_etal2011: Toplak, M. E., West, R. F., & Stanovich, K. E. (2011). The Cognitive Reflection Test as a predictor of performance on heuristics-and-biases tasks. *Memory & Cognition, 39*(7), 1275–1289.
+- @tucker1983: Tucker, A. W. (1983). The mathematics of Tucker: A sampler. *The Two-Year College Mathematics Journal, 14*(3), 228–232. [ref details to verify]
+- @turiel2002: Turiel, E. (2002). *The culture of morality: Social development, context, and conflict*. Cambridge University Press.
+- @turing1950: Turing, A. M. (1950). Computing machinery and intelligence. *Mind, 59*(236), 433–460.
+- @tversky_kahneman1971: Tversky, A., & Kahneman, D. (1971). Belief in the law of small numbers. *Psychological Bulletin, 76*(2), 105–110.
+- @tversky_kahneman1973: Tversky, A., & Kahneman, D. (1973). Availability: A heuristic for judging frequency and probability. *Cognitive Psychology, 5*(2), 207–232.
+- @tversky_kahneman1974: Tversky, A., & Kahneman, D. (1974). Judgment under uncertainty: Heuristics and biases. *Science, 185*(4157), 1124–1131.
+- @tversky_kahneman1981: Tversky, A., & Kahneman, D. (1981). The framing of decisions and the psychology of choice. *Science, 211*(4481), 453–458.
+- @tversky_kahneman1983: Tversky, A., & Kahneman, D. (1983). Extensional versus intuitive reasoning: The conjunction fallacy in probability judgment. *Psychological Review, 90*(4), 293–315.
+- @tversky_kahneman1992: Tversky, A., & Kahneman, D. (1992). Advances in prospect theory: Cumulative representation of uncertainty. *Journal of Risk and Uncertainty, 5*(4), 297–323.
+- @valdesolo_desteno2006: Valdesolo, P., & DeSteno, D. (2006). Manipulations of emotional context shape moral judgment. *Psychological Science, 17*(6), 476–477.
+- @vargova_etal2020: Vargová, L., Zibrínová, Ľ., & Baník, G. (2020). The way of making choices: Maximizing and satisficing and its relationship to well-being, personality, and self-rumination. *Judgment and Decision Making, 15*(1), 69–84. [ref details to verify]
+- @vonneumann_morgenstern1944: von Neumann, J., & Morgenstern, O. (1944). *Theory of games and economic behavior*. Princeton University Press.
+- @waldmann_holyoak1992: Waldmann, M. R., & Holyoak, K. J. (1992). Predictive and diagnostic learning within causal models. *Journal of Experimental Psychology: General, 121*(2), 222–236.
+- @wason1960: Wason, P. C. (1960). On the failure to eliminate hypotheses in a conceptual task. *Quarterly Journal of Experimental Psychology, 12*(3), 129–140.
+- @weber2006: Weber, E. U. (2006). Experience-based and description-based perceptions of long-term risk. *Climatic Change, 77*(1–2), 103–120.
+- @wei_etal2022: Wei, J., et al. (2022). Chain-of-thought prompting elicits reasoning in large language models. *Advances in Neural Information Processing Systems, 35*, 24824–24837.
+- @weidinger_etal2021: Weidinger, L., et al. (2021). Ethical and social risks of harm from language models. *arXiv preprint arXiv:2112.04359*.
+- @weinstein1980: Weinstein, N. D. (1980). Unrealistic optimism about future life events. *Journal of Personality and Social Psychology, 39*(5), 806–820.
+- @weisberg_etal2008: Weisberg, D. S., Keil, F. C., Goodstein, J., Rawson, E., & Gray, J. R. (2008). The seductive allure of neuroscience explanations. *Journal of Cognitive Neuroscience, 20*(3), 470–477.
+- @wellman_gelman1992: Wellman, H. M., & Gelman, S. A. (1992). Cognitive development: Foundational theories of core domains. *Annual Review of Psychology, 43*, 337–375.
+- @wilson_gilbert2005: Wilson, T. D., & Gilbert, D. T. (2005). Affective forecasting: Knowing what to want. *Current Directions in Psychological Science, 14*(3), 131–134.
+- @wood_etal2012: Wood, M. J., Douglas, K. M., & Sutton, R. M. (2012). Dead and alive: Beliefs in contradictory conspiracy theories. *Social Psychological and Personality Science, 3*(6), 767–773.
+- @yopchick_kim2012: Yopchick, J. E., & Kim, N. S. (2012). Hindsight bias and causal reasoning. *Social Cognition, 30*(6), 737–749.
