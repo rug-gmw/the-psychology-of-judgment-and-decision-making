@@ -59,7 +59,7 @@
 
 ## Heuristics and Biases
 
-- **Heuristic:** Answering a hard question by substituting an easier one [@kahneman_frederick2002]. Or: a quick-and-easy rule of thumb used under conditions of uncertainty. The term heuristic appears to have been popularized by George Pólya in his 1945 book *How to Solve It* [@polya1945], although he used it mainly in the context of mathematical problem solving. Classified as Type 1 processing. The world is too complex for full rational analysis, so thinking is often heuristic-based (i.e. bounded rationality).
+- **Heuristic:** Answering a hard question by substituting an easier one [@kahneman_frederick2002]. Or: a quick-and-easy rule of thumb used under conditions of uncertainty. The term heuristic appears to have been popularized by George Pólya in his 1945 book *How to Solve It*, although he used it mainly in the context of mathematical problem solving. Classified as Type 1 processing. The world is too complex for full rational analysis, so thinking is often heuristic-based (i.e. bounded rationality).
 - **Bias:** A systematic error in thinking in a specific direction, often resulting from reliance on heuristics. In daily life, "bias" is sometimes used to mean socially undesirable thinking (including stereotypes, such as that professors are male), but this conflates errors in thinking with social desirability.
 - **Cognitive illusions:** Systematic errors in subjective judgment, analogous to visual perceptual illusions — they reveal how judgments and decisions are normally made.
 - **Affect:** Experienced emotion; people may rely on positive or negative affect as a simple cue when judging and deciding (the *affect heuristic*).
@@ -68,7 +68,7 @@
 
 **🎯 Bayesian lens:** Heuristics can be understood as computationally cheap approximations to Bayesian inference. They often work well (when priors and evidence are typical) but produce systematic errors when the shortcut diverges from proper integration of prior and likelihood — i.e., biases are predictable failures of approximate Bayesian computation.
 
-**Key references:** @tversky_kahneman1974; @kahneman_frederick2002; @pohl2004; @slovic_etal2007; @pronin_etal2002; @polya1945
+**Key references:** @tversky_kahneman1974; @kahneman_frederick2002; @slovic_etal2007; @pronin_etal2002;
 
 ---
 
@@ -80,24 +80,7 @@
 
 **🎯 Bayesian lens:** Bayesian updating is the normative standard for how beliefs should change in light of evidence. Descriptive models document how people systematically deviate from this standard. Prescriptive models often aim to nudge people closer to Bayesian rationality (e.g., presenting information as natural frequencies).
 
-**Key references:** @knight1921; @simon1955
-
----
-
-## Intelligence
-
-- **g-factor (General intelligence)** [@spearman1904]: Imagine we organize a mega-Olympics where a hundred random people from the street compete in every event. We'd quickly notice that some people do well across the board — faster runners, better swimmers, higher jumpers — while others consistently struggle. There's a general underlying factor we might call *physical fitness* that largely determines performance across diverse athletic events. Spearman's insight was that intelligence works the same way. There is a general underlying factor — the **g-factor** (for *general intelligence*) — that partly determines how well people perform across all kinds of cognitive tasks. People with a high g-factor tend to have better spatial reasoning, larger vocabularies, higher working-memory capacity, and stronger problem-solving skills. This explains why the specific tasks in an IQ test matter less than you'd think: most cognitive tasks tap into the g-factor to some degree. In applied and organizational psychology, the g-factor is often referred to as **general mental ability (GMA)** — same construct, different label.
-- **s-factors (Specific abilities):** Just as a steady hand matters for archery but not for sprinting, some cognitive abilities are task-specific. Language skill matters for vocabulary tests but not for visual puzzles. Spearman called these **s-factors** (for *specific intelligence*). Some abilities are almost purely g-loaded — matrix puzzles are the best example, requiring working memory, flexible recombination of information, and active problem-solving. Others, like musicality, depend mostly on specific factors.
-- **Fluid intelligence:** The capacity to flexibly manipulate information in working memory to solve novel problems. Corresponds closely to the g-factor (matrix puzzles are a near-pure measure). Declines with age.
-- **Crystallized intelligence:** Accumulated knowledge, skills, and facts in long-term memory (e.g., vocabulary). Increases with age. With experience, tasks that once required fluid intelligence can be solved through crystallized intelligence.
-- **Intelligence predicts real-life outcomes:** GMA is one of the strongest single predictors of both academic achievement and job performance across virtually all occupations. @schmidt_hunter2004 showed that GMA predicts job performance better than any other single selection method, including work experience, interviews, and personality measures. The predictive power increases with job complexity — for complex jobs (management, engineering), GMA is an even stronger predictor than for simpler jobs. This doesn't mean intelligence is the *only* thing that matters, but it does mean that the g-factor has substantial real-world consequences beyond the lab.
-- **Genetic and environmental basis:** Twin studies show roughly half of individual differences are attributable to genetics. The rest is shaped by parental stimulation, socioeconomic status, neighborhood, and cultural background.
-- **IQ testing:** Modern tests (e.g., WAIS) define IQ relative to population norms (100 = average; 130 = top ~2%).
-- **The Flynn effect and its reversal:** Throughout the 20th century, average IQ scores rose by roughly 3 points per decade — the **Flynn effect**. This is too fast for genetic change, suggesting environmental causes: better nutrition, more education, greater exposure to abstract reasoning. However, recent evidence suggests the Flynn effect has plateaued or even reversed in some countries. @bratsberg_rogeberg2018 analyzed Norwegian military conscription data and found IQ scores *declining* among cohorts born after the mid-1970s. The cause of this reversal is debated — possible explanations include changes in education, media consumption, or lifestyle — but it challenges the assumption that each generation is cognitively sharper than the last.
-
-**🎯 Bayesian lens:** Higher fluid intelligence and CRT scores predict better calibration and more Bayesian reasoning — e.g., greater sensitivity to base rates, less anchoring, less susceptibility to framing effects [@frederick2005; @toplak_etal2011]. Individual differences in "Bayesian competence" are real and consequential. The strong predictive power of GMA can itself be understood through a Bayesian lens: people with higher g-factors form more accurate priors, update more appropriately from evidence, and maintain better-calibrated confidence — advantages that compound across academic and professional domains.
-
-**Key references:** @spearman1904; @frederick2005; @toplak_etal2011; @schmidt_hunter2004; @bratsberg_rogeberg2018
+**Key references:** @simon1955
 
 ---
 
@@ -105,7 +88,7 @@
 
 **Framework theories:** Distinct sets of commonsense background knowledge in biology, physics, and psychology that develop very early in life and organize understanding of new information. When knowledge from one domain is inappropriately applied to another, errors and superstitions may result.
 
-**Stances / Modes of construal** [@dennett1987; @keil1995; @keil2006]:
+**Stances / Modes of construal** [@dennett1987; @keil2006]:
 - **Mechanical (physical) stance:** Explaining in purely physical terms.
 - **Design (functional) stance:** Explaining in terms of purpose/function.
 - **Intentional stance:** Explaining by presuming beliefs and desires.
@@ -116,17 +99,61 @@
 - **Schema:** A set of general knowledge about what to expect in a particular situation or thing. Activated by incoming information to guide comprehension, memory, learning, and performance.
   - @bransford_johnson1972: Students who learned a topic before reading disjointed sentences had better comprehension and recall.
   - Not everyone has the same schema content, and the nature of that content profoundly affects behavior.
-- **Scripts** [@schank_abelson1977]: Schemas for highly routine events (e.g., restaurant visits). Well known within a culture, with agreed-upon temporal sequences. Culture-specific. Violations of scripts are noticed and remembered — especially when they bring the script to a standstill.
+- **Scripts**: Schemas for highly routine events (e.g., restaurant visits). Well known within a culture, with agreed-upon temporal sequences. Culture-specific. Violations of scripts are noticed and remembered — especially when they bring the script to a standstill.
 
 **Artifacts vs. natural kinds as a case study in stance activation:**
-Even young children distinguish artifacts (human-made items) from natural kinds (e.g., animals, plants) and reason about them differently [@keil1989]. This reflects that different types of things trigger different default stances:
+Even young children distinguish artifacts (human-made items) from natural kinds (e.g., animals, plants) and reason about them differently. This reflects that different types of things trigger different default stances:
 - **Artifacts → design stance:** We understand artifacts in terms of function and purpose. A broken chair is still a chair because it was *designed* to be sat on.
 - **Living things → intentional stance:** We understand animals and people in terms of beliefs, desires, and goals. A dog chases a ball because it *wants* to catch it. This tendency is so strong that children spontaneously attribute intentions even to simple animals and animated shapes.
 The key insight is that the type of thing we encounter triggers a default stance, which then activates stance-appropriate schemas. This distinction emerges early in development, suggesting it reflects a deep organizing principle of human cognition.
 
 **🎯 Bayesian lens:** Stances set the broadest level of prior beliefs — which *kind* of explanation is appropriate. Within a stance, schemas encode more specific expectations about what is likely. Scripts represent strong temporal priors within schemas, and script violations are prediction errors. New information is interpreted against these layered priors: stance-inconsistent information may be ignored entirely, while schema-inconsistent information within the right stance is surprising and may trigger updating.
 
-**Key references:** @wellman_gelman1992; @keil1989; @dennett1987; @bransford_johnson1972; @schank_abelson1977
+**Key references:** @wellman_gelman1992; @dennett1987; @bransford_johnson1972;
+
+---
+
+# Intelligence
+
+---
+
+## What is intelligence?
+
+- **Intelligence resists verbal definition — but that's okay.** Ask ten psychologists to define intelligence and you'll get ten different answers. Some emphasize problem-solving, others learning speed, others adaptation to new environments. This ambiguity sometimes leads people to a relativist position: if we can't even define intelligence, maybe the concept is meaningless. But this confuses *verbal* definition with *statistical* definition. We don't need a crisp sentence to make intelligence scientifically useful — we need it to behave consistently in data. And it does. The g-factor (below) is one of the most robust and replicable findings in all of psychology. Intelligence may be hard to put into words, but it is easy to measure, and it predicts real-world outcomes with striking consistency.
+- **g-factor (General intelligence)** [@spearman1904]: Imagine we organize a mega-Olympics where a hundred random people from the street compete in every event. We'd quickly notice that some people do well across the board — faster runners, better swimmers, higher jumpers — while others consistently struggle. There's a general underlying factor we might call *physical fitness* that largely determines performance across diverse athletic events. Spearman's insight was that intelligence works the same way. There is a general underlying factor — the **g-factor** (for *general intelligence*) — that partly determines how well people perform across all kinds of cognitive tasks. People with a high g-factor tend to have better spatial reasoning, larger vocabularies, higher working-memory capacity, and stronger problem-solving skills. This explains why the specific tasks in an IQ test matter less than you'd think: most cognitive tasks tap into the g-factor to some degree. In applied and organizational psychology, the g-factor is often referred to as **general mental ability (GMA)** — same construct, different label.
+- **s-factors (Specific abilities):** Just as a steady hand matters for archery but not for sprinting, some cognitive abilities are task-specific. Language skill matters for vocabulary tests but not for visual puzzles. Spearman called these **s-factors** (for *specific intelligence*). Some abilities are almost purely g-loaded — matrix puzzles are the best example, requiring working memory, flexible recombination of information, and active problem-solving. Others, like musicality, depend mostly on specific factors.
+- **Fluid intelligence** [@cattell1963]: The capacity to flexibly manipulate information in working memory to solve novel problems. Corresponds closely to the g-factor (matrix puzzles are a near-pure measure). Declines with age.
+- **Crystallized intelligence** [@cattell1963]: Accumulated knowledge, skills, and facts in long-term memory (e.g., vocabulary). Increases with age. With experience, tasks that once required fluid intelligence can be solved through crystallized intelligence.
+
+**🎯 Bayesian lens:** The fluid–crystallized distinction maps neatly onto Bayesian inference. Crystallized intelligence is your stock of **priors** — the rich body of knowledge and patterns accumulated over a lifetime. Fluid intelligence is the engine that processes **evidence** and computes the **posterior** — flexibly integrating new information with what you already know. A person with strong priors (crystallized) but a weakening engine (declining fluid intelligence) can still perform well in familiar domains, but will struggle when the environment changes and priors alone aren't enough. This is exactly what we see with aging: experienced professionals compensate for slower updating with richer priors.
+
+**Key references:** @spearman1904; @cattell1963
+
+---
+
+## Intelligence vs. Rationality
+
+- **Dysrationalia** [@stanovich1993]: Stanovich argues that standard IQ tests measure *algorithmic-level* processing — raw computational power — but miss *reflective-level* thinking dispositions: the tendency to actually engage that power when it matters. He coined the term **dysrationalia** to describe the condition of having adequate intelligence yet thinking poorly. A high-IQ person can still fall prey to biases if they lack the disposition to override intuitive responses.
+- **The Cognitive Reflection Test (CRT)** [@frederick2005]: A brief test that measures the tendency to override an intuitive but incorrect response (System 1) with a deliberate, correct one (System 2). CRT scores predict susceptibility to biases — anchoring, framing, base-rate neglect — above and beyond IQ. Where IQ asks *can you solve this?*, the CRT asks *will you bother to check your gut feeling?*
+- **Actively Open-Minded Thinking (AOT)** [@stanovich_toplak2023]: A thinking disposition characterized by willingness to consider alternative viewpoints, seek disconfirming evidence, and revise beliefs. AOT predicts resistance to belief bias and myside bias independently of intelligence. It captures something IQ misses: intellectual humility and epistemic flexibility.
+
+**🎯 Bayesian lens:** Intelligence gives you the computational machinery to perform a Bayesian update; rationality is the *disposition to actually perform it*. A dysrational thinker has the processing power to integrate base rates, weigh evidence, and revise beliefs — but defaults to System 1 shortcuts instead. The CRT captures exactly this: the willingness to notice that your intuitive posterior feels wrong and recalculate. AOT goes further — it reflects the habit of actively seeking out evidence that could *change* your posterior, rather than selectively gathering evidence that confirms it. In Bayesian terms, intelligence is the capacity to compute; rationality is the willingness to compute honestly.
+
+**Key references:** @stanovich1993; @frederick2005; @stanovich_etal2013;
+
+---
+
+## Intelligence in the Real World
+
+- **Intelligence predicts real-life outcomes:** GMA is one of the strongest single predictors of both academic achievement and job performance across virtually all occupations. @schmidt_hunter2004 showed that GMA predicts job performance better than any other single selection method, including work experience, interviews, and personality measures. The predictive power increases with job complexity — for complex jobs (management, engineering), GMA is an even stronger predictor than for simpler jobs. This doesn't mean intelligence is the *only* thing that matters, but it does mean that the g-factor has substantial real-world consequences beyond the lab.
+- **Genetic and environmental basis:** Twin studies show roughly half of individual differences are attributable to genetics. The rest is shaped by parental stimulation, socioeconomic status, neighborhood, and cultural background.
+- **IQ testing:** Modern tests (e.g., WAIS) define IQ relative to population norms (100 = average; 130 = top ~2%).
+- **The Flynn effect and its reversal:** Throughout the 20th century, average IQ scores rose by roughly 3 points per decade — the **Flynn effect**. This is too fast for genetic change, suggesting environmental causes: better nutrition, more education, greater exposure to abstract reasoning. However, recent evidence suggests the Flynn effect has plateaued or even reversed in some countries. @bratsberg_rogeberg2018 analyzed Norwegian military conscription data and found IQ scores *declining* among cohorts born after the mid-1970s. The cause of this reversal is debated — possible explanations include changes in education, media consumption, or lifestyle — but it challenges the assumption that each generation is cognitively sharper than the last.
+
+**🎯 Bayesian lens:** The strong predictive power of GMA can itself be understood through a Bayesian lens: people with higher g-factors form more accurate priors, update more appropriately from evidence, and maintain better-calibrated confidence — advantages that compound across academic and professional domains. Higher fluid intelligence and CRT scores predict more Bayesian reasoning — greater sensitivity to base rates, less anchoring, less susceptibility to framing effects [@frederick2005; @toplak_etal2011]. The Flynn effect raises an intriguing question: if populations are (or were) getting better at abstract reasoning, are they also becoming more Bayesian? And if the trend is reversing, what does that mean for the quality of collective judgment?
+
+**Key references:** @frederick2005; @toplak_etal2011; @schmidt_hunter2004; @bratsberg_rogeberg2018
+
 ---
 
 # Uncertainty
@@ -256,7 +283,7 @@ The key insight is that the type of thing we encounter triggers a default stance
 
 **Cues-to-causality** [@einhorn_hogarth1986]: Situational features leading people to judge that a causal relationship is present. These are the basic toolkit people use to infer causation in everyday life.
 
-**Causal field** [@mackie1965; @mackie1974]: The background of existing conditions against which potential causes are evaluated. A **difference-in-a-background** — an event that stands out against the causal field — is inferred to be the cause.
+**Causal field** [@mackie1965]: The background of existing conditions against which potential causes are evaluated. A **difference-in-a-background** — an event that stands out against the causal field — is inferred to be the cause.
 
 **Temporal order:** When one event regularly precedes another, people infer causation. People use temporal order even when they shouldn't (e.g., judging P(child has blue eyes | parent has blue eyes) as higher than the reverse, though mathematically equal). In legal settings, evidence in temporal order makes decision-makers more convinced [@pennington_hastie1988; see also [Legal Decision-Making](#legal-decision-making)].
 
@@ -270,7 +297,7 @@ The key insight is that the type of thing we encounter triggers a default stance
 
 **🎯 Bayesian lens:** Cues to causality function as features that strengthen or weaken the likelihood of a causal hypothesis. Each cue updates the probability of causality: temporal order, contiguity/covariation, and mechanism all increase P(E|causal link), while their absence decreases it.
 
-**Key references:** @einhorn_hogarth1986; @mackie1965; @mackie1974; @michotte1963; @ahn_etal1995; @kahneman_tversky1982; @pennington_hastie1988
+**Key references:** @einhorn_hogarth1986; @mackie1965; @michotte1963; @ahn_etal1995; @kahneman_tversky1982; @pennington_hastie1988
 
 ---
 
@@ -304,7 +331,7 @@ The key insight is that the type of thing we encounter triggers a default stance
 
 **Prediction error as the driving mechanism:** What makes conditioning work is *prediction error* — the brain signals deviations from what was expected. @schultz_etal1997: dopamine neurons respond to unexpected rewards and go silent when expected rewards are omitted. After conditioning, the dopamine response shifts from the reward itself to the cue that predicts it. Learning occurs when outcomes are surprising; once a cue fully predicts an outcome, learning stops.
 
-**Blocking** [@rescorla_wagner1972]: This is prediction error in action. When a first cue already perfectly predicts an outcome, pairing it with a second cue produces no prediction error — so nothing is learned about the second cue. The first cue "blocks" the second. This is actually Bayesian: once a cue fully explains the outcome, a redundant cue provides no additional evidence and should receive no credit.
+**Blocking**: This is prediction error in action. When a first cue already perfectly predicts an outcome, pairing it with a second cue produces no prediction error — so nothing is learned about the second cue. The first cue "blocks" the second. This is actually Bayesian: once a cue fully explains the outcome, a redundant cue provides no additional evidence and should receive no credit.
 
 **Predictive vs. diagnostic learning** [@waldmann_holyoak1992]: Blocking depends on causal direction.
 - *Predictive task:* Cause presented first → learner determines the effect. Cues compete; blocking occurs.
@@ -325,7 +352,7 @@ The key insight is that the type of thing we encounter triggers a default stance
 
 **🎯 Bayesian lens:** Each failure of causal reasoning maps onto a specific departure from Bayesian updating. Cell A bias = overweighting confirming evidence. Illusory causation = neglecting base rates. Regression misinterpretation = failing to account for noise. Yet some aspects of causal learning *are* Bayesian: prediction error drives learning exactly when outcomes are surprising (high likelihood ratio), blocking correctly assigns zero weight to redundant predictors, and plausibility shows that priors (appropriately) shape learning.
 
-**Key references:** @lipe1990; @schultz_etal1997; @rescorla_wagner1972; @waldmann_holyoak1992; @matute_etal2011; @fugelsang_thompson2003; @goedert_etal2014
+**Key references:** @lipe1990; @schultz_etal1997; @waldmann_holyoak1992; @matute_etal2011; @fugelsang_thompson2003; @goedert_etal2014
 
 ---
 
@@ -374,7 +401,7 @@ The key insight is that the type of thing we encounter triggers a default stance
 - Corrective feedback is critical for learning; weather forecasters exemplify accurate expert prediction because they receive frequent, consistent feedback.
 
 **Case study 1 — Selecting judges in the Netherlands [@dehoog2026a]:**
-Researchers evaluated the multi-round selection procedure for the Dutch judiciary training program [@neumann_etal2024]. Key findings:
+Researchers evaluated the multi-round selection procedure for the Dutch judiciary training program [@neumann_etal2026]. Key findings:
 - The procedure was lengthy (five rounds) yet violated basic best practices at nearly every stage: unclear criteria, inconsistent questions across candidates, and no predefined decision rules for pass/fail.
 - Decisions were largely intuition-based — a scoring rubric existed but was rarely used; "fit" and "gut feeling" drove choices, especially in local interviews.
 - A simple intelligence test (round two) predicted training performance *better* than an elaborate expert-led assessment involving psychologist interviews and actor role-plays.
@@ -397,7 +424,7 @@ Heart of Midlothian, a Scottish football club co-owned by entrepreneur and poker
 
 **🎯 Bayesian lens:** Clinical intuition represents informal, heuristic Bayesian reasoning — integrating evidence with experience-based priors, but doing so imprecisely and inconsistently. Statistical methods are formal Bayesian (or frequentist) inference — applying the same evidence-weighting rules uniformly across cases. The superiority of statistical methods shows that human intuitive "Bayesian" processing is noisy and biased, especially without calibrating feedback. Expertise without feedback increases confidence (strengthens the prior) without improving the quality of evidence integration.
 
-**Key references:** @meehl1954; @grove_etal2000; @dawes_etal1989; @garb2005; @einhorn_hogarth1978; @neumann_etal2024; @dehoog2024; @dehoog2025
+**Key references:** @grove_etal2000; @dawes_etal1989; @garb2005; @einhorn_hogarth1978; @neumann_etal2026; @dehoog2026a; @dehoog2026b
 
 ---
 
@@ -498,7 +525,7 @@ Heart of Midlothian, a Scottish football club co-owned by entrepreneur and poker
 
 **🎯 Bayesian lens:** Prospect theory describes systematic distortions in how people weight probabilities — the decision weight function w(P) is a biased transformation of true probabilities. A Bayesian agent would use P directly; prospect-theory agents overweight small P and underweight large P. Framing effects show that the *same evidence* produces different posteriors depending on how it is presented — a direct violation of Bayesian invariance. The reference point functions as a prior: what counts as a "gain" or "loss" depends entirely on where one starts.
 
-**Key references:** @edwards1954; @vonneumann_morgenstern1944; @kahneman_tversky1979; @tversky_kahneman1981; @tversky_kahneman1992; @allais1953; @barberis2013
+**Key references:** @edwards1954; @kahneman_tversky1979; @tversky_kahneman1981; @tversky_kahneman1992; @allais1953; @barberis2013
 
 ---
 
@@ -508,24 +535,24 @@ Heart of Midlothian, a Scottish football club co-owned by entrepreneur and poker
 
 - **Satisficing** [@simon1956]: Selecting an option that is "good enough" — one that meets a minimum threshold of acceptability. The decision-maker stops searching as soon as a satisfactory option is found.
 - **Maximizing:** Striving for the best possible option by exhaustively comparing all available alternatives. This sounds rational in theory, but in practice it is costly: it requires evaluating more options, making more comparisons, and often leads to greater regret (because the decision-maker is more aware of what they might have missed).
-- **The maximizing paradox** [@schwartz2004]: Maximizers tend to achieve objectively *better* outcomes than satisficers, but feel *worse* about them — experiencing more regret, less satisfaction, and more counterfactual thinking ("what if I had chosen differently?"). More choice can make maximizers worse off.
+- **The maximizing paradox**: Maximizers tend to achieve objectively *better* outcomes than satisficers, but feel *worse* about them — experiencing more regret, less satisfaction, and more counterfactual thinking ("what if I had chosen differently?"). More choice can make maximizers worse off.
 - **Choice overload** [@iyengar_lepper2000]: The maximizing paradox plays out dramatically when the number of options increases. In a famous demonstration, shoppers who encountered 24 jam samples were far less likely to buy (3%) than those who saw only 6 (30%). More choice should help maximizers find the best option, but instead it paralyzes them — the cost of exhaustive comparison becomes overwhelming. Satisficers, who stop at "good enough," are relatively immune.
 - **Maximization Scale** [@schwartz_etal2002]: Individual differences in the tendency to maximize can be measured. Higher scores correlate with regret, depression, perfectionism, and neuroticism; lower scores with happiness, satisfaction, and optimism. Importantly, maximizing is *not* the same as having high standards — a person can have high standards while still satisficing (they simply set a high threshold for "good enough").
 - Satisficing is a direct consequence of bounded rationality (→ [How It Is vs. How It Should Be](#how-it-is-vs-how-it-should-be)): because we lack the time, information, and cognitive capacity to evaluate all options, "good enough" is often the best we can do — and often leads to better subjective outcomes than relentless optimization.
 
 **🎯 Bayesian lens:** Maximizing assumes you can compute the expected value of every option and select the highest — essentially a full Bayesian decision analysis. Satisficing acknowledges that this computation is often infeasible and replaces it with a simpler threshold rule: is the posterior probability that this option is "good enough" sufficiently high? This is a resource-rational strategy — trading a small expected loss in quality for a large saving in cognitive effort.
 
-**Key references:** @simon1956; @schwartz2004; @schwartz_etal2002; @iyengar_lepper2000; @vargova_etal2020
+**Key references:** @simon1956; @schwartz_etal2002; @iyengar_lepper2000; @vargova_etal2020
 
 ---
 
 ## Steering Other People's Choices
 
-**The tension — libertarian paternalism:** Every choice environment is designed by someone. No arrangement of options is truly neutral — the order, the default, the framing all influence what people choose. This creates a tension: people should be free to choose, but the environment inevitably steers them. **Libertarian paternalism** [@thaler_sunstein2008] embraces this tension: institutions can and should design choice environments that steer people toward beneficial outcomes, while preserving the freedom to opt out. The question is not *whether* to influence, but *how*.
+**The tension — libertarian paternalism:** Every choice environment is designed by someone. No arrangement of options is truly neutral — the order, the default, the framing all influence what people choose. This creates a tension: people should be free to choose, but the environment inevitably steers them. **Libertarian paternalism** embraces this tension: institutions can and should design choice environments that steer people toward beneficial outcomes, while preserving the freedom to opt out. The question is not *whether* to influence, but *how*.
 
 **Defaults and the status quo bias:** The most powerful nudge is simply pre-selecting the desired option. People tend to stick with whatever is already chosen — the **status quo bias** (preference for inaction over action). @johnson_goldstein2004: Austria's opt-out organ donation system → ~100% consent vs. Germany's opt-in system → 12%. Same choice, radically different outcome, driven entirely by the default.
 
-**Other nudge types** [@thaler_sunstein2008; @sunstein2014]:
+**Other nudge types**:
 - **Increasing ease and visibility** of the desired choice (e.g., placing healthy food at eye level in cafeterias).
 - **Social pressure:** Making behavior visible or communicating social norms (e.g., "most of your neighbors have already paid their taxes").
 - **Educational nudges:** Providing vivid information to shift preferences (e.g., graphic health warnings on tobacco packaging; meta-analyses suggest they increase willingness to quit, though effectiveness can wear off over time) [@pang_etal2021].
@@ -538,7 +565,7 @@ Heart of Midlothian, a Scottish football club co-owned by entrepreneur and poker
 
 **🎯 Bayesian lens:** Choice architecture manipulates the prior. Defaults set a strong prior that most people never override — equivalent to starting with a heavily weighted anchor. The status quo bias reflects an asymmetry in updating: maintaining the current state requires no evidence, while switching requires overcoming an evidentiary threshold. Nudges work precisely because people are not fully Bayesian — a rational agent would choose identically regardless of default framing. Mental accounting violates Bayesian rationality because the *label* on a resource should carry no informational value, yet it shifts spending behavior as if it were new evidence.
 
-**Key references:** @thaler_sunstein2008; @sunstein2014; @johnson_goldstein2004; @thaler1999; @shefrin_thaler1988; @pang_etal2021
+**Key references:** @johnson_goldstein2004; @thaler1999; @shefrin_thaler1988; @pang_etal2021; @lin_etal2017;
 
 ---
 
@@ -546,7 +573,7 @@ Heart of Midlothian, a Scottish football club co-owned by entrepreneur and poker
 
 **Core idea:** Many consequential decisions are made by groups (committees, juries, teams, boards). Group processes can improve or degrade decision quality compared to individuals.
 
-**Wisdom of crowds** [@galton1907; @surowiecki2004]: Aggregating many independent judgments often produces remarkably accurate estimates — sometimes outperforming individual experts. The mechanism is essentially the law of large numbers: each individual judgment can be thought of as a true value plus measurement noise; when many such judgments are averaged, the noise cancels out and the aggregate converges on the true value. Students familiar with statistics will recognize this: individual judgments are like individual observations in a sample, and the group average is like the sample mean. Key conditions for this to work: diversity of opinion, independence (judgments not influenced by each other), and a mechanism for aggregation. The wisdom of crowds breaks down when independence is violated — just as in statistics, correlated observations do not reduce noise. Social influence, shared information sources, or groupthink can all destroy independence.
+**Wisdom of crowds** [@galton1907]: Aggregating many independent judgments often produces remarkably accurate estimates — sometimes outperforming individual experts. The mechanism is essentially the law of large numbers: each individual judgment can be thought of as a true value plus measurement noise; when many such judgments are averaged, the noise cancels out and the aggregate converges on the true value. Students familiar with statistics will recognize this: individual judgments are like individual observations in a sample, and the group average is like the sample mean. Key conditions for this to work: diversity of opinion, independence (judgments not influenced by each other), and a mechanism for aggregation. The wisdom of crowds breaks down when independence is violated — just as in statistics, correlated observations do not reduce noise. Social influence, shared information sources, or groupthink can all destroy independence.
 
 **Group polarization** [@moscovici_zavalloni1969]: After group discussion, individual members tend to hold more extreme positions than they held before the discussion — and they do so privately, not just publicly. This is not merely about the group reaching an extreme collective decision; each person individually shifts. If most members initially lean toward risk, each member becomes personally more risk-seeking after discussion; if most initially lean toward caution, each becomes more cautious. Two mechanisms drive this: persuasive arguments (during discussion, members encounter novel arguments supporting the dominant view, which genuinely change their minds) and social comparison (members compete to embody the group's valued position, pushing each other further).
 
@@ -556,7 +583,7 @@ Heart of Midlothian, a Scottish football club co-owned by entrepreneur and poker
 
 **🎯 Bayesian lens:** The wisdom of crowds works because aggregation approximates Bayesian integration — each person's independent estimate is a noisy signal, and averaging reduces noise, converging on the true posterior. Groupthink and group polarization represent failures of independent evidence sampling: when group members share the same prior and the same biased evidence, the group's "posterior" becomes more extreme without genuinely new evidence — a form of collective overconfidence. Shared information bias means the group updates from redundant evidence (shared information) while ignoring unique diagnostic evidence — like a Bayesian agent who counts the same datum multiple times.
 
-**Key references:** @galton1907; @surowiecki2004; @janis1972; @moscovici_zavalloni1969; @stasser_titus1985
+**Key references:** @galton1907; @moscovici_zavalloni1969; @stasser_titus1985
 ---
 
 # Belief
@@ -569,15 +596,15 @@ Heart of Midlothian, a Scottish football club co-owned by entrepreneur and poker
 
 **Confirmatory evidence and the positive test strategy:** Confirmatory evidence is consistent with a hypothesis but cannot definitively prove it. Yet people naturally gravitate toward it — the *positive test strategy* involves examining instances where the hypothesized property is expected to occur. This is confirmation bias at work: we default to looking for evidence that fits. *Example:* A manager believes that older employees resist new technology. She notices every time a senior colleague struggles with a software update — each case *confirms* her hypothesis. But she never checks whether younger employees struggle just as often (which would be disconfirmatory). The confirmatory evidence accumulates, and the hypothesis feels increasingly certain — even though it was never properly tested.
 
-**Disconfirmatory evidence and the negative test strategy:** Disconfirmatory evidence refutes a hypothesis. A single piece can topple a hypothesis — making it uniquely powerful. The *negative test strategy* involves deliberately seeking cases that *disconfirm* the hypothesis. This goes against our natural confirmation tendency and requires effortful, System 2 thinking. It connects to **falsifiability** [@popper1959]: science should center on attempting to disconfirm hypotheses. In practice, people rarely do this spontaneously. *Example:* The manager above could actively look for older employees who *do* adopt new technology easily, or younger employees who *don't*. Finding even a few such cases would seriously weaken her hypothesis — far more informative than adding another confirmatory case to the pile.
+**Disconfirmatory evidence and the negative test strategy:** Disconfirmatory evidence refutes a hypothesis. A single piece can topple a hypothesis — making it uniquely powerful. The *negative test strategy* involves deliberately seeking cases that *disconfirm* the hypothesis. This goes against our natural confirmation tendency and requires effortful, System 2 thinking. It connects to **falsifiability**, a term connected to the philosopher of science Karl Popper: science should center on attempting to disconfirm hypotheses. In practice, people rarely do this spontaneously. *Example:* The manager above could actively look for older employees who *do* adopt new technology easily, or younger employees who *don't*. Finding even a few such cases would seriously weaken her hypothesis — far more informative than adding another confirmatory case to the pile.
 
 **2-4-6 task** [@wason1960]: Demonstrates both strategies. Participants are told that the sequence 2-4-6 fits a rule, and must discover the rule by proposing new sequences. The actual rule is simply *any three ascending numbers* — but most participants hypothesize a more specific rule, such as "even numbers ascending by 2." They then test confirming sequences (e.g., 8-10-12, 20-22-24) — all of which fit the true rule, reinforcing the wrong hypothesis. Only 21% found the actual rule. Those who succeeded employed the negative test strategy: testing sequences that *violated* their hypothesis, such as 1-3-5 (odd numbers — still ascending, so "yes") or 1-2-3 (ascending by 1 — still "yes") or 6-4-2 (descending — finally "no"). By discovering what *doesn't* work, they narrowed down the real rule.
 
-**Consistency fallacy** [@mole_klein2010]: Confirmation bias is not only about favoring beliefs we are personally invested in — it reflects a more general cognitive pull toward confirmatory patterns. Data that merely *confirm* a hypothesis are misinterpreted as proving it, even for neutral hypotheses. A striking example: people are more convinced by psychological explanations accompanied by neuroscience descriptions, even irrelevant ones [@weisberg_etal2008]. The colorful fMRI brain scan *looks* like confirmatory evidence, making the explanation feel more scientific — even though it adds no actual support.
+**Consistency fallacy**: Confirmation bias is not only about favoring beliefs we are personally invested in — it reflects a more general cognitive pull toward confirmatory patterns. Data that merely *confirm* a hypothesis are misinterpreted as proving it, even for neutral hypotheses. A striking example: people are more convinced by psychological explanations accompanied by neuroscience descriptions, even irrelevant ones [@weisberg_etal2008]. The colorful fMRI brain scan *looks* like confirmatory evidence, making the explanation feel more scientific — even though it adds no actual support.
 
 **🎯 Bayesian lens:** A Bayesian agent should weight evidence symmetrically — updating equally from confirming and disconfirming evidence (proportional to their diagnosticity). Confirmation bias produces *asymmetric updating*: confirming evidence strengthens beliefs while disconfirming evidence is discounted or ignored. This creates a self-reinforcing cycle where the posterior drifts ever further from what balanced evidence would warrant. A single disconfirming observation can be enormously informative (high likelihood ratio), yet people treat it as if it has low diagnosticity.
 
-**Key references:** @klayman_ha1987; @nickerson1998; @wason1960; @mole_klein2010; @weisberg_etal2008
+**Key references:** @klayman_ha1987; @nickerson1998; @wason1960; @weisberg_etal2008
 
 ---
 
@@ -648,7 +675,7 @@ Heart of Midlothian, a Scottish football club co-owned by entrepreneur and poker
 
 **Rationalist models (System 2):** These models hold that people first consciously reason through a moral problem, then arrive at a judgment.
 - **Kohlberg's stages of moral development** [@kohlberg1971]: Children develop moral reasoning over six stages in three levels: pre-conventional (seeking rewards, avoiding punishment), conventional (upholding social conventions and rules), post-conventional (universal moral principles; may protest unjust laws). Responses classified by *reasons given*, not the answer itself.
-- **Social interactionist model** [@turiel2002]: Classified as rationalist because it assumes children arrive at moral judgments through *deliberate reasoning* about consequences — evaluating whether an action causes harm, violates fairness, or merely breaks a social convention. Proposes three domains: personal, moral (inherently harmful), and social (violating local rules). Children as young as 5–6 distinguish social conventions from moral principles. @haidt_etal1993: High-SES people classified offensive-but-harmless actions as social conventions; low-SES classified them as moral — suggesting the boundary between domains is culturally shaped.
+- **Social interactionist model**: Classified as rationalist because it assumes children arrive at moral judgments through *deliberate reasoning* about consequences — evaluating whether an action causes harm, violates fairness, or merely breaks a social convention. Proposes three domains: personal, moral (inherently harmful), and social (violating local rules). Children as young as 5–6 distinguish social conventions from moral principles. @haidt_etal1993: High-SES people classified offensive-but-harmless actions as social conventions; low-SES classified them as moral — suggesting the boundary between domains is culturally shaped.
 
 **Intuitionist models (System 1):** These models hold that moral judgments are primarily driven by gut feelings, with reasoning coming *after* as post-hoc justification.
 - **Social intuitionist model** [@haidt2001]: Moral judgments arise from fast, automatic intuitions. Reasoning serves to justify rather than generate them.
@@ -667,7 +694,7 @@ Heart of Midlothian, a Scottish football club co-owned by entrepreneur and poker
 
 **🎯 Bayesian lens:** Moral intuitions function as strong priors: formed early, felt with certainty, and resistant to updating. The social intuitionist model implies that moral reasoning is not Bayesian belief-updating from evidence but post-hoc rationalization of a pre-set prior. Changing moral positions requires changing the prior (emotional intuition), not presenting disconfirming evidence (rational argument). Moral Foundations Theory describes the *content* of these priors, which vary systematically across individuals and cultures. The somatic marker hypothesis suggests these priors are literally embodied — encoded in bodily sensations, not just cognitive representations. In trolley vs. footbridge, the emotional prior (do not harm directly) overwhelms utilitarian calculation in personal dilemmas but not impersonal ones. Omission bias reflects a prior that inaction is morally neutral — evidence about equivalent outcomes is insufficient to overcome it.
 
-**Key references:** @james1884; @kohlberg1971; @haidt2001; @graham_etal2009; @turiel2002; @schwarz_clore1983; @bechara_etal2000; @greene_etal2001; @valdesolo_desteno2006; @strohminger_nichols2014; @dewaal2003; @maccormack_lindquist2018
+**Key references:** @james1884; @kohlberg1971; @haidt2001; @graham_etal2009; @schwarz_clore1983; @bechara_etal2000; @greene_etal2001; @valdesolo_desteno2006; @strohminger_nichols2014; @dewaal2003; @maccormack_lindquist2018
 ---
 
 ## Cooperation
@@ -721,7 +748,7 @@ These biases can be reduced in two main ways:
 
 **🎯 Bayesian lens:** Medical diagnosis is Bayesian updating in action: the physician starts with a prior (base rate of the disease, patient demographics), gathers evidence (symptoms, tests), and arrives at a posterior (diagnostic probability). Every bias in clinical reasoning maps onto a specific Bayesian failure: anchoring = sticky prior, availability = biased evidence sampling, confirmation bias = asymmetric updating. Decision support systems and natural-frequency training improve decisions precisely because they formalize the Bayesian computation that clinicians perform intuitively and imperfectly.
 
-**Key references:** @kim_ahn2002a; @kim_ahn2002b; @flores_etal2014; @mendel_etal2011; @delosreyes_marsh2011; @eddy1982; @hoffrage_gigerenzer1998
+**Key references:** @kim_ahn2002a; @kim_ahn2002b; @flores_etal2014; @mendel_etal2011; @delosreyes_marsh2011; @hoffrage_gigerenzer1998
 
 ---
 
