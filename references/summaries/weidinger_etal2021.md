@@ -1,0 +1,23 @@
+# Ethical and Social Risks of Harm from Language Models
+
+Weidinger, L., Mellor, J., Rauh, M., Griffin, C., Uesato, J., Huang, P.-S., Cheng, M., Glaese, M., Balle, B., Kasirzadeh, A., Kenton, Z., Brown, S., Hawkins, W., Stepleton, T., Biles, C., Birhane, A., Haas, J., Rimell, L., Hendricks, L. A., Isaac, W., Legassick, S., Irving, G., and Gabriel, I.
+
+__This paper presents a comprehensive taxonomy of 21 ethical and social risks associated with large-scale language models (LLMs), organized into six key areas. It aims to foster responsible innovation by detailing the origins, mechanisms, and potential mitigations for these risks, emphasizing the importance of multidisciplinary collaboration and holistic approaches to address them effectively.__
+
+The article begins by introducing the rapid advancements in language models (LMs) and their potential to revolutionize various applications, from conversational agents to automated content generation. However, these advancements come with significant ethical and social risks that need to be systematically understood and mitigated. The authors propose a taxonomy of risks divided into six main categories: Discrimination, Exclusion, and Toxicity; Information Hazards; Misinformation Harms; Malicious Uses; Human-Computer Interaction Harms; and Automation, Access, and Environmental Harms.
+
+**Discrimination, Exclusion, and Toxicity** covers risks such as perpetuating harmful stereotypes, reinforcing exclusionary norms, generating toxic language, and exhibiting lower performance for certain social groups or languages. These risks stem from biases present in training data and the models' tendency to reflect and amplify these biases. For instance, LMs can reinforce gender or racial stereotypes and may perform poorly for underrepresented languages or dialects, leading to allocational and representational harms.
+
+**Information Hazards** include risks from leaking private or sensitive information that may be present in the training data or inferred by the model. This can lead to privacy violations and potential misuse of sensitive data, posing significant ethical concerns.
+
+**Misinformation Harms** involve the dissemination of false or misleading information, which can deceive users, cause material harm (e.g., in medical or legal advice), and lead users to perform unethical or illegal actions. The article highlights that LMs often struggle to distinguish factual correctness from falsehoods due to their reliance on statistical patterns in training data.
+
+**Malicious Uses** encompass risks where LMs are intentionally used to cause harm, such as generating disinformation, facilitating fraud and scams, assisting in cyber attacks, and enabling illegitimate surveillance and censorship. These risks are exacerbated by the models' ability to generate convincing and personalized content at scale.
+
+**Human-Computer Interaction Harms** focus on risks arising from users anthropomorphizing LMs, leading to overreliance or unsafe use. This includes psychological vulnerabilities, privacy violations, and the perpetuation of harmful stereotypes through conversational agents. For example, users may disclose private information more readily to human-like conversational agents, increasing the risk of exploitation.
+
+**Automation, Access, and Environmental Harms** address broader societal impacts, including environmental costs from training and operating LMs, increasing inequality, negative effects on job quality, undermining creative economies, and disparate access to benefits due to hardware, software, or skill constraints. The authors note that these risks can perpetuate existing social inequities and pose challenges to equitable access and environmental sustainability.
+
+The discussion section delves into the origins of these risks, suggesting that many stem from the curation and selection of training data, the robustness of the models, and the formal structure of LMs. The authors propose various mitigation approaches, including technical solutions, policy interventions, and participatory projects, emphasizing the need for a broad and collaborative effort to address these risks effectively.
+
+The article concludes by outlining directions for future research, such as developing risk assessment frameworks, advancing technical and sociotechnical mitigation strategies, and setting normative performance thresholds for safe and ethical deployment of LMs. It underscores the importance of responsible innovation and the need for ongoing collaboration among researchers, policymakers, and the public to navigate the ethical landscape of language models.

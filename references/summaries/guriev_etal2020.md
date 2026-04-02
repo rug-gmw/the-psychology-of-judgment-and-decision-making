@@ -1,0 +1,19 @@
+# 3G Internet and Confidence in Government
+
+Guriev, S., Melnikov, N., & Zhuravskaya, E.
+
+__This article examines the political consequences of mobile broadband internet expansion globally, finding that 3G network access reduces government approval by exposing corruption and facilitating anti-establishment narratives, particularly in regions with uncensored internet and controlled traditional media.__
+
+This comprehensive study investigates how the global expansion of third-generation (3G) mobile networks between 2008 and 2017 affected public confidence in governments across 116 countries. Using Gallup World Poll data from over 840,000 individuals in 2,232 subnational regions, the authors demonstrate that increased access to mobile broadband internet consistently reduced government approval ratings. The core mechanism appears to be that 3G networks provide citizens with independent political information that challenges official narratives, particularly regarding government corruption.
+
+The research employs a sophisticated difference-in-differences methodology with region and year fixed effects, controlling for various economic and demographic factors. The authors address potential endogeneity concerns through multiple robustness checks, including an instrumental variable approach using regional lightning strike frequency to predict 3G expansion patterns. Their findings show that an average increase in 3G coverage (39 percentage points) reduced government confidence by 2.5 percentage points from a baseline of 51%.
+
+The study reveals important heterogeneities in the effect. The negative impact of 3G on government approval only occurs when the internet is uncensored, suggesting that access to independent information is crucial. Moreover, the effect is stronger in countries where traditional media are government-controlled, indicating that mobile broadband becomes a primary source of alternative political information in such contexts. Interestingly, in the least corrupt countries (like Denmark and Switzerland), 3G expansion actually increased government approval, suggesting that when new information confirms positive prior beliefs, it can enhance confidence.
+
+The authors provide compelling evidence that mobile broadband helps expose actual corruption. Using two independent measures of corruption - the IMF's Global Incidents of Corruption Index and the Panama Papers revelations - they show that corruption incidents translate into higher perceived corruption more strongly in regions with 3G coverage. This effect is particularly pronounced in countries with relatively low overall corruption, where each new corruption revelation constitutes bigger news.
+
+The electoral implications are examined through European parliamentary election data from 33 countries between 2007 and 2018. The authors find that 3G expansion led to a 4.7 percentage point decrease in vote shares for incumbent parties, with populist parties on both the left and right being the primary beneficiaries. This suggests that while mobile broadband exposes government shortcomings, it may also facilitate the rise of populist movements that capitalize on public discontent.
+
+Three country case studies illustrate the mechanisms: a YouTube documentary exposing Russian Prime Minister Medvedev's corruption that went viral despite media censorship; Romania's 2014 election of "Facebook president" Klaus Iohannis on an anti-corruption platform; and Brazil's 2018 election where Jair Bolsonaro used WhatsApp to disseminate political narratives, including misinformation.
+
+The article contributes significantly to our understanding of how digital technologies reshape political landscapes, demonstrating that mobile broadband internet can be a powerful tool for political accountability but also potentially facilitates populist movements.

@@ -1,0 +1,3 @@
+It appears the article you provided is behind a paywall or bot protection system (Cloudflare), which prevents direct access to its content. The HTML code shows a challenge page rather than the actual article text, so I cannot summarize its contents.
+
+If you can provide the article's **title, authors, key sections, or direct text excerpts**, I’d be happy to craft a summary following your requested format. Alternatively, you may access the full text through a library, institutional login, or the journal’s website (*Journal of Economic Perspectives*, Vol. 27, No. 1, 2013, DOI: 10.1257/jep.27.1.173).

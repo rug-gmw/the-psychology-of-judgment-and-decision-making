@@ -1,0 +1,13 @@
+# A systematic review of worldwide causal and correlational evidence on digital media and democracy
+
+Lorenz-Spreen, P., Oswald, L., Lewandowsky, S., Hertwig, R.
+
+This article systematically reviews 496 studies to assess the impact of digital media on democracy, revealing a complex interplay where digital media can both enhance and undermine democratic processes. The findings highlight that while digital media often boost political participation and information consumption, particularly in autocracies and emerging democracies, they also contribute to declining political trust, increased populism, and growing polarization, especially in established democracies.
+
+This comprehensive review synthesizes evidence from a broad spectrum of studies examining the relationship between digital media use and various political variables. The introduction outlines the dual-use dilemma of digital media, illustrating how it can both empower citizens and incite destructive behaviors. The authors emphasize the need for an evidence-based understanding of this relationship to inform public debate and policy.
+
+The methods section details a pre-registered systematic review process, including a search strategy that identified relevant articles from databases like Scopus and Web of Science. The authors coded articles based on digital media types, political variables, and methods used, ensuring a structured analysis. They distinguished between correlational and causal evidence, focusing on the latter subset to provide deeper insights into the effects of digital media.
+
+Results indicate that digital media use is associated with increased political participation and knowledge, but also with detrimental effects such as reduced trust in institutions, increased polarization, and populism. The review highlights geographical variations, showing that beneficial effects are more pronounced in emerging democracies, while detrimental effects are more evident in established democracies. The authors also discuss the methodological challenges and gaps in the literature, including the need for more causal evidence and unified measures across studies.
+
+The discussion underscores the double-edged nature of digital media, which can foster democratic engagement but also pose serious threats to democratic cohesion. The authors call for further research to understand these dynamics better and for vigilant regulation to mitigate negative impacts while preserving the emancipatory potential of digital media. They conclude that the current digital media ecosystem, shaped by commercial platforms, requires urgent attention to address its implications for democracy.

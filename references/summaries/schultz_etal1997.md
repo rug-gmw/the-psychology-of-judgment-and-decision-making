@@ -1,0 +1,13 @@
+# A Neural Substrate of Prediction and Reward
+
+Schultz, W., Dayan, P., Montague, P. R.
+
+__This article proposes that dopamine neurons in the primate brain encode prediction errors for rewards, linking neurophysiological findings with computational theories of learning and decision-making.__
+
+The study explores how animals and artificial systems predict future events, particularly rewards, to optimize behavior. The authors argue that learning is driven by discrepancies—or "prediction errors"—between expected and actual rewards. Behavioral experiments, such as classical conditioning, demonstrate that animals associate neutral stimuli (conditioned stimuli, or CS) with rewards (unconditioned stimuli, or US) when the CS reliably precedes the US. The phenomenon of "blocking," where an additional stimulus fails to elicit learning if the reward is already fully predicted, suggests that learning occurs only when rewards are unexpected.
+
+The article reviews neurophysiological evidence from recordings of dopamine neurons in primates, which show phasic activations in response to unexpected rewards. Over time, these neurons shift their response from the reward itself to the predictive cue, and they exhibit depression when an expected reward is omitted. This pattern aligns with the temporal difference (TD) learning algorithm, a computational model that adjusts predictions based on errors between expected and actual outcomes. The TD model posits that dopamine neurons broadcast a scalar prediction error signal to brain regions involved in decision-making, such as the striatum and prefrontal cortex, enabling adaptive behavior.
+
+The authors integrate these findings into a broader framework, suggesting that dopamine neurons not only facilitate learning but also guide action selection by signaling whether outcomes are better or worse than expected. They propose that this system allows animals to optimize choices in dynamic environments, such as navigating mazes or foraging for food. The article also addresses unresolved questions, including how temporal information is represented in the brain, the role of dopamine in processing aversive events, and the interplay between scalar reward signals and detailed sensory representations.
+
+Overall, the study bridges neurobiology and computational theory, offering a mechanistic explanation for how the brain learns from rewards and makes decisions based on predictions. The findings have implications for understanding addiction, decision-making disorders, and the neural basis of adaptive behavior.

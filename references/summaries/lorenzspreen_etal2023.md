@@ -1,0 +1,17 @@
+# A systematic review of worldwide causal and correlational evidence on digital media and democracy
+
+Lorenz-Spreen, P., Oswald, L., Lewandowsky, S., Hertwig, R.
+
+This article provides a comprehensive synthesis of research examining the relationship between digital media use and various political outcomes, highlighting both beneficial and detrimental effects on democracy. The review underscores the dual nature of digital media as both a tool for empowerment and a potential threat to democratic values.
+
+The article begins by framing the debate around the impact of digital media on democracy, noting historical parallels with other communication technologies that have been used for both noble and malicious purposes. The authors conducted a systematic review of 496 articles to explore how digital media use correlates with and causally affects political variables such as participation, trust, knowledge, polarization, and populism. They employed a broad definition of digital media, encompassing general internet access and specific social media platforms.
+
+The introduction discusses the dual-use dilemma of digital media, illustrating its potential to both empower citizens (e.g., during the Arab Spring, #MeToo movement) and incite destructive behaviors (e.g., polarization, populism, and events like the attack on the U.S. Capitol). The authors emphasize the unique properties of digital media that allow for easy content production and dissemination, shifting power dynamics and creating new challenges for democratic discourse.
+
+The methods section details the systematic review process, including the search strategy, inclusion and exclusion criteria, and the coding of articles. The authors used a pre-registered protocol and searched academic databases like Scopus and Web of Science to identify relevant studies. They classified articles based on the type of digital media, political variables, and characteristics of the information ecology. The review included both correlational and causal evidence, with a particular focus on the latter.
+
+Results reveal that digital media use is associated with increased political participation and information consumption, particularly in autocracies and emerging democracies. However, it is also linked to declining political trust, increased populism, and growing polarization, especially in established democracies. The authors found consistent detrimental associations for variables like trust in institutions, hate speech, polarization, and populism. They also noted that the impact of digital media varies depending on the political context and specific digital media type.
+
+The discussion highlights the double-edged nature of digital media, with both positive and negative effects on democracy. While digital media can enhance political participation and knowledge, it can also erode trust in institutions and increase polarization and hate. The authors call for more research to understand these dynamics better and advocate for vigilant regulation and design of digital media to support democratic values.
+
+The article concludes by stressing the importance of addressing the detrimental effects of digital media on democracy while preserving its emancipatory potential. The authors suggest that better study designs, access to platform data, and methodological innovations are crucial for advancing this understanding.

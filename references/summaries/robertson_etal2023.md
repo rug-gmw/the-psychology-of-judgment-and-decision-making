@@ -1,0 +1,19 @@
+# Negativity drives online news consumption
+
+Robertson, C. E., Pröllochs, N., Schwarzenegger, K., Pärnamets, P., Van Bavel, J. J., & Feuerriegel, S.
+
+__This study demonstrates that negative words in news headlines significantly increase click-through rates, while positive words decrease them, revealing a robust negativity bias in online news consumption.__
+
+This comprehensive study investigates the impact of emotional language on online news consumption using a large dataset from Upworthy.com, encompassing over 105,000 headline variations and approximately 370 million impressions. The core of the research lies in its use of randomized controlled trials (RCTs) to analyze the causal effect of negative and positive words in news headlines on click-through rates (CTR).
+
+The introduction highlights the critical role of online media in shaping public opinion and the fierce competition for reader attention. It references the longstanding journalistic intuition that negative news attracts more readers, a concept encapsulated by the phrase "if it bleeds, it leads." The authors note that while previous research has explored the role of negativity in driving online behavior, most studies have been correlational or conducted in laboratory settings, lacking causal evidence from real-world data.
+
+The methods employed in this study leverage a massive dataset from Upworthy, a pioneering website known for its viral news stories and data-driven content optimization. Upworthy's use of RCTs to test different headline variations provides a unique opportunity to examine the causal impact of emotional language on news consumption. The authors utilized text mining techniques to extract positive and negative words from headlines using the Linguistic Inquiry and Word Count (LIWC) dictionary. They also controlled for headline length, text complexity, and the relative age of the news story.
+
+The results reveal a significant negativity bias: headlines containing negative words were more likely to be clicked on, with each additional negative word increasing the CTR by 2.3% for an average-length headline. Conversely, positive words in headlines decreased the CTR by approximately 1.0%. These findings were robust across various sentiment dictionaries and remained consistent even after adjusting for headline length, complexity, and platform age.
+
+Further analyses explored the effects of discrete emotions such as anger, fear, joy, and sadness. The study found that sadness increased CTR, while joy and fear decreased it. Anger did not show a statistically significant effect. The authors also examined the impact of negative language across different news topics, finding that the effect was particularly strong for news related to "Government & Economy."
+
+The discussion contextualizes these findings within the broader literature on negativity bias, noting that humans tend to prioritize negative information due to its evolutionary significance in threat detection and avoidance. The authors highlight the implications of their results for understanding online news consumption, suggesting that even outlets branded as "positive news" websites benefit from negativity. They also differentiate between news consumption and sharing behavior, noting that social factors may influence sharing more than consumption.
+
+The study acknowledges limitations, such as the specific context of Upworthy's "click-bait" headlines and the inability to draw individual-level conclusions from aggregated data. Despite these limitations, the research provides robust, causal evidence of a negativity bias in online news consumption, underscoring the importance of understanding the psychological mechanisms driving user engagement with online content.

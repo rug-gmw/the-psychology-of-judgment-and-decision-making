@@ -1,0 +1,17 @@
+# NASA Faked the Moon Landing—Therefore, (Climate) Science Is a Hoax: An Anatomy of the Motivated Rejection of Science
+
+Lewandowsky, S., Oberauer, K., & Gignac, G. E.
+
+__This article explores why certain segments of the public reject well-established scientific findings, particularly climate science, linking this rejection to free-market ideology and conspiratorial thinking. The study finds that endorsement of free-market economics and belief in conspiracy theories strongly predict the dismissal of scientific consensus across various domains.__
+
+The study by Lewandowsky, Oberauer, and Gignac investigates the psychological and ideological factors underlying the rejection of scientific findings, with a particular focus on climate science. The authors begin by noting the overwhelming consensus among climate scientists that human activities, particularly carbon dioxide emissions, are significantly altering the global climate. Despite this consensus, public concern about climate change has been declining in some countries, a trend influenced by organized efforts to manufacture doubt and spread misinformation.
+
+The researchers conducted an online survey of visitors to climate blogs to identify variables that predict acceptance or rejection of climate science. They hypothesized that endorsement of free-market economics and conspiratorial ideation would be key predictors. The survey included items on free-market ideology, acceptance of various scientific propositions (such as the link between HIV and AIDS, smoking and lung cancer, and human CO2 emissions and climate change), belief in conspiracy theories, and perceived scientific consensus.
+
+The results revealed that endorsement of free-market economics was a strong predictor of the rejection of climate science, as well as other scientific findings. This association was particularly pronounced for climate science, likely due to its significant regulatory implications for free-market systems. Additionally, the study found that a general propensity to believe in conspiracy theories—unrelated to the specific scientific issues—also predicted the rejection of scientific consensus. This suggests that conspiracist ideation is a stable cognitive or personality trait that predisposes individuals to dismiss scientific evidence across various domains.
+
+The authors also examined the role of perceived scientific consensus, finding that acceptance of science was strongly associated with the perception that a consensus exists among scientists. This aligns with previous research indicating that communicating scientific consensus can enhance public acceptance of scientific findings.
+
+The discussion highlights the theoretical implications of these findings, emphasizing the broad impact of ideological and conspiratorial thinking on the rejection of science. The authors suggest that addressing the spread of conspiracy theories and reinforcing the perception of scientific consensus could be effective strategies for countering science denial. They also note the importance of understanding the motivations behind the rejection of science, particularly among highly engaged and influential segments of the public, such as climate blog denizens.
+
+Overall, the study underscores the complex interplay between personal ideology, conspiratorial thinking, and the rejection of scientific evidence, offering insights into how these factors contribute to public skepticism about well-established scientific findings.
