@@ -15,9 +15,7 @@
 - **Categorization as a bridge concept:** The associative vs. rule-based distinction is especially clear in **categorization** — one of the most fundamental cognitive operations. We constantly sort objects, people, and situations into categories to guide our judgments and decisions. System 1 categorizes implicitly by *resemblance*: we match new instances to stored prototypes or previously encountered exemplars (prototype and exemplar models of categorization). System 2 categorizes explicitly by *criteria*: we check whether defining features are present (classical/rule-based categorization). This matters throughout the course: the representativeness heuristic (see [Representativeness](#representativeness)) is essentially categorization-by-resemblance gone awry, base-rate neglect arises when we categorize by similarity while ignoring how common each category is, and stereotyping reflects the application of category-level expectations to individuals.
 - **Cognitive Reflection Test (CRT)** [@frederick2005]: Measures individual differences in the tendency to override System 1 with System 2. Higher CRT scores predict less acceptance of paranormal beliefs and better reasoning.
 
-**🎯 Bayesian lens:** System 1 relies on rough heuristic priors and pattern-matching — fast but prone to ignoring base rates and evidence quality. System 2 enables more deliberate, calibrated belief updating — closer to Bayesian inference. Categorization itself is inherently Bayesian: given observed features (evidence), what is the probability that this instance belongs to category A vs. B (posterior)? Gigerenzer's insight adds a nuance: full Bayesian computation is often impossible given our cognitive constraints (bounded rationality), so heuristics can be understood as *resource-rational approximations* of Bayesian inference [@lieder_griffiths2020]. Many biases in this course can be understood as failures to engage System 2 when careful Bayesian updating is needed — but some may also reflect adaptive shortcuts that work well in the environments we evolved in.
-
-**Key references:** @stanovich_west2000; @evans2008; @evans_stanovich2013; @kahneman2011; @sloman1996; @frederick2005; @simon1956; @simon1972; @gigerenzer_todd1999; @lieder_griffiths2020
+**Key references:** @stanovich_west2000; @evans2008; @evans_stanovich2013; @kahneman2011; @sloman1996; @frederick2005; @simon1956; @simon1972; @gigerenzer_todd1999;
 
 ---
 
@@ -53,7 +51,7 @@
 | Belief perseverance ([Belief Formation and Perseverance](#belief-formation-and-perseverance)) | Failure to update from disconfirming evidence |
 | Clinical vs. statistical ([Statistical vs. Intuitive Prediction](#statistical-vs-intuitive-prediction)) | Informal vs. formal evidence integration |
 
-**Key references:** @bayes1763; @swarna2017; @hoffrage_gigerenzer1998; @sedlmeier1997;  @griffiths_etal2008
+**Key references:** @bayes1763; @swarna2017; @hoffrage_gigerenzer1998; @sedlmeier1997;  @griffiths_etal2008; @lieder_griffiths2020
 
 ---
 
@@ -75,8 +73,9 @@
 ## How It Is vs. How It Should Be
 
 - **Descriptive models** describe how people *actually* judge and decide, without evaluating quality. The vast majority of models in the field are descriptive (e.g., prospect theory describes how people weigh gains and losses; dual-process models describe the interplay of intuitive and deliberate thinking).
-- **Normative models** reflect *optimal* or ideal decision-making — logical, consistent, using all relevant data, getting the person closest to their goals over the long run (e.g., expected utility theory; Bayes' theorem for belief updating).
+- **Normative models** reflect *optimal* or ideal decision-making — logical, consistent, using all relevant data, getting the person closest to their goals over the long run (e.g., [expected utility theory](#gains-and-losses); Bayes' theorem for belief updating). 
 - **Prescriptive models** recommend how people *ought* to judge and decide in practice; often a practical compromise between normative ideals and descriptive realities (e.g., installing hand sanitizer instead of requiring full handwashing; presenting medical statistics as natural frequencies to improve understanding).
+- **Resistance to normative models:** Effective altruim aims to be a rational way to improve overall well-being. It is essentially a version of expected utility theory. Quality Adjusted Life Years (QALYs) are a closely related concept: they are essentially an attempt to make healthcare outcomes susceptible to utility analysis by using a quantitative measure of health multiplied by the number of years of life. An important reason that effective altruism and QALYs are often perceived as cold and calculating, rather than actually altruistic, is that they conflict with many of the biases and heuristics that are characteristic of human decision making.
 
 **🎯 Bayesian lens:** Bayesian updating is the normative standard for how beliefs should change in light of evidence. Descriptive models document how people systematically deviate from this standard. Prescriptive models often aim to nudge people closer to Bayesian rationality (e.g., presenting information as natural frequencies).
 
@@ -396,6 +395,8 @@ The key insight is that the type of thing we encounter triggers a default stance
 
 **Statistical prediction:** Predictions based solely on empirical evidence and statistical comparison. A meta-analysis of 136 studies [@grove_etal2000]: 46% favored statistical prediction, 48% showed no difference, *only 6%* favored clinical intuition. Publication date, training, experience, and domain had no effect.
 
+**Models of the judge (MUDs)** sit in between clinical intuition and statistical prediction, and are useful in situations in which there is no empirical evidence to build a statistical model on. The idea is that you aggregate a lot of intuitive predictions, ideally from different judges, for example a prediction of whether someone suffering from schizophrenia will relapse based on a list of symptoms. You then build a statistical model that reflects the average of these intuitive predictions: the MUD, or model of the judge. The MUD often does better than the judges, because a lot of the 'noise' in intuitive predictions is averaged out. This is related to [artificial intelligence](#artificial-intelligence): large AI systems can be thought of as an MUD. You can also think of it as a statistical version of wisdom of the crowds.
+
 **Why clinical intuition is overvalued:**
 - *Cognitive fluency:* With experience, assessment *feels* easy and confident — even when accuracy hasn't improved (see [Overconfidence](#overconfidence)).
 - Especially problematic in areas with little concrete feedback (clinical psychology, law, university admissions).
@@ -509,7 +510,7 @@ A second kind of reference dependence reinforces loss aversion. People evaluate 
 These properties produce characteristic patterns:
 
 - *Risk aversion for gains, risk seeking for losses.* Concavity for gains makes people prefer a sure gain over an equal-EV gamble; convexity for losses makes them gamble to avoid a sure loss. The **Asian disease problem** [@tversky_kahneman1981]: "save 200 of 600" → 72% chose the sure option (gain frame); "400 will die" → 78% chose the gamble (loss frame).
-- *Endowment effect.* People value owned items more than equivalent unowned ones — sellers' median price was >2× buyers' [@kahneman_etal1990] — because giving up a possession is coded as a loss.
+- *Endowment effect.* People value owned items more than equivalent unowned ones — sellers' median price was >2× buyers' [@kahneman_etal1990] — because giving up a possession is coded as a loss. This is linked to the status quo bias.
 
 **The probability weighting function** describes how people transform probabilities into decision weights w(P) rather than using them directly. Smallish probabilities (e.g., ~10%) are systematically overweighted — explaining why people buy lottery tickets — while moderate-to-high probabilities are underweighted. Each prospect's value is computed as V = Σ v(outcome) × w(probability), and the highest-valued prospect is chosen.
 
@@ -587,6 +588,7 @@ A distinct phenomenon occurs at the extremes: very small probabilities (e.g., me
 **🎯 Bayesian lens:** The wisdom of crowds works because aggregation approximates Bayesian integration — each person's independent estimate is a noisy signal, and averaging reduces noise, converging on the true posterior. Groupthink and group polarization represent failures of independent evidence sampling: when group members share the same prior and the same biased evidence, the group's "posterior" becomes more extreme without genuinely new evidence — a form of collective overconfidence. Shared information bias means the group updates from redundant evidence (shared information) while ignoring unique diagnostic evidence — like a Bayesian agent who counts the same datum multiple times.
 
 **Key references:** @galton1907; @moscovici_zavalloni1969; @stasser_titus1985
+
 ---
 
 # Belief
@@ -679,6 +681,8 @@ A distinct phenomenon occurs at the extremes: very small probabilities (e.g., me
 ## Morality
 
 **Moral judgment as belief formation:** Moral judgments are beliefs about whether something is right or wrong. They follow many of the same principles as other beliefs — formed quickly, resistant to updating, shaped by System 1 and System 2 — but carry special weight: people consider morality an essential component of identity, more so than memories, personality, or mental abilities [@strohminger_nichols2014]. The central theoretical question is whether moral judgments arise primarily from rational deliberation (System 2) or gut feeling (System 1).
+
+**The evolution of morality:** The notion that there is a distinction between morality and cultural conventions may be relatively new in human culture [@hallpike2004]. Many cultures (and many people within our own culture) do not make a distinction between 'this is what we generally do here' and 'this is what we should do because it is morally right'. 
 
 **Rationalist models (System 2):** These models hold that people first consciously reason through a moral problem, then arrive at a judgment.
 - **Kohlberg's stages of moral development** [@kohlberg1971]: Children develop moral reasoning over six stages in three levels: pre-conventional (seeking rewards, avoiding punishment), conventional (upholding social conventions and rules), post-conventional (universal moral principles; may protest unjust laws). Responses classified by *reasons given*, not the answer itself.
@@ -803,6 +807,8 @@ These biases can be reduced in two main ways:
 **Moral outrage as engagement fuel:** Morally outraged content strongly attracts attention — consistent with the negativity bias and the affect-as-information heuristic (see [Morality](#morality)): content that triggers strong bodily responses (anger, disgust) captures attention and feels important. Very few users create morally outraged content (associated with dark-triad personality traits), but it is widely shared. @rathje_etal2021: Out-group language substantially increased engagement. @humprecht_etal2024: Populist politicians' posts generated disproportionately more "angry" reactions.
 
 **Algorithms and echo chambers:** Algorithms boost popular content, creating a semi-random winner-takes-all process. Typical winners: extreme views and moral outrage. This creates echo chambers at scale — connecting back to group polarization and groupthink (see [Group Decisions](#group-decisions)): within these algorithmically curated groups, members polarize toward more extreme views while dissent is suppressed. @larooij_tornberg2025: Six algorithmic changes produced only modest effects — attention inequality and polarization appear partly inherent to user-generated content platforms. See also [Conspiracy Theories](#conspiracy-theories) (conspiracy theories thrive in these same echo chambers).
+
+**Focalism and polarization:** When thinking about complex issues, people to focus on the single issue that is most important to them. For example, when thinking about winning natural gas in Groningen, regional protestors may focus only on the damage that resulting earthquakes may cause to houses. In contrast, people who more concerned about economic issues, may focus only the economic benefits of gas winning. Both groups may actually share a lot of values, because in the end both groups place some (but different) weight on both housing damage and economic benefits. However, focalism reduces the common ground and enhances the differences, thus increasing polarization.
 
 **Misinformation and Spinozan acceptance:** Lies and half-truths spread organically on social media. The sheer volume and speed of information overwhelms System 2's capacity to evaluate (see [Belief Formation and Perseverance](#belief-formation-and-perseverance)): Spinozan acceptance means information is believed by default, and correction requires effortful processing that the endless scroll of social media actively undermines. @schaffner_luks2018: Highly educated Trump voters incorrectly chose Trump's inauguration photo as more attended — possibly participatory propaganda rather than genuine belief, suggesting the relationship between misinformation and belief is complex.
 
