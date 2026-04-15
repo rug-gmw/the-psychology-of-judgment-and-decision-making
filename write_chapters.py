@@ -235,7 +235,8 @@ def main():
         revised = static.predict(revision_prompt, model=MODEL_WRITE)
         output_path.write_text(revised, encoding='utf-8')
         print(f'  ✅ Final chapter written to {output_path}\n')
-        break
+        if i > 2:
+            break
     print('🎉 All chapters generated!')
 
 

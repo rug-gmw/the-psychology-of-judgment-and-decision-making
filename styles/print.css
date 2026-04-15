@@ -1,0 +1,83 @@
+@media print {
+
+	p {
+		orphans: 3;
+		widows: 3;
+	}
+
+	h1, h2 {
+		break-after: avoid-page;
+	}
+
+	/* Start each story (h1) on a right-hand (recto) page.
+	   BUT: don't force a blank before the very first h1 in the document. */
+	h1 {
+		break-before: avoid;
+		string-set: chapter content();		
+	}
+
+
+
+	/* Typical trade paperback fiction trim */
+	@page {
+		size: 15cm 22cm;
+	}
+
+	.bundle-break {		
+		break-before: right;
+		string-set: chapter "";
+	}
+
+
+	/* Mirrored margins for binding:
+	   - inside (gutter) larger than outside
+	   - bottom a bit larger to make room for folio (page number)
+	*/
+
+	@page :right {
+		/* top right bottom left */
+		margin: 1.5cm 1.5cm 2.5cm 1.7cm;
+		@bottom-right {
+			content: counter(page);
+			font-family: "Adobe Garamond Pro";
+			font-size: 9pt;
+			padding-bottom: 1cm;
+			padding-right: 0cm;
+		}		
+	}
+
+	@page :left {
+		/* top right bottom left */
+		margin: 1.5cm 1.7cm 2.5cm 1.5cm;
+		@bottom-left {
+			content: string(chapter);
+			font-family: "Adobe Garamond Pro";
+			text-transform: uppercase;
+			font-size: 9pt;
+			padding-bottom: 1cm;
+			padding-left: 0cm;			
+		}
+	}
+	
+
+	/* ---- Table of Contents ---- */
+	.toc ul {
+	    list-style: none;
+	    padding: 0;
+	    margin: 1em 0;
+	}
+	
+	.toc li {
+	    margin: 0.35em 0;
+	}
+	
+	.toc li a {
+	    text-decoration: none;
+	    color: inherit;
+	}
+	
+	.toc li a::after {
+	    /* dot leader .......... followed by the target's page number */
+	    content: leader('.') target-counter(attr(href url), page);
+	}	
+}

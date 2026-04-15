@@ -21,7 +21,7 @@
 
 ## Bayesian Reasoning
 
-**Core idea:** Rational judgment and decision-making can be understood as combining prior beliefs with new evidence to arrive at updated beliefs (posteriors). Bayes' theorem provides the normative standard; the many biases covered in this course represent specific, identifiable departures from this ideal.
+**Core idea:** Rational judgment and decision-making can be understood as combining prior beliefs with new evidence to arrive at updated beliefs (posteriors). Bayes' theorem provides the normative standard; the many biases covered in this course represent specific, identifiable departures from this ideal. All of the following chapters will contain a Bayesian lens in which the chapter is considered from the perspective of Bayesian reasoning.
 
 - **The Bayesian framework:**
   - **Prior belief (prior):** What you believe before encountering new evidence, expressed as a probability. Shaped by base rates, past experience, cultural knowledge, and schemas.

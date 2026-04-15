@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital@0;1&display=swap');
+
+body {
+	font-family: "Adobe Garamond Pro";
+	font-weight: normal;
+	font-style: normal;
+	font-size: 11pt;
+	line-height: 140%;
+	margin: 0;
+    padding: 0;
+}	
+
+a {
+	text-decoration: none;
+	color: black;
+}
+	
+* {
+	margin: 0px;
+}
+
+em {
+    font-style: italic;
+}
+
+hr {
+	border: none;
+	margin: 2em;
+	text-align: center;
+}
+
+hr:after {
+	content: "𖧹";
+	color: black;
+    break-after: avoid-page;
+}
+
+p {
+	text-align: justify;
+}
+
+p + p {
+	text-indent: 1em;
+}
+
+
+h1 {
+	text-align: center;
+	font-size: 1.5em;
+	font-family: "Futura Book";
+	text-transform: uppercase;
+	/** font-weight: 600; **/
+	font-weight: normal;
+	line-height: 140%;
+	margin: 4em 2em 2em 2em;
+}
+
+
+h2 {
+	text-align: center;
+	font-weight: 600;
+	font-size: 1.1em;
+	margin: 25px 0px 25px 0px;
+}
+
+code {
+	white-space: pre-line;
+	line-height: 140%;
+	font-family: "Courier Prime";
+	font-size: .9em;
+}
+	
+p + pre,
+pre + p,
+pre + pre {
+	margin-top: 1em;
+}
+
+.big-letter {
+    font-size: 3.4em;
+    float: left;
+    line-height: 1;
+    margin-right: 0.1em;
+    margin-bottom: -.2em;
+}
+
+
+.quote p {
+	text-indent: 0em;
+}
+
+.quote {
+	margin: 0em 2em 2em 2em;	
+}
+
+.letter p {
+    text-align: left;
+    text-indent: 0;
+    margin-top: 1em;
+    font-style: italic;
+}
+
+ul {
+	margin-top: 1em;
+	margin-bottom: 1em;
+	padding-left: 1em;
+}
+
+.references {
+	font-size: .8em;
+	text-indent: -1em;
+	margin-left: 1em;
+}

@@ -1,0 +1,47 @@
+title: Introduction to Judgment and Decision-Making
+author: Sebastiaan Mathôt
+language: en
+publisher: University of Groningen
+date: 2026-01-01
+rights: "Copyright © 2026 Sebastiaan Mathôt and contributors. CC-by."
+subject:
+  - Judgment and Decision-Making
+  - Psychology
+description: >
+  A textbook for a University course on Judgment and Decision-Making.
+cover_image: artwork/ebook-cover.jpg
+css:
+  - styles/epub.css
+contents:
+  - chapters/reason-and-intuition
+  - chapters/bayesian-reasoning
+  - chapters/heuristics-and-biases
+  - chapters/how-it-is-vs-how-it-should-be
+  - chapters/mental-models
+  - chapters/what-is-intelligence
+  - chapters/intelligence-vs-rationality
+  - chapters/intelligence-in-the-real-world
+  - chapters/availability
+  - chapters/representativeness
+  - chapters/anchoring-and-primacy
+  - chapters/overconfidence
+  - chapters/cues-to-causality
+  - chapters/blame-praise-and-responsibility
+  - chapters/learning-causality
+  - chapters/hindsight
+  - chapters/statistical-vs-intuitive-prediction
+  - chapters/the-future-self
+  - chapters/risk-perception
+  - chapters/gains-and-losses
+  - chapters/satisficing-vs-maximizing
+  - chapters/steering-other-peoples-choices
+  - chapters/group-decisions
+  - chapters/confirmation
+  - chapters/belief-formation-and-perseverance
+  - chapters/conspiracy-theories
+  - chapters/morality
+  - chapters/cooperation
+  - chapters/medical-decision-making
+  - chapters/legal-decision-making
+  - chapters/populism-and-social-media
+  - chapters/artificial-intelligence
