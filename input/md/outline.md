@@ -250,7 +250,7 @@ The key insight is that the type of thing we encounter triggers a default stance
 
 **Self-favorable bias:** A systematic tendency to hold beliefs about oneself that are more favorable than warranted — confirmation bias in the service of a positive self-concept. This manifests in several overlapping ways:
 - *Overestimation:* Overestimating one's actual performance, knowledge, or control. Related to the *illusion of control* [@langer1975]: people who chose their own lottery ticket demanded over $8 to sell; randomly assigned tickets were sold for ~$2.
-- *Overplacement (better-than-average effect):* Judging oneself as better than the average person. @Logg_etal2018 found that students rated themselves as higher than average on introversion when this was introduced as a positive trait, and higher on extroversion (so lower on introversion) when that was introduced as positive.
+- *Overplacement (better-than-average effect):* Judging oneself as better than the average person. @logg_etal2018 found that students rated themselves as higher than average on introversion when this was introduced as a positive trait, and higher on extroversion (so lower on introversion) when that was introduced as positive.
 - *Positivity bias / unrealistic optimism:* Selectively updating beliefs in a self-favorable direction. @weinstein1980: Students rated themselves as less likely to contract diseases and more likely to experience positive events than average.
 - These are all expressions of the same underlying tendency: the posterior is *shifted* in a self-favorable direction, because confirming evidence (successes, positive traits) is weighted more heavily than disconfirming evidence (failures, shortcomings).
 

@@ -1,6 +1,7 @@
 # Contents
 
 <section class="toc">
+- [Preface](#preface)
 - Foundations
 	- [Reason and Intuition](#reason-and-intuition)
 	- [Bayesian Reasoning](#bayesian-reasoning)
@@ -42,4 +43,5 @@
 	- [Legal Decision-Making](#legal-decision-making)
 	- [Populism and Social Media](#populism-and-social-media)
 	- [Artificial Intelligence](#artificial-intelligence)
+- [Contributors](#contributors)	
 </section>

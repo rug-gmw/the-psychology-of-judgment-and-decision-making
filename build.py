@@ -34,7 +34,7 @@ PREFIX_PDF = [
 SUFFIX_PDF: list[str | None] = []
 
 # Bundle descriptor (YAML containing metadata + contents list)
-BUNDLE_INFO = "input/yaml/jdm.yaml"
+BUNDLE_INFO = "input/yaml/jdm0.yaml"
 
 # Output root (all final outputs go here)
 OUTPUT_DIR = Path("output")

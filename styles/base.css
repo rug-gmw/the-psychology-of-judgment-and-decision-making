@@ -24,7 +24,7 @@ strong {
 }
 
 em {
-    font-style: italic;
+    font-style: normal;
 }
 
 p {
@@ -51,7 +51,7 @@ h2 {
 	text-align: center;
 	font-weight: 600;
 	font-size: 1.1em;
-	margin: 25px 0px 25px 0px;
+	margin: 1.5em 0em .75em 0em;
 }
 	
 p + pre,
@@ -79,4 +79,9 @@ table {
 
 .toc ul {
 	margin: 0;
+}
+
+.math {
+	margin-bottom: 1em;
+	margin-top: 1em;
 }

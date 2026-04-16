@@ -14,6 +14,7 @@ css:
   - styles/epub.css
 contents:
   - contents
+  - preface
   - reason-and-intuition
   - bayesian-reasoning
   - heuristics-and-biases
@@ -35,7 +36,7 @@ contents:
   - risk-perception
   - gains-and-losses
   - satisficing-vs-maximizing
-  - steering-other-peoples-choices
+  - steering-other-people-s-choices
   - group-decisions
   - confirmation
   - belief-formation-and-perseverance
@@ -46,3 +47,4 @@ contents:
   - legal-decision-making
   - populism-and-social-media
   - artificial-intelligence
+  - contributors

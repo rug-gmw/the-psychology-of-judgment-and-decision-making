@@ -56,12 +56,37 @@ python manage_refs.py summarize
 
 ## Write chapters
 
+The command below will write chapters to `input/md/chapters`. For each chapter, there is also a first draft and feedback on this first draft, based on which the chapter draft is revised.
+
 ```
 python write.py
 ```
 
 
+## Edit chapters
+
+Chapters can be pushed to Google Drive for easy editing in Google Docs:
+
+```
+./gdrive-sync.sh push
+```
+
+The edited chapters can be pulled back using:
+
+```
+./gdrive-sync.sh pull
+```
+
+The edits can subsequently be viewed and merged using:
+
+```
+./gdrive-sync.sh diff
+```
+
+
 ## Build book
+
+The final step is to build `pdf`, `html`, and `epub` files.
 
 
 ```
