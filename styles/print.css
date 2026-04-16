@@ -59,6 +59,9 @@
 		}
 	}
 	
+	table {
+		page-break-inside: avoid;
+	}
 
 	/* ---- Table of Contents ---- */
 	.toc ul {

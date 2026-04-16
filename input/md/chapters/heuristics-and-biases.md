@@ -1,6 +1,8 @@
 # Heuristics and Biases
 
+
 Learning goals:
+
 
 - Explain what a heuristic is and how attribute substitution works.
 - Define cognitive bias and distinguish it from colloquial uses of the word "bias."
@@ -9,85 +11,128 @@ Learning goals:
 - Describe the bias blind spot and explain why it makes debiasing difficult.
 - Evaluate the prospects and limitations of debiasing strategies.
 
+
 ## What Is a Heuristic?
+
 
 Imagine you are in a supermarket in Groningen, trying to decide which of two unfamiliar brands of olive oil to buy. You have no time to research reviews, compare nutritional labels, or calculate price per milliliter. Instead, you pick the one with the more elegant-looking bottle. You have just used a heuristic: a quick rule of thumb that gives you a workable answer without much effort.
 
+
 The term "heuristic" was popularized by the mathematician George Pólya in his 1945 book *How to Solve It*, where he used it to describe useful strategies for solving mathematical problems. In the study of judgment and decision-making, the meaning has shifted. @kahneman_frederick2002 define a heuristic as a mental process in which a person answers a hard question by substituting an easier one. Instead of asking "Which oil has the best quality for its price?" you ask "Which oil looks nicer?" The answer to the easy question stands in for the answer to the hard one. This process is called **attribute substitution**: you replace a target attribute that is difficult to assess (quality) with a heuristic attribute that comes to mind more readily (appearance).
+
 
 Attribute substitution is the common mechanism behind many different heuristics. When someone is asked "How happy are you with your life overall?" — a question that requires weighing many factors — they often answer based on their current mood instead. When someone is asked "How likely is a plane crash?" they answer based on how easily they can bring examples of plane crashes to mind. In each case, a hard question is swapped for an easier one, and the answer to the easier question is treated as the answer to the harder one.
 
+
 Heuristics are a form of System 1 (Type 1) processing, as discussed in [Reason and Intuition](#reason-and-intuition). They operate automatically and quickly, without deliberate effort. This is not a flaw. The world is far too complex for us to evaluate every decision through careful analysis. As the concept of bounded rationality suggests, our cognitive resources are limited, and heuristics allow us to make decisions that are good enough given those limits. You cannot spend twenty minutes on every item in the supermarket, and you do not need to. Most of the time, the olive oil in the elegant bottle is fine. Later in the chapter, we will interpret these shortcuts as rough, low-cost approximations to Bayesian inference.
+
 
 The three classic heuristics identified by @tversky_kahneman1974 — representativeness, availability, and anchoring — are each instances of this general substitution process, and each is the focus of its own chapter later in this book (see [Representativeness](#representativeness), [Availability](#availability), and [Anchoring and Primacy](#anchoring-and-primacy)). For now, the important point is the general principle: when faced with a difficult judgment under uncertainty, people tend to simplify the problem by relying on a mental shortcut. These shortcuts are not random. They follow predictable patterns, and understanding these patterns is the central project of the heuristics and biases research program.
 
+
 ## What Is a Bias?
+
 
 A bias is a systematic error in thinking that pushes judgments or decisions in a particular direction. The word "systematic" is key: biases are not random mistakes. They are errors that occur reliably, across many people, in predictable situations.
 
+
 Consider an example from @tversky_kahneman1974. Participants were given a description of a man named Steve: "very shy and withdrawn, invariably helpful, but with little interest in people, or in the world of reality. A meek and tidy soul, he has a need for order and structure, and a passion for detail." Then they were asked: is Steve more likely to be a librarian or a farmer? Most people said librarian, because the description resembles the stereotype of a librarian. But in many countries, farmers vastly outnumber librarians. The base rate — the relative frequency of farmers and librarians in the population — should heavily influence the answer, but people largely ignored it. This is base-rate neglect, a bias that arises from the representativeness heuristic.
+
 
 The error is systematic because it does not go in a random direction. People consistently overweight how well a description matches a stereotype and consistently underweight base rates. If each person made a random error, some would overestimate the probability that Steve is a librarian and others would underestimate it, and the errors would cancel out on average. But that is not what happens. Nearly everyone errs in the same direction. That is what makes it a bias.
 
+
 Base-rate neglect is just one of many biases examined in this book. Others include overestimating the probability of dramatic events (see [Availability](#availability)), being too confident in your own predictions (see [Overconfidence](#overconfidence)), and anchoring on irrelevant numbers (see [Anchoring and Primacy](#anchoring-and-primacy)). What they share is a systematic, directional deviation from a normative standard.
+
 
 In everyday language, "bias" often refers to socially undesirable beliefs, such as stereotypes about gender or ethnicity. In the study of judgment and decision-making, a bias is simply a systematic deviation from a normative standard, regardless of whether it is socially desirable or not. Some biases do involve stereotypes, but many have nothing to do with social attitudes. Throughout this book, we use "bias" in this technical sense: a predictable, directional error in judgment or decision-making (see also [How It Is vs. How It Should Be](#how-it-is-vs-how-it-should-be) for more on normative standards).
 
+
 ## Cognitive Illusions
+
 
 One of the most useful ways to think about biases is by analogy with perceptual illusions. Consider the Müller-Lyer illusion: two horizontal lines of equal length, one with inward-pointing arrowheads (>—<) and the other with outward-pointing arrowheads (<—>). The line with outward-pointing arrowheads looks longer, even though you can measure and confirm that the two lines are the same length. The illusion does not disappear when you learn about it.
 
+
+![](input/svg/muller-lyer.svg)
+
+
 Biases in judgment work in much the same way. They are cognitive illusions: systematic errors in judgment that can persist even when people are aware of them. Just as the Müller-Lyer illusion reveals something about how the visual system normally processes depth and distance, cognitive biases reveal something about how the mind normally processes information. They are not signs of stupidity or carelessness. They are side effects of cognitive processes that usually serve us well.
+
 
 This analogy carries an important implication. Visual illusions are not fixed by simply telling someone about them. You can stare at the Müller-Lyer figure for as long as you like, fully understanding the trick, and the illusion remains. Similarly, learning about a cognitive bias does not make you immune to it. You may still neglect base rates, anchor on irrelevant numbers, or feel overconfident in your predictions, even after reading this chapter. Some biases can be reduced through training or reframing, as we will discuss below, but many are stubbornly resistant. This is a humbling point, and it leads directly to the bias blind spot.
 
+
 ## The Affect Heuristic
+
 
 Not all heuristics involve cold, cognitive shortcuts. Some rely on feelings. The **affect heuristic** is the tendency to use your emotional reaction — your gut feeling of "good" or "bad" — as a cue for judgment [@slovic_etal2007]. When you need to evaluate something quickly, you often consult your feelings about it rather than carefully weighing evidence. In terms of attribute substitution: instead of asking "How risky is this technology?" you ask "How do I feel about it?"
 
+
 @slovic_etal2007 describe a striking pattern: people tend to see the risks and benefits of activities or technologies as inversely related. If they feel positively about something (say, solar energy), they judge it as high in benefit and low in risk. If they feel negatively about something (say, nuclear power), they judge it as low in benefit and high in risk. Objectively, risk and benefit are often positively correlated — activities that offer large benefits frequently carry large risks — but in people's minds, affect creates a negative correlation. If it feels good, it must be safe; if it feels bad, it must be dangerous.
+
 
 In one experiment described by @slovic_etal2007, researchers manipulated how participants felt about nuclear power by providing information that emphasized either its benefits or its risks. When people read about the benefits of nuclear power, they not only rated its benefits as higher but also judged its risks as lower — even though no new information about risk had been provided. The reverse happened when people read about the risks: benefit ratings dropped too. This shift was not warranted by the information provided: changing participants' evaluation of the benefits also changed their judgment of the risks, even though the evidence about risk itself had not changed. Because the information altered people's feelings about nuclear power, it shifted their judgments about both risk and benefit in an affectively consistent direction.
 
+
 The affect heuristic is System 1 processing: fast, automatic, and largely outside conscious awareness. It can be highly useful — if something makes you feel uneasy, that feeling may reflect real dangers that you have not consciously identified. But it can also mislead, especially when feelings are manipulated through vivid images, emotional framing, or media coverage. The role of affect in judgment will come up repeatedly throughout this book, particularly in the chapters on [Risk Perception](#risk-perception) and [Morality](#morality).
+
 
 ## The Bias Blind Spot
 
+
 People typically believe that the biases described in this book apply more to other people than to themselves. This belief is itself a bias, known as the **bias blind spot** [@pronin_etal2002].
+
 
 @pronin_etal2002 demonstrated this in a series of studies. In one study, Stanford University students were given descriptions of eight well-documented cognitive and motivational biases, such as the halo effect (letting a single positive trait influence your overall impression of someone) and self-serving attributions (taking credit for successes but blaming failures on circumstances). For each bias, participants rated how susceptible the "average American" was and how susceptible they themselves were. The result was clear: participants rated themselves as significantly less susceptible than the average American on every single bias.
 
+
 You might wonder whether this is simply because the comparison group — the "average American" — feels abstract and distant. To test this, the researchers repeated the study but asked participants to compare themselves to their own classmates, people they knew personally. The bias blind spot remained. Participants still believed they were less biased than their peers.
+
 
 In a second study, participants were first asked to rate themselves on positive and negative personality traits relative to their peers. As expected, most people rated themselves as better than average on desirable traits and less bad than average on undesirable ones — a well-documented phenomenon called the better-than-average effect. Participants were then told about this effect and asked whether it might have influenced their own ratings. The majority said no. Even when directly confronted with evidence of a specific bias, most people denied that it had affected them.
 
+
 Why does the bias blind spot occur? Part of the answer lies in an asymmetry in how we evaluate ourselves versus others. When assessing whether we are biased, we tend to rely on introspection: we look inward, notice no conscious intention to be biased, and conclude that we are not. But when assessing whether other people are biased, we rely on their observable behavior and outcomes. Because most biases operate automatically through System 1 processing, they are not visible through introspection. You do not experience yourself neglecting base rates — it simply feels like you are making a reasonable judgment. This asymmetry between introspection and observation helps explain why people consistently see more bias in others than in themselves.
+
 
 The bias blind spot is not just a curiosity. It has a serious practical consequence: it undermines the motivation to correct one's own biases. If you do not believe you are biased, why would you take steps to counteract your biases? This is one reason why the bias blind spot makes every bias discussed in this book personal. The biases described in the following chapters apply to you, the reader, not just to the anonymous "other people" you might be imagining.
 
+
 ## Can Biases Be Corrected?
+
 
 Because biases often persist even when we know about them — and because the bias blind spot reduces motivation to correct them — the obvious next question is whether debiasing is possible at all. The answer is: sometimes, but it is difficult.
 
+
 The most promising approaches to debiasing share a common strategy: they shift thinking from System 1 processing to System 2 (Type 2) processing. Rather than relying on gut reactions and quick impressions, these approaches encourage deliberate, structured thinking. Some concrete techniques include:
+
 
 - **Consider the opposite.** Before committing to a judgment, deliberately generate reasons why you might be wrong. This simple technique has been shown to reduce anchoring effects and overconfidence, because it forces you to engage with evidence that your initial impression might overlook.
 - **Use natural frequencies instead of probabilities.** As discussed in [Bayesian Reasoning](#bayesian-reasoning), people find it much easier to reason correctly about base rates when information is presented as natural frequencies (e.g., "10 out of every 1,000 people") rather than as probabilities (e.g., "1%"). Reframing statistical information in this way can substantially reduce base-rate neglect.
 - **Delay decisions.** Introducing a pause between receiving information and making a judgment gives System 2 processing time to engage. This can be as simple as sleeping on a decision before committing to it.
 - **Use structured procedures.** Checklists, scoring rubrics, and decision aids force decision-makers to consider all relevant information systematically. In medical diagnosis, for example, structured protocols help clinicians avoid anchoring on an initial hypothesis (see [Medical Decision-Making](#medical-decision-making)).
 
+
 Some of these interventions can also be built into decision environments, a theme we revisit in [Steering Other People's Choices](#steering-other-peoples-choices).
+
 
 However, debiasing faces several obstacles. The first is the bias blind spot itself: people who do not believe they are biased see no reason to use corrective strategies. The second is effort. System 2 processing is slow and demanding. In a busy day, you cannot subject every decision to careful analysis, and even when you try, fatigue and distraction can undermine your efforts. The third obstacle is that some biases are rooted in deeply held beliefs and emotional reactions, which are resistant to change even with deliberate effort (see [Belief Formation and Perseverance](#belief-formation-and-perseverance)).
 
+
 This does not mean that studying biases is pointless. Awareness of biases is a necessary first step, even if it is rarely sufficient on its own. Understanding how biases work allows you to design better systems — better decision procedures, better information displays, better institutional checks — even if it does not make you personally immune to bias. The goal of this book is not to turn you into a perfectly rational thinker. It is to help you recognize the patterns in human judgment so that you can anticipate errors and create conditions that make good decisions more likely.
+
 
 ## A Bayesian Lens
 
+
 Throughout this book, we use Bayesian reasoning as a normative framework for how beliefs should be updated in light of evidence (see [Bayesian Reasoning](#bayesian-reasoning)). From this perspective, heuristics can be understood as computationally cheap approximations to Bayesian inference. Bayesian updating requires combining a prior belief with the likelihood of the evidence to produce a posterior belief. This is often mathematically demanding. Heuristics skip the computation: instead of carefully weighing the prior (how common are farmers versus librarians?) against the likelihood (how well does this description match each group?), you simply go with the option that feels most representative.
+
 
 When priors and evidence are typical — that is, when the shortcut happens to align with what a full Bayesian calculation would produce — heuristics lead to good decisions. This is why they persist: in the environments where human cognition evolved, and in many everyday situations, they are adequate. But when the shortcut diverges from proper integration of prior and likelihood, the result is a bias. Base-rate neglect, for instance, is a failure to adequately weight the prior. The conjunction fallacy is a failure to respect the basic rules of probability. These are predictable consequences of using a simplified process instead of the full Bayesian computation. In this sense, biases are the price we pay for the efficiency of heuristic thinking.
 
+
 ## Summary
+
 
 Heuristics are mental shortcuts that simplify difficult judgments by substituting an easier question for a harder one — a process called attribute substitution. They are a natural consequence of bounded rationality: the world is too complex for full rational analysis, and heuristics allow us to function efficiently. However, because heuristics skip important steps in reasoning, they produce systematic errors called biases. These biases are analogous to perceptual illusions: they reveal how the mind normally works, and they can persist even when we are aware of them. One important heuristic is the affect heuristic, in which people use their emotional reactions as cues for judgment, leading to predictable distortions in how they perceive risks and benefits. The bias blind spot — the tendency to see biases in others but not in oneself — makes debiasing particularly difficult, partly because people rely on introspection to assess their own objectivity and introspection cannot detect biases that operate automatically. While structured strategies such as considering the opposite, using natural frequencies, and applying checklists can help shift thinking from System 1 to System 2, awareness of biases alone is rarely enough to eliminate them. From a Bayesian perspective, heuristics are fast approximations to rational belief updating that work well in many situations but produce predictable errors when the shortcut diverges from proper integration of prior beliefs and evidence. Every bias discussed in this book applies to you, the reader — not just to other people.

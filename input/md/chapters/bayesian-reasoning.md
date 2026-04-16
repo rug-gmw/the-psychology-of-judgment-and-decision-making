@@ -1,6 +1,8 @@
 # Bayesian Reasoning
 
+
 Learning goals:
+
 
 - Understand the Bayesian framework of updating prior beliefs with new evidence to form posterior beliefs.
 - Know the components of Bayes' theorem: prior probability, likelihood, and posterior probability.
@@ -11,100 +13,145 @@ Learning goals:
 - Define calibration and explain how it relates to good judgment.
 - Recognize how the major biases covered in this course can be understood as specific departures from Bayesian rationality.
 
+
 ## Combining what you know with what you see
+
 
 Imagine you are cycling home through Groningen late at night. In the distance, you see a figure that vaguely resembles your friend. Could it be them? Before you even process the visual details, you already have relevant background knowledge: the chances that your friend happens to be on this particular street at this particular time are very small. That background knowledge — your prior belief — keeps your confidence low, even though the silhouette bears some resemblance to your friend. As you get closer, a street light illuminates the figure's face. Now the visual evidence is strong and clear: it is someone you have never seen before. The strong evidence resolves the question decisively.
 
+
 In that brief moment, you combined two things: a prior belief (your friend is very unlikely to be here) and incoming evidence (what the figure looks like). When the evidence was weak, the prior dominated and you remained uncertain. When the evidence became strong, it overwhelmed the prior and you reached a clear conclusion.
+
 
 This act of combining what you already believe with new evidence is the core of Bayesian reasoning. Formalizing this process reveals something important: people are often surprisingly bad at it, especially when problems involve numbers. Understanding where and why people deviate from this standard is the central theme of this course. As we discussed in [Reason and Intuition](#reason-and-intuition), much of our thinking relies on fast, automatic processes that do not always follow the rules of probability. Bayesian reasoning gives us a precise way to describe what those rules are and, by extension, a way to identify exactly how we break them. Throughout this book, Bayesian updating serves as the normative standard — the formal description of how a rational agent should revise beliefs in light of evidence. The many biases we will cover are specific, identifiable departures from this ideal.
 
+
 ## The Bayesian framework
+
 
 The Bayesian framework has three components. The first is the **prior belief**, or simply the **prior**. This is what you believe before you encounter new evidence, expressed as a probability. Your priors are shaped by base rates in the population, personal experience, cultural knowledge, and the mental models and schemas you carry around (see [Mental Models](#mental-models)). For example, if you know that about 30% of students in your program are Dutch, then before meeting a new classmate, your prior probability that this person is Dutch is 0.30.
 
+
 The second component is the **evidence**, described formally by the **likelihood**. This is the new information you receive, and specifically how probable that information would be if your hypothesis were true versus if it were false. Suppose you hear your new classmate speaking Dutch on the phone. The likelihood asks: how probable is it that you would hear this person speaking Dutch if they were indeed Dutch? Very probable — say, 0.90. How probable is it that you would hear this person speaking Dutch if they were not Dutch? Much less probable — say, 0.05, since only a small fraction of non-Dutch students speak Dutch. The ratio between these two likelihoods (0.90 / 0.05 = 18) captures the strength of the evidence. A ratio of 18 means this evidence is eighteen times more likely if the person is Dutch than if they are not. That large asymmetry is what makes the evidence informative. If you instead observed something equally likely for Dutch and non-Dutch students — say, carrying a backpack — the ratio would be close to 1, and the observation would tell you almost nothing.
+
 
 The third component is the **posterior belief**, or the **posterior**. This is your updated belief after you have combined the prior with the evidence. After hearing your classmate speak Dutch, your belief that they are Dutch should increase substantially. In the Bayesian framework, the posterior is a specific probability that can be calculated, not just a vague feeling of increased confidence. Importantly, this posterior then becomes the prior for the next piece of evidence you encounter. If you later learn that this classmate grew up in Germany, you update again. Bayesian reasoning is a continuous process of belief revision.
 
+
 ## Bayes' theorem
+
 
 The formal rule that describes how to combine priors and evidence is known as **Bayes' theorem**, named after Thomas Bayes, an 18th-century minister and mathematician who first described the logic of inverse probability [@bayes1763]. The theorem states:
 
+
 $$P(H|E) = \frac{P(E|H) \times P(H)}{P(E)}$$
 
-In this equation, $P(H|E)$ is the posterior probability of a hypothesis $H$ given evidence $E$. $P(E|H)$ is the likelihood of the evidence given that the hypothesis is true. $P(H)$ is the prior probability of the hypothesis. And $P(E)$ is the total probability of the evidence.
 
-That last term, $P(E)$, is the one students most often find confusing, but it plays a crucial role. It represents the overall probability of observing the evidence, considering all the ways it could have occurred — both when the hypothesis is true and when it is false. Formally, $P(E) = P(E|H) \times P(H) + P(E|\neg H) \times P(\neg H)$. The denominator acts as a normalizing factor: it ensures that the posterior is a valid probability. When the evidence could easily occur even if the hypothesis is false (making $P(E)$ large), the posterior will be pulled down. This is exactly what happens in the mammogram problem below.
+In this equation, P(H|E) is the posterior probability of a hypothesis H given evidence E. P(E|H) is the likelihood of the evidence given that the hypothesis is true. P(H) is the prior probability of the hypothesis. And P(E) is the total probability of the evidence.
+
+
+That last term, P(E), is the one students most often find confusing, but it plays a crucial role. It represents the overall probability of observing the evidence, considering all the ways it could have occurred — both when the hypothesis is true and when it is false. Formally, P(E) = P(E|H) × P(H) + P(E|¬H) × P(¬H). The denominator acts as a normalizing factor: it ensures that the posterior is a valid probability. When the evidence could easily occur even if the hypothesis is false (making P(E) large), the posterior will be pulled down. This is exactly what happens in the mammogram problem below.
+
 
 The logic behind the equation is straightforward. Your updated belief depends on what you believed before (the prior) and how diagnostic the evidence is (the likelihood). Evidence is diagnostic to the extent that it is more probable under the hypothesis than under the alternative. If a piece of evidence is equally likely whether or not the hypothesis is true, it tells you nothing, and your posterior should equal your prior.
 
+
 ## The mammogram problem
 
-To see why this matters, consider a classic problem from medical decision-making. A woman receives a positive mammogram. The test has a sensitivity of 80%, meaning that if a woman has breast cancer, the test will correctly detect it 80% of the time: $P(\text{positive} | \text{cancer}) = 0.80$. The false-positive rate is 10%, meaning that if a woman does not have cancer, the test will incorrectly say she does 10% of the time: $P(\text{positive} | \text{no cancer}) = 0.10$. The base rate of breast cancer in the population of women being screened is 1%: $P(\text{cancer}) = 0.01$. Given all of this, what is the probability that this woman actually has cancer?
+
+To see why this matters, consider a classic problem from medical decision-making. A woman receives a positive mammogram. The test has a sensitivity of 80%, meaning that if a woman has breast cancer, the test will correctly detect it 80% of the time: P(positive | cancer) = 0.80. The false-positive rate is 10%, meaning that if a woman does not have cancer, the test will incorrectly say she does 10% of the time: P(positive | no cancer) = 0.10. The base rate of breast cancer in the population of women being screened is 1%: P(cancer) = 0.01. Given all of this, what is the probability that this woman actually has cancer?
+
 
 When this problem is posed to physicians, the vast majority dramatically overestimate the answer. In a well-known demonstration, 95 out of 100 physicians estimated that the probability was between 70% and 80% [@hoffrage_gigerenzer1998]. The correct answer, obtained by applying Bayes' theorem, is approximately 7.5%. The physicians were off by a factor of ten.
 
+
 We can see where the correct answer comes from by plugging the numbers into Bayes' theorem:
+
 
 $$P(\text{cancer} | \text{positive}) = \frac{P(\text{positive} | \text{cancer}) \times P(\text{cancer})}{P(\text{positive})}$$
 
-The numerator is $0.80 \times 0.01 = 0.008$. The denominator is the total probability of testing positive, which includes both true positives and false positives: $P(\text{positive}) = (0.80 \times 0.01) + (0.10 \times 0.99) = 0.008 + 0.099 = 0.107$. So the posterior is $0.008 / 0.107 \approx 0.075$, or about 7.5%.
 
-Why is the answer so low despite the test being fairly accurate? The denominator reveals the answer. Because the base rate of cancer is only 1%, the vast majority of women being tested are healthy. Even with a false-positive rate of just 10%, the sheer number of healthy women tested means that false positives (99 out of 990) vastly outnumber true positives (8 out of 10). The physicians made their error by confusing two different probabilities. They took the sensitivity of the test, $P(\text{positive} | \text{cancer}) = 0.80$, and treated it as though it were the answer to the question being asked, $P(\text{cancer} | \text{positive})$. But these are very different things. The probability that you test positive given that you have cancer is about the test's ability to detect disease. The probability that you have cancer given that you tested positive is about what the test result means for you. The second depends critically on the base rate — the prior.
+The numerator is 0.80 × 0.01 = 0.008. The denominator is the total probability of testing positive, which includes both true positives and false positives: P(positive) = (0.80 × 0.01) + (0.10 × 0.99) = 0.008 + 0.099 = 0.107. So the posterior is 0.008 / 0.107 ≈ 0.075, or about 7.5%.
+
+
+Why is the answer so low despite the test being fairly accurate? The denominator reveals the answer. Because the base rate of cancer is only 1%, the vast majority of women being tested are healthy. Even with a false-positive rate of just 10%, the sheer number of healthy women tested means that false positives (99 out of 990) vastly outnumber true positives (8 out of 10). The physicians made their error by confusing two different probabilities. They took the sensitivity of the test, P(positive | cancer) = 0.80, and treated it as though it were the answer to the question being asked, P(cancer | positive). But these are very different things. The probability that you test positive given that you have cancer is about the test's ability to detect disease. The probability that you have cancer given that you tested positive is about what the test result means for you. The second depends critically on the base rate — the prior.
 
 This is not just an academic puzzle. Misunderstanding diagnostic test results has real consequences for patients who may undergo unnecessary and invasive follow-up procedures based on inflated risk estimates (see [Medical Decision-Making](#medical-decision-making)). And the problem is not limited to medicine. Whenever people encounter probabilistic evidence and need to figure out what it means, they face the same challenge of integrating evidence with base rates.
 
+
 ## Natural frequencies
+
 
 If the mammogram problem is so difficult when presented as probabilities, is there a way to make it easier? @hoffrage_gigerenzer1998 showed that there is: present the information as **natural frequencies** rather than conditional probabilities. Natural frequencies are concrete counts of cases — the kind of information our ancestors would have encountered by observing events in the world.
 
+
 Here is the mammogram problem restated in natural frequencies. Imagine 1,000 women who are screened. Of these 1,000, about 10 have breast cancer. Of those 10 women with cancer, 8 will test positive. Of the remaining 990 women without cancer, about 99 will also test positive. Now, of all the women who test positive (8 + 99 = 107), how many actually have cancer? The answer is 8 out of 107, which is about 7.5%. The natural frequency format preserves the base rate information in a way that is easy to grasp: you can picture the 1,000 women divided into groups and see directly that the 99 false positives vastly outnumber the 8 true positives. When the same information is expressed as conditional probabilities, each probability is stated within its own reference class, and the base rate disappears from view.
+
 
 @hoffrage_gigerenzer1998 found that when physicians received problems in natural frequency format, 46% solved them correctly, compared to only 10% with the standard probability format. @sedlmeier1997 went further and developed a computer-based training program that taught people to translate probability problems into natural frequency representations using visual tools: a frequency grid (a square grid where cases are marked as dots) and a frequency tree (a branching diagram that organizes the numbers hierarchically). In a study comparing this approach to traditional rule-based training, participants who learned the frequency method achieved correct solution rates of 70 to 80% immediately after training, compared to only 35% for the rule-based group. When tested again five weeks later, the frequency group's performance had improved to 90%, while the rule-based group had dropped to 20%. The frequency-based approach did not just help people plug numbers into a formula; it gave them a way of thinking about probability that stuck.
 
+
 Despite this evidence, few medical schools train physicians to use natural frequencies. This gap between what research shows and what is practiced is a recurring theme in this course, and one that will return when we discuss [Statistical vs. Intuitive Prediction](#statistical-vs-intuitive-prediction).
+
 
 ## Ideal observer models
 
+
 So far, we have treated Bayesian reasoning as a normative tool for explicit judgment — a standard for how people should interpret test results or update beliefs. But the same logic also appears in models of how the mind processes information automatically, especially in perception. @griffiths_etal2008 describe how Bayesian models of cognition provide a framework for understanding how humans make inferences under uncertainty, from recognizing objects to learning language to reasoning about causes. The basic idea is that the brain faces the same computational problem as a doctor interpreting a test result: it receives noisy, ambiguous evidence from the senses and must figure out what is most likely happening in the world.
+
 
 An **ideal observer model** specifies how a perfectly rational agent would solve this problem. Such an agent would combine prior expectations about the world with incoming sensory evidence, weighting each according to its reliability. When the evidence is strong and clear, it should dominate. When the evidence is weak or ambiguous, prior expectations should have more influence.
 
+
 Human perception often approximates this ideal. Consider a classic example from vision. When you look at a surface with circular patches of shading, you tend to see patches that are lighter on top as bumps and patches that are lighter on the bottom as dents. Why? Your visual system has a strong prior that light comes from above, built up from a lifetime of experience in a world where the sun and most artificial lights are overhead. This prior interacts with the ambiguous shading evidence to produce a definite perception. Rotate the image 180 degrees and bumps become dents, because the same shading pattern now conflicts with the light-from-above prior. The visual system is doing Bayesian inference: combining a prior expectation (light from above) with sensory evidence (the shading gradient) to arrive at the most probable interpretation (bump or dent).
+
 
 This connection between perception and judgment matters for our purposes. Perceptual illusions arise when prior expectations dominate over ambiguous sensory evidence. Cognitive biases arise in the same way — when prior beliefs or heuristic shortcuts dominate over the actual evidence in a reasoning problem. The parallel suggests that biases are not random errors but systematic consequences of the same inference machinery that usually serves us well (see also [Heuristics and Biases](#heuristics-and-biases)). @lieder_griffiths2020 develop this idea further, arguing that many apparent cognitive biases can be understood as **resource-rational**: they are the best solutions the brain can achieve given its limited computational resources. On this view, the brain is not failing at rationality; it is optimizing under constraints, much as an engineer builds the best bridge possible within a budget.
 
+
 ## Signal detection theory
+
 
 Another framework that complements Bayesian reasoning is **signal detection theory (SDT)**. Where Bayes' theorem tells you how to update your beliefs, signal detection theory addresses the next step: how to make a decision based on those uncertain beliefs. The two frameworks are complementary — Bayes tells you what to believe, and SDT tells you what to do about it.
 
+
 Imagine you are a radiologist examining an X-ray for signs of a tumor. The image is grainy, and what you see could be a real tumor or just normal tissue that happens to look unusual. You must make a decision: report a tumor or not. There are four possible outcomes:
+
 
 | | Tumor present | Tumor absent |
 |---|---|---|
 | **Report "tumor"** | Hit | False alarm |
 | **Report "no tumor"** | Miss | Correct rejection |
 
-Signal detection theory describes this situation with two key parameters. The first is **sensitivity** ($d'$, pronounced "d-prime"), which captures how well you can distinguish signal (tumor) from noise (normal tissue). This depends on the quality of the evidence. A high-resolution scan with a clear abnormality gives you high sensitivity; a blurry scan with a subtle shadow gives you low sensitivity. Sensitivity is a property of the evidence itself and is not under the decision-maker's control.
+
+Signal detection theory describes this situation with two key parameters. The first is **sensitivity** (*d'*, pronounced "d-prime"), which captures how well you can distinguish signal (tumor) from noise (normal tissue). This depends on the quality of the evidence. A high-resolution scan with a clear abnormality gives you high sensitivity; a blurry scan with a subtle shadow gives you low sensitivity. Sensitivity is a property of the evidence itself and is not under the decision-maker's control.
+
 
 The second parameter is the **criterion** (also called **bias**). This is the threshold at which you decide to say "yes, there is a tumor." The criterion *is* under the decision-maker's control. If you set a low criterion, you will report tumors frequently, catching most real ones (many hits) but also producing many false alarms. If you set a high criterion, you will be more conservative, missing some real tumors (more misses) but producing fewer false alarms. A Bayesian decision-maker would set this criterion using both prior probabilities and the costs and benefits of each outcome. Missing a real tumor (a miss) is far worse than ordering an unnecessary follow-up scan (a false alarm), which pushes the optimal criterion lower. But the base rate of tumors is low, which pushes the criterion higher. The optimal criterion balances these competing pressures.
 
+
 In practice, people do not always set optimal criteria. A radiologist who has just seen several cases of cancer may temporarily lower their criterion, reporting more tumors than usual, because the recent experience has made cancer seem more common (see [Availability](#availability)). A radiologist under time pressure may raise their criterion to avoid the effort of writing additional reports. These criterion shifts represent departures from the Bayesian ideal that have real consequences for patients.
+
 
 ## Calibration
 
+
 If Bayesian reasoning is the normative standard, how do we measure how close people actually come to it? One important measure is **calibration**. A person is well calibrated if their expressed confidence matches their actual accuracy. If you say you are 70% sure about something, then among all the things you say you are 70% sure about, roughly 70% should turn out to be true. If 90% of them turn out to be true, you are underconfident. If only 50% are true, you are overconfident.
 
-Calibration can be assessed straightforwardly. You collect a large number of a person's probability judgments, group them by confidence level, and compare the stated confidence to the actual proportion correct. Weather forecasters are famously well calibrated: among all the days when they say there is a 30% chance of rain, it rains on roughly 30% of those days. This is no accident. Weather forecasters make many predictions, receive clear and immediate feedback, and work in a domain with well-defined probabilities — all conditions that support learning. Experts in domains with less clear feedback, such as political pundits or clinical psychologists making long-term prognoses, tend to be poorly calibrated. This connection between feedback quality and calibration will be relevant when we discuss why [Statistical vs. Intuitive Prediction](#statistical-vs-intuitive-prediction) tends to outperform clinical judgment.
+
+Calibration can be assessed straightforwardly. You collect a large number of a person's probability judgments, group them by confidence level, and compare the stated confidence to the actual proportion correct. Weather forecasters are famously well calibrated: among all the days when they say there is a 30% chance of rain, it rains on roughly 30% of those days. This is no accident. Weather forecasters make many predictions, receive clear and immediate feedback, and work in a domain with well-defined probabilities — all conditions that support learning. Experts in domains with less clear feedback, such as political pundits or clinical psychologists making long-term prognoses, tend to be poorly calibrated. This connection between feedback quality and calibration will be relevant when we discuss why statistical prediction tends to outperform clinical judgment (see [Statistical vs. Intuitive Prediction](#statistical-vs-intuitive-prediction)).
+
 
 Good calibration is one important sign of sound probabilistic judgment, because it means a person's posteriors accurately reflect the evidence they have received. In practice, most people are overconfident: they express more certainty than their accuracy warrants. This pervasive finding will be examined in detail in [Overconfidence](#overconfidence).
 
+
 ## Why this matters for the course
+
 
 The Bayesian framework is not just one topic among many in this course. It is the thread that runs through nearly every chapter. Almost every bias and heuristic we will encounter can be understood as a specific, identifiable departure from the Bayesian ideal. To give you a preview:
 
-- **Base-rate neglect**, which we will discuss in [Representativeness](#representativeness), occurs when people ignore the prior and judge probabilities based on how well the evidence matches a prototype. The mammogram problem is a classic example. More generally, the representativeness heuristic leads people to let the likelihood dominate while neglecting the prior. This produces not only base-rate neglect but also the conjunction fallacy, where people judge a conjunction of events (e.g., "Linda is a bank teller and a feminist") as more probable than one of its components, because the conjunction better resembles their image of Linda.
+
+- **Base-rate neglect**, which we will discuss in [Representativeness](#representativeness), occurs when people ignore the prior and judge probabilities based on how well the evidence matches a prototype. The mammogram problem is a classic example, because people tend to ignore how rare cancer is, and focus on the sensitivity of the screening.
 - **Anchoring**, covered in [Anchoring and Primacy](#anchoring-and-primacy), happens when people start with an initial value and fail to adjust sufficiently. In Bayesian terms, this is insufficient updating from the prior — the anchor acts as a sticky prior that resists revision.
 - The **availability heuristic**, discussed in [Availability](#availability), leads people to overestimate the probability of events that come easily to mind. In Bayesian terms, this is biased evidence sampling: the evidence that enters the calculation is not representative of the actual evidence in the world.
 - **Confirmation bias**, the topic of [Confirmation](#confirmation), is asymmetric updating: people revise their beliefs more in response to confirming evidence than disconfirming evidence, violating the Bayesian requirement to weight evidence according to its diagnosticity regardless of direction.
@@ -113,8 +160,11 @@ The Bayesian framework is not just one topic among many in this course. It is th
 - **Belief perseverance**, discussed in [Belief Formation and Perseverance](#belief-formation-and-perseverance), is a failure to update from disconfirming evidence. People hold on to their prior even when the evidence clearly points the other way.
 - The superiority of **statistical over clinical prediction**, the topic of [Statistical vs. Intuitive Prediction](#statistical-vs-intuitive-prediction), reflects the difference between informal evidence integration (which is prone to all the biases above) and formal evidence integration using explicit rules.
 
+
 This is not to say that Bayesian reasoning is the only useful framework for understanding judgment and decision-making. As we saw in [Reason and Intuition](#reason-and-intuition), the distinction between fast, intuitive processing and slow, deliberate processing captures something important that is not purely about probability. And as discussed in [How It Is vs. How It Should Be](#how-it-is-vs-how-it-should-be), the relationship between normative standards (what we should do), descriptive findings (what we actually do), and prescriptive recommendations (what we practically can do to improve) is more nuanced than simply pointing out where people fail to be Bayesian [@swarna2017]. But the Bayesian framework provides a powerful normative standard against which we can measure and understand the many ways in which human judgment falls short. In every subsequent chapter, we will ask: how does this topic relate to the process of updating a prior belief with evidence to form a posterior? Sometimes the connection will be direct and obvious, as with base-rate neglect or confirmation bias. Sometimes it will require more interpretation, as when we consider how moral intuitions function as strong priors that resist updating (see [Morality](#morality)). And occasionally the Bayesian lens may not be the most natural way to think about a topic, in which case we will say so. The goal is not to force every phenomenon into a single framework, but to use the framework where it illuminates — which, as this chapter has shown, is in a surprisingly large number of places.
 
+
 ## Summary
+
 
 Bayesian reasoning is the process of combining prior beliefs with new evidence to form updated beliefs, or posteriors. Bayes' theorem formalizes this process and serves as the normative standard for rational belief updating throughout this course. People frequently violate this standard, as illustrated by the mammogram problem, where physicians dramatically overestimate the probability of disease after a positive test by ignoring the low base rate. Presenting information as natural frequencies rather than conditional probabilities makes Bayesian reasoning much more intuitive and produces lasting improvements in accuracy. The Bayesian framework extends beyond explicit reasoning to perception, where ideal observer models describe how the brain combines prior expectations with noisy sensory evidence, and to decision-making under uncertainty, where signal detection theory formalizes the tradeoff between hits, misses, false alarms, and correct rejections. Calibration — the degree to which a person's confidence matches their actual accuracy — provides a measurable standard for evaluating judgment quality, with most people being overconfident. Nearly every bias and heuristic covered in this course can be understood as a specific departure from Bayesian rationality, making this framework the central thread of the book.

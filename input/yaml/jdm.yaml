@@ -1,0 +1,48 @@
+title: The Pyschology of Judgment and Decision-Making
+author: Sebastiaan Mathôt
+language: en
+publisher: University of Groningen
+date: 2026-01-01
+rights: "Copyright © 2026 Sebastiaan Mathôt and contributors. CC-by."
+subject:
+  - Judgment and Decision-Making
+  - Psychology
+description: >
+  A textbook for a University course on Judgment and Decision-Making.
+cover_image: artwork/ebook-cover.jpg
+css:
+  - styles/epub.css
+contents:
+  - contents
+  - reason-and-intuition
+  - bayesian-reasoning
+  - heuristics-and-biases
+  - how-it-is-vs-how-it-should-be
+  - mental-models
+  - what-is-intelligence
+  - intelligence-vs-rationality
+  - intelligence-in-the-real-world
+  - availability
+  - representativeness
+  - anchoring-and-primacy
+  - overconfidence
+  - cues-to-causality
+  - blame-praise-and-responsibility
+  - learning-causality
+  - hindsight
+  - statistical-vs-intuitive-prediction
+  - the-future-self
+  - risk-perception
+  - gains-and-losses
+  - satisficing-vs-maximizing
+  - steering-other-peoples-choices
+  - group-decisions
+  - confirmation
+  - belief-formation-and-perseverance
+  - conspiracy-theories
+  - morality
+  - cooperation
+  - medical-decision-making
+  - legal-decision-making
+  - populism-and-social-media
+  - artificial-intelligence
