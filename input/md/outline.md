@@ -96,7 +96,7 @@
 **Schemas and scripts operate within stances.** The stance you adopt determines which schemas are activated and what kind of reasoning follows:
 
 - **Schema:** A set of general knowledge about what to expect in a particular situation or thing. Activated by incoming information to guide comprehension, memory, learning, and performance.
-  - @bransford_johnson1972: Students who learned a topic before reading disjointed sentences had better comprehension and recall.
+  - @bransford_johnson1972 Students who learned a topic before reading disjointed sentences had better comprehension and recall.
   - Not everyone has the same schema content, and the nature of that content profoundly affects behavior.
 - **Scripts**: Schemas for highly routine events (e.g., restaurant visits). Well known within a culture, with agreed-upon temporal sequences. Culture-specific. Violations of scripts are noticed and remembered — especially when they bring the script to a standstill.
 

@@ -5,15 +5,15 @@ from sigmund import static
 
 MODEL_WRITE = 'claude-4-6-opus'
 MODEL_FEEDBACK = 'gpt-5.4-thinking'
-OUTLINE_PATH = 'md/outline.md'
-CONDENSED_OUTLINE_PATH = 'md/condensed-outline.md'
+OUTLINE_PATH = 'input/md/outline.md'
+CONDENSED_OUTLINE_PATH = 'input/md/condensed-outline.md'
 SUMMARIES_DIR = 'references/summaries'
-OUTPUT_DIR = 'md/chapters'
-DRAFTS_DIR = 'md/chapters/drafts'
-FEEDBACK_DIR = 'md/chapters/feedback'
-PROMPT_TEMPLATE = Path('prompts/write.md')
-FEEDBACK_TEMPLATE = Path('prompts/feedback.md')
-REVISION_TEMPLATE = Path('prompts/revise.md')
+OUTPUT_DIR = 'input/md/chapters'
+DRAFTS_DIR = 'input/md/chapters/drafts'
+FEEDBACK_DIR = 'input/md/chapters/feedback'
+PROMPT_TEMPLATE = Path('prompts/write.md').read_text()
+FEEDBACK_TEMPLATE = Path('prompts/feedback.md').read_text()
+REVISION_TEMPLATE = Path('prompts/revise.md').read_text()
 
 
 def split_outline_into_chapters(outline_text):
@@ -108,8 +108,6 @@ def main():
         revised = static.predict(revision_prompt, model=MODEL_WRITE)
         output_path.write_text(revised, encoding='utf-8')
         print(f'  ✅ Final chapter written to {output_path}\n')
-        if i > 2:
-            break
     print('🎉 All chapters generated!')
 
 
