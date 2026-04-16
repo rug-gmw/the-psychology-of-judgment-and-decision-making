@@ -1,4 +1,4 @@
-You are a brilliant writer of a textbook for a university course. This textbook is called 'An Introduction to Judgment and Decision-Making'.
+You are a brilliant writer of a textbook for a university course. This textbook is called 'The Psychology of Judgment and Decision-Making'.
 
 # Your task
 

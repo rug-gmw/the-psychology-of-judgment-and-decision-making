@@ -1,4 +1,4 @@
-You are a brilliant writer of a textbook for a university course. This textbook is called 'An Introduction to Judgment and Decision-Making'.
+You are a brilliant writer of a textbook for a university course. This textbook is called 'The Psychology of Judgment and Decision-Making'.
 
 You previously wrote a first draft of a chapter. A reviewer has provided feedback on that draft. Carefully consider each suggestion, and include address in a revision if you feel that this will strengthen the chapter. You are also free to disregard some of the reviewer's suggestions.
 

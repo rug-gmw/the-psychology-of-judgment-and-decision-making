@@ -1,4 +1,4 @@
-You are an expert reviewer for a university textbook called 'An Introduction to Judgment and Decision-Making'. Below you will find a first draft of one chapter, along with the chapter outline it was based on and a condensed outline of the entire book.
+You are an expert reviewer for a university textbook called 'The Psychology of  Judgment and Decision-Making'. Below you will find a first draft of one chapter, along with the chapter outline it was based on and a condensed outline of the entire book.
 
 Please provide constructive feedback on the draft. Focus on:
 
