@@ -1,6 +1,8 @@
 # Availability
 
+
 Learning goals:
+
 
 - Define the availability heuristic and explain how it leads to biased judgments of frequency and probability.
 - Describe the classic studies on letter position and famous names that demonstrate the availability heuristic.
@@ -8,60 +10,86 @@ Learning goals:
 - Explain how the negativity bias interacts with availability to distort perceptions of risk and the state of the world.
 - Apply the concept of biased evidence sampling to understand availability through a Bayesian framework.
 
-## How Easy Does It Come to Mind?
+
+## How Easily Does It Come to Mind?
+
 
 Imagine you are asked: which is a more common cause of death, a dramatic accident like a plane crash, or a quiet disease like stomach cancer? Many people find that dramatic images of crashes come to mind more quickly than thoughts of stomach cancer, even though common diseases kill far more people each year. Or consider this: after watching a news report about a bicycle theft in your neighborhood, you might suddenly feel that bike theft is a much bigger problem than you thought the day before, even though nothing has changed about the actual rate of theft. In both cases, your judgment about how common something is gets shaped not by the actual numbers, but by how easily examples pop into your head.
 
+
 @tversky_kahneman1973 called this the **availability heuristic**: when people estimate how frequent or probable something is, they rely on how easily relevant instances come to mind. The easier it is to think of examples, the more frequent or probable the event seems. As discussed in the chapter on [Heuristics and Biases](#heuristics-and-biases), heuristics are mental shortcuts that substitute a hard question for an easier one. Here, the hard question is "how frequent is this event?" and the easier substitute is "how easily can I think of examples?" This substitution often works well, because things that happen frequently are generally easier to recall. But it also opens the door to systematic errors whenever ease of recall is influenced by something other than actual frequency. One way to think about this is as **biased sampling from memory**: instead of drawing a representative sample of evidence, people draw a sample weighted toward whatever happens to come to mind most readily.
+
 
 ## Letters, Names, and the Origins of a Classic Idea
 
+
 @tversky_kahneman1973 demonstrated the availability heuristic with a series of elegant studies. In one, participants were asked about specific consonants: K, L, N, R, and V. For each letter, participants had to judge whether the letter appears more often in the first position of English words or in the third position. For example, does the letter K appear more often at the start of a word (like "kite") or in the third position (like "ask")? Sixty-nine percent of participants judged these consonants to be more common in the first position. But all five letters actually appear more frequently in the third position. Why did people get this wrong? Because it is much easier to search your mental dictionary by the first letter of a word than by the third letter. Try it yourself: you can quickly generate words that start with K, but generating words with K as the third letter is much harder. The ease of this mental search misleads you into thinking first-position words are more numerous.
+
 
 Another classic study from the same paper used lists of names. Participants heard a list of names that included both men and women. In some lists, the women's names were very famous (think of well-known politicians, athletes, or artists) while the men's names were only somewhat famous. In other lists, the pattern was reversed. Afterward, participants were asked whether the list contained more men or more women. The actual numbers were roughly equal, but participants consistently overestimated the frequency of whichever gender had the more famous names. Famous names are more memorable, and this greater memorability led participants to treat retrieval fluency as evidence of frequency.
 
+
 More broadly, availability is a System 1 process (see [Reason and Intuition](#reason-and-intuition)): rather than deliberately counting cases or consulting base rates, people rely on an immediate sense of how easy retrieval feels. This feeling emerges automatically, without conscious effort.
+
 
 ## What Makes Something Available?
 
+
 When we say something is "available," what exactly do we mean? Availability can operate through several different routes. Sometimes a few vivid examples come to mind very quickly — you might not think of many plane crashes, but the one you saw in a documentary springs to mind instantly. Sometimes availability manifests as a large number of recalled instances: you can think of many examples, even if none of them are particularly fast or vivid. And sometimes it operates through the strength of associations in memory: certain pairings of ideas are so deeply encoded that one automatically triggers the other, even without conscious recall of specific episodes.
+
 
 These are not competing explanations. They are all routes through which the same principle operates. Some researchers use the term **accessibility** to refer specifically to the ease and speed of retrieval, distinguishing it from the sheer number of instances recalled. Availability, as @tversky_kahneman1973 originally described it, is the broader umbrella concept that encompasses all of these manifestations — speed, volume, and associative strength alike. What matters is that any factor that makes instances easier to bring to mind can inflate your estimate of how common or probable something is.
 
+
 @tversky_kahneman1973 provided early evidence that people can gauge their own availability with surprising accuracy. In one study, participants were shown a grid of letters (for example, a 2×4 matrix containing letters like T, A, N, and O) and asked to estimate how many words of a given length they could form from those letters — before actually trying. Their estimates correlated very strongly with the number of words they actually produced (a correlation of 0.96). In a second study, participants estimated how many instances of a category (such as flowers) they could recall, and again, estimates closely matched actual recall. These findings show that availability is a real and measurable mental signal. The problem is not that the signal is noisy; the problem is that it can be driven by factors that have nothing to do with actual frequency.
+
 
 ## When Availability Misleads
 
+
 What are these misleading factors? Several stand out. **Recency** is one: events that happened recently are easier to recall than events from the distant past. If a friend just told you about a burglary in their street, burglaries will seem more common than if you had not heard this story. **Vividness** is another: dramatic, emotionally charged events leave stronger memory traces. A single graphic news story about a shark attack can make shark attacks seem far more common than they are, even though the actual risk is vanishingly small.
+
 
 **Personal experience** matters too. Things that have happened to you are more available than things that have happened to strangers. If you have been in a minor car accident, you are likely to estimate the probability of car accidents as higher than someone who has not. And the **structure of memory** plays a role: as the letter-position study shows, some categories are simply easier to search than others, even when the underlying frequencies are the same.
 
+
 @macleod_campbell1992 provided evidence consistent with a causal influence of availability on probability judgments. In their experiment, undergraduate students underwent a mood-induction procedure: some were put into a happy mood and others into a sad mood by reading self-descriptive statements. Participants were then asked to recall specific instances of positive and negative life events, while the researchers measured how quickly these memories came to mind. Afterward, participants rated how likely they were to experience similar events in the next six months. Participants in a sad mood recalled negative events more quickly, and this faster recall predicted higher estimates of the likelihood of negative events happening to them. Participants in a happy mood showed the reverse pattern: positive events came to mind more easily, and they judged positive events as more likely. Crucially, the size of the change in recall speed predicted the size of the change in probability judgments, even after controlling for the mood itself. By experimentally manipulating mood and showing that resulting changes in recall speed were associated with changes in probability estimates, this study supports the idea that changes in recall accessibility can contribute causally to probability judgments, rather than merely correlating with them.
+
 
 ## The Negativity Bias and the News
 
+
 The availability heuristic does not operate in a vacuum. It interacts with other features of human psychology, and one of the most important of these is the **negativity bias**. People tend to seek out, pay more attention to, and be more strongly affected by negative information than by positive information. One common explanation is that missing a threat is often costlier than missing an opportunity, so our cognitive systems are tuned to prioritize negative signals. The result is that negative events leave stronger impressions and are more easily recalled.
+
 
 @robertson_etal2023 studied this in the context of online news consumption. Using a massive dataset from the news website Upworthy, which included over 105,000 headline variations and roughly 370 million impressions, they analyzed how the emotional tone of headlines affected click-through rates. Because Upworthy routinely tested different headlines for the same story in randomized controlled trials, the researchers could draw causal conclusions. They found that each additional negative word in a headline increased the click-through rate by about 2.3 percent, while each additional positive word decreased it by about 1.0 percent. The effect was robust across different ways of measuring sentiment and across different news topics, though it was especially strong for news about government and the economy.
 
+
 This finding has a direct connection to the availability heuristic. If negative news attracts more clicks, news organizations have an incentive to emphasize negative stories. Readers then encounter a disproportionate amount of negative information, which makes negative events more available in memory. When people later estimate how common crime, corruption, or disaster is, they draw on this biased mental sample and conclude that the world is more dangerous and grim than it actually is. The old journalistic saying "if it bleeds, it leads" describes not just editorial preferences but a feedback loop between the negativity bias and availability. This loop is further amplified in the age of social media, where algorithms learn what you click on and serve you more of the same, a topic explored in the chapter on [Populism and Social Media](#populism-and-social-media).
+
 
 ## Availability in Professional Settings
 
+
 The availability heuristic is not limited to everyday judgments. It plays a significant role in professional contexts where accurate probability estimates matter a great deal. In medicine, for example, a doctor who recently treated a patient with a rare tropical disease may be more likely to diagnose the next patient with similar symptoms as having that same disease, simply because the recent case is fresh in memory. The recent case is more available, and availability is a powerful cue that operates automatically, even among highly trained professionals. The chapter on [Medical Decision-Making](#medical-decision-making) explores these effects in more detail, including how decision support systems can help counteract them.
+
 
 In everyday risk perception, as discussed in the chapter on [Risk Perception](#risk-perception), people tend to overestimate the probability of dramatic but rare events (such as plane crashes or terrorist attacks) and underestimate the probability of common but undramatic ones (such as heart disease), in large part because dramatic events are more available in memory. @tversky_kahneman1974 noted that even trained statisticians fall prey to availability-driven biases when relying on intuition rather than formal analysis. The heuristic is not a sign of ignorance or carelessness; it is a fundamental feature of how the human mind handles the question "how common is this?"
 
-Availability can also contribute to **illusory correlation** — perceiving a relationship between two things when no such relationship exists, or overestimating the strength of a weak relationship. When certain pairings are vivid or strongly associated in memory, their co-occurrence feels more available, and this feeling is mistaken for higher frequency. This phenomenon is discussed in more detail in the chapter on [Learning Causality](#learning-causality).
 
-## Availability Through a Bayesian Lens
+## A Bayesian Lens
+
 
 All of the distortions discussed above have something in common: they bias which evidence is mentally sampled in the first place. A recurring theme in this book is that many biases can be understood as departures from the ideal of Bayesian reasoning, in which a prior belief is updated with evidence to form a posterior belief (see [Bayesian Reasoning](#bayesian-reasoning)). The availability heuristic fits neatly into this framework by distorting the evidence-sampling step.
 
+
 In an ideal Bayesian update, you would draw a representative sample of evidence from your memory, one that accurately reflects the true base rates in the world. But the availability heuristic means that your mental sample is not representative. It is weighted toward whatever is recent, vivid, emotional, or structurally easy to retrieve. Consider a concrete example. Suppose you are deciding whether it is safe to swim in the ocean. A Bayesian reasoner would draw on representative evidence: the vast majority of ocean swims are uneventful, and shark attacks are extraordinarily rare. But if you recently watched a documentary about shark attacks, those vivid cases are disproportionately available. Your mental evidence sample now contains a much higher proportion of shark attacks than the real world does. You update on this distorted sample and conclude that the ocean is more dangerous than it actually is — not because your reasoning about the evidence is faulty, but because the evidence that entered the reasoning process was not representative.
+
 
 The result is that the evidence entering the Bayesian update is biased: people effectively update on a distorted memory sample rather than on the full range of relevant information. An ideal Bayesian reasoner with unbiased, representative access to memory would not show this effect. Of course, real minds operate under constraints — memory retrieval has costs, and relying on what comes to mind easily is often a sensible strategy (see the discussion of **ecological rationality** in [Reason and Intuition](#reason-and-intuition)). The availability heuristic is ecologically rational in many environments, which is precisely why it persists. The problems arise when the factors that drive availability diverge from actual frequency.
 
+
 ## Summary
+
 
 The availability heuristic is the tendency to judge the frequency or probability of events based on how easily examples come to mind. Classic studies show that people overestimate the frequency of famous names and misjudge letter positions in words, because memorable or easily retrieved instances are treated as evidence of prevalence. Availability can operate through several routes: faster recall, a greater number of recalled instances, or stronger associations in memory. The negativity bias amplifies these effects, because negative information attracts more attention and is more readily encoded, creating a feedback loop with news media that makes the world seem worse than it is. Experimental evidence supports a causal role for availability in shaping probability judgments. In professional settings, from medicine to risk assessment, the same heuristic shapes consequential decisions. From a Bayesian perspective, availability distorts the evidence that enters the reasoning process: people update on a biased memory sample rather than on representative information, producing skewed conclusions even when the reasoning itself is sound.

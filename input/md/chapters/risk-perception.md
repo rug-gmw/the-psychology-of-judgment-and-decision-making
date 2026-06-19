@@ -1,6 +1,8 @@
 # Risk Perception
 
+
 Learning goals:
+
 
 - Explain why people accept much higher levels of voluntary risk than involuntary risk.
 - Describe the concept of dread risk and how it distorts responses to rare events.
@@ -10,98 +12,146 @@ Learning goals:
 - Explain why climate change fails to trigger strong emotional responses despite its severity.
 - Apply a Bayesian framework to understand distortions in risk perception.
 
+
 ## How Risky Does It Feel?
+
 
 Consider two hazards. The first is skiing: you strap yourself to two planks and hurl down a mountain at speed, knowing that broken bones, concussions, and occasionally death are real possibilities. The second is living a kilometer downwind from a chemical plant that, according to its safety record, poses a far smaller annual risk of injury than a season on the slopes. Most people would happily book the ski trip and fiercely oppose the chemical plant. The difference is not in the numbers. It is in how each risk feels.
 
+
 This chapter examines why people's judgments about risk so often diverge from what the evidence would suggest. The answer involves several of the heuristics and biases discussed earlier in this book. The [availability heuristic](#availability) makes vivid and recent events feel more probable. The [affect heuristic](#heuristics-and-biases) causes people to judge risk based on an emotional reaction rather than a statistical estimate. And as we will see, these tendencies produce predictable patterns: some real dangers are ignored, others are massively overweighted, and the way risk information is communicated can strongly shape public reactions.
+
 
 ## Voluntary and Involuntary Risk
 
+
 One of the earliest and most striking findings in risk research is that people tolerate far more risk when they choose to take it. In a landmark analysis, @starr1969 examined historical data on fatalities across a range of activities and technologies and found that the public accepts roughly 1,000 times more risk for voluntary activities, such as skiing or driving for leisure, than for involuntary exposures, such as living near a chemical plant or being exposed to pollution. This is a very large difference in tolerance — about three orders of magnitude.
+
 
 @fischhoff_etal1978 extended this work using a different method. Rather than inferring risk tolerance from historical behavior, they directly surveyed people about their perceptions and preferences. Participants rated 30 activities and technologies on perceived risk, perceived benefit, and the acceptability of current risk levels. They also evaluated each hazard on qualitative dimensions, including voluntariness, controllability, familiarity, and dread. The results confirmed Starr's core finding: people are willing to accept higher risk for activities that feel voluntary and controllable. But they also showed that risk perception is shaped by a broader set of qualitative features. When a risk feels uncontrollable, unfamiliar, and potentially catastrophic, people judge it as far more dangerous than experts would, based on mortality statistics alone.
 
+
 This asymmetry tells us that people do not evaluate risk the way an actuary does, by computing expected fatalities per year or per hour of exposure. Instead, they evaluate risk through an emotional lens. If an activity is freely chosen, that emotional lens is forgiving. If it is imposed, the lens magnifies every possible danger. This is why a person might happily bungee jump on holiday while fiercely opposing a waste incinerator being built in their neighborhood. The objective probability of harm may be lower from the incinerator, but the experience of risk is entirely different.
+
 
 ## When Rare Risks Are Ignored
 
+
 Most of the time, people treat extremely low probabilities as if they were zero. A risk that has a one-in-a-million chance of occurring in any given year simply does not register. This means that many small but real hazards — such as food contamination, household accidents, or exposure to radon gas in the home — receive far less attention than their actual probability would warrant.
+
 
 Consider radon, a naturally occurring radioactive gas that seeps into homes through the ground. Long-term radon exposure is the second leading cause of lung cancer after smoking, yet in many countries only a small fraction of homeowners have ever tested their homes. The test is cheap and easy, and mitigation is straightforward. But because radon is invisible, odorless, and kills only slowly, the risk on any given day feels like zero, and so people do not act. A similar pattern appears with emergency preparedness: despite living in flood- or earthquake-prone areas, many residents never assemble an emergency kit or develop an evacuation plan. The probability of disaster in any given week is too low to feel real.
 
+
 This neglect of rare risks is partly understandable. In a world of limited attention, it makes sense to focus on the dangers that are most likely to affect you. But it also leads to systematic blind spots. The cumulative probability of harm over a lifetime can be substantial even when the daily probability is vanishingly small. This pattern relates to the broader concept of [bounded rationality](#reason-and-intuition): people do not have the cognitive resources to evaluate every possible risk, so they rely on heuristics that sometimes lead them astray.
+
 
 The major exception is when a rare hazard is emotionally loaded. In those cases, the same low probability can be treated as intolerably high.
 
+
 ## Dread Risk
+
 
 The neglect of rare risks breaks down dramatically when a hazard triggers a particular emotional response: dread. Dread is the feeling that a hazard is catastrophic, uncontrollable, and unfairly distributed. Using what they called the psychometric paradigm, @slovic1987 and colleagues mapped dozens of hazards along two dimensions. The first, called "dread risk," captured the degree to which a hazard was perceived as uncontrollable, catastrophic, involuntary, and inequitable. The second, called "unknown risk," captured how novel, unobservable, and poorly understood a hazard seemed. In these psychometric studies, dread emerged as one of the major dimensions distinguishing hazards that people treat as terrifying from those they treat as acceptable. Nuclear power, for example, scored extremely high on both dimensions, which explains why it provokes intense public opposition despite expert assessments that its mortality risk is relatively low.
 
+
 When dread is triggered, a rare risk flips from invisible to massively overweighted. People demand strict regulation, avoid the hazard at all costs, and may make decisions that expose them to greater danger. Experts, by contrast, tend to judge risk primarily by mortality rates. This mismatch between expert and public assessments is not simply a sign that the public is irrational. As Slovic argued, public risk judgments often reflect concerns — such as fairness, controllability, and catastrophic potential — that are not captured by simple mortality statistics. But the mismatch does mean that public responses to risk can sometimes be counterproductive.
+
 
 ## Dread in Action: The Aftermath of Terrorism
 
+
 The consequences of dread risk can be measured in lives lost. @gigerenzer2004 documented one of the most striking examples. After the terrorist attacks of September 11, 2001, many Americans were terrified of flying. Air travel dropped by 12 to 20 percent in the months that followed. But people still needed to travel, so many drove instead. The problem is that driving the same distance as the average domestic flight in the United States is roughly 65 times more dangerous than flying, even when the risk of a terrorist attack on a plane is included in the calculation. By analyzing U.S. Department of Transportation data, Gigerenzer estimated that approximately 350 additional people died in traffic accidents in the three months after 9/11, compared to what would have been expected based on the previous five years. This excess death toll exceeded the number of passengers who died on the four hijacked flights.
+
 
 A plane crash, especially one caused by terrorism, is a classic dread risk: catastrophic, uncontrollable, and unfamiliar. It dominates news coverage for weeks. In contrast, car accidents are so common that they barely make the local news. The [availability heuristic](#availability) ensures that the vivid, dramatic event looms large in the mind, while the mundane, everyday risk fades into the background. The result is a substitution from a safer mode of transport to a more dangerous one, driven entirely by how the risk feels rather than by any calculation of probability.
 
+
 An instructive contrast comes from Spain. @lopezrousseau2005 examined what happened after the Madrid train bombings of March 11, 2004, which killed approximately 200 people. As in the United States, train ridership declined in the following months. But unlike Americans, Spaniards did not substitute train travel with car travel. Instead, highway traffic also decreased, and traffic fatalities went down rather than up. Several factors may explain this difference. Spain has a long history of domestic terrorism, including decades of attacks by ETA, which may have made the public more resilient. Culturally, Spain is less car-dependent than the United States, so alternative transport options, such as buses, were more readily available. And the sociopolitical response was different: trains continued running immediately after the attacks, and many Spaniards used them the following day to attend anti-terrorism demonstrations. This comparison shows that while dread is a universal human response, the behavioral consequences of dread depend on the cultural and practical context.
+
 
 ## Scope Insensitivity
 
+
 If risk perception were driven by careful reasoning, people's concern about a problem would scale with the size of that problem. A disaster that kills 10,000 people should feel roughly ten times worse than one that kills 1,000. But this is not what happens. People's emotional responses, and their willingness to act, are remarkably insensitive to the scope of a problem.
+
 
 @hsee_rottenstreich2004 demonstrated this in a series of experiments. In one study, participants were shown pictures of endangered pandas and asked how much they would donate to help save them. When shown a picture of one panda, participants donated generously. When shown four pandas, they donated almost the same amount. The emotional response was triggered by the category — endangered pandas — and did not scale with the number of pandas at stake. In a parallel experiment, participants were asked to indicate their willingness to pay for either 5 or 10 Madonna CDs. When participants were primed to think analytically (by performing a calculation task), they were willing to pay roughly twice as much for 10 CDs as for 5. But when primed to rely on their feelings (by recalling an emotional experience), their willingness to pay barely changed between 5 and 10 CDs. The emotional reaction was to Madonna, not to the number of discs.
 
+
 This scope insensitivity has been documented repeatedly. In contingent valuation research on environmental harms, people's willingness to pay has been found to be nearly identical for saving 2,000, 20,000, or 200,000 migratory birds. The pattern is consistent: the [affect heuristic](#heuristics-and-biases) causes people to substitute the question "how large is this problem?" with the easier question "how do I feel about this type of problem?" The answer to the second question does not change much with the numbers. For charitable giving and public policy, this means that the difference between a small disaster and a massive one barely registers emotionally. A famine affecting 100,000 people may generate roughly the same concern as one affecting 10 million.
+
 
 If scope insensitivity shows that feelings do not scale well with numbers, the next phenomenon shows what feelings *do* respond to: vivid individuals.
 
+
 ## The Identifiable Victim Effect
+
 
 People respond far more generously to a single, identified victim — someone with a name, a face, and a story — than to statistical information about thousands of anonymous victims. Charities have long understood this: a poster showing one child with a name will raise more money than a poster citing the number of children in need. Organizations like the Red Cross and UNICEF build their campaigns around individual stories precisely because our emotional system is built to respond to persons, not to populations.
 
+
 @small_loewenstein2003 demonstrated that even minimal identification boosts generosity. In a laboratory experiment, participants played a modified dictator game in which they could share money with a recipient who had lost their initial payment. The only difference between conditions was whether the recipient had already been selected (determined) or would be selected later (indeterminate). No names, photographs, or personal details were provided. Yet participants gave significantly more money — on average 3.42 euros worth versus 2.12 — when the recipient had already been determined. A field experiment confirmed this pattern. Passersby were asked to donate part of a small payment to Habitat for Humanity, with a letter describing four needy families. When the letter stated that the recipient family had already been selected, donations were higher than when the family had not yet been chosen. Simply knowing that a specific victim exists, even without any personal information, was enough to increase generosity.
+
 
 But the most striking finding in this area comes from a follow-up study. @small_etal2007 found that combining statistical information with an identified victim can actually *reduce* giving compared to presenting the identified victim alone. In one experiment, participants were shown either a story about a single hungry child, statistics about millions of hungry people, or both. The combined condition produced lower donations than the identified-victim-alone condition. In a further study, participants who were primed to think analytically, by solving a simple calculation, donated less to an identified victim than those who were not primed. The explanation is that statistics trigger analytical thinking, which dampens the emotional response that drives generosity. In these studies, deliberation did not increase concern for the many; instead, it weakened the emotional pull of the single identified victim.
 
+
 The identifiable victim effect is closely related to scope insensitivity, but it also reflects the special power of vivid, concrete individuals to trigger empathy. Together, the two phenomena highlight a deep tension in how humans evaluate risk and harm: our System 1 responses are calibrated to individuals and categories, not to magnitudes and populations.
+
 
 ## Communicating Risk: Relative vs. Absolute
 
+
 How risk information is communicated can dramatically change how people respond. One of the most important distinctions is between relative risk and absolute risk. Relative risk expresses a change as a ratio or percentage: "the risk doubles." Absolute risk expresses the actual probabilities: "the risk goes from 1 in 7,000 to 2 in 7,000." The same underlying data can sound either alarming or reassuring depending on which format is used.
+
 
 A real-world example from the United Kingdom illustrates the consequences. In the mid-1990s, the UK Committee on Safety of Medicines issued a warning that third-generation oral contraceptive pills were associated with a "twofold increase" in the risk of venous blood clots compared to second-generation pills. This was relative risk framing: the risk approximately doubled. In absolute terms, however, the increase was from about 1 in 7,000 users per year to about 2 in 7,000 users per year. The warning, widely reported in the media in relative terms, led to widespread panic. Many women stopped taking the pill, resulting in an estimated 13,000 additional abortions in the following year. The irony is that pregnancy itself carries a substantially higher risk of blood clots than either generation of the pill.
 
+
 This example underscores the importance of communicating risk as absolute numbers, or better yet, as natural frequencies. As discussed in [Bayesian Reasoning](#bayesian-reasoning), natural frequencies (such as "2 out of 7,000 women per year" versus "1 out of 7,000") make the underlying probabilities transparent and dramatically reduce misunderstanding. When risks are communicated in relative terms, people often imagine a much larger absolute change than actually exists. This is not because people are innately bad at understanding numbers; it is because the relative format strips away the information they need to form an accurate judgment.
+
 
 ## Climate Change and the Limits of Statistics
 
+
 The previous sections showed how dread can make a rare risk feel overwhelming. Climate change illustrates the opposite problem: a massive risk that feels abstract and unimportant because it fails to trigger the right emotional response. The preceding sections contrasted vivid, episodic hazards — terrorist attacks, plane crashes, identified victims — with statistical, aggregate information. Climate change falls squarely on the statistical side.
+
 
 @weber2006 argued that global warming is one of the most significant threats facing humanity, yet it consistently fails to generate the kind of visceral emotional response that would motivate large-scale action. The reason, Weber proposed, is that climate change does not trigger the psychological features associated with dread. It is gradual rather than sudden, probabilistic rather than certain, and its worst consequences are delayed by decades. It lacks the vivid, immediate, personal quality that drives System 1 responses.
 
+
 Weber drew on the distinction between experience-based and description-based decision-making. When people learn about risks through direct personal experience, they develop strong emotional associations that motivate action. When they learn about risks through statistical descriptions, the information engages System 2 reasoning but fails to generate the affect needed to change behavior. Climate change, for most people, is known through descriptions: graphs, projections, reports by international panels. These are exactly the kind of abstract, statistical inputs that leave the emotional system unmoved.
+
 
 @akerlof_etal2013 provided supporting evidence. They surveyed residents of Alger County, Michigan, about whether they believed they had personally experienced global warming. About 27 percent of respondents said yes, most often pointing to changes in seasons, weather patterns, and snowfall. Crucially, those who believed they had personally experienced climate change showed significantly higher risk perceptions, even after controlling for political affiliation and demographic factors. Some of these perceived changes were corroborated by historical climate data; others were not. But what mattered for risk perception was not the accuracy of the perception — it was the experience itself. Direct experience generated the affect that descriptions could not.
 
+
 This finding presents a dilemma for climate communication. The most effective way to make people care about climate change is for them to personally experience its consequences. But by the time the consequences are vivid enough to trigger widespread dread, it may be too late to prevent the worst outcomes. Weber suggested that interventions which make future consequences more concrete — such as interactive flood maps that show projected sea levels in your own neighborhood, or local data on the increasing number of extreme heat days in your city — might help bridge the gap between analytical understanding and emotional engagement. But she also warned about the "finite pool of worry": increasing concern about climate change might come at the cost of reduced concern about other important risks.
 
-## A Bayesian Lens on Risk Perception
+
+## A Bayesian Lens
+
 
 Throughout this book, we have used the framework of [Bayesian reasoning](#bayesian-reasoning) as a normative standard for belief updating. In this framework, a prior belief is combined with new evidence to produce a posterior belief, and the weight given to the evidence depends on its reliability. Risk perception errors can be understood as specific departures from this ideal, each involving a different kind of distortion.
 
-**Distorted priors.** The neglect of rare risks reflects a distortion in the prior. When the base rate of a hazard is extremely low, people round it down to zero rather than maintaining a small but nonzero prior probability. The result is that no amount of evidence, short of a dramatic event, will update the posterior belief upward.
 
-**Overweighted evidence.** Dread risk reflects a distortion in how evidence is weighted. A single catastrophic event, such as a terrorist attack or a nuclear accident, is treated as far stronger evidence than it really is, updating the posterior far more than its actual frequency warrants. In Bayesian terms, one dramatic observation is treated as though it were hundreds of observations, because the emotional weight of the event overwhelms any cool calculation of base rates.
+Distorted priors – the neglect of rare risks reflects a distortion in the prior. When the base rate of a hazard is extremely low, people round it down to zero rather than maintaining a small but nonzero prior probability. The result is that no amount of evidence, short of a dramatic event, will update the posterior belief upward.
 
-**Failure to scale with sample size.** Scope insensitivity means that the posterior does not scale with the amount of evidence. Learning that 200,000 birds are at risk should update your beliefs about the severity of a problem far more than learning that 2,000 are at risk. But because the emotional response is triggered by the category rather than the quantity, the posterior is approximately the same in both cases.
 
-**Affect substituted for evidence.** The identifiable victim effect shows that narrative evidence — a single vivid case — updates beliefs and motivates action more powerfully than statistical evidence about base rates. A base rate drawn from thousands of observations should carry more weight than a single case, but affect reverses this weighting.
+Overweighted evidence – dread risk reflects a distortion in how evidence is weighted. A single catastrophic event, such as a terrorist attack or a nuclear accident, is treated as far stronger evidence than it really is, updating the posterior far more than its actual frequency warrants. In Bayesian terms, one dramatic observation is treated as though it were hundreds of observations, because the emotional weight of the event overwhelms any cool calculation of base rates.
+
+
+Failure to scale with sample size – scope insensitivity means that the posterior does not scale with the amount of evidence. Learning that 200,000 birds are at risk should update your beliefs about the severity of a problem far more than learning that 2,000 are at risk. But because the emotional response is triggered by the category rather than the quantity, the posterior is approximately the same in both cases.
+
+
+Affect substituted for evidence – the identifiable victim effect shows that narrative evidence — a single vivid case — updates beliefs and motivates action more powerfully than statistical evidence about base rates. A base rate drawn from thousands of observations should carry more weight than a single case, but affect reverses this weighting.
+
 
 Together, these patterns show that risk perception is driven by affect, and affect does not follow the rules of probability.
 
+
 ## Summary
+
 
 Risk perception is shaped by how a hazard feels, not by its objective probability. People accept far more risk for voluntary activities than for involuntary ones. Extremely rare risks are typically ignored — unless they trigger dread, the feeling that a hazard is catastrophic, uncontrollable, and inequitable. Dread can flip a rare risk from invisible to overwhelming, sometimes with fatal consequences, as when Americans switched from flying to driving after the 9/11 attacks. Scope insensitivity means that people's concern does not scale with the size of a problem: a famine affecting millions feels little different from one affecting thousands. The identifiable victim effect shows that a single named individual generates more empathy and action than statistics about large populations. How risk is communicated matters enormously: relative risk framing can cause panic where absolute risk framing would not. Climate change illustrates the limits of statistical risk communication: abstract, gradual threats fail to trigger the emotional responses that motivate action. From a Bayesian perspective, risk perception errors involve ignoring base rates, overweighting vivid evidence, substituting affect for probability, and failing to scale beliefs with the magnitude of the evidence.

@@ -1,6 +1,8 @@
 # Confirmation
 
+
 Learning goals:
+
 
 - Define confirmation bias and explain why it is considered one of the most consequential cognitive biases.
 - Distinguish between confirmatory and disconfirmatory evidence in terms of their informational value.
@@ -9,84 +11,125 @@ Learning goals:
 - Explain how the exploration-exploitation tradeoff provides a goal-based reason for confirmation bias beyond the cognitive default.
 - Relate confirmation bias to asymmetric updating in a Bayesian framework.
 
+
 ## Looking for What We Expect to Find
 
-Imagine you have just moved to a new city for your studies and a friend tells you that the people there are unfriendly. During your first week, you take the bus to campus and nobody talks to you. At the supermarket, a cashier seems curt. A fellow student does not return your smile. Each of these small moments feels like evidence that your friend was right. But you do not notice the neighbor who held the door open, or the student who moved her bag so you could sit down. You are not deliberately ignoring kindness. You are simply doing what human minds do by default: paying attention to information that fits what you already believe.
+
+Imagine you have just moved to Groningen for your studies and a friend, who has already lived there for a while, tells you that the students there are unfriendly and the professors are rude. When you take the bus to your first lecture, nobody talks to you or even looks at you. During the lecture break, in the university cafeteria, the cashier seems curt. A fellow student does not return your smile. Each of these small moments feels like evidence that your friend was right. But you do not notice the neighbor who held the door open, or the student who moved her bag so you could sit down. You are not deliberately ignoring kindness. You are simply doing what human minds do by default: paying attention to information that fits what you already believe.
+
 
 This tendency is called confirmation bias. It refers to the general inclination to seek, interpret, and remember information that supports existing beliefs or hypotheses, while discounting or overlooking information that contradicts them [@nickerson1998]. Some researchers use the term myside bias to emphasize that the effect is about favoring one's own side of an issue, regardless of whether that side is liberal or conservative, optimistic or pessimistic. In this chapter we will use "confirmation bias" as the primary term. Confirmation bias has been called the single cognitive bias most relevant to ideological extremism, because it can turn tentative impressions into unshakable convictions. Understanding how it works is essential for anyone who wants to reason well, whether in everyday life, in science, or in professional settings such as medicine and law (see [Medical Decision-Making](#medical-decision-making) and [Legal Decision-Making](#legal-decision-making)).
 
+
 ## Confirmatory Evidence and the Positive Test Strategy
+
 
 To understand confirmation bias, we need to distinguish between two types of evidence. Confirmatory evidence is consistent with a hypothesis. If you believe that drinking coffee improves your concentration, every productive study session that follows a cup of coffee counts as confirmatory evidence. This kind of evidence feels satisfying because it fits the story you already have in mind.
 
+
 The problem is that confirmatory evidence can never definitively prove a hypothesis. Productive study sessions might also follow a good night's sleep, a healthy breakfast, or simply studying material you find interesting. The coffee might have nothing to do with it. Confirmatory evidence is compatible with the hypothesis, but it is also compatible with many other explanations.
+
 
 Despite this limitation, people naturally gravitate toward confirmatory evidence. @klayman_ha1987 describe this tendency as the positive test strategy: when testing a hypothesis, people tend to examine cases where the hypothesized property is expected to be present. If a manager believes that older employees resist new technology, she will pay attention every time a senior colleague struggles with a software update. Each instance confirms her hypothesis. But she never checks whether younger employees struggle just as often. The confirmatory evidence accumulates, and the hypothesis feels increasingly certain, even though it was never properly tested.
 
+
 The positive test strategy is not always a bad idea. @klayman_ha1987 showed that in many real-world situations, where the phenomenon of interest is rare and the hypothesis is roughly accurate, testing positive cases is actually a reasonable way to gather information. If you suspect that a certain rare mushroom is poisonous, examining mushrooms of that type (a positive test) is more efficient than examining random mushrooms from the forest floor. The strategy becomes problematic when hypotheses are overly specific or when the base rate of the target phenomenon is high, because under those conditions, positive tests tend to produce a stream of confirmations regardless of whether the hypothesis is correct.
+
 
 ## Disconfirmatory Evidence and the Negative Test Strategy
 
+
 Disconfirming evidence is information that contradicts a hypothesis. For strict universal claims, a single counterexample can be decisive: if you believe that all swans are white, observing one black swan is enough to refute the hypothesis entirely. For probabilistic claims — such as "older employees are less likely to adopt new technology" — a single exception does not refute the hypothesis outright, but disconfirming cases are still typically more informative than piling up additional confirming ones. The general asymmetry holds: while confirmation can only be consistent with a hypothesis, disconfirmation has the power to narrow down or eliminate possibilities.
+
 
 The negative test strategy involves deliberately looking for cases that would disconfirm your hypothesis. Using the manager example from above, a negative test would involve looking for counterexamples: older employees who adopt new technology with ease, or younger employees who struggle with it. Even a few such cases would seriously weaken the hypothesis — and would be far more informative than adding yet another confirming instance.
 
+
 This idea connects to a principle from the philosophy of science associated with Karl Popper: falsifiability. A claim is falsifiable if there is some possible observation that would show it to be wrong. Popper argued that what makes a hypothesis scientific is not that it can be confirmed, but that it can in principle be proven wrong. For example, "all metals expand when heated" is falsifiable because a single metal that contracts when heated would refute it. By contrast, a claim like "hidden forces always explain the outcome somehow" is not falsifiable, because no observation could ever count against it — every outcome can be absorbed into the claim. Good science, on Popper's view, consists of trying hard to disconfirm hypotheses and keeping only those that survive the test.
+
 
 In practice, however, people rarely seek disconfirmation spontaneously. Doing so requires effortful, deliberate reasoning — the kind of slow, rule-based thinking described in [Reason and Intuition](#reason-and-intuition) as System 2. Our cognitive default, rooted in the faster and more automatic System 1, pulls us toward confirmation.
 
+
 ## The 2-4-6 Task
+
 
 The most famous demonstration of confirmation bias in hypothesis testing comes from a deceptively simple experiment by @wason1960. Participants were told that the number sequence 2-4-6 conformed to a rule, and their task was to discover that rule by proposing new sequences. For each sequence they proposed, the experimenter would say whether it conformed to the rule or not. Participants could propose as many sequences as they wanted before announcing what they thought the rule was.
 
+
 The actual rule was simply "any three numbers in increasing order of magnitude." But this rule is broad and general, and most participants started with a much more specific hypothesis, such as "even numbers increasing by 2." They then tested confirming sequences: 8-10-12, 20-22-24, 100-102-104. All of these fit the true rule, so the experimenter said "yes" each time. This stream of confirmations reinforced the wrong hypothesis, and participants announced their specific rule with confidence, only to be told they were wrong.
+
 
 Only a minority of participants identified the correct rule on their first attempt. What distinguished these successful participants was that they used the negative test strategy. They proposed sequences that violated their current hypothesis: 1-3-5 (odd numbers — still ascending, so "yes"), 1-2-3 (ascending by 1 — still "yes"), 6-4-2 (descending — finally "no"). By discovering what did not work, they could narrow down the real rule. Those who failed tended to generate only sequences that confirmed their initial idea, never learning that their hypothesis was too narrow.
 
+
 What makes the 2-4-6 task especially revealing is that it involves abstract, emotionally neutral material. Participants have no personal stake in whether the rule involves even numbers or not. They are not protecting their self-esteem or defending a political position. Yet confirmation bias still emerges strongly. This shows that the pull toward positive testing is a basic cognitive default, not something that arises only when emotions or identity are involved.
+
 
 ## Why Positive Testing Persists
 
+
 But cognitive default is only part of the story. If disconfirming evidence is so informative, why do people so rarely seek it — even when the stakes are high? As we have seen, the positive test strategy is a natural default that works well enough in many everyday situations [@klayman_ha1987]. But there is an additional reason that goes beyond pure cognition. Many of our beliefs are not just descriptions of the world; they are also strategies for action. When a belief serves a practical goal, testing the alternative becomes not just effortful but risky.
+
 
 Consider a student who believes that always agreeing with a professor leads to better evaluations. The most informative test of this belief would be to disagree with the professor and observe what happens. But disagreeing risks the very outcome the student cares about: a good grade. Even if the student suspects that the belief might be wrong, the cost of finding out the hard way may seem too high.
 
-This creates what is known as an exploration-exploitation tradeoff, a concept that also appears in [Satisficing vs. Maximizing](#satisficing-vs-maximizing). Exploiting your current belief means acting on it and reaping its expected benefits. Exploring the alternative means testing a different approach, which could yield valuable information but might also lead to a bad outcome. The stronger the goal motivation, the more people default to exploitation. From the outside, this looks identical to confirmation bias: the person keeps acting in ways that confirm their belief and never gathers the evidence that might challenge it. But the underlying mechanism is different. It is not just that disconfirming evidence is hard to think of; it is that seeking it carries real costs.
+
+This creates what is known as an exploration-exploitation tradeoff, a concept that already appeared in [Satisficing vs. Maximizing](#satisficing-vs-maximizing). Exploiting your current belief means acting on it and reaping its expected benefits. Exploring the alternative means testing a different approach, which could yield valuable information but might also lead to a bad outcome. The stronger the goal motivation, the more people default to exploitation. From the outside, this looks identical to confirmation bias: the person keeps acting in ways that confirm their belief and never gathers the evidence that might challenge it. But the underlying mechanism is different. It is not just that disconfirming evidence is hard to think of; it is that seeking it carries real costs.
+
 
 This goal-based explanation and the cognitive default explanation are not competing accounts. They operate in parallel. In the 2-4-6 task, where there are no real-world costs, the cognitive default alone is enough to produce confirmation bias. In everyday life, where beliefs are tied to goals and relationships, the exploration-exploitation tradeoff adds a further layer of resistance to disconfirmation. Together, these two mechanisms help explain why confirmation bias is so robust across such a wide range of situations.
 
+
 ## The Consistency Fallacy
+
 
 Confirmation bias is not limited to how we *search* for evidence; it also affects how we *evaluate* evidence once we encounter it. Data that merely happen to be consistent with a hypothesis can be misinterpreted as proving it, even when the data carry no real informational value.
 
+
 A striking demonstration comes from @weisberg_etal2008, who investigated whether irrelevant neuroscience information makes psychological explanations seem more convincing. In their study, participants read descriptions of psychological phenomena (such as the finding that people perform worse on attention tasks when emotionally aroused) followed by explanations that were either good or bad. Crucially, some explanations included neuroscience information — such as a reference to a specific brain region — that experts confirmed added no logical support to the explanation. The neuroscience details were irrelevant because all psychological processes involve the brain; merely naming a brain area does not help distinguish a good explanation from a bad one, any more than saying "this involves atoms" helps distinguish a good physics explanation from a bad one. What matters is whether the explanation identifies the right mechanism, not whether it mentions neural tissue.
+
 
 The results were clear. People with no neuroscience training rated bad explanations as significantly more satisfying and more convincing when those explanations included neuroscience information. A mention of brain scans or neural activity made a poor explanation feel more scientific. Students enrolled in a neuroscience course showed the same pattern, even at the end of the semester. Only neuroscience experts were immune to the effect; in fact, experts rated explanations with irrelevant neuroscience as *less* satisfying, because they could see that the information added nothing.
 
+
 This finding illustrates what we might call the consistency fallacy: the tendency to treat information that is merely consistent with a claim as though it provides strong support for that claim. The neuroscience details are consistent with the psychological explanation in the loose sense that brains are involved in all psychological processes. But they do not help distinguish a good explanation from a bad one — they add no diagnostic value. The extra details increase the appearance of scientific support without increasing actual evidential weight.
+
 
 The consistency fallacy matters because it makes people vulnerable to persuasion by irrelevant details. In courtrooms, in advertising, in political rhetoric, and in science journalism, adding details that sound consistent with a claim can make the claim seem more credible than it deserves. This connects to broader themes about how beliefs form and resist correction, as discussed in [Belief Formation and Perseverance](#belief-formation-and-perseverance).
 
+
 ## Why It Matters
+
 
 The examples discussed so far — number sequences, neuroscience descriptions — might seem far removed from daily experience. But confirmation bias shapes judgments in highly consequential domains. Consider medical diagnosis. A doctor who forms an early hypothesis about what is wrong with a patient may then order tests mainly to confirm that hypothesis, while overlooking symptoms that point elsewhere. If a patient presents with chest pain and the doctor suspects a cardiac problem, she may focus on cardiac markers and miss signs of a pulmonary embolism — not out of incompetence, but because each confirming result reinforces the initial hypothesis and makes alternatives harder to see (see [Medical Decision-Making](#medical-decision-making) for a fuller discussion).
 
+
 Similarly, in criminal investigations, once an officer identifies a suspect, ambiguous evidence tends to be interpreted as incriminating. A nervous demeanor during questioning becomes a sign of guilt rather than a natural response to being interrogated. Leads pointing to other suspects receive less follow-up (see [Legal Decision-Making](#legal-decision-making)). In science itself, researchers may design studies that are more likely to confirm their preferred theory than to challenge it, or interpret ambiguous results as supportive.
+
 
 Even in social life, confirmation bias operates constantly. If you believe a classmate is arrogant, you will notice every time they talk about their achievements and interpret it as boasting. You might not notice, or might explain away, the times they are self-deprecating or helpful. Over time, your impression solidifies — not because the evidence is overwhelming, but because you have been sampling it in a biased way. Once this biased sampling has occurred, the confirming examples also become more available in memory, further reinforcing the impression (see [Availability](#availability)).
 
+
 @nickerson1998 argues that confirmation bias may be the single most problematic aspect of human reasoning. It contributes to the persistence of stereotypes, the escalation of conflicts, and the difficulty of changing anyone's mind with evidence alone. Yet it is also, to some degree, understandable. Maintaining stable beliefs has benefits: it allows us to act decisively, to plan ahead, and to avoid the paralysis that would come from reconsidering everything constantly. The cost is that our beliefs can drift away from reality without our noticing.
+
 
 ## A Bayesian Lens
 
+
 From the perspective of Bayesian reasoning (see [Bayesian Reasoning](#bayesian-reasoning)), a rational agent should update beliefs symmetrically in response to evidence. Confirming and disconfirming evidence should both shift the posterior belief, and the size of the shift should depend on the diagnosticity of the evidence — that is, how much more likely the evidence is under one hypothesis than under the alternative. A piece of evidence that is equally likely under both hypotheses should not change your belief at all, regardless of whether it feels consistent with your preferred hypothesis.
+
 
 Confirmation bias violates this principle through asymmetric updating. When people encounter evidence that fits their belief, they update readily. When they encounter evidence that contradicts it, they discount it, explain it away, or simply fail to notice it. Consider a student who believes she is bad at math. When she scores poorly on a quiz, she takes it as confirmation: "See, I knew it." When she scores well on a test, she dismisses it as a fluke: "That test was easy" or "I just got lucky." The poor result shifts her belief strongly downward; the good result barely moves it. Over time, her self-assessment becomes more negative than her actual performance warrants — not because the evidence supports it, but because she is weighting confirming and disconfirming evidence asymmetrically.
 
+
 Biased updating creates a self-reinforcing cycle: increasing confidence makes later counterevidence easier to dismiss. This is one reason why confirmation bias is so difficult to correct. As noted earlier, disconfirming evidence is often more diagnostic than additional confirming cases. In Bayesian terms, such evidence may have a very high likelihood ratio — it is much more probable if the hypothesis is false than if it is true. Yet people routinely treat these observations as though they have low diagnosticity, dismissing them as exceptions or errors.
+
 
 The exploration-exploitation tradeoff adds a further wrinkle: even a perfectly Bayesian agent might avoid seeking disconfirming evidence if the expected cost of a bad outcome outweighs the expected informational gain. In such cases, positive testing is *instrumentally* rational — it serves the agent's goals — even though it is *epistemically* suboptimal — it does not maximize the accuracy of the agent's beliefs. This distinction helps explain why confirmation bias persists even among intelligent, well-meaning people: the problem is not always a failure of reasoning, but sometimes a rational response to the costs of being wrong in the short term.
 
+
 ## Summary
+
 
 Confirmation bias is the tendency to seek, interpret, and remember information that supports existing beliefs while neglecting information that contradicts them. People default to a positive test strategy — examining cases where their hypothesis predicts a positive result — rather than a negative test strategy that deliberately seeks disconfirmation. Disconfirmation is connected to the principle of falsifiability: a claim is scientific only if some possible observation could show it to be wrong. The 2-4-6 task demonstrates that the pull toward positive testing operates even for abstract, emotionally neutral hypotheses, indicating a deep cognitive default. Beyond this cognitive pull, the exploration-exploitation tradeoff provides an additional reason for positive testing: when beliefs serve practical goals, seeking disconfirming evidence can be risky. The consistency fallacy shows that even irrelevant information can seem like confirmation if it is loosely consistent with a claim. From a Bayesian perspective, confirmation bias produces asymmetric updating, where confirming evidence strengthens beliefs more than disconfirming evidence weakens them, causing beliefs to drift away from what balanced evidence would support. Recognizing confirmation bias is a first step toward countering it, but as the chapters on [Belief Formation and Perseverance](#belief-formation-and-perseverance) and [Conspiracy Theories](#conspiracy-theories) will show, correcting established beliefs is far harder than preventing biased ones from forming in the first place.

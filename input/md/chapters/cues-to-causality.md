@@ -1,6 +1,8 @@
 # Cues to Causality
 
+
 Learning goals:
+
 
 - Describe what cues to causality are and how people use them to judge whether one event caused another.
 - Explain the concept of the causal field and how it shapes which factor is identified as the cause.
@@ -9,88 +11,131 @@ Learning goals:
 - Describe the similarity principle in causal reasoning, including the tendency to expect large causes for large effects.
 - Explain the simulation heuristic and how counterfactual reasoning relates to judgments of causality.
 
+
 ## Why Do We Ask "Why?"
+
 
 A student walks into a lecture hall, sits down, and immediately starts sneezing. Her friend turns to her and says, "It must be the flowers they put by the entrance." No laboratory test was conducted. No statistics were consulted. Yet within seconds, a causal explanation was produced and accepted. This kind of rapid, confident causal reasoning happens frequently throughout the day: you hear a loud bang and look toward the street, you eat something unusual and blame it for your stomach ache, you notice a friend acting strangely and wonder what happened to her. How do people decide so quickly and effortlessly what caused what?
 
+
 The answer is that people rely on a set of situational features, called **cues to causality**, to judge whether one event brought about another [@einhorn_hogarth1986]. These cues include whether the potential cause came before the effect (temporal order), whether the two events happened close together in time and space (contiguity), whether they tend to co-occur (covariation), whether there is a plausible process connecting them (causal mechanism), whether the cause and effect resemble each other (similarity), and whether mentally removing the cause would undo the effect (counterfactual reasoning). None of these cues by itself proves causation, but together they form the basic toolkit that people use to make sense of the world. From a Bayesian perspective (see [Bayesian Reasoning](#bayesian-reasoning)), each cue functions as a piece of evidence that raises or lowers the probability of a causal hypothesis. Understanding these cues helps explain not only how people reason well about causes, but also how they go wrong — inferring causation where none exists or missing genuine causes that lack the right surface features.
+
 
 Consider the sneezing student once more. Her friend's instant diagnosis drew on several cues at once: the flowers were encountered just before the sneezing started (temporal order), the sneezing began immediately upon entering the hall (contiguity), and pollen allergies provide a ready mechanism. As we work through each cue in this chapter, we will return to this example to see how the pieces fit together.
 
+
 ## The Causal Field
+
 
 Before people even begin looking for a cause, they have already narrowed the search. They do not consider every possible factor in the universe that might have contributed to an event. Instead, they evaluate potential causes against a background of existing conditions, which @mackie1965 called the **causal field**. The causal field is the set of normal, expected conditions that are taken for granted. A cause is then identified as whatever stands out as a difference in this background.
 
+
 Consider a simple example. Suppose a student does poorly on an exam. The causal field for the student herself might be her usual study habits, her typical sleep schedule, and the way exams normally go for her. Against this background, she might identify a late-night party the evening before the exam as the cause of her poor performance, because the party is the thing that was different. But now imagine that a university administrator is asking a different question: why did many students fail the same exam? The causal field is now different. The administrator takes for granted that students vary in how much they prepare, and instead looks for something that changed across the board — perhaps an unusually difficult exam or a poorly written question.
+
 
 This illustrates a key point: the same event can be given different causal explanations depending on the causal field. In a factory testing the durability of watch glasses, a watch that breaks when struck by a hammer is attributed to a defect in the glass, not to the hammer, because the hammer strike is part of the normal testing procedure. In everyday life, you would say the hammer caused the breakage, because hitting a watch with a hammer is not part of the normal background [@einhorn_hogarth1986]. Which factor people single out as "the cause" depends on what they treat as background conditions and what stands out as unusual.
 
+
 Return to the sneezing student. Her friend pointed to the flowers as the cause. But notice that other conditions were also present: the lecture hall has air conditioning, dust, other students wearing perfume. These are part of the normal background — the student has sat in similar rooms many times without sneezing. The flowers, however, are new. They stand out against the causal field, and so they become the candidate cause.
+
 
 ## Temporal Order
 
+
 One of the most basic cues to causality is the order in which events occur. If one event consistently happens before another, people are inclined to see the first event as the cause of the second. This seems reasonable: causes do come before their effects. But people sometimes apply temporal order in situations where it leads them astray.
+
 
 @einhorn_hogarth1986 describe a striking example. When asked "What is the probability that a child has blue eyes, given that the parent has blue eyes?" people tend to give a higher estimate than when asked the reverse: "What is the probability that a parent has blue eyes, given that the child has blue eyes?" People often assume that the forward causal direction must also correspond to a higher conditional probability. But conditional probabilities depend on base rates as well as causal structure, so the "forward" direction is not necessarily more probable. Because the natural causal direction runs from parent to child, people treat the forward-in-time question as more natural and assign it a higher probability, even when the statistical facts do not support that judgment.
 
+
 Temporal order also matters in more practical settings. In legal decision-making, the order in which evidence is presented to jurors affects how convincing they find it. @pennington_hastie1988 demonstrated that jurors construct narrative stories to make sense of trial evidence, and that presenting evidence in the order that matches the story's timeline — rather than in some scrambled order — makes the story more coherent and convincing. When prosecution evidence was presented in a natural temporal order and defense evidence was not, jurors were more likely to convict. When the order was reversed, acquittal rates went up. The evidence itself was the same; only the order changed. This finding illustrates how deeply temporal structure is embedded in causal reasoning, a topic explored further in [Legal Decision-Making](#legal-decision-making).
+
 
 For the sneezing student, temporal order plays an obvious role: the flowers were encountered before the sneezing began. If the student had been sneezing all morning and only then walked past the flowers, her friend would not have blamed the flowers.
 
+
 ## Contiguity and Covariation
+
 
 People are more likely to see a causal connection between events that are close together in time and space. This is the cue of **contiguity**: when a potential cause and its effect happen right next to each other, the causal link feels obvious. When there is a long delay or a large spatial gap between them, the link becomes harder to see.
 
+
 Some of the most elegant demonstrations of contiguity come from the work of @michotte1963. In his classic experiments, Michotte created simple visual displays in which one colored square (object A) moved toward another stationary square (object B). When A reached B and stopped, and B immediately began to move, observers reported a vivid impression that A had "launched" or "pushed" B. This impression was automatic and compelling, much like a perceptual experience rather than a deliberate inference. Critically, Michotte showed that the impression depended on precise timing. If there was even a small delay between A stopping and B starting to move, the launching impression disappeared. Instead of seeing one event causing another, observers saw two separate, unrelated movements. Similarly, if A stopped short of B, leaving a spatial gap, the causal impression was weakened or lost. These experiments showed that contiguity in time and space is not just a helpful cue; for simple mechanical events, it can be the difference between perceiving causation and perceiving mere coincidence.
+
 
 The sneezing example is a case where contiguity is strong: the student began sneezing immediately upon entering the hall, right next to the flowers. If the student had started sneezing two hours later at home, her friend would be far less likely to blame the flowers — even if the flowers were in fact the cause.
 
-While contiguity operates at the level of single instances, **covariation** extends across multiple instances. Covariation means that the potential cause and the effect tend to happen together: when the cause is present, the effect occurs, and when the cause is absent, the effect does not occur. If every time you pet a cat it starts purring, and it does not purr when you stop, you infer that your petting causes the purring. If every time you drink coffee after 18:00 you have trouble sleeping, you start to suspect a causal link.
+
+While contiguity operates at the level of single instances, **covariation** extends across multiple instances. Covariation means that the potential cause and the effect tend to happen together: when the cause is present, the effect occurs, and when the cause is absent, the effect does not occur. If every time you pet a cat it starts purring, and it does not purr when you stop, you infer that your petting causes the purring. If every time you drink coffee after 18:00 you have trouble sleeping, but not when you don’t drink coffee, you start to suspect a causal link.
+
 
 Covariation is a powerful cue, but people often interpret it too generously. The well-known phrase "correlation does not imply causation" exists precisely because people tend to treat correlated events as causally related. Two events might covary because they share a common cause rather than because one causes the other. For example, carrying a lighter in your pocket correlates with developing lung cancer — but lighters do not cause cancer. The common cause, smoking, drives both. Similarly, ice cream sales and drowning rates both rise in summer, not because ice cream causes drowning, but because warm weather increases both swimming and ice cream consumption. This tendency to read causation into correlation is discussed further in [Learning Causality](#learning-causality), where we explore how people learn causal relationships from patterns of association and the errors they make along the way.
 
+
 ## Causal Mechanism
+
 
 If you tell someone that a new medication reduces headaches, their first question is likely to be: how does it work? People are not satisfied with knowing that two events tend to go together. They want an explanation that fills the gap between cause and effect — what is called a **causal mechanism**.
 
+
 @ahn_etal1995 conducted a series of experiments that demonstrated just how strong this preference is. In one study, participants were given simple event descriptions such as "John had a car accident last night" and asked to list questions they would need answered to determine the cause. If people relied mainly on covariation, they would ask questions like "Does John often have accidents?" or "Do other people have accidents on that road?" Instead, participants overwhelmingly asked mechanism questions such as "Was John drunk?" or "Was it raining?" These questions seek to identify a process that connects the potential cause to the effect. In the context of these study tasks, participants generated mechanism-based explanations about 83 percent of the time.
+
 
 In another experiment, @ahn_etal1995 directly compared the persuasive power of mechanism and covariation information. Participants were given either a mechanism explanation (for example, "John was drunk, which impaired his driving") or a covariation statement (for example, "John is more likely to have accidents than other people"). Even when the two types of information were designed to carry the same statistical weight, mechanism information had a significantly stronger effect on causal judgments. People found the mechanistic explanation more convincing and more useful for understanding what happened.
 
+
 This preference for mechanism has practical implications. In [Medical Decision-Making](#medical-decision-making), we will see that clinicians rely heavily on their understanding of disease mechanisms when diagnosing patients, sometimes to the point where they ignore statistical evidence that contradicts their mechanistic model (see also [Bayesian Reasoning](#bayesian-reasoning)). The preference for mechanism also connects to the broader topic of [Mental Models](#mental-models). People build internal models of how the world works, and these models are structured around causal mechanisms rather than abstract statistical patterns.
+
 
 Returning to our opening example: the friend's explanation — "It must be the flowers" — is implicitly mechanistic. Flowers produce pollen, pollen triggers allergies, allergies cause sneezing. This chain of causal mechanisms makes the explanation satisfying in a way that a purely statistical claim ("People who enter rooms with flowers are 40 percent more likely to sneeze") would not.
 
+
 ## Similarity of Cause and Effect
+
 
 Not all causal cues are equally diagnostic. Unlike temporal order or covariation, resemblance between cause and effect is often a poor indicator of causation — but it still strongly shapes intuitive judgments. This **similarity** cue takes two main forms.
 
+
 The first is **physical resemblance**. Throughout history, people have assumed that things that look alike must be causally related. In medieval herbal medicine, the "doctrine of signatures" held that plants resembling body parts could cure diseases of those body parts. Walnuts, which look vaguely like a brain, were thought to be good for the brain. Kidney beans were prescribed for kidney problems. While modern medicine has abandoned this reasoning, the underlying tendency persists. People find it easier to accept that a red food coloring causes skin redness than that it causes, say, fatigue, because the resemblance between the cause and effect makes the causal link feel more natural.
+
 
 The second form is **matching magnitude**: people expect large effects to have large causes and small effects to have small causes. When a major disaster occurs — such as a plane crash that kills hundreds of people — people find it difficult to accept that a small, mundane cause was responsible, like a tiny piece of ice on a sensor. They feel that something so devastating must have had a cause of matching scale, such as a terrorist attack or a massive systems failure. This expectation of proportionality can lead people to reject correct but small-scale explanations and to prefer dramatic but incorrect ones. This same tendency may play a role in the appeal of conspiracy theories: when a major event, like the assassination of a president, has a seemingly small cause — one lone individual acting alone — people resist the explanation and search for a larger, more proportional cause, such as an elaborate conspiracy. This is explored further in [Conspiracy Theories](#conspiracy-theories).
 
+
 ## The Simulation Heuristic and Counterfactual Reasoning
+
 
 So far we have discussed cues that people pick up from what did happen. But people also judge causation by thinking about what could have happened differently. This is **counterfactual reasoning**, and it relies on what @kahneman_tversky1982 called the **simulation heuristic**: the mental process of imagining alternative versions of events.
 
+
 To test whether a factor was a cause of some outcome, you mentally remove it and ask: would the outcome still have occurred? If you imagine that removing the factor would have changed the outcome, you judge it to be a cause. This is sometimes called the **"but-for" test**: the event would not have occurred *but for* this factor. Although not all causes are strictly but-for causes — sometimes multiple factors are independently sufficient — the test captures an important feature of everyday causal judgment.
+
 
 @kahneman_tversky1982 illustrated this with a scenario about a man named Mr. Jones who is killed in a traffic accident on his way home from work. In one version of the story, Mr. Jones had taken an unusual route home that day. In another version, he had left work earlier than usual. Participants were asked to complete the sentence "If only..." to undo the event. Almost universally, people undid whichever aspect of the story was unusual. In the route version, they wrote things like "If only he had taken his usual route." In the time version, they wrote "If only he had left at his normal time." People did not undo stable background features of the story (they did not write "If only Mr. Jones had chosen a different career"). Instead, they focused on the exceptional element and imagined it reverting to normal.
 
+
 This pattern reveals an important rule of mental simulation: people prefer what Kahneman and Tversky called "downhill changes" — alterations that move the scenario back toward what is normal or expected — rather than "uphill changes" that introduce new exceptions. If a colleague who always bikes to work decides to drive one day and gets into an accident, you are much more likely to think "If only she had biked" than if she drives every day. The accident is the same, but the counterfactual is easier to construct when the cause was exceptional. Notice how this connects to the causal field: exceptional events are precisely those that stand out against the background of normal conditions.
+
 
 Counterfactual reasoning also shapes emotions. In another well-known scenario from the same research, two travelers both miss their flights. Mr. Crane arrives at the airport 30 minutes late and learns his flight left on time. Mr. Tees arrives five minutes late and learns his flight was delayed and left just five minutes ago. Both men missed their flights, so their objective situations are identical. Yet 96 percent of participants judged Mr. Tees to be more upset. The reason is that it is easy to mentally simulate a scenario in which Mr. Tees catches his flight — he just needed five more minutes — whereas for Mr. Crane, a much larger change would be required. The ease of constructing the counterfactual determines the emotional intensity, which connects to how we experience regret more broadly, as discussed in [Satisficing vs. Maximizing](#satisficing-vs-maximizing).
 
+
 For the sneezing student, counterfactual reasoning provides a final check: if the flowers had not been placed by the entrance, would the student still be sneezing? If the answer seems to be no, the causal attribution is strengthened. If the student also sneezed yesterday, when there were no flowers, the counterfactual fails and the causal hypothesis weakens.
+
 
 ## A Bayesian Lens
 
+
 As previewed in the introduction, each cue to causality can be understood from a Bayesian perspective as evidence that updates the probability of a causal hypothesis (see [Bayesian Reasoning](#bayesian-reasoning)). Before observing any cues, a person starts with a **prior belief** about whether a causal relationship exists. This prior might be based on general background knowledge or on the person's mental model of how the world works (see [Mental Models](#mental-models)).
+
 
 Each cue then adjusts this prior. Consider the sneezing student one last time. Suppose her friend initially thinks there is a moderate chance the flowers caused the sneezing. The fact that the sneezing started right after the student entered the hall (temporal order and contiguity) pushes the probability upward. If the friend recalls that the student has sneezed near flowers before (covariation), the probability rises further. Knowledge that pollen triggers allergies (mechanism) provides a particularly strong update. Conversely, if the student had been sneezing all day before encountering the flowers, or if there were no plausible biological pathway from flowers to sneezing, the probability would drop.
 
+
 In this framework, the cues function like the **likelihood** term in Bayes' theorem: they represent how probable the observed evidence would be if the causal link were real, compared to how probable it would be if the link were absent. The causal field sets up the prior by determining what counts as normal and what counts as surprising. The simulation heuristic provides another route to updating: by mentally removing a potential cause and checking whether the effect would still occur, people are effectively asking how much the evidence depends on the presence of that cause. People do not carry out these calculations formally. But the structure of their reasoning — weighing multiple imperfect cues and combining them to reach a judgment — mirrors the logic of Bayesian evidence integration.
 
+
 ## Summary
+
 
 People judge causation using a set of situational cues rather than through formal analysis. The **causal field** sets the background against which potential causes are evaluated: whatever stands out as different from normal conditions is identified as the cause. **Temporal order** leads people to infer that earlier events cause later ones, sometimes even when the statistical relationship does not depend on direction. **Contiguity** — the closeness of events in time and space — triggers immediate causal impressions, as demonstrated by Michotte's launching experiments. **Covariation** across repeated instances strengthens causal beliefs but also leads people to confuse correlation with causation. People strongly prefer **mechanism-based explanations** that describe how a cause produces its effect, finding these more convincing than statistical patterns alone. **Similarity** between cause and effect, whether in physical appearance or in magnitude, makes causal links feel more plausible despite being a weak diagnostic cue. Finally, the **simulation heuristic** allows people to test causal hypotheses by mentally undoing events and imagining whether the outcome would have been different — a process that highlights exceptional events as causes and shapes the emotions people feel about outcomes. From a Bayesian perspective, each of these cues serves as evidence that updates the probability of a causal hypothesis, with the causal field setting the prior and each additional cue adjusting the likelihood. Together, these cues form a practical but imperfect system for navigating a world where true causes are never directly observed.

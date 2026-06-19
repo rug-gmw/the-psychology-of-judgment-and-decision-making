@@ -1,6 +1,8 @@
 # Blame, Praise, and Responsibility
 
+
 Learning goals:
+
 
 - Distinguish between personal causality and impersonal causality.
 - Explain the covariation principle and its three dimensions: consensus, distinctiveness, and consistency.
@@ -8,72 +10,106 @@ Learning goals:
 - Define the correspondence bias and explain why people over-attribute behavior to persons rather than situations.
 - Connect causal attribution to the intentional stance and moral judgment.
 
+
 ## From Causes to People
+
 
 Imagine you are cycling to the university on a rainy morning and a car splashes through a puddle, soaking you from head to toe. Your immediate reaction is probably not a calm analysis of road drainage and weather conditions. Instead, you think something like: "That driver is a terrible person." You attribute the event to the driver, to their character, to their lack of consideration. But what if the driver simply did not see the puddle? What if there was no way to avoid it? In that case, the soaking was caused by circumstances, not by any intention. The outcome is identical, yet the two explanations feel very different, because one of them points to a person as the cause.
 
+
 This chapter examines causal reasoning when the potential cause is a person rather than a physical event or mechanical failure. The previous chapter on [Cues to Causality](#cues-to-causality) introduced the general principles people use to infer cause and effect: temporal order, contiguity, covariation, and causal mechanism. Those principles apply broadly, whether you are figuring out why your laptop crashed or why your friend cancelled dinner plans. But when the potential cause is a person, a distinct set of processes kicks in. We move from asking "what caused this?" to asking "who caused this?" and, almost immediately, "who deserves blame or praise?"
+
 
 This shift connects to the idea of stances introduced in [Mental Models](#mental-models). When we reason about physical objects, we tend to adopt the mechanical stance, thinking in terms of physical forces. When we reason about designed artifacts, we adopt the design stance, thinking in terms of function and purpose. But when we reason about people, we adopt the intentional stance, attributing behavior to beliefs, desires, and goals. The intentional stance helps us predict behavior efficiently, and it is also the gateway to moral judgment: once we decide that a person intended an outcome, we are ready to assign blame or praise, a topic explored further in [Morality](#morality).
 
-The chapter proceeds in three steps. First, it distinguishes personal from impersonal causality — the difference between someone intending an outcome and an outcome arising from circumstances. Second, it explains how people use covariation information to infer whether behavior reflects the person or the situation. Third, it examines the correspondence bias: our tendency to over-attribute behavior to the person even when the situation deserves most of the explanatory weight.
+
+
 
 ## Personal and Impersonal Causality
 
+
 Not every event that involves a person is caused by that person in a meaningful sense. A useful distinction is between personal causality and impersonal causality. Personal causality means that someone's intention or agency was the driving force behind an action. Impersonal causality means that the action occurred without intention, driven instead by circumstances, chance, or mechanical forces [@young1995].
+
 
 Consider a doctor who prescribes the wrong medication. If the doctor did this on purpose, perhaps to harm the patient, we have a clear case of personal causality. The doctor intended the outcome, and blame follows naturally. But if the doctor prescribed the wrong medication because the packaging of two drugs looked nearly identical, the error may be attributed more to situational factors, though observers may still assign the doctor some professional responsibility for not double-checking. The outcome is the same — a patient receives the wrong drug — but the attribution, and the degree of blame, shifts substantially.
 
+
 This distinction maps onto the intentional-versus-mechanical stance discussed in [Mental Models](#mental-models). When we perceive personal causality, we see the person as an agent with goals and beliefs, and we hold them responsible for acting on those goals. When we perceive impersonal causality, we treat the person as merely a link in a chain of physical or situational forces.
+
 
 The distinction matters because blame and praise depend heavily on perceived agency and intention. Harmful outcomes produced on purpose invite stronger blame than the same outcomes produced accidentally, although people may still assign some responsibility for negligence or carelessness. The same logic applies to praise. A surgeon who saves a patient through exceptional skill under difficult circumstances earns greater praise than one whose patient recovers thanks to lucky timing. A student who helps a struggling classmate because they genuinely want to is praised more than one who does so because it was required for a course credit. In each case, the perceived intention transforms our moral evaluation.
 
+
 It is also worth noting that causing an outcome is not identical to being responsible for it. Responsibility depends not only on causal contribution but also on intention, foresight, control, and the availability of alternatives. A gust of wind that knocks over a bicycle has caused the damage, but no one is responsible. A person who knocks over the bicycle while texting has both caused the damage and bears responsibility, because they had the ability to act otherwise.
+
 
 ## The Covariation Principle
 
+
 Before assigning blame or praise, people first need to decide what kind of cause they are dealing with: something about the person, something about the stimulus or target, or something about the surrounding circumstances. @kelley1973 proposed that people use the covariation principle to make this determination: an effect is attributed to the cause with which it covaries over time. This idea was introduced in general terms in [Cues to Causality](#cues-to-causality), where covariation was discussed as one of several cues to causality. When applied to person perception, Kelley broke covariation down into three specific dimensions.
+
 
 The first dimension is **consensus**: do other people respond the same way to the same stimulus? If everyone who takes a particular course finds it difficult, consensus is high. If only one student struggles while everyone else does fine, consensus is low.
 
+
 The second dimension is **distinctiveness**: does this person respond this way only to this specific stimulus, or do they respond this way to everything? If a student struggles only in one particular course but does well in all others, distinctiveness is high. If the student struggles in every course, distinctiveness is low.
+
 
 The third dimension is **consistency**: does this person respond the same way over time? If the student has struggled in this course every semester they have taken it, consistency is high. If the struggle is a one-time event, consistency is low.
 
+
 In Kelley's framework, the alternative to a person attribution is often a stimulus attribution — something about the object or target of the behavior — though in everyday discussion this is often folded into the broader category of situational causes.
+
 
 Different combinations of these three dimensions lead to different attributions. Suppose you hear that your classmate Anna gave a very negative review of a restaurant. You want to understand why. If you learn that everyone who went to that restaurant also gave negative reviews (high consensus), that Anna usually enjoys restaurants and rarely complains (high distinctiveness), and that Anna has complained about this restaurant on multiple occasions (high consistency), you are likely to attribute her review to the restaurant itself. It must be a bad restaurant. This is a stimulus attribution.
 
+
 Now change the pattern. If you learn that other people who went to the same restaurant actually enjoyed it (low consensus), that Anna complains about almost every restaurant she visits (low distinctiveness), and that she has been consistently negative about dining out for years (high consistency), you are likely to attribute her review to Anna herself. She is a dispositionally critical diner. This is a person attribution, and it opens the door to blame or praise depending on the context.
+
 
 Later work by @cheng_novick1990 refined Kelley's model by showing that people's attributions can often be modeled as probabilistic contrasts rather than simple pattern matching. The model compares the probability of an effect occurring in the presence of a potential cause to the probability of it occurring in the absence of that cause. If the effect is much more likely when a particular person is present, the person gets the attribution; if the effect is much more likely when a particular stimulus is present, the stimulus gets the attribution. Importantly, when people are given complete covariation information, many apparent attribution errors shrink. This suggests that some so-called biases in causal attribution may stem not from faulty reasoning but from incomplete information: when people lack full covariation data, they fill in the gaps with assumptions, and these assumptions can skew attributions in predictable directions.
 
+
 ## The Correspondence Bias
+
 
 Despite the sophistication of the covariation principle, people show a robust tendency in everyday life: they over-attribute behavior to the person and under-attribute it to the situation. This tendency is known as the correspondence bias, because people assume a correspondence between what someone does and who they are. It has also been called the fundamental attribution error, a term that captures how pervasive and consequential the mistake is [@gilbert_malone1995].
 
-One of the classic demonstrations comes from a study by Jones and Harris on essay writing. Participants read essays arguing either for or against Fidel Castro's government. Crucially, some participants were told that the essay writer had been assigned their position by a debate instructor — the writer had no choice in the matter. Despite knowing this, participants still inferred that the writer personally believed what they had written. The situational constraint, being assigned a position, should have fully explained the essay's content. Yet participants treated the essay as a window into the writer's true beliefs.
+
+One of the classic demonstrations comes from a study by @jones_harris1967 on essay writing. Participants read essays arguing either for or against Fidel Castro, at the time the Marxist leader of Cuba. Crucially, some participants were told that the essay writer had been assigned their position by a debate instructor — the writer had no choice in the matter. Despite knowing this, participants still inferred that the writer personally believed what they had written. The situational constraint, being assigned a position, should have fully explained the essay's content. Yet participants treated the essay as a window into the writer's true beliefs.
+
 
 This pattern shows up everywhere in daily life. A student fails an exam, and we think "they did not study hard enough" rather than "the exam was unusually difficult." A colleague is quiet during a meeting, and we think "they are shy" rather than "they are dealing with a family crisis." A friend cancels plans, and we think "they do not care about our friendship" rather than "something came up." In each case, the person's behavior is explained by their character, even when situational factors offer a perfectly adequate explanation.
 
-@gilbert_malone1995 argued that the correspondence bias arises from multiple mechanisms. The first is a lack of awareness: sometimes we simply do not know about the situational forces acting on a person. If you do not know that your colleague received bad news this morning, you cannot factor it into your explanation of their behavior. The second is unrealistic expectations: even when we know about situational pressures, we may underestimate how strongly they influence behavior. We might think "I would still be cheerful even after bad news," failing to appreciate the true power of the situation. The third is inflated categorization: knowing about a situation can sometimes make behavior seem more extreme rather than more explicable. The fourth, and perhaps most important, is incomplete correction. Research suggests that when we observe someone's behavior, we first make a quick, automatic inference about their character — a System 1 process, as discussed in [Reason and Intuition](#reason-and-intuition) — and then, if we have the time and mental energy, we adjust this inference by considering situational factors — a System 2 process. But this adjustment is often incomplete. In studies where participants formed impressions of others while simultaneously memorizing a string of digits, they were less able to correct for situational constraints and showed stronger dispositional inferences. When cognitive resources are scarce, the automatic person attribution goes uncorrected.
+
+@gilbert_malone1995 argued that the correspondence bias arises from multiple mechanisms. The first is a lack of awareness: sometimes we simply do not know about the situational forces acting on a person. If you do not know that your colleague received bad news this morning, you cannot factor it into your explanation of their behavior. The second is unrealistic expectations: even when we know about situational pressures, we may underestimate how strongly they influence behavior. We might think "I would still be cheerful even after bad news," failing to appreciate the true power of the situation. The third, and perhaps most important, is incomplete correction. Research suggests that when we observe someone's behavior, we first make a quick, automatic inference about their character — a System 1 process, as discussed in [Reason and Intuition](#reason-and-intuition) — and then, if we have the time and mental energy, we adjust this inference by considering situational factors — a System 2 process. But this adjustment is often incomplete, as we have seen in the chapter on [Anchoring and Adjustment](#anchoring-and-adjustment). In studies where participants formed impressions of others while simultaneously memorizing a string of digits, they were less able to correct for situational constraints and showed stronger dispositional inferences. When cognitive resources are scarce, the automatic person attribution goes uncorrected.
+
 
 This last mechanism fits with the broader framework of dual-process theory: our fast, automatic system jumps to a person attribution, and our slow, deliberate system sometimes fails to correct it. The more distracted, busy, or unmotivated we are, the more the bias takes hold.
 
+
 The consequences of the correspondence bias extend far beyond everyday misunderstandings. In legal settings, jurors may over-attribute a defendant's behavior to their character while underappreciating the situational pressures they faced, a topic explored in [Legal Decision-Making](#legal-decision-making). In medical contexts, a doctor might attribute a patient's non-compliance to laziness rather than to the complexity of the treatment regimen, as discussed in [Medical Decision-Making](#medical-decision-making). In political discourse, citizens may blame individuals for outcomes largely shaped by structural forces — a tendency that can be amplified by personalized, outrage-driven messaging discussed in [Populism and Social Media](#populism-and-social-media).
+
 
 The correspondence bias is, in a sense, an over-application of the intentional stance. Most of the time, people do act on their beliefs and desires, and inferring those beliefs and desires from behavior is efficient and often accurate. The problem arises when we apply this stance too rigidly, failing to account for situational forces when they are the primary cause. The driver who splashed you may have been careless, but they may also have been caught by circumstances beyond their control. The correspondence bias makes us lean too heavily toward the first explanation.
 
+
 ## A Bayesian Lens on Causal Attribution
+
 
 The processes described in this chapter can be understood through the framework of Bayesian reasoning introduced in [Bayesian Reasoning](#bayesian-reasoning), and they illustrate the contrast between descriptive tendencies and normative ideals discussed in [How It Is vs. How It Should Be](#how-it-is-vs-how-it-should-be). Causal attribution is, at its core, a form of belief updating about the source of behavior. When you observe someone doing something, you start with a prior belief about whether the behavior reflects the person or the situation. You then update this belief based on evidence: information about consensus, distinctiveness, and consistency.
 
+
 In this framework, the covariation principle describes the evidence. High consensus (everyone reacts the same way) is evidence for a stimulus attribution. Low consensus (only this person reacts this way) is evidence for a person attribution. Distinctiveness and consistency provide additional evidence that shifts the posterior belief toward different causal explanations.
+
 
 Consider a concrete example. A usually punctual student misses a seminar. Your prior is that this student is reliable, so you initially favor a situational explanation — perhaps they are ill or had a transport problem. But if the student misses the next seminar too, and the one after that, each absence provides evidence against the situational explanation. Your posterior gradually shifts toward a person attribution: maybe they have lost interest in the course. The covariation information — low consistency with their past behavior initially favoring a situational account, then rising consistency of absences shifting the balance — is what drives the updating.
 
+
 The correspondence bias, viewed through this lens, reflects an overly strong prior toward person attributions. People default to the assumption that behavior reflects character, and they do not update sufficiently when situational evidence suggests otherwise. The prior for person attributions is too high, and the weight given to situational evidence is too low. This also helps explain the finding from @cheng_novick1990 that apparent biases diminish when information is complete. Strong covariation evidence can overcome even a biased prior, but when evidence is sparse or ambiguous, the prior dominates, and the default person attribution goes uncorrected.
 
+
 ## Summary
+
 
 When the potential cause of an event is a person rather than a physical force, a special set of attributional processes activates. The distinction between personal causality, where intention and agency drive the action, and impersonal causality, where circumstances or chance are responsible, determines how much blame or praise is assigned — though people may also hold others partially responsible for negligence or carelessness, not only for intentional harm. People assess these attributions using the covariation principle, evaluating consensus, distinctiveness, and consistency to determine whether a behavior should be attributed to the person, the stimulus, or the situation. When covariation information is complete, people are reasonably good at this task. However, in everyday life, information is often incomplete, and people show a persistent correspondence bias: they over-attribute behavior to the person and under-attribute it to the situation. This bias arises from multiple mechanisms, including lack of awareness of situational forces, unrealistic expectations about their influence, and incomplete correction of automatic person attributions. Because moral judgment depends heavily on perceived intention, attribution is often the first step in deciding whether someone deserves blame or praise — making these processes consequential in legal, medical, and everyday contexts alike.

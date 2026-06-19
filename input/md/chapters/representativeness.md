@@ -1,6 +1,8 @@
 # Representativeness
 
+
 Learning goals:
+
 
 - Define the representativeness heuristic and explain how it leads to systematic errors in probability judgment.
 - Explain how base-rate neglect arises from overweighting the match between evidence and a category.
@@ -9,81 +11,107 @@ Learning goals:
 - Describe the gambler's fallacy and the hot-hand belief as consequences of a distorted sense of what randomness looks like.
 - Connect the representativeness heuristic to Bayesian reasoning by identifying which component of Bayes' theorem people neglect and which they overweight.
 
+
 ## Judging by Resemblance
+
 
 Imagine you meet someone at a party in Groningen. She is quiet, wears glasses, and tells you she loves reading poetry. If asked to guess whether she studies Dutch literature or business administration, most people would say literature. She fits the image. But the business administration program at the University of Groningen enrolls far more students than Dutch literature does. Statistically, a random student you meet is much more likely to study business. Yet most people ignore this fact and go with the match.
 
+
 The representativeness heuristic is the tendency to judge probability by resemblance to a category or prototype rather than by statistical information. This heuristic can lead to several distinct errors, from ignoring base rates to misjudging randomness. It is one of the core heuristics described in the [Heuristics and Biases](#heuristics-and-biases) framework, and it represents perhaps the most direct departure from the kind of rational belief updating described in [Bayesian Reasoning](#bayesian-reasoning).
+
 
 ## Base-Rate Neglect
 
+
 The core mechanism behind the representativeness heuristic is base-rate neglect. When people judge how likely it is that a person or event belongs to a certain category, they focus on how well the evidence matches that category. They pay little attention to how common the category actually is. In Bayesian terms, they attend to the likelihood (how probable is this evidence if the hypothesis is true?) while neglecting the prior (how probable is the hypothesis before seeing any evidence?).
+
 
 A classic demonstration is the Tom W. problem [@kahneman_tversky1973]. Participants read a brief personality sketch of a fictional graduate student named Tom W. The description portrayed him as highly intelligent but lacking in creativity, with a need for order and tidiness, and a preference for science fiction. One group of participants ranked how similar Tom W. was to the typical student in each of nine graduate fields (such as computer science, humanities, social work, and law). Another group ranked how likely it was that Tom W. was actually enrolled in each field. A third group, who never saw the personality description, simply estimated the proportion of graduate students in each field, providing the base rates.
 
+
 The likelihood rankings matched the similarity rankings almost perfectly. If Tom W. seemed like a typical computer science student, people judged it as very likely that he studied computer science. But these rankings correlated negatively with the actual base rates. Fields like humanities and social work had far more students than computer science, yet participants ranked them as unlikely choices for Tom W. People based their predictions primarily on resemblance and largely ignored how many students were actually enrolled in each program.
+
 
 Base-rate neglect also appears in more precise, numerical problems. Consider the taxicab problem [@barhillel1980]. A cab was involved in a hit-and-run accident at night. Two cab companies operate in the city: the Blue company, which owns 85% of the cabs, and the Green company, which owns 15%. A witness identified the cab as Green. The court tested the witness under conditions similar to those on the night of the accident and found that the witness correctly identified the color of the cab 80% of the time.
 
+
 What is the probability that the cab involved in the accident was actually Green? Most people say about 80%, going with the witness testimony and ignoring the base rate. But the correct answer, obtained through Bayes' theorem, is only about 41%. One way to see this is to use natural frequencies, as discussed in [Bayesian Reasoning](#bayesian-reasoning). Imagine 100 accidents. Based on the base rates, 85 would involve Blue cabs and 15 would involve Green cabs. The witness, who is 80% accurate, would correctly identify 12 of the 15 Green cabs as Green but would also incorrectly identify 17 of the 85 Blue cabs as Green (since the witness is wrong 20% of the time). So out of 29 cabs the witness calls Green, only 12 are actually Green. That is roughly 41%, not 80%.
+
 
 Bar-Hillel [-@barhillel1980] argued that people do not neglect base rates because they cannot understand them. They neglect them because the specific evidence feels more relevant to the case at hand. The witness testimony feels directly informative about this particular cab, while the fact that 85% of cabs in the city are Blue feels like background information that does not apply. When base rates were reframed to be causally relevant (for example, stating that Blue cabs are involved in 85% of accidents, perhaps because their drivers are more reckless), people paid much more attention to them. This suggests the problem is not a general inability to use base rates but a tendency to dismiss them when other information feels more diagnostic.
 
+
 The representativeness heuristic is related to [Confirmation](#confirmation) bias. When you judge that the poetry-loving woman at the party studies literature, you focus on how well she matches your image of a literature student. To judge properly, you would also need to ask: how common is poetry-loving among business students? If many business students also enjoy poetry, then a love of poetry does not distinguish between the two groups. But people typically evaluate the match between a person and their prototype of a single category without considering that people outside the category might look the same. This one-sided evaluation — focusing on how well the evidence fits one hypothesis while neglecting how well it fits alternatives — shares a family resemblance with confirmation bias applied to probability judgment.
+
 
 ## The Conjunction Fallacy
 
+
 Because representativeness tracks resemblance rather than set inclusion or probability logic, it can lead people to rate a narrower category as more likely than a broader one. This is the conjunction fallacy: judging the combination of two events as more probable than one of the events alone. The probability of two things both being true (A and B) can never be higher than the probability of just one of them being true (A), because every case where both A and B are true is already included in the cases where A is true.
+
 
 The most famous demonstration is the Linda problem [@tversky_kahneman1983]. Participants read the following description: Linda is 31 years old, single, outspoken, and very bright. She majored in philosophy. As a student, she was deeply concerned with issues of discrimination and social justice, and also participated in anti-nuclear demonstrations. Participants were then asked to rank several statements by probability, including "Linda is a bank teller" and "Linda is a bank teller and is active in the feminist movement."
 
+
 In the original study, 82% of participants judged "bank teller and feminist" as more probable than "bank teller" alone. This result was remarkably robust. It appeared in both indirect tests (where different groups rated the two statements) and direct tests (where the same person compared them side by side). It persisted among graduate students with training in statistics, and it held up even when participants were offered financial incentives for accuracy [@tversky_kahneman1983].
+
 
 Why does this happen? The description of Linda is highly representative of an active feminist but not at all representative of a typical bank teller. Being a bank teller alone feels implausible given who Linda seems to be, while being a feminist bank teller feels like a more coherent picture. The conjunction is more representative of Linda, even though it is less probable by definition.
 
+
 One proposed explanation is an averaging heuristic. People seem to intuitively average the probabilities of the component events rather than multiplying them. "Feminist" has a high probability given Linda's description. "Bank teller" has a low probability. The average of a high and a low number is higher than the low number alone. But probability theory requires multiplication, not averaging. The probability that Linda is both a bank teller and a feminist equals the probability that she is a bank teller multiplied by the probability that she is a feminist given that she is a bank teller. Because you are multiplying two numbers that are each less than one, the product must be smaller than either number on its own.
+
 
 Not everyone agrees that the conjunction fallacy reflects a genuine reasoning error. @hertwig_gigerenzer1999 argued that when people hear the word "probable" in everyday conversation, they do not necessarily interpret it as mathematical probability. Instead, they may interpret it as something closer to "plausible" or "believable." Under this interpretation, it is perfectly reasonable to say that it is more plausible that Linda is a feminist bank teller than just a bank teller, because the former tells a more coherent story. When Hertwig and Gigerenzer asked participants to paraphrase what "probable" meant to them, most gave non-mathematical definitions like "possible" or "conceivable." However, when the question was rephrased using "how many out of 100 people like Linda are bank tellers," the conjunction fallacy dropped substantially. This suggests that framing matters: when people think in terms of frequencies rather than vague plausibility, they are more likely to respect the conjunction rule.
 
+
 This debate highlights an important theme throughout this book: whether a response counts as a "bias" depends partly on what we assume people are trying to do. If they are computing mathematical probabilities, the conjunction fallacy is a clear error. If they are making reasonable conversational inferences about plausibility, their answers may be sensible. The distinction between descriptive models (how people actually reason) and normative models (how they should reason) is central to the field, as discussed in [How It Is vs. How It Should Be](#how-it-is-vs-how-it-should-be).
+
 
 ## Stereotyping
 
+
 Because people rely on representativeness instead of base rates, the match between a person and a group prototype can override statistical reality. This is stereotyping, and it follows the same logic as the Tom W. problem: similarity to a category drives the judgment while base rates are neglected.
+
 
 @bodenhausen_wyer1985 demonstrated this in a study on criminal justice decisions. Participants made parole recommendations for prisoners whose names suggested different social backgrounds: a Hispanic-sounding name ("Carlos Ramirez"), an upper-class Anglo name ("Ashley Chamberlaine"), or a nondescript name. The type of crime also varied: some crimes were stereotypically associated with one group or another — for example, assault for Carlos Ramirez, forgery for Ashley Chamberlaine. When the crime matched the stereotype associated with the person's name, participants gave less favorable parole recommendations and judged the person as more likely to reoffend. This happened even when the case file contained alternative explanations for the crime, such as difficult life circumstances.
 
+
 The stereotype functioned as a heuristic that made further processing of the evidence unnecessary. Participants who had a stereotype-based explanation available actually recalled less of the background information in the case file, suggesting they had processed it less carefully. The representativeness match — this person fits my image of someone who commits this type of crime — short-circuited the evaluation of the actual evidence.
+
 
 These findings have serious implications for real-world decisions. In legal settings, a defendant who fits the stereotype of a criminal may receive harsher treatment regardless of the actual evidence, a topic explored further in [Legal Decision-Making](#legal-decision-making). In medical settings, a patient who matches the prototype of a certain disease may receive that diagnosis even when base rates suggest otherwise, as discussed in [Medical Decision-Making](#medical-decision-making). In both cases, the representativeness heuristic leads professionals to overweight the match between a person and a category while underweighting the statistical likelihood of that category in the relevant population.
 
+
 ## Distorted Perception of Randomness
+
 
 People carry around a mental prototype of what randomness looks like: roughly alternating outcomes, without long runs of the same result. A coin-flip sequence like HTHTHT feels more random than HHHTTT, even though both are equally likely. When actual random sequences fail to match this prototype, people judge them as non-random. In other words, people apply representativeness to randomness itself.
 
+
 @kahneman_tversky1972 demonstrated this in several experiments. In one study, participants judged the likelihood of different birth sequences in a hospital. A sequence like BGBGBG (boy-girl alternating) was judged as more likely than BGGBBB, even though both sequences are equally probable if each birth has an independent 50% chance of being a boy or a girl. People expected even short sequences to mirror the overall 50-50 split, a mistake @tversky_kahneman1971 called the "law of small numbers" — the belief that small samples should perfectly represent the population they come from.
+
 
 This distorted sense of randomness gives rise to the **gambler's fallacy**. After seeing five heads in a row, people feel that tails is "due" on the next flip. The reasoning is that HHHHHH does not look like a representative sample from a fair coin, so the process should self-correct. But a fair coin has no memory. Each flip is independent of the previous ones, and the probability of heads is 50% regardless of what came before.
 
+
 A related error, in the opposite direction, is the **hot-hand belief**. When a basketball player makes several shots in a row, fans and commentators often say the player is "on fire" or has a "hot hand." They interpret the streak as evidence that the player's ability has temporarily increased. But research by Gilovich, Vallone, and Tversky showed that shooting streaks in professional basketball often fall within the range expected by chance alone, given the player's overall shooting percentage. The same tendency that makes people reject a random sequence as too streaky also makes them see meaningful patterns in sports performance.
+
 
 Both errors stem from the same root: people judge real sequences against their prototype of randomness. When a sequence deviates from the prototype — too many runs of the same outcome — people conclude that something non-random must be happening, whether that means the coin is about to "correct" or the player has entered a special zone.
 
+
 This prototype of randomness can mislead researchers too. @tversky_kahneman1971 showed that even trained scientists overestimated the likelihood that a result from a small study would replicate in another small study. They expected small samples to be just as representative of the population as large ones, leading them to design studies with too few participants and to underestimate the variability inherent in small samples.
+
 
 ## A Bayesian Lens
 
+
 The representativeness heuristic is perhaps the most direct violation of [Bayesian Reasoning](#bayesian-reasoning) covered in this book. Rational belief updating combines a prior belief with new evidence to form a posterior belief. Bayes' theorem makes clear that both components matter: the prior tells you how likely a hypothesis was before you saw the evidence, and the likelihood tells you how probable the evidence is if the hypothesis is true. The representativeness heuristic amounts to basing judgment primarily on the likelihood while neglecting the prior.
 
-Each consequence of the heuristic maps onto a specific distortion of this process:
-
-- **Base-rate neglect** (Tom W., taxicab): The likelihood — how well the evidence matches a category — drives the judgment, while the prior — how common that category actually is — is neglected.
-- **Conjunction fallacy** (Linda): Overweighting representativeness leads to violations of a basic probability rule. The posterior for the conjunction (bank teller and feminist) exceeds the posterior for a single event (bank teller) because the conjunction better matches the evidence.
-- **Stereotyping** (Carlos Ramirez, Ashley Chamberlaine): Stored representativeness judgments function as inflated likelihood estimates that override low base rates for the stereotyped category.
-- **Distorted perception of randomness** (gambler's fallacy, hot hand): People rely on an incorrect mental model of what random sequences should look like. When actual sequences deviate from this model, people conclude that non-random forces are at work rather than recognizing normal variation.
-
-In each case, the Bayesian framework makes the error precise: it is not that people fail to reason entirely, but that they systematically overweight one ingredient of sound probabilistic reasoning while neglecting another.
 
 ## Summary
+
 
 The representativeness heuristic leads people to judge probability based on resemblance rather than statistical evidence. Its core mechanism is base-rate neglect: people focus on how well evidence matches a category while ignoring how common that category is. This produces several well-documented errors. The conjunction fallacy occurs when people rate the combination of two events as more likely than one event alone, because the combination better matches a description. Stereotyping arises when the match between a person and a group prototype overrides base-rate information, leading to biased judgments in legal, medical, and everyday settings. Distorted perceptions of randomness cause people to see patterns in chance events (the hot-hand belief) or to expect random sequences to self-correct (the gambler's fallacy). In Bayesian terms, the representativeness heuristic reflects an overreliance on the likelihood at the expense of the prior — one of the most fundamental departures from rational belief updating.
