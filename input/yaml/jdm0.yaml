@@ -15,34 +15,43 @@ css:
 contents:
   - contents
   - preface
+  - foundations
   - reason-and-intuition
   - bayesian-reasoning
   - heuristics-and-biases
   - how-it-is-vs-how-it-should-be
   - mental-models
+  - intelligence
   - what-is-intelligence
   - intelligence-vs-rationality
   - intelligence-in-the-real-world
+  - uncertainty
   - availability
   - representativeness
   - anchoring-and-primacy
   - overconfidence
+  - causality
   - cues-to-causality
   - blame-praise-and-responsibility
   - learning-causality
+  - past-and-future
   - hindsight
   - statistical-vs-intuitive-prediction
   - the-future-self
   - risk-perception
+  - choice
   - gains-and-losses
   - satisficing-vs-maximizing
   - steering-other-people-s-choices
   - group-decisions
+  - belief
   - confirmation
   - belief-formation-and-perseverance
   - conspiracy-theories
+  - morality-and-cooperation
   - morality
   - cooperation
+  - real-life
   - medical-decision-making
   - legal-decision-making
   - populism-and-social-media

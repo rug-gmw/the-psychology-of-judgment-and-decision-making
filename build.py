@@ -27,7 +27,6 @@ EPUB_MATH_RENDERING = "--webtex=https://latex.codecogs.com/png.image?"
 # Optional: pdfs that should be added before and after the main content.
 # If an entry is None, a blank page will be inserted at that position.
 PREFIX_PDF = [
-    "input/pdf/blank.pdf",
     "input/pdf/title-page.pdf",
     "input/pdf/colofon.pdf"
 ]
@@ -47,20 +46,12 @@ REFERENCES = Path("references/references.bib")
 
 
 def preprocess_md(md: str) -> str:
-    # Ensure dialogue dashes are separated so they get their own paragraph.
-    md = md.replace("\n— ", "\n\n—&thinsp;")
-
-    def process_block(match):
-        block = match.group(1)
-        lines = block.splitlines()
-        while lines and not lines[0].strip():
-            lines.pop(0)
-        while lines and not lines[-1].strip():
-            lines.pop()
-        return '\n'.join(['```'] + lines + ['```'])
-
-    pattern = re.compile(r'```(.*?)```', re.DOTALL)
-    return pattern.sub(process_block, md)
+    # Fix list indentation which is messed up by Google
+    md = md.replace('\n        -', '\n  -')
+    # Fix m-dashes, optionally surrouneded by spaces, by n-dashes surrounded
+    # by spaces
+    md = re.sub(r' ?— ?', ' – ', md)
+    return md
 
 
 # ---- Bundle YAML --------------------------------------------------------------

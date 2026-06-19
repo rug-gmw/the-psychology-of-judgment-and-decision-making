@@ -12,7 +12,12 @@ body {
 
 a {
 	text-decoration: none;
+	font-style: italic;
 	color: black;
+}
+
+.toc a {
+	font-style: normal;
 }
 	
 * {
@@ -44,6 +49,19 @@ h1 {
 	font-weight: normal;
 	line-height: 140%;
 	margin: 4em 2em 2em 2em;
+}
+
+#foundations,
+#intelligence,
+#uncertainty,
+#causality,
+#past-and-future,
+#choice,
+#belief,
+#morality-and-cooperation,
+#real-life {
+	margin-top: 10em;
+	font-size: 2em!important;
 }
 
 

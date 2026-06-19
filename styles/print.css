@@ -62,6 +62,10 @@
 	table {
 		page-break-inside: avoid;
 	}
+	
+	img {
+		max-width:100%;
+	}
 
 	/* ---- Table of Contents ---- */
 	.toc ul {
