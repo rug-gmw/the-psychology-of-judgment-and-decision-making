@@ -1,5 +1,10 @@
 @media print {
 
+	body {
+		max-width: none;
+		margin: none;
+	}
+
 	p {
 		orphans: 3;
 		widows: 3;
