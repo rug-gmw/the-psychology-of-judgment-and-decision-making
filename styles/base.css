@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
 
 body {
-	font-family: "Adobe Garamond Pro";
+	font-family: "EB Garamond";
 	font-weight: normal;
 	font-style: normal;
 	font-size: 11pt;
@@ -12,19 +12,78 @@ body {
     margin: 2rem auto;
 }
 
-
-}	
-
 a {
 	text-decoration: none;
 	font-style: italic;
 	color: black;
 }
 
+#cover-image {
+	display: none;
+}
+
+#front-matter {
+	margin-bottom: 3em; 
+}
+
+#front-matter p {
+	text-align: center;		 
+}
+
+/* On wider screens, the front-matter is hidden and replaced by the cover
+   images. In addition, the TOC is moved to the left as a fixed element.
+*/
+@media screen and (min-width: 60em) {
+	.toc {
+		position: fixed;
+		top: 1em;
+		left: 1em;
+	}
+	#front-matter,
+	h1#contents {
+		display: none;
+	}	
+	.toc,
+	.toc a {
+		color: lightgray;
+		transition: color 1s;
+	}
+	
+	.toc:hover {
+		max-height: calc(100vh - 2em);
+		overflow-y: auto;	
+	}
+
+	.toc:hover,
+	.toc:hover a {
+		color: black;
+		transition: color 1s;
+	}
+
+	#cover-image {
+		display: block;
+	}
+
+	#cover-image img {
+		max-width: 30em;
+		border: solid 1px black;
+	}
+}
+
+@media screen and (max-width: 59em) {
+	body {
+		padding: 1em;
+	}
+	h1#contents {
+		display: none;
+	}	
+}
+
 .toc a {
 	font-style: normal;
 }
-	
+
+
 * {
 	margin: 0px;
 }
@@ -45,11 +104,19 @@ p + p {
 	text-indent: 1em;
 }
 
+p:has(img) {
+	text-indent: 0;
+}
+
+img {
+	max-width: 100%;
+}
+
 
 h1 {
 	text-align: center;
 	font-size: 1.5em;
-	font-family: "Futura Book";
+	font-family: "Jost";
 	text-transform: uppercase;
 	font-weight: normal;
 	line-height: 140%;
@@ -76,7 +143,7 @@ h2 {
 	font-size: 1.1em;
 	margin: 1.5em 0em .75em 0em;
 }
-	
+
 p + pre,
 pre + p,
 pre + pre {

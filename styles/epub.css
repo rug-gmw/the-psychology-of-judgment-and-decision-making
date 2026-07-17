@@ -7,6 +7,11 @@ body {
   line-height: 1.4;
 }
 
+#cover-image,
+#front-matter {
+  display: none; 
+}
+
 /* Avoid global margin resets that can break some reader defaults */
 p, h1, h2, h3, hr, pre, blockquote, ul, ol {
   margin: 0;

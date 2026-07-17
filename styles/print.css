@@ -1,8 +1,13 @@
 @media print {
 
+	#front-matter {
+		display: none;
+	}
+
 	body {
 		max-width: none;
 		margin: none;
+	font-family: "Adobe Garamond Pro";
 	}
 
 	p {
@@ -18,7 +23,8 @@
 	   BUT: don't force a blank before the very first h1 in the document. */
 	h1 {
 		break-before: avoid;
-		string-set: chapter content();		
+		string-set: chapter content();
+		font-family: "Futura Book";
 	}
 
 

@@ -1,5 +1,22 @@
 # Contents
 
+<div id="cover-image">
+<img src="input/svg/title-page.svg" alt="Title page">
+<img src="input/svg/colofon.svg" alt="Colofon">
+</div>
+
+<div id="front-matter">
+<h1>The Psychology of Judgment and Decision-Making</h1>
+
+Zeroth edition
+
+University of Groningen
+
+Copyright © 2026, Sebastiaan Mathôt and contributors
+
+This book is open access (CC-by) and contains AI-generated content
+</div>
+
 
 <section class="toc">
 - [Preface](#preface)
