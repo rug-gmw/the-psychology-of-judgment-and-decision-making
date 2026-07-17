@@ -5,12 +5,13 @@ TARGET="rug:Documents/Teaching/The Psychology of Judgment and Decision-Making"
 MD_DIR="input/md"
 CHAPTERS_DIR="input/md/chapters"
 REFS_DIR="references"
+SVG_DIR="input/svg"
 
 usage() {
     echo "Usage: $0 <command> [command ...]"
     echo ""
     echo "Commands:"
-    echo "  push   Push md and reference files to Google Drive"
+    echo "  push   Push md, reference, and svg files to Google Drive"
     echo "  pull   Pull md files from Google Drive"
     echo "  diff   Diff local md files against pulled txt files"
     echo ""
@@ -23,6 +24,13 @@ clean_txt() {
     sed -i 's/\r$//' "$1"
 }
 
+squeeze_blanks() {
+    # Condense 3+ consecutive newlines to exactly 2 (one blank line). This avoid
+    # empty lines fro accumulating due to repeated conversion to and from Google
+    # Docs.
+    find "$1" -name "*.txt" -exec perl -0777 -pi -e 's/\n{3,}/\n\n/g' {} +
+}
+
 push_mds() {
     local src_dir="$1"
     local dst="$2"
@@ -32,6 +40,8 @@ push_mds() {
         [ -f "$mdfile" ] || continue
         cp "$mdfile" "$tmp/$(basename "${mdfile%.md}").txt"
     done
+    squeeze_blanks "$tmp"
+    rclone delete "$dst" --max-depth 1 2>/dev/null || true
     rclone copy "$tmp" "$dst" \
         --drive-import-formats txt \
         --drive-allow-import-name-change
@@ -49,14 +59,17 @@ do_push() {
     echo "Done"
 
     echo ""
-    echo "=== PUSH references (md files) ==="
+    echo "=== PUSH references (md and bib files) ==="
+    rclone delete "$TARGET/references" 2>/dev/null || true
     local tmp
     tmp=$(mktemp -d)
-    find "$REFS_DIR" -name "*.md" | while read -r mdfile; do
-        dir=$(dirname "$mdfile")
+    find "$REFS_DIR" \( -name "*.md" -o -name "*.bib" \) | while read -r srcfile; do
+        dir=$(dirname "$srcfile")
         mkdir -p "$tmp/$dir"
-        cp "$mdfile" "$tmp/${mdfile%.md}.txt"
+        txtfile="${srcfile%.*}.txt"
+        cp "$srcfile" "$tmp/$txtfile"
     done
+    squeeze_blanks "$tmp"
     rclone copy "$tmp/$REFS_DIR" "$TARGET/references" \
         --drive-import-formats txt \
         --drive-allow-import-name-change
@@ -66,6 +79,11 @@ do_push() {
     echo ""
     echo "=== PUSH references (pdf files) ==="
     rclone copy "$REFS_DIR" "$TARGET/references" --include "*.pdf"
+    echo "Done"
+
+    echo ""
+    echo "=== PUSH svg files ==="
+    rclone copy "$SVG_DIR" "$TARGET/svg" --include "*.svg"
     echo "Done"
 }
 
