@@ -106,6 +106,12 @@ p + p {
 
 p:has(img) {
 	text-indent: 0;
+	text-align: center;
+}
+
+blockquote {
+	font-style: italic;
+	margin: 1em;
 }
 
 img {

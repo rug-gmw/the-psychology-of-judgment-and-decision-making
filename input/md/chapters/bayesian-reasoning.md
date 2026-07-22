@@ -20,7 +20,7 @@ Learning goals:
 
 
 
-## Combining what you know with what you see
+## Combining What You Know With What You See
 
 
 
@@ -40,7 +40,7 @@ This act of combining what you already believe with new evidence is the core of 
 
 
 
-## The Bayesian framework
+## The Bayesian Framework
 
 
 
@@ -60,7 +60,7 @@ The third component is the **posterior belief**, or the **posterior**. This is y
 
 
 
-## Bayes' theorem
+## Bayes' Theorem
 
 
 
@@ -90,7 +90,7 @@ The logic behind the equation is straightforward. Your updated belief depends on
 
 
 
-## The mammogram problem
+## The Mammogram Problem
 
 
 
@@ -128,7 +128,7 @@ This is not just an academic puzzle. Misunderstanding diagnostic test results ha
 
 
 
-## Natural frequencies
+## Natural Frequencies
 
 
 
@@ -153,7 +153,7 @@ Despite this evidence, few medical schools train physicians to use natural frequ
 
 
 
-## Ideal observer models
+## Ideal Observer Models
 
 
 
@@ -178,7 +178,7 @@ This connection between perception and judgment matters for our purposes. Percep
 
 
 
-## Signal detection theory
+## Signal Detection Theory
 
 
 
@@ -236,7 +236,7 @@ Good calibration is one important sign of sound probabilistic judgment, because 
 
 
 
-## Why this matters for the course
+## Why This Matters for the Course
 
 
 

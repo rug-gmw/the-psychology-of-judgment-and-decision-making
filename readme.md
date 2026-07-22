@@ -5,6 +5,11 @@ Content and build scripts for a University textbook. This textbook is AI-generat
 Copyright 2026 Sebastiaan Mathôt (@smathot)
 
 
+## View online
+
+- <https://cogsci.nl/jdm0>
+
+
 ## Dependencies
 
 The following Python libraries are required.

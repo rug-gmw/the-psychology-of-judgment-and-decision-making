@@ -65,6 +65,7 @@ One subtlety is worth noting. Heritability is not a fixed property of intelligen
 
 One of the most remarkable findings in the study of intelligence is the Flynn effect: the observation that average IQ scores rose substantially throughout the 20th century. Named after the researcher James Flynn, who documented the trend across many countries, the effect amounts to roughly 3 IQ points per decade. Over the span of a few generations, this adds up to a large shift. If you scored the average person from 1950 using the norms of 2000, they would appear to have below-average intelligence. Conversely, the average person from 2000 would appear above average by 1950 standards.
 
+![](input/svg/flynn-effect.svg)
 
 The Flynn effect is too rapid to be explained by genetic change; human evolution does not work that fast. Instead, the likely causes are environmental: better nutrition, improvements in public health, increased access to education, smaller family sizes, and greater exposure to abstract and analytical thinking. The modern world demands more abstract reasoning than the world of a century ago. From filling out tax forms to interpreting graphs in the news, daily life increasingly requires the kind of thinking that IQ tests measure. This is especially true for tests of fluid intelligence, which show the largest gains over time.
 
