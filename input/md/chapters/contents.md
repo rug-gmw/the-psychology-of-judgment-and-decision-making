@@ -1,8 +1,8 @@
 # Contents
 
 <div id="cover-image">
-<img src="input/svg/title-page.svg" alt="Title page">
-<img src="input/svg/colofon.svg" alt="Colofon">
+<img src="input/svg/title-page.jpg" alt="Title page">
+<img src="input/svg/colofon.jpg" alt="Colofon">
 </div>
 
 <div id="front-matter">
