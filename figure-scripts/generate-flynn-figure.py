@@ -41,4 +41,4 @@ plt.savefig("input/svg/flynn-effect.svg", format="svg", dpi=300,
             facecolor="white", edgecolor="none")
 plt.close()
 
-print("Figure saved to input/svg/flynn-effect.svg")
+print("Figure saved to ../input/svg/flynn-effect.svg")

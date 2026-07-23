@@ -40,7 +40,7 @@ plt.legend(fontsize=10)
 plt.tight_layout()
 
 # Save as SVG
-plt.savefig("input/svg/value-function.svg", format="svg", dpi=300, facecolor="white", edgecolor="none")
+plt.savefig("../input/svg/value-function.svg", format="svg", dpi=300, facecolor="white", edgecolor="none")
 plt.close()
 
 # --- Probability-Weighting Function ---
@@ -74,7 +74,7 @@ plt.legend(fontsize=10)
 plt.tight_layout()
 
 # Save as SVG
-plt.savefig("input/svg/probability-function.svg", format="svg", dpi=300, facecolor="white", edgecolor="none")
+plt.savefig("../input/svg/probability-function.svg", format="svg", dpi=300, facecolor="white", edgecolor="none")
 plt.close()
 
 print("Figures saved to input/svg/value-function.svg and input/svg/probability-function.svg")
